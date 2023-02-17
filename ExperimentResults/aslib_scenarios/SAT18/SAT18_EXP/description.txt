@@ -1,0 +1,241 @@
+algorithm_cutoff_memory: '?'
+algorithm_cutoff_time: 5000.0
+algorithms_deterministic: '?'
+algorithms_stochastic: ''
+default_steps:
+- ALL
+feature_steps:
+  ALL:
+    provides:
+    - nvarsOrig
+    - nclausesOrig
+    - nvars
+    - nclauses
+    - reducedVars
+    - reducedClauses
+    - Pre.featuretime
+    - vars.clauses.ratio
+    - POSNEG.RATIO.CLAUSE.mean
+    - POSNEG.RATIO.CLAUSE.coeff.variation
+    - POSNEG.RATIO.CLAUSE.min
+    - POSNEG.RATIO.CLAUSE.max
+    - POSNEG.RATIO.CLAUSE.entropy
+    - VCG.CLAUSE.mean
+    - VCG.CLAUSE.coeff.variation
+    - VCG.CLAUSE.min
+    - VCG.CLAUSE.max
+    - VCG.CLAUSE.entropy
+    - UNARY
+    - BINARY.
+    - TRINARY.
+    - Basic.featuretime
+    - VCG.VAR.mean
+    - VCG.VAR.coeff.variation
+    - VCG.VAR.min
+    - VCG.VAR.max
+    - VCG.VAR.entropy
+    - POSNEG.RATIO.VAR.mean
+    - POSNEG.RATIO.VAR.stdev
+    - POSNEG.RATIO.VAR.min
+    - POSNEG.RATIO.VAR.max
+    - POSNEG.RATIO.VAR.entropy
+    - HORNY.VAR.mean
+    - HORNY.VAR.coeff.variation
+    - HORNY.VAR.min
+    - HORNY.VAR.max
+    - HORNY.VAR.entropy
+    - horn.clauses.fraction
+    - VG.mean
+    - VG.coeff.variation
+    - VG.min
+    - VG.max
+    - KLB.featuretime
+    - CG.mean
+    - CG.coeff.variation
+    - CG.min
+    - CG.max
+    - CG.entropy
+    - cluster.coeff.mean
+    - cluster.coeff.coeff.variation
+    - cluster.coeff.min
+    - cluster.coeff.max
+    - cluster.coeff.entropy
+    - CG.featuretime
+features_cutoff_memory: '?'
+features_cutoff_time: '?'
+features_deterministic:
+- nvarsOrig
+- nclausesOrig
+- nvars
+- nclauses
+- reducedVars
+- reducedClauses
+- Pre.featuretime
+- vars.clauses.ratio
+- POSNEG.RATIO.CLAUSE.mean
+- POSNEG.RATIO.CLAUSE.coeff.variation
+- POSNEG.RATIO.CLAUSE.min
+- POSNEG.RATIO.CLAUSE.max
+- POSNEG.RATIO.CLAUSE.entropy
+- VCG.CLAUSE.mean
+- VCG.CLAUSE.coeff.variation
+- VCG.CLAUSE.min
+- VCG.CLAUSE.max
+- VCG.CLAUSE.entropy
+- UNARY
+- BINARY.
+- TRINARY.
+- Basic.featuretime
+- VCG.VAR.mean
+- VCG.VAR.coeff.variation
+- VCG.VAR.min
+- VCG.VAR.max
+- VCG.VAR.entropy
+- POSNEG.RATIO.VAR.mean
+- POSNEG.RATIO.VAR.stdev
+- POSNEG.RATIO.VAR.min
+- POSNEG.RATIO.VAR.max
+- POSNEG.RATIO.VAR.entropy
+- HORNY.VAR.mean
+- HORNY.VAR.coeff.variation
+- HORNY.VAR.min
+- HORNY.VAR.max
+- HORNY.VAR.entropy
+- horn.clauses.fraction
+- VG.mean
+- VG.coeff.variation
+- VG.min
+- VG.max
+- KLB.featuretime
+- CG.mean
+- CG.coeff.variation
+- CG.min
+- CG.max
+- CG.entropy
+- cluster.coeff.mean
+- cluster.coeff.coeff.variation
+- cluster.coeff.min
+- cluster.coeff.max
+- cluster.coeff.entropy
+- CG.featuretime
+features_stochastic: ''
+maximize:
+- false
+metainfo_algorithms:
+  COMiniSatPS_Pulsar_drup:
+    configuration: ''
+    deterministic: 'true'
+  CaDiCaL:
+    configuration: ''
+    deterministic: 'true'
+  Candy:
+    configuration: ''
+    deterministic: 'true'
+  GHackCOMSPS_drup:
+    configuration: ''
+    deterministic: 'true'
+  Glucose_Hack_Kiel_fastBVE:
+    configuration: ''
+    deterministic: 'true'
+  Lingeling:
+    configuration: ''
+    deterministic: 'true'
+  MapleCOMSPS_CHB_VSIDS_drup:
+    configuration: ''
+    deterministic: 'true'
+  MapleCOMSPS_LRB_VSIDS_2_fix:
+    configuration: ''
+    deterministic: 'true'
+  MapleCOMSPS_LRB_VSIDS_drup:
+    configuration: ''
+    deterministic: 'true'
+  MapleLCMDistChronoBT:
+    configuration: ''
+    deterministic: 'true'
+  Maple_CM:
+    configuration: ''
+    deterministic: 'true'
+  Maple_CM_Dist:
+    configuration: ''
+    deterministic: 'true'
+  Maple_CM_ordUIP:
+    configuration: ''
+    deterministic: 'true'
+  Maple_CM_ordUIP+:
+    configuration: ''
+    deterministic: 'true'
+  Maple_LCM+BCrestart:
+    configuration: ''
+    deterministic: 'true'
+  Maple_LCM+BCrestart_M1:
+    configuration: ''
+    deterministic: 'true'
+  Maple_LCM_M1:
+    configuration: ''
+    deterministic: 'true'
+  Maple_LCM_Scavel_200_fix2:
+    configuration: ''
+    deterministic: 'true'
+  Maple_LCM_Scavel_fix2:
+    configuration: ''
+    deterministic: 'true'
+  Minisat-v2.2.0-106-ge2dd095:
+    configuration: ''
+    deterministic: 'true'
+  Riss7.1-fix:
+    configuration: ''
+    deterministic: 'true'
+  Sparrow2Riss-2018-fixfix:
+    configuration: ''
+    deterministic: 'true'
+  YalSAT:
+    configuration: ''
+    deterministic: 'true'
+  abcdsat_r18:
+    configuration: ''
+    deterministic: 'true'
+  cms55-main-all4fixed:
+    configuration: ''
+    deterministic: 'true'
+  expGlucose:
+    configuration: ''
+    deterministic: 'true'
+  expMC_LRB_VSIDS_Switch:
+    configuration: ''
+    deterministic: 'true'
+  expMC_LRB_VSIDS_Switch_2500:
+    configuration: ''
+    deterministic: 'true'
+  expMC_VSIDS_LRB_Switch_2500:
+    configuration: ''
+    deterministic: 'true'
+  gluHack:
+    configuration: ''
+    deterministic: 'true'
+  glu_mix:
+    configuration: ''
+    deterministic: 'true'
+  glucose-3.0_PADC_10:
+    configuration: ''
+    deterministic: 'true'
+  glucose-3.0_PADC_3:
+    configuration: ''
+    deterministic: 'true'
+  glucose3.0:
+    configuration: ''
+    deterministic: 'true'
+  glucose4.2.1:
+    configuration: ''
+    deterministic: 'true'
+  inIDGlucose:
+    configuration: ''
+    deterministic: 'true'
+  smallsat:
+    configuration: ''
+    deterministic: 'true'
+number_of_feature_steps: 1
+performance_measures:
+- runtime
+performance_type:
+- runtime
+scenario_id: SAT18-EXP
