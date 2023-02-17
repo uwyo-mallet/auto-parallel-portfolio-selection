@@ -1,0 +1,946 @@
+Reading!
+Schedule : [12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56]
+>>>CROSS VALIDATION<<<
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSv7rHy5
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSv7rHy5
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDdH0lPH --opt-value 128
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+ppfolio-like ASP...
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSnv4g_c
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSnv4g_c
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDFjPiK4 --opt-value 128
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Uniform  Schedule : 	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	5555.56	5555.56	5555.56	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56
+Best N Schedule :   	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0
+ppfolio-like Schedule :   	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+core mapping: 		1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+ASP Schedule:       	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Single Best: Timeouts in 0-th fold [32]: 	23
+Uniform: Timeouts in 0-th fold: 		12
+Best N: Timeouts in 0-th fold: 			19
+ppfolio-like: Timeouts in 0-th fold: 			35
+Schedule: Timeouts in 0-th fold: 		35
+>>>Permutation<<<
+Permutation format: [[Solver_1,Core]...[Solver_N,Core]]
+Permutation Schedule...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSdLIJfO /tmp/Slices7CEQ3a
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDJ4KDky
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+INSTANCES in TEST: 0
+Permutation BestN...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSpMwmFz /tmp/SliceskmQnbA
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDVCwkIU
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Permutation ppfolio-like...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS5rRw7t /tmp/SlicesoOA9be
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND3PPVn2
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Pseudo Permutate Uniform...
+>>> ASP Permutation <<<
+Pseudo Permutate Single Best...
+Schedule : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+>>> ASP Permutation <<<
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Schedule : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS0BMNq_
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS0BMNq_
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDSkYySW --opt-value 126
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+ppfolio-like ASP...
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSlWFI0R
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSlWFI0R
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDcI5TKy --opt-value 126
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Uniform  Schedule : 	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	5555.56	5555.56	5555.56	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56
+Best N Schedule :   	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0
+ppfolio-like Schedule :   	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+core mapping: 		1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+ASP Schedule:       	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Single Best: Timeouts in 1-th fold [2]: 	22
+Uniform: Timeouts in 1-th fold: 		13
+Best N: Timeouts in 1-th fold: 			20
+ppfolio-like: Timeouts in 1-th fold: 			35
+Schedule: Timeouts in 1-th fold: 		35
+>>>Permutation<<<
+Permutation format: [[Solver_1,Core]...[Solver_N,Core]]
+Permutation Schedule...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSAg6OdO /tmp/Slicesxvmi12
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDR69JEW
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+INSTANCES in TEST: 0
+Permutation BestN...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSbIvari /tmp/SlicesSWVn0B
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDQIRvkk
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Permutation ppfolio-like...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSgb02nr /tmp/SlicesN73CSt
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDM0uxoV
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Pseudo Permutate Uniform...
+>>> ASP Permutation <<<
+Pseudo Permutate Single Best...
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+>>> ASP Permutation <<<
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSup4IXM
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSup4IXM
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDe8Zi7i --opt-value 126
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+ppfolio-like ASP...
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSrTYYaf
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSrTYYaf
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND66jqdm --opt-value 126
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 50000, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Uniform  Schedule : 	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	12500.0	5555.56	5555.56	5555.56	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56
+Best N Schedule :   	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	50000.0	0.0
+ppfolio-like Schedule :   	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+core mapping: 		1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+ASP Schedule:       	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Single Best: Timeouts in 2-th fold [2]: 	27
+Uniform: Timeouts in 2-th fold: 		10
+Best N: Timeouts in 2-th fold: 			17
+ppfolio-like: Timeouts in 2-th fold: 			35
+Schedule: Timeouts in 2-th fold: 		35
+>>>Permutation<<<
+Permutation format: [[Solver_1,Core]...[Solver_N,Core]]
+Permutation Schedule...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSLw8Q1y /tmp/SlicesIgEzto
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDVM_Er5
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+INSTANCES in TEST: 0
+Permutation BestN...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS4eBUrJ /tmp/Slicesi_vZmY
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDP3mqTo
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Permutation ppfolio-like...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS4SY_fQ /tmp/SlicesreyCax
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDPAecgS
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Pseudo Permutate Uniform...
+>>> ASP Permutation <<<
+Pseudo Permutate Single Best...
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+>>> ASP Permutation <<<
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 50000, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSTagvlL
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSTagvlL
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND2pZEi6 --opt-value 133
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+ppfolio-like ASP...
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSF4WtP_
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSF4WtP_
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDbZRKw7 --opt-value 133
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Uniform  Schedule : 	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	5555.56	5555.56	5555.56	5555.56	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56
+Best N Schedule :   	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0
+ppfolio-like Schedule :   	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+core mapping: 		1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+ASP Schedule:       	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Single Best: Timeouts in 3-th fold [32]: 	16
+Uniform: Timeouts in 3-th fold: 		6
+Best N: Timeouts in 3-th fold: 			13
+ppfolio-like: Timeouts in 3-th fold: 			35
+Schedule: Timeouts in 3-th fold: 		35
+>>>Permutation<<<
+Permutation format: [[Solver_1,Core]...[Solver_N,Core]]
+Permutation Schedule...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSM9yUzh /tmp/SlicesZU8nlE
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND2lE3Yh
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+INSTANCES in TEST: 0
+Permutation BestN...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS93EkSJ /tmp/SlicesyMDmep
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDVb1hW1
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Permutation ppfolio-like...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSiQPkGm /tmp/Slices526R5i
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDhlWXEF
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Pseudo Permutate Uniform...
+>>> ASP Permutation <<<
+Pseudo Permutate Single Best...
+Schedule : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+>>> ASP Permutation <<<
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Schedule : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSeeXnE4
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSeeXnE4
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDsgxfa0 --opt-value 127
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+ppfolio-like ASP...
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSstgJOA
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSstgJOA
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND3vHdGL --opt-value 127
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Uniform  Schedule : 	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	5555.56	5555.56	5555.56	5555.56	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56
+Best N Schedule :   	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0
+ppfolio-like Schedule :   	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+core mapping: 		1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+ASP Schedule:       	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Single Best: Timeouts in 4-th fold [2]: 	24
+Uniform: Timeouts in 4-th fold: 		9
+Best N: Timeouts in 4-th fold: 			20
+ppfolio-like: Timeouts in 4-th fold: 			36
+Schedule: Timeouts in 4-th fold: 		36
+>>>Permutation<<<
+Permutation format: [[Solver_1,Core]...[Solver_N,Core]]
+Permutation Schedule...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSpPRpx0 /tmp/SlicesF4P31L
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDSFSTK1
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+INSTANCES in TEST: 0
+Permutation BestN...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS65n20T /tmp/SlicesEVTjRt
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDfRkXC6
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Permutation ppfolio-like...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSnhOAYG /tmp/Slices_qSNKl
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDLOmgPw
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Pseudo Permutate Uniform...
+>>> ASP Permutation <<<
+Pseudo Permutate Single Best...
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+>>> ASP Permutation <<<
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSF7XxyJ
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSF7XxyJ
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDbnYtzV --opt-value 125
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+ppfolio-like ASP...
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSMhoj98
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSMhoj98
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDeFI8wi --opt-value 125
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Uniform  Schedule : 	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	5555.56	5555.56	5555.56	5555.56	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56
+Best N Schedule :   	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0
+ppfolio-like Schedule :   	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+core mapping: 		1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+ASP Schedule:       	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Single Best: Timeouts in 5-th fold [32]: 	24
+Uniform: Timeouts in 5-th fold: 		12
+Best N: Timeouts in 5-th fold: 			22
+ppfolio-like: Timeouts in 5-th fold: 			36
+Schedule: Timeouts in 5-th fold: 		36
+>>>Permutation<<<
+Permutation format: [[Solver_1,Core]...[Solver_N,Core]]
+Permutation Schedule...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSexA8aW /tmp/Slicesu2bArR
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDyb0hQ5
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+INSTANCES in TEST: 0
+Permutation BestN...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSjdcvC5 /tmp/SlicesCZntRP
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDipv0Nb
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Permutation ppfolio-like...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSinOIqt /tmp/SlicesWJCgFk
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDj5qweM
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Pseudo Permutate Uniform...
+>>> ASP Permutation <<<
+Pseudo Permutate Single Best...
+Schedule : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+>>> ASP Permutation <<<
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Schedule : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSGhdSLp
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSGhdSLp
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND7NnoWh --opt-value 126
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+ppfolio-like ASP...
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS7CQCNX
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS7CQCNX
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND6yh6qQ --opt-value 126
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Uniform  Schedule : 	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	5555.56	5555.56	5555.56	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56
+Best N Schedule :   	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0
+ppfolio-like Schedule :   	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+core mapping: 		1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+ASP Schedule:       	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Single Best: Timeouts in 6-th fold [2]: 	26
+Uniform: Timeouts in 6-th fold: 		10
+Best N: Timeouts in 6-th fold: 			18
+ppfolio-like: Timeouts in 6-th fold: 			35
+Schedule: Timeouts in 6-th fold: 		35
+>>>Permutation<<<
+Permutation format: [[Solver_1,Core]...[Solver_N,Core]]
+Permutation Schedule...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS2fVFPl /tmp/Slicesewdq57
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDjxs7cF
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+INSTANCES in TEST: 0
+Permutation BestN...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSDrTG8K /tmp/SlicesIvwANF
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND0RqGfv
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Permutation ppfolio-like...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSNDr5IC /tmp/SlicesZaYkQl
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND4Pw4bJ
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Pseudo Permutate Uniform...
+>>> ASP Permutation <<<
+Pseudo Permutate Single Best...
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+>>> ASP Permutation <<<
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSDc5Z0z
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSDc5Z0z
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDzhyOpo --opt-value 127
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+ppfolio-like ASP...
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSYwzrIe
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSYwzrIe
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDSazFx7 --opt-value 127
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Uniform  Schedule : 	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	5555.56	5555.56	5555.56	5555.56	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56
+Best N Schedule :   	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0
+ppfolio-like Schedule :   	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+core mapping: 		1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+ASP Schedule:       	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Single Best: Timeouts in 7-th fold [32]: 	18
+Uniform: Timeouts in 7-th fold: 		9
+Best N: Timeouts in 7-th fold: 			17
+ppfolio-like: Timeouts in 7-th fold: 			35
+Schedule: Timeouts in 7-th fold: 		35
+>>>Permutation<<<
+Permutation format: [[Solver_1,Core]...[Solver_N,Core]]
+Permutation Schedule...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSM_0Q16 /tmp/Slicesz9F1kU
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDxzdz4G
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+INSTANCES in TEST: 0
+Permutation BestN...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS1DESvR /tmp/SlicesxJrhVY
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDWA5BYZ
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Permutation ppfolio-like...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS5eUNNA /tmp/SlicesjYjXhI
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND9B6ZMO
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Pseudo Permutate Uniform...
+>>> ASP Permutation <<<
+Pseudo Permutate Single Best...
+Schedule : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+>>> ASP Permutation <<<
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Schedule : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSyaH36u
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSyaH36u
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDJVjqv4 --opt-value 132
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+ppfolio-like ASP...
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSSfgWF3
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSSfgWF3
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND2ZPLoL --opt-value 132
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Uniform  Schedule : 	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	5555.56	5555.56	5555.56	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56
+Best N Schedule :   	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0
+ppfolio-like Schedule :   	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+core mapping: 		1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+ASP Schedule:       	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Single Best: Timeouts in 8-th fold [2]: 	24
+Uniform: Timeouts in 8-th fold: 		9
+Best N: Timeouts in 8-th fold: 			14
+ppfolio-like: Timeouts in 8-th fold: 			35
+Schedule: Timeouts in 8-th fold: 		35
+>>>Permutation<<<
+Permutation format: [[Solver_1,Core]...[Solver_N,Core]]
+Permutation Schedule...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSICZ4B1 /tmp/SlicesKn7jbB
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND3fKdEp
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+INSTANCES in TEST: 0
+Permutation BestN...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSwpcBvt /tmp/SlicesqFsUEs
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDpSIuue
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Permutation ppfolio-like...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS5dztXK /tmp/SlicesufQEPF
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDaj5k2X
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Pseudo Permutate Uniform...
+>>> ASP Permutation <<<
+Pseudo Permutate Single Best...
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+>>> ASP Permutation <<<
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS3TSINE
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS3TSINE
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDZXpeVG --opt-value 131
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+ppfolio-like ASP...
+Writing!
+/home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSufFIUa
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=8 -c opt=1 ./enc/encoding-paper-Step1.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSufFIUa
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Solve!
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDuPsWRC --opt-value 131
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+Parse!
+
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Uniform  Schedule : 	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	5555.56	5555.56	5555.56	5555.56	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56	12500.0	12500.0	12500.0	5555.56
+Best N Schedule :   	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0	50000.0	0.0	0.0	0.0	0.0	0.0
+ppfolio-like Schedule :   	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+core mapping: 		1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+ASP Schedule:       	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Single Best: Timeouts in 9-th fold [32]: 	16
+Uniform: Timeouts in 9-th fold: 		12
+Best N: Timeouts in 9-th fold: 			14
+ppfolio-like: Timeouts in 9-th fold: 			36
+Schedule: Timeouts in 9-th fold: 		36
+>>>Permutation<<<
+Permutation format: [[Solver_1,Core]...[Solver_N,Core]]
+Permutation Schedule...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTStybSgH /tmp/Slicesd4cCRr
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUND5cRWJN
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+INSTANCES in TEST: 0
+Permutation BestN...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTS6lfPID /tmp/Slices6mtXqP
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDO8C1bR
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Permutation ppfolio-like...
+>>> ASP Permutation <<<
+./runsolver -w /dev/null -M 6000 ./gringo -c cores=-1 -c opt=-1 ./enc/encoding-paper-Step2.lp /home/haniye/Documents/Portfolio-Scheduling/aspeed-1.0.1/FACTSzHN3gr /tmp/SlicesabNmEg
+Error Gringo: 
+gringo: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+./runsolver -w /dev/null -M 6000 -W 120 ./clasp --opt-hierarch=0 --restart-on-model --solution-recording --quiet=1,1 /tmp/GROUNDpUZQXZ
+Error Clasp: 
+*** clasp ERROR: Read Error: Line 0, Bad input stream!
+
+
+
+Permutation w.h.o. ASP : []
+Pseudo Permutate Uniform...
+>>> ASP Permutation <<<
+Pseudo Permutate Single Best...
+Schedule : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+>>> ASP Permutation <<<
+Schedule : [0, 50000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Schedule : [12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 5555.56, 5555.56, 5555.56, 5555.56, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56, 12500.0, 12500.0, 12500.0, 5555.56]
+Schedule : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50000, 0, 0, 0, 0, 0]
+Number of Timeouts over 10 fold cross validation
+single best solver: 	220 (62.32%)
+uniform schedule: 	102 (28.9%)
+best n schedule: 	174 (49.29%)
+combi n schedule: 	353 (100.0%)
+asp schedule: 		353 (100.0%)
+
+>>>Parallel Execution<<<
+Runtime (PAR10) SBS: 			0.0(0.0)[220]
+Runtime (PAR10) Uniform: 		2803450.0(21187989.0)[102]
+Runtime (PAR10) BestN: 			0.0(0.0)[174]
+Runtime (PAR10) ASPEED: 		0.0(0.0)[353]
+#Instances: 353
+AVG Runtime (PAR10) SBS: 		0.0(0.0)[220]
+AVG Runtime (PAR10) Uniform: 		7941.78(60022.63)[102]
+AVG Runtime (PAR10) BestN: 		0.0(0.0)[174]
+AVG Runtime (PAR10) ASPEED: 		0.0(0.0)[353]
+AVG Runtime (PAR10) ORACLE: 		1960.31(14963.15)[102]
+Unsolved Parallel: 353
+
+>>>Ordered Excecution<<<
+Runtime (PAR10) SBS: 			1282131.0(8906900.0)[0]
+Runtime (PAR10) Uniform: 		1007104.0(44945550.0)[87]
+Runtime (PAR10) BestN: 			0.0(0.0)[353]
+Runtime (PAR10) ASPEED: 		0.0(0.0)[353]
+#Instances: 353
+AVG Runtime (PAR10) SBS: 		3632.1(25232.0)[0]
+AVG Runtime (PAR10) Uniform: 		2852.99(127324.5)[87]
+AVG Runtime (PAR10) BestN: 		0.0(0.0)[353]
+AVG Runtime (PAR10) ASPEED: 		0.0(0.0)[353]
+AVG Runtime (PAR10) ORACLE: 		1960.31(14963.15)[102]
+8,3632.1,2852.99,0.0,0.0,0.0,50000,1,1960.31,3
+8,25232.0,127324.5,0.0,0.0,0.0,50000,1,14963.15,3

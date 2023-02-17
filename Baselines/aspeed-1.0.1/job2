@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --chdir="/gscratch/hkashgar/ASPEED/aspeed-1.0.1"
+#SBATCH --account=mallet                                                
+#SBATCH --time=0-04:00:00                                                       
+#SBATCH --partition=moran-hugemem                                                      
+#SBATCH --job-name=aspeed-as                                               
+#SBATCH --output=./aspeed-as-%J.out                                             
+#SBATCH --error=./aspeed-as-%J.error 
+
+
+module load python/2.7.5
+source activate aspeed
+#python aspeed.py --csv csv/aspeed_csv_solo.csv  --cutoff 5000 --cores 2 --printTimes --runsolver ./runsolver --clasp ./clasp --gringo ./gringo > aspeed-2.txt
+python aspeed.py --csv csv/teton-SAT2018-39-solvers-3-parallel.csv --cutoff 5000 --cores 3 --printTimes --runsolver ./runsolver --clasp ./clasp --gringo ./gringo > aspeed-3-basedonactualresults.txt
+#python aspeed.py --csv csv/aspeed_csv_solo.csv  --cutoff 5000 --cores 4 --printTimes --runsolver ./runsolver --clasp ./clasp --gringo ./gringo > aspeed-4.txt
+#python aspeed.py --csv csv/aspeed_csv_solo.csv  --cutoff 5000 --cores 5 --printTimes --runsolver ./runsolver --clasp ./clasp --gringo ./gringo > aspeed-5.txt
+#python aspeed.py --csv csv/aspeed_csv_solo.csv  --cutoff 5000 --cores 6 --printTimes --runsolver ./runsolver --clasp ./clasp --gringo ./gringo > aspeed-6.txt
+#python aspeed.py --csv csv/aspeed_csv_solo.csv  --cutoff 5000 --cores 7 --printTimes --runsolver ./runsolver --clasp ./clasp --gringo ./gringo > aspeed-7.txt
+#python aspeed.py --csv csv/aspeed_csv_solo.csv  --cutoff 5000 --cores 8 --printTimes --runsolver ./runsolver --clasp ./clasp --gringo ./gringo > aspeed-8.txt
+python aspeed.py --csv csv/teton-SAT2018-39-solvers-9-parallel.csv --cutoff 5000 --cores 9 --printTimes --runsolver ./runsolver --clasp ./clasp --gringo ./gringo > aspeed-9-basedonactualresults.txt

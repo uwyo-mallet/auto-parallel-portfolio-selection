@@ -1,0 +1,26 @@
+[
+    [
+        {
+            "solver1": {
+                "args": "", 
+                "path": "/pathTo/solver1", 
+                "time": 1.3333333333333333
+            }
+        }, 
+        {
+            "solver3": {
+                "args": "", 
+                "path": "/pathTo/solver3", 
+                "time": 2.3333333333333335
+            }
+        }, 
+        {
+            "solver2": {
+                "args": "", 
+                "path": "/pathTo/solver2", 
+                "time": 6.333333333333333
+            }
+        }
+    ]
+]
+

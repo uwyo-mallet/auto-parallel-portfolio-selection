@@ -1,0 +1,54 @@
+ASPEED is a scheduling method in Python2.7 for scheduling solvers for more than one instance. It works best when we have more than one instance in our CSV file. Otherwise, it throws an error that the row index is out of range. We cannot use ASPEED for instance-based scheduling, and this is one disadvantage of using ASPEED since the computed schedule for a bunch of instances is not optimal for all of them. 
+This is the point of comparing our schedule to it. We can only get a schedule for a set of instances, which is unlikely to be optimal for all instances. 
+I should take a closer look at the scheduling formulation they are using to understand why it just works with a set of instances.
+
+README aspeed.py and aspeed-exec.py
+
+General Information:
+-> written by Marius Schneider (manju@cs.uni-potsdam.de) - University of Potsdam
+-> under GPL 3.0; available under http://www.gnu.org/copyleft/gpl.html
+-> written for scientific purpose; no warranty of bugs
+-> available at http://www.cs.uni-potsdam.de/wv/aspeed/
+-> paper: "aspeed: ASP-based Solver Scheduling" written by H.Hoos, R.Kaminski, T.Schaub and M.Schneider
+
+Requirements:
+-> python2.7 (or a python version with all modules installed which are imported); see http://www.python.org/
+-> runsolver (> v.2.5); see http://www.cril.univ-artois.fr/~roussel/runsolver/
+-> clasp (v.2.0.6) with compiled multithreading; see http://potassco.sourceforge.net/
+-> gringo (v. 3.0.X); see http://potassco.sourceforge.net/
+
+
+Directory Structure:
+
+ |- aspeed.py - python script to compute optimized schedules
+ |- aspeed-exec.py - python script to execute computed schedule
+ |- csv/ - folder with data sets 
+   |- csv/example.csv - example csv file 
+ |- enc/ - folder with used encodings
+   |- enc/encoding-paper-Step1.lp - computation of timeout-minimal time slices
+   |- enc/encoding-paper-Step2.lp - computation of time-minimal ordering
+ |- README
+
+Description:
+-> simple script to parse a csv file (rows instances, coloumns configurations)
+-> print some statistics about trivial solution (best solver has all time)
+-> print it as ASP facts (time(I,C,T).)
+-> call gringo with memory limit to ground problem (--enc [encoding])
+-> call clasp-2.0.X with 4 threads (default) and some options to compute the time slices (timeout.minimal-schedule)
+-> evaluate solution against trival solution and some other
+
+=> see help for more information
+$ python2.7 aspeed.py -h 
+$ python2.7 aspeed-exec.py -h 
+
+example call aspeed.py:
+$ python2.7 aspeed.py --csv csv/example.csv --cutoff 10 --precision 0 --testFile csv/example.csv  --confheader --instheader 
+
+=> aspeed-exec.py
+The input of aspeed-exec.py is the json output of aspeed.py (use option --printJSON and add missing informations!)
+
+example call aspeed-exec.py:
+$ python2.7 -O aspeed-exec.py --schedule example.json --inst example.cnf
+
+known Bugs:
+ - aspeed-exec.py : runtool does not handle SIGTERM correctly -> in multithreading mode, the abort of all running solvers is not guarantueed 

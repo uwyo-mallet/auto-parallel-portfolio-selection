@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --chdir="/gscratch/hkashgar/ASPEED/aspeed-1.0.1"
+#SBATCH --account=mallet                                                
+#SBATCH --time=1-04:00:00                                                       
+#SBATCH --partition=teton-massmem                                                       
+#SBATCH --job-name=aspeed-as                                               
+#SBATCH --output=./aspeed-as-%J.out                                             
+#SBATCH --error=./aspeed-as-%J.error 
+
+module load miniconda3
+module load python/2.7.5
+module load gcc/7.3.0
+source activate aspeed
+
+#Based on actual parallel runtimes
+python aspeed.py --csv csv/teton-SAT2018-39-solvers-20-parallel.csv --cutoff 5000 --cores 20 --printTimes --runsolver ./runsolver --clasp ./clasp --gringo ./gringo > aspeed-20-core-20-parallel.txt
+python aspeed.py --csv csv/teton-SAT2018-39-solvers-30-parallel.csv --cutoff 5000 --cores 30 --printTimes --runsolver ./runsolver --clasp ./clasp --gringo ./gringo > aspeed-30-core-30-parallel.txt
+python aspeed.py --csv csv/teton-SAT2018-39-solvers-32-parallel.csv --cutoff 5000 --cores 32 --printTimes --runsolver ./runsolver --clasp ./clasp --gringo ./gringo > aspeed-32-core-32-parallel.txt
+
+
