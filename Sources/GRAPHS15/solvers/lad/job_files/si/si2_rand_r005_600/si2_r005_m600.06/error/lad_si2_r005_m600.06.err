@@ -1,0 +1,3 @@
+99999.65
+srun: error: tknl06: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=2111365.0

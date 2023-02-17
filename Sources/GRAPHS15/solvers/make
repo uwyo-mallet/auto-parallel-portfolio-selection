@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH --account=mallet
+#SBATCH --time=1-00:00:00
+#SBATCH --partition=teton-knl
+#SBATCH --job-name=createfiles
+#SBATCH --output=./files.out
+#SBATCH --error=./files.error
+
+module load miniconda3
+module load gcc/7.3.0
+
+make

@@ -1,0 +1,8 @@
+time = 0
+vertices = 160
+edges = 298
+loops = 0
+meandeg = 3.725
+maxdeg = 16
+degisfixed = 0
+density = 0.0234277

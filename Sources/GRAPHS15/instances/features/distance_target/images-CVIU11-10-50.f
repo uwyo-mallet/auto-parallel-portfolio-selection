@@ -1,0 +1,14 @@
+time = 2894
+vertices = 5306
+edges = 7890
+loops = 2
+meandeg = 2.97361
+maxdeg = 4
+degisfixed = 0
+density = 0.000560602
+isconnected = 1
+meandistance = 41.3371
+maxdistance = 87
+proportiondistancege2 = 0.999251
+proportiondistancege3 = 0.998287
+proportiondistancege4 = 0.996873

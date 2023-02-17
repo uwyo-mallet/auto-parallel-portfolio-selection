@@ -1,0 +1,3 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2110109.0 ON m002 CANCELLED AT 2022-01-29T18:20:50 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 2110109 ON m002 CANCELLED AT 2022-01-29T18:20:50 DUE TO TIME LIMIT ***
