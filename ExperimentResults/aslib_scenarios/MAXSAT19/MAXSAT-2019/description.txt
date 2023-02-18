@@ -148,4 +148,4 @@ performance_measures:
 - runtime
 performance_type:
 - runtime
-scenario_id: MAXSAT2019
+scenario_id: MAXSAT-2019
