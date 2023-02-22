@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"gen_square_5_299.wcnf","MaxHS",1.69,1293.29705901275,561.111937327728
+"gen_square_5_299.wcnf","maxino2018",0.25,1296.51185542251,631.844095610146
+"gen_square_5_299.wcnf","Open.WBO.g",0.16,1448.26318764125,669.8511310532
+"gen_square_5_299.wcnf","Open.WBO.ms",0.17,1253.41589664555,648.907694427732
+"gen_square_5_299.wcnf","Open.WBO.ms.pre",45.53,1042.55871153449,583.248314319461
+"gen_square_5_299.wcnf","QMaxSAT2018",3600,2086.17385330231,842.656349849808
+"gen_square_5_299.wcnf","UWrMaxSat.1.0",0.5,1100.08443441222,533.415722903978

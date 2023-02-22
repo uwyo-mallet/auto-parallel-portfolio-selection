@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"SAT04__industrial__velev__pipe-sat-1-1__12pipe_bug6_q0used-assat04-725cnfwcnf3.wcnf","MaxHS",476.45,2202.11238412001,860.928754654346
+"SAT04__industrial__velev__pipe-sat-1-1__12pipe_bug6_q0used-assat04-725cnfwcnf3.wcnf","maxino2018",184.36,2005.45089912361,1144.61232158254
+"SAT04__industrial__velev__pipe-sat-1-1__12pipe_bug6_q0used-assat04-725cnfwcnf3.wcnf","Open.WBO.g",4.11,1938.58176589256,1180.01546421029
+"SAT04__industrial__velev__pipe-sat-1-1__12pipe_bug6_q0used-assat04-725cnfwcnf3.wcnf","Open.WBO.ms",17.41,2212.88905846911,1133.57052958794
+"SAT04__industrial__velev__pipe-sat-1-1__12pipe_bug6_q0used-assat04-725cnfwcnf3.wcnf","Open.WBO.ms.pre",99.96,2053.58140952326,1202.42789944237
+"SAT04__industrial__velev__pipe-sat-1-1__12pipe_bug6_q0used-assat04-725cnfwcnf3.wcnf","QMaxSAT2018",307.53,2590.28147197366,1000.51527830913
+"SAT04__industrial__velev__pipe-sat-1-1__12pipe_bug6_q0used-assat04-725cnfwcnf3.wcnf","UWrMaxSat.1.0",78.55,1795.77411585419,1171.11567354386

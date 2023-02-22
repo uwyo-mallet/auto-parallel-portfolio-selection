@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"SAT11__application__manthey__traffic__traffic_3_uc_satcnfwcnf8.wcnf","MaxHS",299.87,1036.11093713417,1363.09993435911
+"SAT11__application__manthey__traffic__traffic_3_uc_satcnfwcnf8.wcnf","maxino2018",236.17,955.917261596429,1230.39460870424
+"SAT11__application__manthey__traffic__traffic_3_uc_satcnfwcnf8.wcnf","Open.WBO.g",2.44,669.09281283096,1133.55291054971
+"SAT11__application__manthey__traffic__traffic_3_uc_satcnfwcnf8.wcnf","Open.WBO.ms",3.17,903.115373435783,1245.32500759734
+"SAT11__application__manthey__traffic__traffic_3_uc_satcnfwcnf8.wcnf","Open.WBO.ms.pre",5.63,684.296473813831,1076.76546863039
+"SAT11__application__manthey__traffic__traffic_3_uc_satcnfwcnf8.wcnf","QMaxSAT2018",3600,1360.81260111452,1360.60582201733
+"SAT11__application__manthey__traffic__traffic_3_uc_satcnfwcnf8.wcnf","UWrMaxSat.1.0",100.17,415.343697063097,862.611153871517

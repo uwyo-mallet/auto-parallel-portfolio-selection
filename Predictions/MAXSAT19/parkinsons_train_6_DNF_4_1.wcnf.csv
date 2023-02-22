@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"parkinsons_train_6_DNF_4_1.wcnf","MaxHS",3.72,1299.2653796225,688.090613793624
+"parkinsons_train_6_DNF_4_1.wcnf","maxino2018",1.87,1449.68193918101,930.034379967415
+"parkinsons_train_6_DNF_4_1.wcnf","Open.WBO.g",0.2,1327.13542949375,858.206399760848
+"parkinsons_train_6_DNF_4_1.wcnf","Open.WBO.ms",6.4,1194.3130205691,671.763615325694
+"parkinsons_train_6_DNF_4_1.wcnf","Open.WBO.ms.pre",6.22,1048.10357223609,723.907766149248
+"parkinsons_train_6_DNF_4_1.wcnf","QMaxSAT2018",2.02,1916.5778837382,852.711621941166
+"parkinsons_train_6_DNF_4_1.wcnf","UWrMaxSat.1.0",0.56,1195.41291928612,627.454540785385

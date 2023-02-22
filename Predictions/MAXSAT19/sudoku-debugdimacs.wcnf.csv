@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"sudoku-debugdimacs.wcnf","MaxHS",36.77,643.418667658305,1030.79016327518
+"sudoku-debugdimacs.wcnf","maxino2018",16.33,733.728503157137,968.318287430646
+"sudoku-debugdimacs.wcnf","Open.WBO.g",2.82,442.431461705034,885.691421766237
+"sudoku-debugdimacs.wcnf","Open.WBO.ms",3.75,530.200188933674,938.860618307107
+"sudoku-debugdimacs.wcnf","Open.WBO.ms.pre",49.81,417.384305458262,811.151960216704
+"sudoku-debugdimacs.wcnf","QMaxSAT2018",460.43,1607.42234111659,1344.43678199549
+"sudoku-debugdimacs.wcnf","UWrMaxSat.1.0",9.87,488.285423780801,902.518727350422

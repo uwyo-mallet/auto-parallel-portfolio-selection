@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"UAutomizer_4BitCounterPointer_true-termination_true-valid-memsafetyc_Abstraction1.wcnf","MaxHS",0.23,833.946837583335,515.115834171577
+"UAutomizer_4BitCounterPointer_true-termination_true-valid-memsafetyc_Abstraction1.wcnf","maxino2018",0.09,982.117351978598,372.462006349804
+"UAutomizer_4BitCounterPointer_true-termination_true-valid-memsafetyc_Abstraction1.wcnf","Open.WBO.g",0.12,916.240112242234,500.597218900952
+"UAutomizer_4BitCounterPointer_true-termination_true-valid-memsafetyc_Abstraction1.wcnf","Open.WBO.ms",0.11,995.451714205921,385.857417142314
+"UAutomizer_4BitCounterPointer_true-termination_true-valid-memsafetyc_Abstraction1.wcnf","Open.WBO.ms.pre",0.52,707.492667611262,419.232800859291
+"UAutomizer_4BitCounterPointer_true-termination_true-valid-memsafetyc_Abstraction1.wcnf","QMaxSAT2018",1.38,1091.32797499044,750.083398877141
+"UAutomizer_4BitCounterPointer_true-termination_true-valid-memsafetyc_Abstraction1.wcnf","UWrMaxSat.1.0",0.37,832.997659112879,373.207464934003

@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"UAutomizer_CookSeeZuleger-2013TACAS-Fig7b-alloca_true-terminationci_Abstraction3.wcnf","MaxHS",0.32,417.474316941278,690.508868753626
+"UAutomizer_CookSeeZuleger-2013TACAS-Fig7b-alloca_true-terminationci_Abstraction3.wcnf","maxino2018",0.14,332.139931900789,631.937165803505
+"UAutomizer_CookSeeZuleger-2013TACAS-Fig7b-alloca_true-terminationci_Abstraction3.wcnf","Open.WBO.g",0.15,355.152956020504,721.959538876253
+"UAutomizer_CookSeeZuleger-2013TACAS-Fig7b-alloca_true-terminationci_Abstraction3.wcnf","Open.WBO.ms",0.15,329.053214961433,736.74455671316
+"UAutomizer_CookSeeZuleger-2013TACAS-Fig7b-alloca_true-terminationci_Abstraction3.wcnf","Open.WBO.ms.pre",0.73,319.643960013747,727.494236516239
+"UAutomizer_CookSeeZuleger-2013TACAS-Fig7b-alloca_true-terminationci_Abstraction3.wcnf","QMaxSAT2018",2.51,301.433735501183,669.52102642552
+"UAutomizer_CookSeeZuleger-2013TACAS-Fig7b-alloca_true-terminationci_Abstraction3.wcnf","UWrMaxSat.1.0",0.53,388.701744012765,809.3747413176

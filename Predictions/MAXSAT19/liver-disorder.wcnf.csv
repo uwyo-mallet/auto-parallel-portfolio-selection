@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"liver-disorder.wcnf","MaxHS",3600,1653.16834661429,1244.11902490833
+"liver-disorder.wcnf","maxino2018",3600,1331.35676335844,1269.4648376375
+"liver-disorder.wcnf","Open.WBO.g",3600,1270.51451579789,1168.42061903313
+"liver-disorder.wcnf","Open.WBO.ms",3600,1571.69751906522,1217.17154826279
+"liver-disorder.wcnf","Open.WBO.ms.pre",3600,1213.34559075081,1050.06360674574
+"liver-disorder.wcnf","QMaxSAT2018",3600,2106.1652887185,1270.0550716514
+"liver-disorder.wcnf","UWrMaxSat.1.0",3600,1703.67395407283,1375.94061602794

@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"p_hat300-1clq.wcnf","MaxHS",228.78,1550.38878234695,1289.55498129114
+"p_hat300-1clq.wcnf","maxino2018",21.89,1543.90946130232,1167.05435113164
+"p_hat300-1clq.wcnf","Open.WBO.g",35.67,1209.7794487723,973.28574686395
+"p_hat300-1clq.wcnf","Open.WBO.ms",47.34,1099.63061759069,1176.82264039435
+"p_hat300-1clq.wcnf","Open.WBO.ms.pre",50.68,1013.35695435335,1102.127077027
+"p_hat300-1clq.wcnf","QMaxSAT2018",7.67,1418.68469931866,1148.28526709381
+"p_hat300-1clq.wcnf","UWrMaxSat.1.0",3.41,1018.67877923709,1059.22887382333

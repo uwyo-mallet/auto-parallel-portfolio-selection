@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"cleveland.wcnf","MaxHS",3600,876.589830472318,435.135288902892
+"cleveland.wcnf","maxino2018",3600,1186.8194093861,486.71898198735
+"cleveland.wcnf","Open.WBO.g",3600,1221.8116677248,697.784513468284
+"cleveland.wcnf","Open.WBO.ms",3600,1190.83648164995,393.357950614774
+"cleveland.wcnf","Open.WBO.ms.pre",3600,985.071707813904,380.635871263364
+"cleveland.wcnf","QMaxSAT2018",3600,1962.57220090111,779.945213685301
+"cleveland.wcnf","UWrMaxSat.1.0",3600,1093.33653743954,525.723961258508

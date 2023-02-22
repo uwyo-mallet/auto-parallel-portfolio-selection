@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"extension-enforcement_strict_com_200_005_1_40_1.wcnf","MaxHS",11.29,2932.8768542195,1084.25541010265
+"extension-enforcement_strict_com_200_005_1_40_1.wcnf","maxino2018",1.79,2915.44498734395,1144.00006980618
+"extension-enforcement_strict_com_200_005_1_40_1.wcnf","Open.WBO.g",1.71,2932.172365292,1105.29036437496
+"extension-enforcement_strict_com_200_005_1_40_1.wcnf","Open.WBO.ms",63.4,2871.05220646432,1201.62797511343
+"extension-enforcement_strict_com_200_005_1_40_1.wcnf","Open.WBO.ms.pre",9.08,2913.67684980928,1147.83929560405
+"extension-enforcement_strict_com_200_005_1_40_1.wcnf","QMaxSAT2018",3600,2408.57403349294,1241.13637958532
+"extension-enforcement_strict_com_200_005_1_40_1.wcnf","UWrMaxSat.1.0",13.57,2963.28119778319,1138.6198333969

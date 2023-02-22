@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"GenHyperTW_aim-50-1_6-yes1-3.wcnf","MaxHS",3600,858.815867323891,438.0206936868
+"GenHyperTW_aim-50-1_6-yes1-3.wcnf","maxino2018",3600,920.185082277354,458.528050096506
+"GenHyperTW_aim-50-1_6-yes1-3.wcnf","Open.WBO.g",3600,965.2172813991,699.485429433998
+"GenHyperTW_aim-50-1_6-yes1-3.wcnf","Open.WBO.ms",3600,979.510881484015,617.889226149425
+"GenHyperTW_aim-50-1_6-yes1-3.wcnf","Open.WBO.ms.pre",3600,847.812731908195,818.952023086142
+"GenHyperTW_aim-50-1_6-yes1-3.wcnf","QMaxSAT2018",3600,1017.93417754602,691.095634826059
+"GenHyperTW_aim-50-1_6-yes1-3.wcnf","UWrMaxSat.1.0",3600,798.177468981946,407.515593635225

@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"GenHyperTW_hole9.wcnf","MaxHS",3600,2038.88061539403,282.550901330234
+"GenHyperTW_hole9.wcnf","maxino2018",3600,1466.87453950701,264.572458385969
+"GenHyperTW_hole9.wcnf","Open.WBO.g",3600,1576.56939570991,312.513706278468
+"GenHyperTW_hole9.wcnf","Open.WBO.ms",3600,1438.33061048563,297.717820756332
+"GenHyperTW_hole9.wcnf","Open.WBO.ms.pre",3600,1306.28652969431,248.721447089724
+"GenHyperTW_hole9.wcnf","QMaxSAT2018",3600,1817.54776047873,277.759552349434
+"GenHyperTW_hole9.wcnf","UWrMaxSat.1.0",3600,1458.43950640856,281.533912087144

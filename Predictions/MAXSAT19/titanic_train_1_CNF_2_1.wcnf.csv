@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"titanic_train_1_CNF_2_1.wcnf","MaxHS",12.02,615.410362153877,826.230550989599
+"titanic_train_1_CNF_2_1.wcnf","maxino2018",16.95,532.778959165907,668.355437688636
+"titanic_train_1_CNF_2_1.wcnf","Open.WBO.g",192.12,754.057784975056,849.116281640719
+"titanic_train_1_CNF_2_1.wcnf","Open.WBO.ms",200.9,863.262027589154,791.126697602275
+"titanic_train_1_CNF_2_1.wcnf","Open.WBO.ms.pre",168.64,1163.79773263686,1117.550972767
+"titanic_train_1_CNF_2_1.wcnf","QMaxSAT2018",32.85,1159.2579601777,1146.71584364647
+"titanic_train_1_CNF_2_1.wcnf","UWrMaxSat.1.0",1.06,502.425989156905,607.136640676933

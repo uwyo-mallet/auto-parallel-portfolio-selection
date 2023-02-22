@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"normalized-apex4aopbmsat.wcnf","MaxHS",4.51,1240.96302705761,599.500284739826
+"normalized-apex4aopbmsat.wcnf","maxino2018",0.47,1264.12668163813,615.873449593852
+"normalized-apex4aopbmsat.wcnf","Open.WBO.g",0.19,1519.54041844132,735.439711888246
+"normalized-apex4aopbmsat.wcnf","Open.WBO.ms",0.57,1464.9967758096,787.758489658559
+"normalized-apex4aopbmsat.wcnf","Open.WBO.ms.pre",0.16,1537.04513570595,763.572315240625
+"normalized-apex4aopbmsat.wcnf","QMaxSAT2018",3600,1577.30007343716,705.592735578913
+"normalized-apex4aopbmsat.wcnf","UWrMaxSat.1.0",2.36,1219.45333231085,541.861006141031

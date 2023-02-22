@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"c-fat500-2clq.wcnf","MaxHS",31.63,1896.25944194144,1290.91641112558
+"c-fat500-2clq.wcnf","maxino2018",0.4,1960.47153627258,1386.8712484182
+"c-fat500-2clq.wcnf","Open.WBO.g",12.12,1757.85231659802,1270.78630933368
+"c-fat500-2clq.wcnf","Open.WBO.ms",16.69,1732.89727037777,1284.57058573187
+"c-fat500-2clq.wcnf","Open.WBO.ms.pre",24,1078.18441206959,1086.48246843069
+"c-fat500-2clq.wcnf","QMaxSAT2018",0.39,2349.0417760629,1203.56888515558
+"c-fat500-2clq.wcnf","UWrMaxSat.1.0",0.36,1261.31361820986,1215.81764269144

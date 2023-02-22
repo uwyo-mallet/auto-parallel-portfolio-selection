@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"bnn-last-layer-f10.wcnf","MaxHS",3600,1309.74175429534,1295.13043538223
+"bnn-last-layer-f10.wcnf","maxino2018",3600,1502.66195584316,1330.87173779577
+"bnn-last-layer-f10.wcnf","Open.WBO.g",2778.92,1638.0419683515,1442.27084638042
+"bnn-last-layer-f10.wcnf","Open.WBO.ms",1515.01,1354.27612004142,1288.49255806179
+"bnn-last-layer-f10.wcnf","Open.WBO.ms.pre",3600,1567.64109747431,1431.2039980907
+"bnn-last-layer-f10.wcnf","QMaxSAT2018",3600,2428.76185158788,1333.35604645188
+"bnn-last-layer-f10.wcnf","UWrMaxSat.1.0",3600,1174.48950348824,1229.93534477913

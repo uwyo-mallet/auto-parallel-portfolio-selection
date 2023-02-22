@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"normalized-ssa7552-038opbmsat.wcnf","MaxHS",2.94,1346.38661452457,650.8953282485
+"normalized-ssa7552-038opbmsat.wcnf","maxino2018",21.32,1512.24290387912,763.619184245141
+"normalized-ssa7552-038opbmsat.wcnf","Open.WBO.g",2.72,1659.94904448604,635.973858472014
+"normalized-ssa7552-038opbmsat.wcnf","Open.WBO.ms",10.45,1282.76302490491,574.808088969132
+"normalized-ssa7552-038opbmsat.wcnf","Open.WBO.ms.pre",3600,1650.09499042837,809.541943566891
+"normalized-ssa7552-038opbmsat.wcnf","QMaxSAT2018",3.11,1783.46143657855,772.860530572634
+"normalized-ssa7552-038opbmsat.wcnf","UWrMaxSat.1.0",0.66,1344.14385013172,672.915237202926

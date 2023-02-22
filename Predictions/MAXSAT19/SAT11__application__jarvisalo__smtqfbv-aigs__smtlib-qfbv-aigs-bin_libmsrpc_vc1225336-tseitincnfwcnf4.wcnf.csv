@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"SAT11__application__jarvisalo__smtqfbv-aigs__smtlib-qfbv-aigs-bin_libmsrpc_vc1225336-tseitincnfwcnf4.wcnf","MaxHS",263.72,1897.35501101775,1062.84336057891
+"SAT11__application__jarvisalo__smtqfbv-aigs__smtlib-qfbv-aigs-bin_libmsrpc_vc1225336-tseitincnfwcnf4.wcnf","maxino2018",90.2,589.453440874297,664.867838010629
+"SAT11__application__jarvisalo__smtqfbv-aigs__smtlib-qfbv-aigs-bin_libmsrpc_vc1225336-tseitincnfwcnf4.wcnf","Open.WBO.g",150.43,969.590620574466,835.554663233225
+"SAT11__application__jarvisalo__smtqfbv-aigs__smtlib-qfbv-aigs-bin_libmsrpc_vc1225336-tseitincnfwcnf4.wcnf","Open.WBO.ms",306.31,732.258802745287,708.656628951439
+"SAT11__application__jarvisalo__smtqfbv-aigs__smtlib-qfbv-aigs-bin_libmsrpc_vc1225336-tseitincnfwcnf4.wcnf","Open.WBO.ms.pre",425.84,539.080401748398,746.987581232727
+"SAT11__application__jarvisalo__smtqfbv-aigs__smtlib-qfbv-aigs-bin_libmsrpc_vc1225336-tseitincnfwcnf4.wcnf","QMaxSAT2018",3600,1016.69596315743,897.49407285562
+"SAT11__application__jarvisalo__smtqfbv-aigs__smtlib-qfbv-aigs-bin_libmsrpc_vc1225336-tseitincnfwcnf4.wcnf","UWrMaxSat.1.0",219.48,492.098844928782,863.719813867551

@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"sandiaproteingwcnft.wcnf","MaxHS",3600,2044.70492664906,325.724003810876
+"sandiaproteingwcnft.wcnf","maxino2018",171.99,1580.97604614015,298.448780171231
+"sandiaproteingwcnft.wcnf","Open.WBO.g",190.67,1611.20828443468,314.513070118979
+"sandiaproteingwcnft.wcnf","Open.WBO.ms",81.93,1583.41886428657,286.697402892599
+"sandiaproteingwcnft.wcnf","Open.WBO.ms.pre",232.08,1343.50876004438,261.008081757766
+"sandiaproteingwcnft.wcnf","QMaxSAT2018",32.33,1869.28451754645,261.008535782552
+"sandiaproteingwcnft.wcnf","UWrMaxSat.1.0",149.71,1592.76224068412,293.690978417108

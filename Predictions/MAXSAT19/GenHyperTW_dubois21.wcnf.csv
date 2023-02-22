@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"GenHyperTW_dubois21.wcnf","MaxHS",3600,754.65651749725,815.214343426909
+"GenHyperTW_dubois21.wcnf","maxino2018",3600,318.83298471809,424.555007573861
+"GenHyperTW_dubois21.wcnf","Open.WBO.g",3600,326.959189515536,452.511689438823
+"GenHyperTW_dubois21.wcnf","Open.WBO.ms",709.88,256.111074084612,396.722872271816
+"GenHyperTW_dubois21.wcnf","Open.WBO.ms.pre",275.25,314.756392013163,513.886372318693
+"GenHyperTW_dubois21.wcnf","QMaxSAT2018",3600,960.75521339593,1017.50109791005
+"GenHyperTW_dubois21.wcnf","UWrMaxSat.1.0",3600,305.254323672145,423.025680104244

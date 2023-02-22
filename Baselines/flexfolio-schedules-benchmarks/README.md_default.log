@@ -1,0 +1,6 @@
+[ERROR]: Coseal Directory not found: /home/lindauer/projects/aslib_data-aslib-v1.0.1/README.md
+% flexfolio Trainer!
+% Published under GPLv2
+% https://bitbucket.org/mlindauer/flexfolio
+% Command line arguments:
+% --aslib /home/lindauer/projects/aslib_data-aslib-v1.0.1/README.md --model . --aspeed-opt --print-times README.md_default.csv --verbose 2

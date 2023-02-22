@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"diabetes.wcnf","MaxHS",3600,2039.85684986264,292.779955472216
+"diabetes.wcnf","maxino2018",3600,1593.38920866015,317.513910326626
+"diabetes.wcnf","Open.WBO.g",3600,1652.6968720397,297.746089955992
+"diabetes.wcnf","Open.WBO.ms",3600,1560.81607857354,292.689804161149
+"diabetes.wcnf","Open.WBO.ms.pre",3600,1426.34317506459,237.420410753625
+"diabetes.wcnf","QMaxSAT2018",3600,1953.2529526774,248.537641132614
+"diabetes.wcnf","UWrMaxSat.1.0",3600,1544.36233767516,288.512869043072

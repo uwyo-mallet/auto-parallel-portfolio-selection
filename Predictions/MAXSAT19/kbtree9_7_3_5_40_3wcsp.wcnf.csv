@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"kbtree9_7_3_5_40_3wcsp.wcnf","MaxHS",94.29,875.613225322692,414.758398228347
+"kbtree9_7_3_5_40_3wcsp.wcnf","maxino2018",3600,1863.0915125392,540.844436471018
+"kbtree9_7_3_5_40_3wcsp.wcnf","Open.WBO.g",213.64,1813.98248163859,560.907029707421
+"kbtree9_7_3_5_40_3wcsp.wcnf","Open.WBO.ms",540.81,1703.32817030607,572.478017165313
+"kbtree9_7_3_5_40_3wcsp.wcnf","Open.WBO.ms.pre",493.84,1571.62206749683,556.708801912116
+"kbtree9_7_3_5_40_3wcsp.wcnf","QMaxSAT2018",3600,2360.45585176144,540.520921396535
+"kbtree9_7_3_5_40_3wcsp.wcnf","UWrMaxSat.1.0",3600,1787.84745288129,647.360202628897

@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"hungarian.wcnf","MaxHS",3600,2022.57762792837,1122.08806628706
+"hungarian.wcnf","maxino2018",3600,1709.04051406599,1280.55332439481
+"hungarian.wcnf","Open.WBO.g",3600,1770.12581607844,1035.06963801264
+"hungarian.wcnf","Open.WBO.ms",3600,1852.73902262965,1186.0646094127
+"hungarian.wcnf","Open.WBO.ms.pre",3600,1390.25483854231,1151.36871740346
+"hungarian.wcnf","QMaxSAT2018",3600,2737.71044878049,882.318511791333
+"hungarian.wcnf","UWrMaxSat.1.0",3600,1521.81673386993,1091.34562712286

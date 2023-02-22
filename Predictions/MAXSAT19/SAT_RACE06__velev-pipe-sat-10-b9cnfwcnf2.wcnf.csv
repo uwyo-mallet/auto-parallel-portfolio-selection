@@ -1,0 +1,8 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"SAT_RACE06__velev-pipe-sat-10-b9cnfwcnf2.wcnf","MaxHS",176.49,2235.33943238429,276.173357755069
+"SAT_RACE06__velev-pipe-sat-10-b9cnfwcnf2.wcnf","maxino2018",42.77,1515.79395355114,275.43052425768
+"SAT_RACE06__velev-pipe-sat-10-b9cnfwcnf2.wcnf","Open.WBO.g",6.26,1567.14434166244,317.732327347967
+"SAT_RACE06__velev-pipe-sat-10-b9cnfwcnf2.wcnf","Open.WBO.ms",26.74,1393.32446620081,310.51837337333
+"SAT_RACE06__velev-pipe-sat-10-b9cnfwcnf2.wcnf","Open.WBO.ms.pre",123.35,1356.70137019509,284.406566627325
+"SAT_RACE06__velev-pipe-sat-10-b9cnfwcnf2.wcnf","QMaxSAT2018",88.54,1649.87594274798,303.228039444591
+"SAT_RACE06__velev-pipe-sat-10-b9cnfwcnf2.wcnf","UWrMaxSat.1.0",36.23,1400.06014098036,325.956907494122

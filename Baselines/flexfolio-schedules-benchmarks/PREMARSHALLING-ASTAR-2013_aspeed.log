@@ -1,0 +1,4548 @@
+% [WARNING]: Not found: /home/lindauer/projects/aslib_data-aslib-v1.0.1/PREMARSHALLING-ASTAR-2013/ground_truth.arff (maybe you want to add it)
+% [WARNING]: Not found: /home/lindauer/projects/aslib_data-aslib-v1.0.1/PREMARSHALLING-ASTAR-2013/feature_costs.arff (maybe you want to add it)
+% [WARNING]: Have not found algorithms_stochastic
+% flexfolio Trainer!
+% Published under GPLv2
+% https://bitbucket.org/mlindauer/flexfolio
+% Command line arguments:
+% --aslib /home/lindauer/projects/aslib_data-aslib-v1.0.1/PREMARSHALLING-ASTAR-2013 --model . --preconf aspeed --print-times PREMARSHALLING-ASTAR-2013_aspeed.csv --verbose 2
+% Read /home/lindauer/projects/aslib_data-aslib-v1.0.1/PREMARSHALLING-ASTAR-2013/description.txt
+% Read /home/lindauer/projects/aslib_data-aslib-v1.0.1/PREMARSHALLING-ASTAR-2013/algorithm_runs.arff
+% Read /home/lindauer/projects/aslib_data-aslib-v1.0.1/PREMARSHALLING-ASTAR-2013/feature_values.arff
+% Read /home/lindauer/projects/aslib_data-aslib-v1.0.1/PREMARSHALLING-ASTAR-2013/feature_runstatus.arff
+% Read /home/lindauer/projects/aslib_data-aslib-v1.0.1/PREMARSHALLING-ASTAR-2013/cv.arff
+% 1-th repetition: 53,53,53,53,53,53,52,52,53,52 distribution
+% Used Feature Steps: all
+% Remove features: 
+% 
+% Used features: stack-tier-ratio,bflb,top-good-mean,overstowage-pct,tiers,top-good-min,container-density,top-good-max,group-same-min,group-same-mean,empty-stack-pct,overstowing-stack-pct,group-same-stdev,top-good-stdev,group-same-max,stacks
+% 
+% Check Consistency and Completeness of input data
+% Instances: 		 527
+% Algorithms: 		 4
+% Incomplete Feature Vector: 	 0 (maybe imputed)
+% Unsolvable Instances (status): 	 0
+% Unsolvable Instances (runtime): 	 0
+% Valid Instances: 	 527
+% Presolved: 		 0
+% Average Feature Costs: 	 0.0000
+% Use given CV of 1-th repetition
+% >>> 1-th iteration<<<
+% Backup Solver: idastar-symmulgt-transmul
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/gringo /home/lindauer/git/flexfolio/src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /home/lindauer/projects/flexfolio-schedules/ASPEEDXC2WEx.facts -c maxsolver=10000 -c optMode=3 -c maxPreSlice=10000 -c cores=1 -c featTime=360
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/clasp /home/lindauer/projects/flexfolio-schedules/GROUNDpim2up.gr --quiet=1,1
+% clasp version 2.1.5
+% Reading from ...ts/flexfolio-schedules/GROUNDpim2up.gr
+% Solving...
+% Answer: 156
+% slice(1,c1,157) slice(1,c2,109) slice(1,c3,2908) slice(1,c4,338)
+% Optimization: 15 3512
+% OPTIMUM FOUND
+% 
+% Models      : 1     
+%   Enumerated: 156
+%   Optimum   : yes
+% Optimization: 15 3512
+% Time        : 0.169s (Solving: 0.16s 1st Model: 0.00s Unsat: 0.03s)
+% CPU Time    : 0.160s
+% 
+% Schedule {1: {'claspfolio': 0.0, 'astar-symmulgt-transmul': 160.93394077448747, 'idastar-symmulgt-transmul': 111.73120728929385, 'idastar-symmullt-transmul': 2980.865603644647, 'astar-symmullt-transmul': 346.4692482915718}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 474 (-unsolvable)
+% Used Instances for Training: 474 (-unsolvable)
+% Performance transformation ...
+% Approximate weigths ...
+% 
+%  Instance Weighting
+% Means : [11.29535864978903, 5.894514767932489, 29.732140886075925, 0.6800089915611819, 11.130335794303802, 90.42545709915615, 0.5084388185654009, 3.569620253164557, 2.2904491983122344, 0.7125288860759489, 2.0126582278481013, 15.308016877637131, 271.91561181434594, 80.35657452531645, 4.698050966244718, 29.60548523206751]
+% Stds : [5.916017207231301, 0.9088776834891811, 148.0143480007966, 0.06851068015775774, 51.48503806868405, 239.19367411997922, 0.5004569681900897, 2.886215153181709, 1.5244656882884924, 0.8134347585224181, 0.979627631971031, 6.171445795337468, 1709.435642585644, 685.1869062390974, 35.73460465538439, 13.569742000753433]
+% Train with SBS
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% PAR10 on current test set: 1838.27 (53 instances)
+% {1: 97428.55549886107}
+% >>> 2-th iteration<<<
+% Backup Solver: idastar-symmulgt-transmul
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/gringo /home/lindauer/git/flexfolio/src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /home/lindauer/projects/flexfolio-schedules/ASPEEDZH4MA9.facts -c maxsolver=10000 -c optMode=3 -c maxPreSlice=10000 -c cores=1 -c featTime=360
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/clasp /home/lindauer/projects/flexfolio-schedules/GROUNDrMVqPI.gr --quiet=1,1
+% clasp version 2.1.5
+% Reading from ...ts/flexfolio-schedules/GROUNDrMVqPI.gr
+% Solving...
+% Answer: 141
+% slice(1,c1,157) slice(1,c2,423) slice(1,c3,2414) slice(1,c4,479)
+% Optimization: 16 3473
+% OPTIMUM FOUND
+% 
+% Models      : 1     
+%   Enumerated: 141
+%   Optimum   : yes
+% Optimization: 16 3473
+% Time        : 0.257s (Solving: 0.25s 1st Model: 0.00s Unsat: 0.08s)
+% CPU Time    : 0.250s
+% 
+% Schedule {1: {'claspfolio': 0.0, 'astar-symmulgt-transmul': 162.74114598329973, 'idastar-symmulgt-transmul': 438.46818312697957, 'idastar-symmullt-transmul': 2502.274690469335, 'astar-symmullt-transmul': 496.51598042038586}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 474 (-unsolvable)
+% Used Instances for Training: 474 (-unsolvable)
+% Performance transformation ...
+% Approximate weigths ...
+% 
+%  Instance Weighting
+% Means : [11.654008438818565, 5.867088607594937, 30.23610035443036, 0.6813100253164569, 10.868064345569623, 79.61930379746835, 0.4873417721518987, 3.679324894514768, 2.360314050632908, 0.738837974683544, 2.0147679324894514, 15.333333333333334, 287.4685761181433, 80.33429581223626, 4.909361647679315, 30.356540084388186]
+% Stds : [6.022729565975535, 0.9134033450666953, 150.56804057497337, 0.07032768339563299, 51.219696758918936, 225.6006954238884, 0.5003678364361275, 2.8800022697776537, 1.5448259302648488, 0.8052901262936822, 0.9522385159580226, 6.070643555529731, 1740.2420419566063, 685.1891958686975, 37.5812265840527, 13.815665398880473]
+% Train with SBS
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% PAR10 on current test set: 2347.99 (53 instances)
+% {1: 221872.04443637902}
+% >>> 3-th iteration<<<
+% Backup Solver: idastar-symmulgt-transmul
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/gringo /home/lindauer/git/flexfolio/src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /home/lindauer/projects/flexfolio-schedules/ASPEEDyrnghL.facts -c maxsolver=10000 -c optMode=3 -c maxPreSlice=10000 -c cores=1 -c featTime=360
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/clasp /home/lindauer/projects/flexfolio-schedules/GROUNDmw78Jq.gr --quiet=1,1
+% clasp version 2.1.5
+% Reading from ...ts/flexfolio-schedules/GROUNDmw78Jq.gr
+% Solving...
+% Answer: 114
+% slice(1,c1,157) slice(1,c2,109) slice(1,c3,2908) slice(1,c4,338)
+% Optimization: 16 3512
+% OPTIMUM FOUND
+% 
+% Models      : 1     
+%   Enumerated: 114
+%   Optimum   : yes
+% Optimization: 16 3512
+% Time        : 0.215s (Solving: 0.21s 1st Model: 0.00s Unsat: 0.09s)
+% CPU Time    : 0.210s
+% 
+% Schedule {1: {'claspfolio': 0.0, 'astar-symmulgt-transmul': 160.93394077448747, 'idastar-symmulgt-transmul': 111.73120728929385, 'idastar-symmullt-transmul': 2980.865603644647, 'astar-symmullt-transmul': 346.4692482915718}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 474 (-unsolvable)
+% Used Instances for Training: 474 (-unsolvable)
+% Performance transformation ...
+% Approximate weigths ...
+% 
+%  Instance Weighting
+% Means : [11.58860759493671, 5.8734177215189876, 29.71578898523204, 0.6814204789029544, 9.813633965822786, 86.46994298945148, 0.49156118143459915, 3.6350210970464136, 2.3390111392405033, 0.7285309409282693, 2.029535864978903, 15.335443037974683, 242.15398833333327, 65.5147322468355, 4.698258016877635, 30.20886075949367]
+% Stds : [6.0191341276766135, 0.9154592688481294, 148.0175588176348, 0.07011693791517885, 46.00836663484759, 235.45119385992132, 0.5004569681900896, 2.8551569195921225, 1.5344666345542401, 0.7986729248405454, 0.97926332268659, 6.143055784371371, 1581.2545837296707, 646.9854251321524, 35.73458268986817, 13.88523808778068]
+% Train with SBS
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% PAR10 on current test set: 1072.55 (53 instances)
+% {1: 278717.340224534}
+% >>> 4-th iteration<<<
+% Backup Solver: idastar-symmulgt-transmul
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/gringo /home/lindauer/git/flexfolio/src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /home/lindauer/projects/flexfolio-schedules/ASPEEDXdVlqo.facts -c maxsolver=10000 -c optMode=3 -c maxPreSlice=10000 -c cores=1 -c featTime=360
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/clasp /home/lindauer/projects/flexfolio-schedules/GROUNDwDCNM3.gr --quiet=1,1
+% clasp version 2.1.5
+% Reading from ...ts/flexfolio-schedules/GROUNDwDCNM3.gr
+% Solving...
+% Answer: 135
+% slice(1,c1,157) slice(1,c2,107) slice(1,c3,2908) slice(1,c4,338)
+% Optimization: 16 3510
+% OPTIMUM FOUND
+% 
+% Models      : 1     
+%   Enumerated: 135
+%   Optimum   : yes
+% Optimization: 16 3510
+% Time        : 0.227s (Solving: 0.22s 1st Model: 0.00s Unsat: 0.01s)
+% CPU Time    : 0.220s
+% 
+% Schedule {1: {'claspfolio': 0.0, 'astar-symmulgt-transmul': 161.02564102564102, 'idastar-symmulgt-transmul': 109.74358974358974, 'idastar-symmullt-transmul': 2982.5641025641025, 'astar-symmullt-transmul': 346.6666666666667}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 474 (-unsolvable)
+% Used Instances for Training: 474 (-unsolvable)
+% Performance transformation ...
+% Approximate weigths ...
+% 
+%  Instance Weighting
+% Means : [11.569620253164556, 5.883966244725738, 31.563296291139217, 0.6825875675105493, 9.548804500210974, 84.62879118776371, 0.4957805907172996, 3.6371308016877637, 2.3382900632911374, 0.7237781033755273, 2.0147679324894514, 15.388185654008439, 275.622141455696, 80.36472610759493, 5.49084349578059, 30.417721518987342]
+% Stds : [6.031314080560116, 0.9226056302472245, 153.0176711124448, 0.07033214613733905, 49.852581124614574, 232.66778575769865, 0.5005104396235566, 2.8874542720413054, 1.5409105901367417, 0.8018392700000928, 0.9632755785976111, 6.159022642815964, 1722.8563212285737, 685.1859828909028, 39.57490699770474, 13.921654170386212]
+% Train with SBS
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% PAR10 on current test set: 1050.11 (53 instances)
+% {1: 334372.90855786717}
+% >>> 5-th iteration<<<
+% Backup Solver: idastar-symmulgt-transmul
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/gringo /home/lindauer/git/flexfolio/src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /home/lindauer/projects/flexfolio-schedules/ASPEEDr5YPUN.facts -c maxsolver=10000 -c optMode=3 -c maxPreSlice=10000 -c cores=1 -c featTime=360
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/clasp /home/lindauer/projects/flexfolio-schedules/GROUNDftbO1L.gr --quiet=1,1
+% clasp version 2.1.5
+% Reading from ...ts/flexfolio-schedules/GROUNDftbO1L.gr
+% Solving...
+% Answer: 86
+% slice(1,c1,157) slice(1,c2,109) slice(1,c3,2908) slice(1,c4,338)
+% Optimization: 15 3512
+% OPTIMUM FOUND
+% 
+% Models      : 1     
+%   Enumerated: 86
+%   Optimum   : yes
+% Optimization: 15 3512
+% Time        : 0.128s (Solving: 0.12s 1st Model: 0.00s Unsat: 0.00s)
+% CPU Time    : 0.120s
+% 
+% Schedule {1: {'claspfolio': 0.0, 'astar-symmulgt-transmul': 160.93394077448747, 'idastar-symmulgt-transmul': 111.73120728929385, 'idastar-symmullt-transmul': 2980.865603644647, 'astar-symmullt-transmul': 346.4692482915718}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 474 (-unsolvable)
+% Used Instances for Training: 474 (-unsolvable)
+% Performance transformation ...
+% Approximate weigths ...
+% 
+%  Instance Weighting
+% Means : [11.548523206751055, 5.864978902953586, 26.02265935443035, 0.6812932257383973, 11.129632559282703, 83.31045810548525, 0.49156118143459915, 3.6835443037974684, 2.371038924050631, 0.7429616518987338, 2.018987341772152, 15.135021097046414, 266.5679215611815, 49.262550242616065, 5.488274848101264, 30.122362869198312]
+% Stds : [5.9492895744167384, 0.9072862794006363, 137.39780092500388, 0.07002198141307046, 51.485187812391395, 231.36620180473028, 0.5004569681900896, 2.916212480900936, 1.5580850537195998, 0.8192025803338641, 0.9653939308385463, 6.085257312017721, 1683.4135720052839, 441.71461561556725, 39.575239431515435, 13.74541268499177]
+% Train with SBS
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% PAR10 on current test set: 1886.08 (53 instances)
+% {1: 434335.0969314435}
+% >>> 6-th iteration<<<
+% Backup Solver: idastar-symmulgt-transmul
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/gringo /home/lindauer/git/flexfolio/src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /home/lindauer/projects/flexfolio-schedules/ASPEEDGHJi0N.facts -c maxsolver=10000 -c optMode=3 -c maxPreSlice=10000 -c cores=1 -c featTime=360
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/clasp /home/lindauer/projects/flexfolio-schedules/GROUNDj3o2yW.gr --quiet=1,1
+% clasp version 2.1.5
+% Reading from ...ts/flexfolio-schedules/GROUNDj3o2yW.gr
+% Solving...
+% Answer: 188
+% slice(1,c1,77) slice(1,c2,109) slice(1,c3,3254) slice(1,c4,134)
+% Optimization: 12 3574
+% OPTIMUM FOUND
+% 
+% Models      : 1     
+%   Enumerated: 188
+%   Optimum   : yes
+% Optimization: 12 3574
+% Time        : 0.162s (Solving: 0.15s 1st Model: 0.00s Unsat: 0.07s)
+% CPU Time    : 0.160s
+% 
+% Schedule {1: {'claspfolio': 0.0, 'astar-symmulgt-transmul': 77.56015668718523, 'idastar-symmulgt-transmul': 109.7929490766648, 'idastar-symmullt-transmul': 3277.6720761052043, 'astar-symmullt-transmul': 134.97481813094572}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 474 (-unsolvable)
+% Used Instances for Training: 474 (-unsolvable)
+% Performance transformation ...
+% Approximate weigths ...
+% 
+%  Instance Weighting
+% Means : [11.542194092827005, 5.879746835443038, 25.76420923417719, 0.6812480717299586, 9.815471166877638, 79.09354530590718, 0.49156118143459915, 3.6835443037974684, 2.3471190928270023, 0.7428765548523202, 1.9957805907172996, 15.29957805907173, 257.1261719831223, 69.79472505274262, 4.541485265822776, 30.236286919831223]
+% Stds : [5.9614079736071846, 0.9082026596959286, 140.18330490556247, 0.06937635525993988, 48.11379237062374, 224.0234044864046, 0.5004569681900897, 2.930676002214659, 1.5400420334889233, 0.8223157448362577, 0.9355460595604393, 6.13303188968196, 1614.9702659788325, 646.6308262118301, 36.90064910192846, 13.749921073383225]
+% Train with SBS
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% PAR10 on current test set: 3674.00 (53 instances)
+% {1: 629056.987125064}
+% >>> 7-th iteration<<<
+% Backup Solver: idastar-symmulgt-transmul
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/gringo /home/lindauer/git/flexfolio/src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /home/lindauer/projects/flexfolio-schedules/ASPEEDYdou0s.facts -c maxsolver=10000 -c optMode=3 -c maxPreSlice=10000 -c cores=1 -c featTime=360
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/clasp /home/lindauer/projects/flexfolio-schedules/GROUNDSDsv6Y.gr --quiet=1,1
+% clasp version 2.1.5
+% Reading from ...ts/flexfolio-schedules/GROUNDSDsv6Y.gr
+% Solving...
+% Answer: 106
+% slice(1,c1,157) slice(1,c2,109) slice(1,c3,2908) slice(1,c4,338)
+% Optimization: 16 3512
+% OPTIMUM FOUND
+% 
+% Models      : 1     
+%   Enumerated: 106
+%   Optimum   : yes
+% Optimization: 16 3512
+% Time        : 0.134s (Solving: 0.13s 1st Model: 0.00s Unsat: 0.07s)
+% CPU Time    : 0.130s
+% 
+% Schedule {1: {'claspfolio': 0.0, 'astar-symmulgt-transmul': 160.93394077448747, 'idastar-symmulgt-transmul': 111.73120728929385, 'idastar-symmullt-transmul': 2980.865603644647, 'astar-symmullt-transmul': 346.4692482915718}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 475 (-unsolvable)
+% Used Instances for Training: 475 (-unsolvable)
+% Performance transformation ...
+% Approximate weigths ...
+% 
+%  Instance Weighting
+% Means : [11.612631578947369, 5.8589473684210525, 30.175202286315766, 0.6818940631578955, 10.846631578526319, 87.60572806736842, 0.4884210526315789, 3.6589473684210527, 2.3403670105263132, 0.7334008568421047, 2.037894736842105, 15.370526315789474, 258.76437111578923, 80.18510918947368, 5.480331151578944, 30.408421052631578]
+% Stds : [5.9867512323100724, 0.9111932567971024, 150.41499078862176, 0.070522670505236, 51.167766008335335, 236.49632352905414, 0.5003929169021187, 2.8797083895103888, 1.5292893310813997, 0.8043121853857056, 0.9627206248723025, 6.123343204564671, 1631.0074668138143, 684.4738332206139, 39.533805414319026, 13.843517143809521]
+% Train with SBS
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% PAR10 on current test set: 1078.43 (52 instances)
+% {1: 685135.3743095741}
+% >>> 8-th iteration<<<
+% Backup Solver: idastar-symmulgt-transmul
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/gringo /home/lindauer/git/flexfolio/src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /home/lindauer/projects/flexfolio-schedules/ASPEEDwiq2N5.facts -c maxsolver=10000 -c optMode=3 -c maxPreSlice=10000 -c cores=1 -c featTime=360
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/clasp /home/lindauer/projects/flexfolio-schedules/GROUNDsKDMZk.gr --quiet=1,1
+% clasp version 2.1.5
+% Reading from ...ts/flexfolio-schedules/GROUNDsKDMZk.gr
+% Solving...
+% Answer: 56
+% slice(1,c1,71) slice(1,c2,109) slice(1,c3,3254) slice(1,c4,134)
+% Optimization: 16 3568
+% OPTIMUM FOUND
+% 
+% Models      : 1     
+%   Enumerated: 56
+%   Optimum   : yes
+% Optimization: 16 3568
+% Time        : 0.129s (Solving: 0.12s 1st Model: 0.00s Unsat: 0.07s)
+% CPU Time    : 0.120s
+% 
+% Schedule {1: {'claspfolio': 0.0, 'astar-symmulgt-transmul': 71.63677130044843, 'idastar-symmulgt-transmul': 109.97757847533633, 'idastar-symmullt-transmul': 3283.183856502242, 'astar-symmullt-transmul': 135.2017937219731}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 475 (-unsolvable)
+% Used Instances for Training: 475 (-unsolvable)
+% Performance transformation ...
+% Approximate weigths ...
+% 
+%  Instance Weighting
+% Means : [11.532631578947369, 5.8715789473684215, 26.500099132631554, 0.6822383136842113, 9.529438596000004, 83.66379448210527, 0.4968421052631579, 3.650526315789474, 2.3506793263157872, 0.7356148736842104, 2.0210526315789474, 15.174736842105263, 255.77708555789465, 60.62730702105268, 4.006444698947361, 30.164210526315788]
+% Stds : [6.00074612282891, 0.9061048408866497, 140.0104278741277, 0.06985188355165257, 47.77478503833186, 232.66878441803448, 0.5005171653625503, 2.9194485955663163, 1.5527864682583687, 0.8208685850895597, 0.9741267578000576, 5.981070145787434, 1660.7065107942233, 616.3884062199646, 32.51796572320993, 13.78215010653129]
+% Train with SBS
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% PAR10 on current test set: 1809.83 (52 instances)
+% {1: 779246.3727445512}
+% >>> 9-th iteration<<<
+% Backup Solver: idastar-symmulgt-transmul
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/gringo /home/lindauer/git/flexfolio/src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /home/lindauer/projects/flexfolio-schedules/ASPEEDBU8pLK.facts -c maxsolver=10000 -c optMode=3 -c maxPreSlice=10000 -c cores=1 -c featTime=360
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/clasp /home/lindauer/projects/flexfolio-schedules/GROUNDiBo7Yd.gr --quiet=1,1
+% clasp version 2.1.5
+% Reading from ...ts/flexfolio-schedules/GROUNDiBo7Yd.gr
+% Solving...
+% Answer: 68
+% slice(1,c1,77) slice(1,c2,109) slice(1,c3,2908) slice(1,c4,479)
+% Optimization: 15 3573
+% OPTIMUM FOUND
+% 
+% Models      : 1     
+%   Enumerated: 68
+%   Optimum   : yes
+% Optimization: 15 3573
+% Time        : 0.117s (Solving: 0.11s 1st Model: 0.00s Unsat: 0.04s)
+% CPU Time    : 0.110s
+% 
+% Schedule {1: {'claspfolio': 4.547473508864641e-13, 'astar-symmulgt-transmul': 77.58186397984886, 'idastar-symmulgt-transmul': 109.82367758186398, 'idastar-symmullt-transmul': 2929.9748110831233, 'astar-symmullt-transmul': 482.61964735516375}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 474 (-unsolvable)
+% Used Instances for Training: 474 (-unsolvable)
+% Performance transformation ...
+% Approximate weigths ...
+% 
+%  Instance Weighting
+% Means : [11.635021097046414, 5.867088607594937, 26.547593647679296, 0.680531388185655, 10.342000702742618, 82.78302189662446, 0.4873417721518987, 3.7046413502109705, 2.3821969831223604, 0.746812166666666, 2.0, 15.284810126582279, 255.77472189873407, 80.32514789029536, 5.015763221518979, 30.445147679324894]
+% Stds : [6.01264675791741, 0.9134033450666952, 140.15459610850698, 0.07009851611577328, 48.686431066304856, 229.83754418498984, 0.5003678364361275, 2.9162553057849956, 1.5588724399068126, 0.8143174038035442, 0.914991421995628, 6.139077106769152, 1651.3384682038218, 685.1903468990631, 38.26415058790276, 13.966819169588627]
+% Train with SBS
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% PAR10 on current test set: 1782.93 (53 instances)
+% {1: 873741.7067848537}
+% >>> 10-th iteration<<<
+% Backup Solver: idastar-symmulgt-transmul
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/gringo /home/lindauer/git/flexfolio/src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /home/lindauer/projects/flexfolio-schedules/ASPEEDz8TteC.facts -c maxsolver=10000 -c optMode=3 -c maxPreSlice=10000 -c cores=1 -c featTime=360
+% /home/lindauer/git/flexfolio/src/../binaries/runsolver -w /dev/null -M 4000 -W 300 /home/lindauer/git/flexfolio/src/../binaries/clasp /home/lindauer/projects/flexfolio-schedules/GROUNDr2hBKL.gr --quiet=1,1
+% clasp version 2.1.5
+% Reading from ...ts/flexfolio-schedules/GROUNDr2hBKL.gr
+% Solving...
+% Answer: 108
+% slice(1,c1,157) slice(1,c2,109) slice(1,c3,2892) slice(1,c4,338)
+% Optimization: 13 3496
+% OPTIMUM FOUND
+% 
+% Models      : 1     
+%   Enumerated: 108
+%   Optimum   : yes
+% Optimization: 13 3496
+% Time        : 0.129s (Solving: 0.12s 1st Model: 0.00s Unsat: 0.02s)
+% CPU Time    : 0.130s
+% 
+% Schedule {1: {'claspfolio': 0.0, 'astar-symmulgt-transmul': 161.67048054919908, 'idastar-symmulgt-transmul': 112.24256292906179, 'idastar-symmullt-transmul': 2978.0320366132723, 'astar-symmullt-transmul': 348.05491990846684}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 475 (-unsolvable)
+% Used Instances for Training: 475 (-unsolvable)
+% Performance transformation ...
+% Approximate weigths ...
+% 
+%  Instance Weighting
+% Means : [11.505263157894737, 5.886315789473684, 28.34746670315787, 0.6819208000000009, 9.528008771578952, 84.97831453263157, 0.49473684210526314, 3.6821052631578945, 2.351743726315787, 0.7398094778947367, 2.0252631578947367, 15.23578947368421, 221.88691501052628, 80.15396327368418, 5.477941124210525, 30.065263157894737]
+% Stds : [6.009615509318579, 0.9161710044251105, 145.31566178950405, 0.06975180449922963, 45.65821242797752, 233.95878849763042, 0.5004994174709321, 2.9378218540749304, 1.5486003028722157, 0.8221688066526607, 0.971858068705149, 6.16639723079091, 1517.0902297084556, 684.4773650420464, 39.53411062649268, 13.817601509713437]
+% Train with SBS
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% 
+% Configuration Scores:
+% [idastar-symmulgt-transmul]: 0.000000
+% [idastar-symmullt-transmul]: 1.000000
+% [astar-symmulgt-transmul]: 2.000000
+% [astar-symmullt-transmul]: 3.000000
+% Skip claspfolio because selected with 1 threads
+% Skip idastar-symmulgt-transmul because selected with 1 threads
+% PAR10 on current test set: 3102.56 (52 instances)
+% {1: 1035074.8274736408}
+% 
+%  >>> Instances: 527 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 0
+% PAR1 time: 227.604769 (227.604769)
+% Par10 time: 227.604769 (227.604769)
+% #TOs: 0 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% >>>With Unsolvable Instances
+% Timeouts per #Thread: {1: 23}
+% Solved (perc) per #Thread: {1: 0.9563567362428842}
+% AVG per #Thread: {1: 550.0471109556752}
+% PAR10 per #Thread: {1: 1964.0888566862254}
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts: {1: 23}
+% Solved (perc): {1: 0.9563567362428842}
+% PAR1: {1: 550.0471109556752}
+% PAR10: {1: 1964.0888566862254}
+% 
+% Solver Selection Frequencies (#Threads -> Solvers):
+% {
+%   "1": {}
+% }
+% 
+% Scheduler statistics:
+% Number of available solvers = 4
+% Average schedule size = 4.0
+% Schedule size counters:
+%   1:	 0
+%   2:	 0
+%   3:	 0
+%   4:	 527
+% Average schedule position of first successful solver= 1.75
+% Solving position counters:
+%   1:	 289
+%   2:	 62
+%   3:	 143
+%   4:	 10
+% Time used by each solver: {'astar-symmulgt-transmul': 35457.917400057646, 'idastar-symmulgt-transmul': 59306.21899999999, 'idastar-symmullt-transmul': 188058.47387788934, 'astar-symmullt-transmul': 62606.777303619994}
+% Optimal Time used by each solver: {'astar-symmulgt-transmul': 1368.003, 'idastar-symmulgt-transmul': 30145.18607000003, 'idastar-symmullt-transmul': 85399.83600000001, 'astar-symmullt-transmul': 3034.6879999999996}
