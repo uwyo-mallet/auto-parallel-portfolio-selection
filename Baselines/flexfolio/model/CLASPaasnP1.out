@@ -1,0 +1,14 @@
+clasp version 2.0.5
+Reading from ...elines/flexfolio/model/GROUNDCE80ZK.gr
+Solving...
+Answer: 54
+slice(1,c0,3481) slice(1,c20,990) slice(1,c35,289)
+Optimization: 20 87934 4760
+OPTIMUM FOUND
+
+Models      : 1     
+  Enumerated: 54
+  Optimum   : yes
+Optimization: 20 87934 4760
+Time        : 108365.105s (Solving: 108364.96s 1st Model: 0.00s Unsat: 86441.99s)
+CPU Time    : 84671.440s
