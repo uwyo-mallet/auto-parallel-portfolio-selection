@@ -1,0 +1,14 @@
+clasp version 2.0.5
+Reading from ...ashgar/flexfolio/model/GROUNDS6tXuL.gr
+Solving...
+Answer: 10061
+slice(1,c0,4243) slice(1,c3,71) slice(1,c12,71) slice(1,c18,1) slice(1,c20,266) slice(1,c22,3) slice(1,c28,34) slice(1,c31,30) slice(1,c35,17)
+Optimization: 22 105155 18086242
+OPTIMUM FOUND
+
+Models      : 1     
+  Enumerated: 10061
+  Optimum   : yes
+Optimization: 22 105155 18086242
+Time        : 48.772s (Solving: 48.70s 1st Model: 0.01s Unsat: 3.48s)
+CPU Time    : 48.690s
