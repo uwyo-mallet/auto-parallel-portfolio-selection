@@ -1,0 +1,1081 @@
+% flexfolio Trainer!
+% Published under GPLv2
+% https://bitbucket.org/mlindauer/flexfolio
+% Command line arguments:
+% --aslib-dir SAT2016/SAT16-MAIN-10-Cores/ --model-dir SAT2016/models/10-core/ --preconf 3s --print-time SAT2016/sat16_results/SAT2016-10core-3s.csv --t-aspeed 10
+% Read SAT2016/SAT16-MAIN-10-Cores/description.txt
+% Read SAT2016/SAT16-MAIN-10-Cores/algorithm_runs.arff
+% Read SAT2016/SAT16-MAIN-10-Cores/feature_values.arff
+% Read SAT2016/SAT16-MAIN-10-Cores/feature_runstatus.arff
+% Read SAT2016/SAT16-MAIN-10-Cores/feature_costs.arff
+% Read SAT2016/SAT16-MAIN-10-Cores/cv.arff
+% 1-th repetition: 27,27,27,27,27,27,28,28,28,28 distribution
+% Used Feature Steps (1): ALL
+% Used features (54): reducedVars,VCG.CLAUSE.entropy,POSNEG.RATIO.VAR.entropy,HORNY.VAR.entropy,cluster.coeff.min,VCG.VAR.mean,VCG.VAR.entropy,HORNY.VAR.mean,nvarsOrig,POSNEG.RATIO.VAR.stdev,POSNEG.RATIO.VAR.max,nclauses,HORNY.VAR.min,VCG.VAR.coeff.variation,TRINARY.,VG.min,CG.entropy,cluster.coeff.coeff.variation,UNARY,cluster.coeff.entropy,horn.clauses.fraction,cluster.coeff.mean,CG.min,CG.max,Basic.featuretime,VG.max,VCG.VAR.min,Pre.featuretime,CG.featuretime,cluster.coeff.max,VCG.CLAUSE.min,VCG.VAR.max,VG.mean,nvars,POSNEG.RATIO.CLAUSE.coeff.variation,VCG.CLAUSE.mean,BINARY.,KLB.featuretime,POSNEG.RATIO.CLAUSE.min,VCG.CLAUSE.coeff.variation,VCG.CLAUSE.max,HORNY.VAR.coeff.variation,HORNY.VAR.max,POSNEG.RATIO.VAR.mean,POSNEG.RATIO.CLAUSE.entropy,POSNEG.RATIO.CLAUSE.max,POSNEG.RATIO.CLAUSE.mean,nclausesOrig,POSNEG.RATIO.VAR.min,CG.coeff.variation,vars.clauses.ratio,VG.coeff.variation,reducedClauses,CG.mean
+% 
+% Check Consistency and Completeness of input data
+% Instances: 		 274
+% Algorithms: 		 25
+% Incomplete Feature Vector: 	 0 (maybe imputed)
+% Unsolvable Instances (status): 	 79
+% Unsolvable Instances (runtime): 	 79
+% Valid Instances: 	 195
+% Presolved: 		 0
+% Average Feature Costs: 	 90.8650
+% Use given CV of 1-th repetition
+% >>> 1-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21325.16 (24 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23309.67 (24 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 27267.11 (24 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 16667.24 (25 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 16335.36 (25 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24150.69 (25 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20507.13 (25 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 32346.03 (25 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 17018.14 (25 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20338.23 (25 instances)
+% 
+%  >>> Instances: 247 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 71
+% PAR1 time: 1934.863410 (698.359444)
+% Par10 time: 14869.798632 (697.956035)
+% #TOs: 71 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 106
+% Solved (perc) (with unsolved): 0.5709
+% PAR1 (with unsolved): 2589.95
+% PAR10 (with unsolved): 21901.69
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 35
+% Solved (perc) (without unsolved): 0.8011
+% PAR1 (without unsolved): 1617.71
+% PAR10 (without unsolved): 10566.57
+% 
+% Time used by each solver: {'abcdSAT_drup': 47005.66999999999, 'MapleGlucose': 0, 'gulch': 0, 'YALSAT03r': 0, 'glucose_hack_kiel_newScript': 129.41, 'cmsat5_autotune2': 3670.27, 'glue_alt': 0, 'BeansAndEggs': 0, 'glucose': 52695.807737595285, 'COMiniSatPSChandrasekharDRUP': 25110.94, 'MapleCMS': 9946.380000000001, 'CHBR_glucose_tuned': 414.71, 'Glucose_nbSat': 0, 'Riss6': 39645.409999999996, 'MapleCOMSPS_DRUP': 70367.45999999999, 'cmsat5_main2': 0, 'tc_glucose': 0, 'CHBR_glucose': 3949.75, 'GHackCOMSPS_DRUP': 1.08, 'Splatz06vmain': 113560.96642638912, 'glueminisat.2210.81.main': 0, 'MapleCOMSPS_CHB_DRUP': 4973.66, 'MapleCOMSPS_LRB_DRUP': 195848.44691039372, 'tb_glucose': 7503.469999999999, 'Lingelingbbcmain': 51870.40000000001}
+% Optimal Time used by each solver: {'abcdSAT_drup': 365284.3622702917, 'MapleGlucose': 4118.610000000001, 'gulch': 119.65, 'YALSAT03r': 347.09000000000003, 'glucose_hack_kiel_newScript': 6054.934708639759, 'cmsat5_autotune2': 21680.36067127566, 'glue_alt': 407.21, 'BeansAndEggs': 2649.6000200000008, 'glucose': 1594.7477375952972, 'COMiniSatPSChandrasekharDRUP': 1882.5700000000002, 'MapleCMS': 17249.620000000003, 'CHBR_glucose_tuned': 276.40999999999997, 'Glucose_nbSat': 2177.2, 'Riss6': 585.16, 'MapleCOMSPS_DRUP': 2505.0199999999995, 'cmsat5_main2': 1648.29387216346, 'tc_glucose': 3311.2400000000002, 'CHBR_glucose': 2244.79, 'GHackCOMSPS_DRUP': 340.3, 'Splatz06vmain': 8830.162947006425, 'glueminisat.2210.81.main': 944.33, 'MapleCOMSPS_CHB_DRUP': 5971.130000000001, 'MapleCOMSPS_LRB_DRUP': 14548.379933667948, 'tb_glucose': 7395.550000000001, 'Lingelingbbcmain': 5744.54}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/ASPEEDsmS2uE.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=10 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/GROUNDRHpt11.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 4167.0, 'MapleCMS': 833}, 3: {'claspfolio': 4003.0, 'MapleGlucose': 997}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 4367.0, 'tc_glucose': 633}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 4500.0, 'MapleCOMSPS_LRB_DRUP': 500.0}, 9: {'claspfolio': 4027.0, 'glucose': 973}, 10: {'MapleCOMSPS_DRUP': 425, 'glucose_hack_kiel_newScript': 32, 'cmsat5_main2': 4, 'Riss6': 8, 'abcdSAT_drup': 197, 'CHBR_glucose_tuned': 20, 'COMiniSatPSChandrasekharDRUP': 25, 'CHBR_glucose': 1, 'Splatz06vmain': 2, 'gulch': 20, 'cmsat5_autotune2': 38, 'Glucose_nbSat': 11, 'glue_alt': 41, 'claspfolio': 4153.0, 'MapleCOMSPS_CHB_DRUP': 1, 'YALSAT03r': 19, 'tb_glucose': 1, 'BeansAndEggs': 1, 'Lingelingbbcmain': 1}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 247 (-unsolvable)
+% Used Instances for Training: 247 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 4167.0, 'MapleCMS': 833}, 3: {'claspfolio': 4003.0, 'MapleGlucose': 997}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 4367.0, 'tc_glucose': 633}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 4500.0, 'MapleCOMSPS_LRB_DRUP': 500.0}, 9: {'claspfolio': 4027.0, 'glucose': 973}, 10: {'MapleCOMSPS_DRUP': 425, 'glucose_hack_kiel_newScript': 32, 'cmsat5_main2': 4, 'Riss6': 8, 'abcdSAT_drup': 197, 'CHBR_glucose_tuned': 20, 'COMiniSatPSChandrasekharDRUP': 25, 'CHBR_glucose': 1, 'Splatz06vmain': 2, 'gulch': 20, 'cmsat5_autotune2': 38, 'Glucose_nbSat': 11, 'glue_alt': 41, 'claspfolio': 4153.0, 'MapleCOMSPS_CHB_DRUP': 1, 'YALSAT03r': 19, 'tb_glucose': 1, 'BeansAndEggs': 1, 'Lingelingbbcmain': 1}}
+% PAR10 on current test set: 22586.65 (27 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 27643.73 (24 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 19135.12 (24 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25307.84 (24 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22576.56 (25 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 18366.39 (25 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24511.33 (25 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24457.17 (25 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28224.08 (25 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 16707.56 (25 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22295.85 (25 instances)
+% 
+%  >>> Instances: 247 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 72
+% PAR1 time: 1958.791616 (707.551596)
+% Par10 time: 15075.909025 (707.140167)
+% #TOs: 72 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 111
+% Solved (perc) (with unsolved): 0.5506
+% PAR1 (with unsolved): 2686.45
+% PAR10 (with unsolved): 22909.13
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 39
+% Solved (perc) (without unsolved): 0.7771
+% PAR1 (without unsolved): 1734.60
+% PAR10 (without unsolved): 11763.17
+% 
+% Time used by each solver: {'abcdSAT_drup': 11295.41, 'MapleGlucose': 0, 'gulch': 0, 'YALSAT03r': 0, 'glucose_hack_kiel_newScript': 0, 'cmsat5_autotune2': 13619.47, 'glue_alt': 9997.99, 'BeansAndEggs': 0, 'glucose': 39809.06999999999, 'COMiniSatPSChandrasekharDRUP': 4969.85, 'MapleCMS': 14922.779999999999, 'CHBR_glucose_tuned': 0, 'Glucose_nbSat': 0, 'Riss6': 27242.49, 'MapleCOMSPS_DRUP': 122606.35980680744, 'cmsat5_main2': 0, 'tc_glucose': 0, 'CHBR_glucose': 3296.5, 'GHackCOMSPS_DRUP': 0, 'Splatz06vmain': 95448.53000000001, 'glueminisat.2210.81.main': 0, 'MapleCOMSPS_CHB_DRUP': 0, 'MapleCOMSPS_LRB_DRUP': 199788.74166940735, 'tb_glucose': 13220.18, 'Lingelingbbcmain': 94239.51}
+% Optimal Time used by each solver: {'abcdSAT_drup': 366442.1422702917, 'MapleGlucose': 4118.61, 'gulch': 123.22001, 'YALSAT03r': 355.10001, 'glucose_hack_kiel_newScript': 6054.934708639759, 'cmsat5_autotune2': 25925.72067127566, 'glue_alt': 400.02, 'BeansAndEggs': 2679.34001, 'glucose': 377.537737595297, 'COMiniSatPSChandrasekharDRUP': 1833.21, 'MapleCMS': 17249.620000000003, 'CHBR_glucose_tuned': 276.40999999999997, 'Glucose_nbSat': 2177.2, 'Riss6': 473.90999999999997, 'MapleCOMSPS_DRUP': 5869.5199999999995, 'cmsat5_main2': 1648.29387216346, 'tc_glucose': 3311.2400000000002, 'CHBR_glucose': 2244.7900000000004, 'GHackCOMSPS_DRUP': 347.01, 'Splatz06vmain': 10283.450009999997, 'glueminisat.2210.81.main': 759.5, 'MapleCOMSPS_CHB_DRUP': 1344.59, 'MapleCOMSPS_LRB_DRUP': 14548.379933667948, 'tb_glucose': 6766.790000000001, 'Lingelingbbcmain': 8210.99}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/ASPEEDMdGgKo.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=10 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/GROUNDF789Gf.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 4282.0, 'glucose': 718}, 3: {'claspfolio': 4464.0, 'YALSAT03r': 536}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 4252.0, 'abcdSAT_drup': 748}, 6: {'claspfolio': 4002.0, 'MapleCMS': 998}, 7: {'claspfolio': 4012.0, 'cmsat5_autotune2': 988}, 8: {'claspfolio': 5000.0}, 9: {'MapleCOMSPS_DRUP': 4, 'glucose_hack_kiel_newScript': 11, 'cmsat5_main2': 1, 'Riss6': 8, 'COMiniSatPSChandrasekharDRUP': 12, 'Splatz06vmain': 330, 'CHBR_glucose_tuned': 12, 'Glucose_nbSat': 4, 'glue_alt': 18, 'claspfolio': 4117.0, 'tc_glucose': 3, 'BeansAndEggs': 4, 'Lingelingbbcmain': 476}, 10: {'claspfolio': 4000.0, 'gulch': 3, 'MapleGlucose': 997}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 247 (-unsolvable)
+% Used Instances for Training: 247 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 4282.0, 'glucose': 718}, 3: {'claspfolio': 4464.0, 'YALSAT03r': 536}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 4252.0, 'abcdSAT_drup': 748}, 6: {'claspfolio': 4002.0, 'MapleCMS': 998}, 7: {'claspfolio': 4012.0, 'cmsat5_autotune2': 988}, 8: {'claspfolio': 5000.0}, 9: {'MapleCOMSPS_DRUP': 4, 'glucose_hack_kiel_newScript': 11, 'cmsat5_main2': 1, 'Riss6': 8, 'COMiniSatPSChandrasekharDRUP': 12, 'Splatz06vmain': 330, 'CHBR_glucose_tuned': 12, 'Glucose_nbSat': 4, 'glue_alt': 18, 'claspfolio': 4117.0, 'tc_glucose': 3, 'BeansAndEggs': 4, 'Lingelingbbcmain': 476}, 10: {'claspfolio': 4000.0, 'gulch': 3, 'MapleGlucose': 997}}
+% PAR10 on current test set: 18950.95 (27 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 31488.99 (24 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 27365.46 (24 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 16941.85 (24 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20473.15 (25 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26079.08 (25 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 18715.40 (25 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24404.14 (25 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 16553.35 (25 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24692.54 (25 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 14545.49 (25 instances)
+% 
+%  >>> Instances: 247 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 71
+% PAR1 time: 1943.678714 (710.730922)
+% Par10 time: 14878.613936 (710.327513)
+% #TOs: 71 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 107
+% Solved (perc) (with unsolved): 0.5668
+% PAR1 (with unsolved): 2593.89
+% PAR10 (with unsolved): 22087.81
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 36
+% Solved (perc) (without unsolved): 0.7955
+% PAR1 (without unsolved): 1623.24
+% PAR10 (without unsolved): 10827.78
+% 
+% Time used by each solver: {'abcdSAT_drup': 41065.439999999995, 'MapleGlucose': 0, 'gulch': 0, 'YALSAT03r': 0, 'glucose_hack_kiel_newScript': 3680.68, 'cmsat5_autotune2': 4500.0, 'glue_alt': 0, 'BeansAndEggs': 0, 'glucose': 41326.15, 'COMiniSatPSChandrasekharDRUP': 23579.51, 'MapleCMS': 42975.67, 'CHBR_glucose_tuned': 0, 'Glucose_nbSat': 0, 'Riss6': 13963.13, 'MapleCOMSPS_DRUP': 184742.55556562665, 'cmsat5_main2': 0, 'tc_glucose': 0, 'CHBR_glucose': 0, 'GHackCOMSPS_DRUP': 0, 'Splatz06vmain': 6451.59, 'glueminisat.2210.81.main': 0, 'MapleCOMSPS_CHB_DRUP': 0, 'MapleCOMSPS_LRB_DRUP': 141225.19528098629, 'tb_glucose': 22215.98, 'Lingelingbbcmain': 103551.80999999995}
+% Optimal Time used by each solver: {'abcdSAT_drup': 365284.38227029174, 'MapleGlucose': 4118.61, 'gulch': 124.72001, 'YALSAT03r': 355.46001, 'glucose_hack_kiel_newScript': 5533.24470863976, 'cmsat5_autotune2': 25925.72067127566, 'glue_alt': 407.21, 'BeansAndEggs': 2644.4600200000004, 'glucose': 1594.747737595297, 'COMiniSatPSChandrasekharDRUP': 2188.35, 'MapleCMS': 17249.620000000003, 'CHBR_glucose_tuned': 23.02, 'Glucose_nbSat': 2177.2, 'Riss6': 442.30999999999995, 'MapleCOMSPS_DRUP': 5962.38, 'cmsat5_main2': 1648.29387216346, 'tc_glucose': 195.98, 'CHBR_glucose': 2244.79, 'GHackCOMSPS_DRUP': 96.91, 'Splatz06vmain': 8969.752947006427, 'glueminisat.2210.81.main': 944.33, 'MapleCOMSPS_CHB_DRUP': 6150.380000000001, 'MapleCOMSPS_LRB_DRUP': 10433.159999999998, 'tb_glucose': 7198.000000000001, 'Lingelingbbcmain': 8175.61}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/ASPEEDBSj1ue.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=10 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/GROUNDFeW74D.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 4152.0, 'BeansAndEggs': 848}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 4031.0, 'MapleCOMSPS_CHB_DRUP': 969}, 8: {'claspfolio': 4460.0, 'Splatz06vmain': 540}, 9: {'claspfolio': 4012.0, 'cmsat5_main2': 988}, 10: {'MapleCOMSPS_DRUP': 1, 'glucose_hack_kiel_newScript': 415, 'Riss6': 2, 'abcdSAT_drup': 59, 'CHBR_glucose_tuned': 20, 'COMiniSatPSChandrasekharDRUP': 25, 'MapleCMS': 5, 'MapleCOMSPS_LRB_DRUP': 1, 'CHBR_glucose': 1, 'MapleGlucose': 6, 'gulch': 20, 'cmsat5_autotune2': 170, 'Glucose_nbSat': 4, 'glue_alt': 41, 'claspfolio': 4187.0, 'tc_glucose': 3, 'Lingelingbbcmain': 1, 'YALSAT03r': 9, 'tb_glucose': 1, 'glucose': 29}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 247 (-unsolvable)
+% Used Instances for Training: 247 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 4152.0, 'BeansAndEggs': 848}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 4031.0, 'MapleCOMSPS_CHB_DRUP': 969}, 8: {'claspfolio': 4460.0, 'Splatz06vmain': 540}, 9: {'claspfolio': 4012.0, 'cmsat5_main2': 988}, 10: {'MapleCOMSPS_DRUP': 1, 'glucose_hack_kiel_newScript': 415, 'Riss6': 2, 'abcdSAT_drup': 59, 'CHBR_glucose_tuned': 20, 'COMiniSatPSChandrasekharDRUP': 25, 'MapleCMS': 5, 'MapleCOMSPS_LRB_DRUP': 1, 'CHBR_glucose': 1, 'MapleGlucose': 6, 'gulch': 20, 'cmsat5_autotune2': 170, 'Glucose_nbSat': 4, 'glue_alt': 41, 'claspfolio': 4187.0, 'tc_glucose': 3, 'Lingelingbbcmain': 1, 'YALSAT03r': 9, 'tb_glucose': 1, 'glucose': 29}}
+% PAR10 on current test set: 24693.29 (27 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25602.13 (24 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 19297.32 (24 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 19013.50 (24 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22441.90 (25 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24425.90 (25 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22208.12 (25 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28466.38 (25 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28219.95 (25 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 12700.97 (25 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22383.66 (25 instances)
+% 
+%  >>> Instances: 247 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 71
+% PAR1 time: 1909.547699 (662.831146)
+% Par10 time: 14844.482922 (662.427737)
+% #TOs: 71 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 109
+% Solved (perc) (with unsolved): 0.5587
+% PAR1 (with unsolved): 2631.91
+% PAR10 (with unsolved): 22490.21
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 38
+% Solved (perc) (without unsolved): 0.7841
+% PAR1 (without unsolved): 1676.61
+% PAR10 (without unsolved): 11392.52
+% 
+% Time used by each solver: {'abcdSAT_drup': 21004.17, 'MapleGlucose': 0, 'gulch': 0, 'YALSAT03r': 0, 'glucose_hack_kiel_newScript': 10076.039999999999, 'cmsat5_autotune2': 3700.14, 'glue_alt': 9994.67, 'BeansAndEggs': 0, 'glucose': 44754.8177375953, 'COMiniSatPSChandrasekharDRUP': 30757.25, 'MapleCMS': 20286.82, 'CHBR_glucose_tuned': 0, 'Glucose_nbSat': 0, 'Riss6': 30182.09, 'MapleCOMSPS_DRUP': 120133.72980680742, 'cmsat5_main2': 0, 'tc_glucose': 0, 'CHBR_glucose': 3296.5, 'GHackCOMSPS_DRUP': 0, 'Splatz06vmain': 70714.12, 'glueminisat.2210.81.main': 0, 'MapleCOMSPS_CHB_DRUP': 0, 'MapleCOMSPS_LRB_DRUP': 143378.81521465417, 'tb_glucose': 15139.179999999998, 'Lingelingbbcmain': 113616.99999999997}
+% Optimal Time used by each solver: {'abcdSAT_drup': 365224.1122702917, 'MapleGlucose': 3926.83, 'gulch': 116.47001, 'YALSAT03r': 355.46001, 'glucose_hack_kiel_newScript': 6006.41470863976, 'cmsat5_autotune2': 19941.48016087718, 'glue_alt': 407.21, 'BeansAndEggs': 2674.3300200000003, 'glucose': 1594.747737595297, 'COMiniSatPSChandrasekharDRUP': 2027.9199999999998, 'MapleCMS': 12710.810000000001, 'CHBR_glucose_tuned': 276.40999999999997, 'Glucose_nbSat': 2177.2, 'Riss6': 585.16, 'MapleCOMSPS_DRUP': 5962.38, 'cmsat5_main2': 1648.29387216346, 'tc_glucose': 3311.2400000000002, 'CHBR_glucose': 2244.79, 'GHackCOMSPS_DRUP': 347.01, 'Splatz06vmain': 10482.602947006424, 'glueminisat.2210.81.main': 944.33, 'MapleCOMSPS_CHB_DRUP': 5181.9400000000005, 'MapleCOMSPS_LRB_DRUP': 7912.419933667949, 'tb_glucose': 7387.7300000000005, 'Lingelingbbcmain': 8210.99}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/ASPEEDjta31z.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=10 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/GROUNDGFB0G_.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 4145.0, 'BeansAndEggs': 855}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 4027.0, 'Splatz06vmain': 973}, 9: {'claspfolio': 4089.0, 'CHBR_glucose': 8, 'tc_glucose': 3, 'tb_glucose': 9, 'GHackCOMSPS_DRUP': 891}, 10: {'MapleCOMSPS_DRUP': 2, 'glucose_hack_kiel_newScript': 75, 'cmsat5_main2': 1, 'Riss6': 8, 'abcdSAT_drup': 487, 'CHBR_glucose_tuned': 8, 'COMiniSatPSChandrasekharDRUP': 42, 'MapleCMS': 59, 'MapleGlucose': 222, 'gulch': 42, 'cmsat5_autotune2': 5, 'Glucose_nbSat': 3, 'glue_alt': 26, 'claspfolio': 4000.0, 'YALSAT03r': 2, 'glucose': 18}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 247 (-unsolvable)
+% Used Instances for Training: 247 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 4145.0, 'BeansAndEggs': 855}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 4027.0, 'Splatz06vmain': 973}, 9: {'claspfolio': 4089.0, 'CHBR_glucose': 8, 'tc_glucose': 3, 'tb_glucose': 9, 'GHackCOMSPS_DRUP': 891}, 10: {'MapleCOMSPS_DRUP': 2, 'glucose_hack_kiel_newScript': 75, 'cmsat5_main2': 1, 'Riss6': 8, 'abcdSAT_drup': 487, 'CHBR_glucose_tuned': 8, 'COMiniSatPSChandrasekharDRUP': 42, 'MapleCMS': 59, 'MapleGlucose': 222, 'gulch': 42, 'cmsat5_autotune2': 5, 'Glucose_nbSat': 3, 'glue_alt': 26, 'claspfolio': 4000.0, 'YALSAT03r': 2, 'glucose': 18}}
+% PAR10 on current test set: 22418.31 (27 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleCOMSPS_DRUP
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 31544.47 (24 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleCOMSPS_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23216.99 (24 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleCOMSPS_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 15094.48 (24 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26248.91 (25 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleCOMSPS_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22355.24 (25 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: MapleCOMSPS_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20164.88 (25 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleCOMSPS_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22820.60 (25 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26371.40 (25 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleCOMSPS_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20776.98 (25 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleCOMSPS_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 18376.19 (25 instances)
+% 
+%  >>> Instances: 247 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 74
+% PAR1 time: 1950.430063 (645.989742)
+% Par10 time: 15431.911844 (645.561997)
+% #TOs: 74 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 110
+% Solved (perc) (with unsolved): 0.5547
+% PAR1 (with unsolved): 2649.38
+% PAR10 (with unsolved): 22689.87
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 36
+% Solved (perc) (without unsolved): 0.7919
+% PAR1 (without unsolved): 1643.92
+% PAR10 (without unsolved): 11008.08
+% 
+% Time used by each solver: {'abcdSAT_drup': 26693.64, 'MapleGlucose': 0, 'gulch': 0, 'YALSAT03r': 0, 'glucose_hack_kiel_newScript': 48.16, 'cmsat5_autotune2': 5272.580000000001, 'glue_alt': 0, 'BeansAndEggs': 211.17, 'glucose': 29058.300000000003, 'COMiniSatPSChandrasekharDRUP': 50637.19001, 'MapleCMS': 0, 'CHBR_glucose_tuned': 0, 'Glucose_nbSat': 0, 'Riss6': 3987.7400000000002, 'MapleCOMSPS_DRUP': 110261.86980680742, 'cmsat5_main2': 0, 'tc_glucose': 0, 'CHBR_glucose': 8348.750000000002, 'GHackCOMSPS_DRUP': 0, 'Splatz06vmain': 136950.88999999998, 'glueminisat.2210.81.main': 4979.71, 'MapleCOMSPS_CHB_DRUP': 0, 'MapleCOMSPS_LRB_DRUP': 69601.92172573946, 'tb_glucose': 26860.890000000003, 'Lingelingbbcmain': 168746.81999999998}
+% Optimal Time used by each solver: {'abcdSAT_drup': 375657.44227029174, 'MapleGlucose': 248.43, 'gulch': 124.72001, 'YALSAT03r': 354.21001, 'glucose_hack_kiel_newScript': 574.99, 'cmsat5_autotune2': 20929.62864999438, 'glue_alt': 407.21, 'BeansAndEggs': 2679.3400200000005, 'glucose': 1594.7477375952972, 'COMiniSatPSChandrasekharDRUP': 2188.35, 'MapleCMS': 16543.120000000003, 'CHBR_glucose_tuned': 276.40999999999997, 'Glucose_nbSat': 0, 'Riss6': 291.87, 'MapleCOMSPS_DRUP': 5887.599999999999, 'cmsat5_main2': 1648.29387216346, 'tc_glucose': 3311.2400000000002, 'CHBR_glucose': 2025.3000000000002, 'GHackCOMSPS_DRUP': 345.7, 'Splatz06vmain': 9848.472947006427, 'glueminisat.2210.81.main': 944.33, 'MapleCOMSPS_CHB_DRUP': 6118.360000000001, 'MapleCOMSPS_LRB_DRUP': 14149.919933667948, 'tb_glucose': 7395.550000000001, 'Lingelingbbcmain': 8210.99}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/ASPEEDCcSzCy.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=10 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/GROUNDxb0o3B.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 4332.0, 'Riss6': 668}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 5000.0}, 9: {'claspfolio': 4500.0, 'GHackCOMSPS_DRUP': 500.0}, 10: {'MapleCOMSPS_DRUP': 4, 'glucose_hack_kiel_newScript': 75, 'cmsat5_main2': 6, 'tc_glucose': 8, 'abcdSAT_drup': 197, 'CHBR_glucose_tuned': 12, 'COMiniSatPSChandrasekharDRUP': 42, 'MapleCMS': 6, 'CHBR_glucose': 1, 'MapleGlucose': 6, 'Splatz06vmain': 1, 'gulch': 42, 'cmsat5_autotune2': 238, 'Glucose_nbSat': 4, 'glue_alt': 106, 'claspfolio': 4177.0, 'MapleCOMSPS_CHB_DRUP': 1, 'YALSAT03r': 10, 'tb_glucose': 1, 'BeansAndEggs': 1, 'glucose': 62}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 247 (-unsolvable)
+% Used Instances for Training: 247 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 4332.0, 'Riss6': 668}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 5000.0}, 9: {'claspfolio': 4500.0, 'GHackCOMSPS_DRUP': 500.0}, 10: {'MapleCOMSPS_DRUP': 4, 'glucose_hack_kiel_newScript': 75, 'cmsat5_main2': 6, 'tc_glucose': 8, 'abcdSAT_drup': 197, 'CHBR_glucose_tuned': 12, 'COMiniSatPSChandrasekharDRUP': 42, 'MapleCMS': 6, 'CHBR_glucose': 1, 'MapleGlucose': 6, 'Splatz06vmain': 1, 'gulch': 42, 'cmsat5_autotune2': 238, 'Glucose_nbSat': 4, 'glue_alt': 106, 'claspfolio': 4177.0, 'MapleCOMSPS_CHB_DRUP': 1, 'YALSAT03r': 10, 'tb_glucose': 1, 'BeansAndEggs': 1, 'glucose': 62}}
+% PAR10 on current test set: 26549.53 (27 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21138.31 (24 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21086.81 (24 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 223 (-unsolvable)
+% Used Instances for Training: 223 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 19162.62 (24 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22417.34 (25 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22571.32 (25 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24250.38 (25 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22559.00 (25 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 34390.11 (25 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24548.94 (25 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22270.24 (25 instances)
+% 
+%  >>> Instances: 247 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 71
+% PAR1 time: 1947.848187 (716.582399)
+% Par10 time: 14882.783410 (716.178990)
+% #TOs: 71 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 114
+% Solved (perc) (with unsolved): 0.5385
+% PAR1 (with unsolved): 2706.43
+% PAR10 (with unsolved): 23475.66
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 43
+% Solved (perc) (without unsolved): 0.7557
+% PAR1 (without unsolved): 1781.19
+% PAR10 (without unsolved): 12775.51
+% 
+% Time used by each solver: {'abcdSAT_drup': 10808.82, 'MapleGlucose': 0, 'gulch': 0, 'YALSAT03r': 0, 'glucose_hack_kiel_newScript': 5108.47, 'cmsat5_autotune2': 33057.72, 'glue_alt': 0, 'BeansAndEggs': 211.17, 'glucose': 60201.50999999999, 'COMiniSatPSChandrasekharDRUP': 15144.829999999998, 'MapleCMS': 10540.51, 'CHBR_glucose_tuned': 0, 'Glucose_nbSat': 0, 'Riss6': 29628.96, 'MapleCOMSPS_DRUP': 85265.18000000002, 'cmsat5_main2': 0, 'tc_glucose': 0, 'CHBR_glucose': 12590.64, 'GHackCOMSPS_DRUP': 0, 'Splatz06vmain': 101350.81999999999, 'glueminisat.2210.81.main': 0, 'MapleCOMSPS_CHB_DRUP': 13.17, 'MapleCOMSPS_LRB_DRUP': 199872.07521465415, 'tb_glucose': 17214.78, 'Lingelingbbcmain': 73957.34999999999}
+% Optimal Time used by each solver: {'abcdSAT_drup': 364815.6922702917, 'MapleGlucose': 4112.69, 'gulch': 14.82001, 'YALSAT03r': 345.97001, 'glucose_hack_kiel_newScript': 6054.934708639759, 'cmsat5_autotune2': 25233.830671275657, 'glue_alt': 407.21, 'BeansAndEggs': 2678.0600200000003, 'glucose': 1594.7477375952972, 'COMiniSatPSChandrasekharDRUP': 2188.35, 'MapleCMS': 16923.480000000003, 'CHBR_glucose_tuned': 276.40999999999997, 'Glucose_nbSat': 2177.2, 'Riss6': 585.16, 'MapleCOMSPS_DRUP': 5962.38, 'cmsat5_main2': 1648.29387216346, 'tc_glucose': 3311.2400000000002, 'CHBR_glucose': 222.47, 'GHackCOMSPS_DRUP': 347.01, 'Splatz06vmain': 8604.172947006426, 'glueminisat.2210.81.main': 840.97, 'MapleCOMSPS_CHB_DRUP': 6150.380000000001, 'MapleCOMSPS_LRB_DRUP': 14548.379933667948, 'tb_glucose': 3863.6600000000008, 'Lingelingbbcmain': 8210.99}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/ASPEEDByZlpW.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=10 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/GROUNDaQtMvp.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 4002.0, 'MapleCMS': 998}, 7: {'claspfolio': 4031.0, 'MapleCOMSPS_CHB_DRUP': 969}, 8: {'claspfolio': 5000.0}, 9: {'MapleCOMSPS_DRUP': 10.0, 'CHBR_glucose_tuned': 120.0, 'COMiniSatPSChandrasekharDRUP': 250.0, 'Riss6': 10.0, 'Glucose_nbSat': 110.0, 'claspfolio': 4500.0}, 10: {'glucose_hack_kiel_newScript': 60, 'abcdSAT_drup': 197, 'MapleGlucose': 13, 'gulch': 388, 'cmsat5_autotune2': 6, 'glue_alt': 14, 'claspfolio': 4000.0, 'YALSAT03r': 313, 'BeansAndEggs': 1, 'glucose': 8}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 247 (-unsolvable)
+% Used Instances for Training: 247 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 4002.0, 'MapleCMS': 998}, 7: {'claspfolio': 4031.0, 'MapleCOMSPS_CHB_DRUP': 969}, 8: {'claspfolio': 5000.0}, 9: {'MapleCOMSPS_DRUP': 10.0, 'CHBR_glucose_tuned': 120.0, 'COMiniSatPSChandrasekharDRUP': 250.0, 'Riss6': 10.0, 'Glucose_nbSat': 110.0, 'claspfolio': 4500.0}, 10: {'glucose_hack_kiel_newScript': 60, 'abcdSAT_drup': 197, 'MapleGlucose': 13, 'gulch': 388, 'cmsat5_autotune2': 6, 'glue_alt': 14, 'claspfolio': 4000.0, 'YALSAT03r': 313, 'BeansAndEggs': 1, 'glucose': 8}}
+% PAR10 on current test set: 17217.50 (27 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 27586.07 (24 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25436.40 (24 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21052.15 (24 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 17235.64 (24 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 18331.63 (25 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22391.58 (25 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28361.91 (25 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22691.75 (25 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 18591.50 (25 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26192.73 (25 instances)
+% 
+%  >>> Instances: 246 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 73
+% PAR1 time: 1975.231608 (698.884252)
+% Par10 time: 15328.593397 (698.462287)
+% #TOs: 73 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 110
+% Solved (perc) (with unsolved): 0.5528
+% PAR1 (with unsolved): 2664.53
+% PAR10 (with unsolved): 22786.48
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 37
+% Solved (perc) (without unsolved): 0.7861
+% PAR1 (without unsolved): 1679.04
+% PAR10 (without unsolved): 11303.32
+% 
+% Time used by each solver: {'abcdSAT_drup': 8726.7, 'MapleGlucose': 0, 'gulch': 0, 'YALSAT03r': 0, 'glucose_hack_kiel_newScript': 4996.69, 'cmsat5_autotune2': 3670.27, 'glue_alt': 4999.81, 'BeansAndEggs': 0, 'glucose': 54453.80999999999, 'COMiniSatPSChandrasekharDRUP': 46814.340000000004, 'MapleCMS': 14906.000000000002, 'CHBR_glucose_tuned': 352.95, 'Glucose_nbSat': 4970.17, 'Riss6': 24193.3, 'MapleCOMSPS_DRUP': 45803.89, 'cmsat5_main2': 0, 'tc_glucose': 0, 'CHBR_glucose': 3296.5, 'GHackCOMSPS_DRUP': 0, 'Splatz06vmain': 132657.22, 'glueminisat.2210.81.main': 4977.57, 'MapleCOMSPS_CHB_DRUP': 0, 'MapleCOMSPS_LRB_DRUP': 200033.96635144664, 'tb_glucose': 19860.739999999998, 'Lingelingbbcmain': 67530.76}
+% Optimal Time used by each solver: {'abcdSAT_drup': 374227.95999999996, 'MapleGlucose': 4118.61, 'gulch': 124.72001, 'YALSAT03r': 355.44001000000003, 'glucose_hack_kiel_newScript': 6051.724708639759, 'cmsat5_autotune2': 20929.97643871019, 'glue_alt': 7.19, 'BeansAndEggs': 2679.3400100000003, 'glucose': 1594.7477375952972, 'COMiniSatPSChandrasekharDRUP': 2163.96, 'MapleCMS': 17249.620000000003, 'CHBR_glucose_tuned': 253.39, 'Glucose_nbSat': 2177.2, 'Riss6': 585.16, 'MapleCOMSPS_DRUP': 4589.74, 'cmsat5_main2': 1648.29387216346, 'tc_glucose': 3311.2400000000002, 'CHBR_glucose': 2241.81, 'GHackCOMSPS_DRUP': 346.13, 'Splatz06vmain': 10482.602947006424, 'glueminisat.2210.81.main': 802.1800000000001, 'MapleCOMSPS_CHB_DRUP': 6150.380000000001, 'MapleCOMSPS_LRB_DRUP': 14435.429933667947, 'tb_glucose': 5211.9800000000005, 'Lingelingbbcmain': 4168.15}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/ASPEEDgW7lSF.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=10 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/GROUNDyHPTZw.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 5000.0}, 9: {'claspfolio': 4125.0, 'MapleCMS': 875}, 10: {'glucose_hack_kiel_newScript': 9.765625, 'abcdSAT_drup': 384.765625, 'MapleGlucose': 25.390625, 'gulch': 39.0625, 'cmsat5_autotune2': 1.953125, 'glue_alt': 1.953125, 'claspfolio': 4500.0, 'YALSAT03r': 37.109375}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 246 (-unsolvable)
+% Used Instances for Training: 246 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 5000.0}, 9: {'claspfolio': 4125.0, 'MapleCMS': 875}, 10: {'glucose_hack_kiel_newScript': 9.765625, 'abcdSAT_drup': 384.765625, 'MapleGlucose': 25.390625, 'gulch': 39.0625, 'cmsat5_autotune2': 1.953125, 'glue_alt': 1.953125, 'claspfolio': 4500.0, 'YALSAT03r': 37.109375}}
+% PAR10 on current test set: 19845.45 (28 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25362.02 (24 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23439.01 (24 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25348.78 (24 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21524.73 (24 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20180.04 (25 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 16535.47 (25 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20788.62 (25 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24645.80 (25 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24287.74 (25 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22417.16 (25 instances)
+% 
+%  >>> Instances: 246 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 70
+% PAR1 time: 1920.099358 (695.138876)
+% Par10 time: 14724.692854 (694.741149)
+% #TOs: 70 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 108
+% Solved (perc) (with unsolved): 0.5610
+% PAR1 (with unsolved): 2673.01
+% PAR10 (with unsolved): 22429.10
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 38
+% Solved (perc) (without unsolved): 0.7841
+% PAR1 (without unsolved): 1747.50
+% PAR10 (without unsolved): 11463.41
+% 
+% Time used by each solver: {'abcdSAT_drup': 39116.899999999994, 'MapleGlucose': 0, 'gulch': 0, 'YALSAT03r': 0, 'glucose_hack_kiel_newScript': 26683.390000000003, 'cmsat5_autotune2': 5323.120000000001, 'glue_alt': 14978.41, 'BeansAndEggs': 0, 'glucose': 20230.97, 'COMiniSatPSChandrasekharDRUP': 5385.679999999999, 'MapleCMS': 20404.78, 'CHBR_glucose_tuned': 414.33, 'Glucose_nbSat': 0, 'Riss6': 9195.420000000002, 'MapleCOMSPS_DRUP': 76606.34340958731, 'cmsat5_main2': 0, 'tc_glucose': 0, 'CHBR_glucose': 12884.909999999998, 'GHackCOMSPS_DRUP': 0, 'Splatz06vmain': 54936.280000000006, 'glueminisat.2210.81.main': 0, 'MapleCOMSPS_CHB_DRUP': 1153.0, 'MapleCOMSPS_LRB_DRUP': 205244.58693039374, 'tb_glucose': 20878.17, 'Lingelingbbcmain': 131222.01999999996}
+% Optimal Time used by each solver: {'abcdSAT_drup': 360283.3822702917, 'MapleGlucose': 4118.61, 'gulch': 124.72001, 'YALSAT03r': 355.46001, 'glucose_hack_kiel_newScript': 6053.37470863976, 'cmsat5_autotune2': 25925.72067127566, 'glue_alt': 407.21, 'BeansAndEggs': 74.44002, 'glucose': 1594.7477375952972, 'COMiniSatPSChandrasekharDRUP': 2061.0099999999998, 'MapleCMS': 12382.349999999999, 'CHBR_glucose_tuned': 276.40999999999997, 'Glucose_nbSat': 2177.2, 'Riss6': 547.39, 'MapleCOMSPS_DRUP': 5000.79, 'cmsat5_main2': 1648.29387216346, 'tc_glucose': 3115.26, 'CHBR_glucose': 2244.79, 'GHackCOMSPS_DRUP': 259.0, 'Splatz06vmain': 7566.452947006427, 'glueminisat.2210.81.main': 944.33, 'MapleCOMSPS_CHB_DRUP': 5985.500000000001, 'MapleCOMSPS_LRB_DRUP': 13867.619933667947, 'tb_glucose': 7395.550000000001, 'Lingelingbbcmain': 7934.83}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/ASPEEDAWfIgX.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=10 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/GROUNDGYDUat.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 4392.0, 'MapleCOMSPS_LRB_DRUP': 608}, 7: {'claspfolio': 4293.0, 'MapleCMS': 707}, 8: {'claspfolio': 4101.0, 'MapleGlucose': 899}, 9: {'MapleCOMSPS_DRUP': 1, 'cmsat5_main2': 1, 'Riss6': 112, 'MapleCOMSPS_CHB_DRUP': 1, 'COMiniSatPSChandrasekharDRUP': 12, 'CHBR_glucose': 1, 'Splatz06vmain': 2, 'CHBR_glucose_tuned': 20, 'cmsat5_autotune2': 38, 'Glucose_nbSat': 4, 'glue_alt': 134, 'claspfolio': 4655.0, 'tc_glucose': 2, 'YALSAT03r': 9, 'tb_glucose': 1, 'BeansAndEggs': 7}, 10: {'claspfolio': 4000.0, 'gulch': 5, 'glucose': 973, 'abcdSAT_drup': 16, 'glucose_hack_kiel_newScript': 6}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 246 (-unsolvable)
+% Used Instances for Training: 246 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 4392.0, 'MapleCOMSPS_LRB_DRUP': 608}, 7: {'claspfolio': 4293.0, 'MapleCMS': 707}, 8: {'claspfolio': 4101.0, 'MapleGlucose': 899}, 9: {'MapleCOMSPS_DRUP': 1, 'cmsat5_main2': 1, 'Riss6': 112, 'MapleCOMSPS_CHB_DRUP': 1, 'COMiniSatPSChandrasekharDRUP': 12, 'CHBR_glucose': 1, 'Splatz06vmain': 2, 'CHBR_glucose_tuned': 20, 'cmsat5_autotune2': 38, 'Glucose_nbSat': 4, 'glue_alt': 134, 'claspfolio': 4655.0, 'tc_glucose': 2, 'YALSAT03r': 9, 'tb_glucose': 1, 'BeansAndEggs': 7}, 10: {'claspfolio': 4000.0, 'gulch': 5, 'glucose': 973, 'abcdSAT_drup': 16, 'glucose_hack_kiel_newScript': 6}}
+% PAR10 on current test set: 20331.16 (28 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 17213.32 (24 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25262.23 (24 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 15157.12 (24 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 19397.84 (24 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 34134.98 (25 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20104.65 (25 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22538.81 (25 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22423.93 (25 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 18699.56 (25 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26234.86 (25 instances)
+% 
+%  >>> Instances: 246 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 70
+% PAR1 time: 1932.738204 (712.804536)
+% Par10 time: 14737.331700 (712.406809)
+% #TOs: 70 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 107
+% Solved (perc) (with unsolved): 0.5650
+% PAR1 (with unsolved): 2590.05
+% PAR10 (with unsolved): 22163.22
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 37
+% Solved (perc) (without unsolved): 0.7898
+% PAR1 (without unsolved): 1631.55
+% PAR10 (without unsolved): 11091.77
+% 
+% Time used by each solver: {'abcdSAT_drup': 30663.92, 'MapleGlucose': 4997.54, 'gulch': 3.12, 'YALSAT03r': 0, 'glucose_hack_kiel_newScript': 5128.570000000001, 'cmsat5_autotune2': 24463.26, 'glue_alt': 0, 'BeansAndEggs': 0, 'glucose': 19849.02, 'COMiniSatPSChandrasekharDRUP': 26780.520000000004, 'MapleCMS': 170.85, 'CHBR_glucose_tuned': 487.29999999999995, 'Glucose_nbSat': 0.44, 'Riss6': 35677.19999999999, 'MapleCOMSPS_DRUP': 193881.9334095873, 'cmsat5_main2': 0, 'tc_glucose': 0, 'CHBR_glucose': 0, 'GHackCOMSPS_DRUP': 0, 'Splatz06vmain': 57752.25999999999, 'glueminisat.2210.81.main': 0, 'MapleCOMSPS_CHB_DRUP': 0, 'MapleCOMSPS_LRB_DRUP': 159613.26693039376, 'tb_glucose': 20439.469999999998, 'Lingelingbbcmain': 43628.1}
+% Optimal Time used by each solver: {'abcdSAT_drup': 360130.5822702917, 'MapleGlucose': 4118.610000000001, 'gulch': 124.72001, 'YALSAT03r': 39.670010000000005, 'glucose_hack_kiel_newScript': 6054.934708639759, 'cmsat5_autotune2': 25910.67067127566, 'glue_alt': 407.21, 'BeansAndEggs': 2677.7300200000004, 'glucose': 1590.827737595297, 'COMiniSatPSChandrasekharDRUP': 973.0799999999998, 'MapleCMS': 14549.79, 'CHBR_glucose_tuned': 276.40999999999997, 'Glucose_nbSat': 2177.2, 'Riss6': 585.16, 'MapleCOMSPS_DRUP': 5959.23, 'cmsat5_main2': 0, 'tc_glucose': 3311.2400000000002, 'CHBR_glucose': 2244.79, 'GHackCOMSPS_DRUP': 347.01, 'Splatz06vmain': 9001.082937006428, 'glueminisat.2210.81.main': 783.11, 'MapleCOMSPS_CHB_DRUP': 6150.380000000001, 'MapleCOMSPS_LRB_DRUP': 14548.379933667948, 'tb_glucose': 6549.590000000001, 'Lingelingbbcmain': 6942.19}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/ASPEEDPnD4ds.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=10 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/GROUNDmPRkG0.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 4500.0, 'Splatz06vmain': 500.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 5000.0}, 9: {'claspfolio': 4500.0, 'glucose': 500.0}, 10: {'glucose_hack_kiel_newScript': 6.042296072507552, 'abcdSAT_drup': 10.574018126888218, 'COMiniSatPSChandrasekharDRUP': 1.510574018126888, 'MapleCMS': 1.510574018126888, 'MapleGlucose': 7.552870090634441, 'gulch': 7.552870090634441, 'cmsat5_autotune2': 1.510574018126888, 'glue_alt': 1.510574018126888, 'claspfolio': 4500.0, 'YALSAT03r': 460.7250755287009, 'BeansAndEggs': 1.510574018126888}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 246 (-unsolvable)
+% Used Instances for Training: 246 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 4500.0, 'Splatz06vmain': 500.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 5000.0}, 9: {'claspfolio': 4500.0, 'glucose': 500.0}, 10: {'glucose_hack_kiel_newScript': 6.042296072507552, 'abcdSAT_drup': 10.574018126888218, 'COMiniSatPSChandrasekharDRUP': 1.510574018126888, 'MapleCMS': 1.510574018126888, 'MapleGlucose': 7.552870090634441, 'gulch': 7.552870090634441, 'cmsat5_autotune2': 1.510574018126888, 'glue_alt': 1.510574018126888, 'claspfolio': 4500.0, 'YALSAT03r': 460.7250755287009, 'BeansAndEggs': 1.510574018126888}}
+% PAR10 on current test set: 25369.26 (28 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21252.48 (24 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25423.32 (24 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleCOMSPS_DRUP
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 17273.48 (24 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 222 (-unsolvable)
+% Used Instances for Training: 222 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 19067.05 (24 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20591.00 (25 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28351.86 (25 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22470.52 (25 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: cmsat5_autotune2
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24318.03 (25 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20459.13 (25 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleCOMSPS_LRB_DRUP
+% Input Instances for Training: 221 (-unsolvable)
+% Used Instances for Training: 221 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20423.74 (25 instances)
+% 
+%  >>> Instances: 246 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 68
+% PAR1 time: 1879.767685 (687.768823)
+% Par10 time: 14318.515653 (687.386801)
+% #TOs: 68 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 106
+% Solved (perc) (with unsolved): 0.5691
+% PAR1 (with unsolved): 2592.47
+% PAR10 (with unsolved): 21982.72
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 38
+% Solved (perc) (without unsolved): 0.7865
+% PAR1 (without unsolved): 1672.75
+% PAR10 (without unsolved): 11279.49
+% 
+% Time used by each solver: {'abcdSAT_drup': 8708.330000000002, 'MapleGlucose': 0, 'gulch': 0, 'YALSAT03r': 0, 'glucose_hack_kiel_newScript': 10093.45, 'cmsat5_autotune2': 17981.71, 'glue_alt': 4999.0, 'BeansAndEggs': 0, 'glucose': 21085.950000000004, 'COMiniSatPSChandrasekharDRUP': 31937.37, 'MapleCMS': 10467.760000000002, 'CHBR_glucose_tuned': 414.33, 'Glucose_nbSat': 0, 'Riss6': 52852.950000000004, 'MapleCOMSPS_DRUP': 77537.19, 'cmsat5_main2': 0, 'tc_glucose': 0, 'CHBR_glucose': 0, 'GHackCOMSPS_DRUP': 0, 'Splatz06vmain': 155225.10000000003, 'glueminisat.2210.81.main': 0, 'MapleCOMSPS_CHB_DRUP': 0, 'MapleCOMSPS_LRB_DRUP': 153642.61699672582, 'tb_glucose': 14896.53, 'Lingelingbbcmain': 64866.37999999999}
+% Optimal Time used by each solver: {'abcdSAT_drup': 350281.38227029174, 'MapleGlucose': 4067.88, 'gulch': 124.72001, 'YALSAT03r': 335.28001, 'glucose_hack_kiel_newScript': 6054.924708639759, 'cmsat5_autotune2': 20928.37676424523, 'glue_alt': 407.21, 'BeansAndEggs': 2677.4200200000005, 'glucose': 1221.1299999999999, 'COMiniSatPSChandrasekharDRUP': 2188.35, 'MapleCMS': 13138.550000000001, 'CHBR_glucose_tuned': 276.40999999999997, 'Glucose_nbSat': 2177.2, 'Riss6': 585.16, 'MapleCOMSPS_DRUP': 5962.379999999999, 'cmsat5_main2': 1648.29387216346, 'tc_glucose': 3311.2400000000002, 'CHBR_glucose': 2244.79, 'GHackCOMSPS_DRUP': 347.01, 'Splatz06vmain': 10274.672947006426, 'glueminisat.2210.81.main': 591.5600000000001, 'MapleCOMSPS_CHB_DRUP': 6150.380000000001, 'MapleCOMSPS_LRB_DRUP': 11943.349933667947, 'tb_glucose': 7395.550000000001, 'Lingelingbbcmain': 8089.63}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/ASPEEDzxE2HE.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=10 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2016/models/10-core/GROUND8VjiU2.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 5000.0}, 9: {'claspfolio': 4002.0, 'MapleCMS': 998}, 10: {'glucose_hack_kiel_newScript': 314, 'abcdSAT_drup': 197, 'MapleGlucose': 13, 'gulch': 20, 'cmsat5_autotune2': 38, 'glue_alt': 6, 'claspfolio': 4398.0, 'YALSAT03r': 9, 'BeansAndEggs': 2, 'glucose': 3}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 246 (-unsolvable)
+% Used Instances for Training: 246 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 5000.0}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 5000.0}, 5: {'claspfolio': 5000.0}, 6: {'claspfolio': 5000.0}, 7: {'claspfolio': 5000.0}, 8: {'claspfolio': 5000.0}, 9: {'claspfolio': 4002.0, 'MapleCMS': 998}, 10: {'glucose_hack_kiel_newScript': 314, 'abcdSAT_drup': 197, 'MapleGlucose': 13, 'gulch': 20, 'cmsat5_autotune2': 38, 'glue_alt': 6, 'claspfolio': 4398.0, 'YALSAT03r': 9, 'BeansAndEggs': 2, 'glucose': 3}}
+% PAR10 on current test set: 23737.07 (28 instances)
+% 
+%  >>> Instances: 274 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 79
+% PAR1 time: 1935.313183 (693.722114)
+% Par10 time: 14909.477417 (693.316986)
+% #TOs: 79 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 119
+% Solved (perc) (with unsolved): 0.5657
+% PAR1 (with unsolved): 2628.32
+% PAR10 (with unsolved): 22172.12
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 40
+% Solved (perc) (without unsolved): 0.7949
+% PAR1 (without unsolved): 1667.49
+% PAR10 (without unsolved): 10898.26
+% 
+% Time used by each solver: {'abcdSAT_drup': 77328.65482817232, 'MapleGlucose': 61240.748948353044, 'gulch': 11400.211752265857, 'YALSAT03r': 32352.164237160156, 'glucose_hack_kiel_newScript': 26414.971151812708, 'cmsat5_autotune2': 33180.752591157354, 'glue_alt': 28541.20362348946, 'BeansAndEggs': 31895.865498489453, 'glucose': 103114.38001000001, 'COMiniSatPSChandrasekharDRUP': 21807.89549848945, 'MapleCMS': 137017.08973476427, 'CHBR_glucose_tuned': 4768.74, 'Glucose_nbSat': 3167.59, 'Riss6': 53252.469999999994, 'MapleCOMSPS_DRUP': 108799.47980680745, 'cmsat5_main2': 21626.39, 'tc_glucose': 12551.45, 'CHBR_glucose': 8316.43, 'GHackCOMSPS_DRUP': 25415.72, 'Splatz06vmain': 188577.387919175, 'glueminisat.2210.81.main': 0, 'MapleCOMSPS_CHB_DRUP': 38091.316778621156, 'MapleCOMSPS_LRB_DRUP': 193173.6711004603, 'tb_glucose': 15255.8, 'Lingelingbbcmain': 94325.29999999999}
+% Optimal Time used by each solver: {'abcdSAT_drup': 405292.3822702917, 'MapleGlucose': 4118.610000000001, 'gulch': 124.72001, 'YALSAT03r': 355.46001, 'glucose_hack_kiel_newScript': 6054.934708639759, 'cmsat5_autotune2': 25925.720671275656, 'glue_alt': 407.21, 'BeansAndEggs': 2679.3400200000005, 'glucose': 1594.7477375952972, 'COMiniSatPSChandrasekharDRUP': 2188.3499999999995, 'MapleCMS': 17249.62, 'CHBR_glucose_tuned': 276.40999999999997, 'Glucose_nbSat': 2177.2, 'Riss6': 585.16, 'MapleCOMSPS_DRUP': 5962.38, 'cmsat5_main2': 1648.29387216346, 'tc_glucose': 3311.2400000000002, 'CHBR_glucose': 2244.79, 'GHackCOMSPS_DRUP': 347.01, 'Splatz06vmain': 10482.602947006424, 'glueminisat.2210.81.main': 944.33, 'MapleCOMSPS_CHB_DRUP': 6150.380000000001, 'MapleCOMSPS_LRB_DRUP': 14548.379933667946, 'tb_glucose': 7395.550000000001, 'Lingelingbbcmain': 8210.99}

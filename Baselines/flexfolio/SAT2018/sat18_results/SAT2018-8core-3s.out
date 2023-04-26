@@ -1,0 +1,1081 @@
+% flexfolio Trainer!
+% Published under GPLv2
+% https://bitbucket.org/mlindauer/flexfolio
+% Command line arguments:
+% --aslib-dir SAT2018/SAT18_EXP-8-Cores/ --model-dir SAT2018/models/8-core/ --preconf 3s --print-time SAT2018/sat18_results/SAT2018-8core-3s.csv --t-aspeed 8
+% Read SAT2018/SAT18_EXP-8-Cores/description.txt
+% Read SAT2018/SAT18_EXP-8-Cores/algorithm_runs.arff
+% Read SAT2018/SAT18_EXP-8-Cores/feature_values.arff
+% Read SAT2018/SAT18_EXP-8-Cores/feature_runstatus.arff
+% Read SAT2018/SAT18_EXP-8-Cores/feature_costs.arff
+% Read SAT2018/SAT18_EXP-8-Cores/cv.arff
+% 1-th repetition: 35,35,35,35,35,35,35,36,36,36 distribution
+% Used Feature Steps (1): ALL
+% Used features (54): reducedVars,VCG.CLAUSE.entropy,POSNEG.RATIO.VAR.entropy,HORNY.VAR.entropy,cluster.coeff.min,VCG.VAR.mean,VCG.VAR.entropy,HORNY.VAR.mean,nvarsOrig,POSNEG.RATIO.VAR.stdev,POSNEG.RATIO.VAR.max,nclauses,HORNY.VAR.min,VCG.VAR.coeff.variation,TRINARY.,VG.min,CG.entropy,cluster.coeff.coeff.variation,UNARY,cluster.coeff.entropy,horn.clauses.fraction,cluster.coeff.mean,CG.min,CG.max,Basic.featuretime,VG.max,VCG.VAR.min,Pre.featuretime,CG.featuretime,cluster.coeff.max,VCG.CLAUSE.min,VCG.VAR.max,VG.mean,nvars,POSNEG.RATIO.CLAUSE.coeff.variation,VCG.CLAUSE.mean,BINARY.,KLB.featuretime,POSNEG.RATIO.CLAUSE.min,VCG.CLAUSE.coeff.variation,VCG.CLAUSE.max,HORNY.VAR.coeff.variation,HORNY.VAR.max,POSNEG.RATIO.VAR.mean,POSNEG.RATIO.CLAUSE.entropy,POSNEG.RATIO.CLAUSE.max,POSNEG.RATIO.CLAUSE.mean,nclausesOrig,POSNEG.RATIO.VAR.min,CG.coeff.variation,vars.clauses.ratio,VG.coeff.variation,reducedClauses,CG.mean
+% 
+% Check Consistency and Completeness of input data
+% Instances: 		 353
+% Algorithms: 		 37
+% Incomplete Feature Vector: 	 0 (maybe imputed)
+% Unsolvable Instances (status): 	 101
+% Unsolvable Instances (runtime): 	 101
+% Valid Instances: 	 252
+% Presolved: 		 0
+% Average Feature Costs: 	 0.1076
+% Use given CV of 1-th repetition
+% >>> 1-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 27525.24 (31 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22687.29 (31 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 32898.35 (32 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23539.69 (32 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25178.80 (32 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26616.71 (32 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 15710.76 (32 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 39079.49 (32 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26607.53 (32 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23586.51 (32 instances)
+% 
+%  >>> Instances: 318 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 93
+% PAR1 time: 1549.962579 (123.947111)
+% Par10 time: 14710.047484 (123.533778)
+% #TOs: 93 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 167
+% Solved (perc) (with unsolved): 0.4748
+% PAR1 (with unsolved): 2718.74
+% PAR10 (with unsolved): 26350.82
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 74
+% Solved (perc) (without unsolved): 0.6711
+% PAR1 (without unsolved): 1775.82
+% PAR10 (without unsolved): 16575.82
+% 
+% Time used by each solver: {'expGlucose': 0, 'expMC_VSIDS_LRB_Switch_2500': 0, 'Riss7.1-fix': 97437.36, 'glucose4.2.1': 0, 'Maple_LCM_Scavel_fix2': 47521.81, 'cms55-main-all4fixed': 51826.229999999996, 'Glucose_Hack_Kiel_fastBVE': 0, 'Maple_CM': 4999.95, 'Maple_LCM_M1': 0, 'MapleCOMSPS_CHB_VSIDS_drup': 0, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 0, 'MapleCOMSPS_LRB_VSIDS_2_fix': 26047.32, 'Maple_CM_Dist': 22628.92, 'glu_mix': 50995.88, 'Maple_LCM_Scavel_200_fix2': 57304.65, 'Lingeling': 61620.299999999996, 'Maple_LCM+BCrestart': 20310.370000000003, 'smallsat': 72875.77, 'GHackCOMSPS_drup': 10084.26, 'gluHack': 0, 'Maple_LCM+BCrestart_M1': 70964.13, 'glucose3.0': 0, 'Candy': 0, 'MapleCOMSPS_LRB_VSIDS_drup': 29999.32, 'glucose-3.0_PADC_3': 0, 'YalSAT': 0, 'inIDGlucose': 0, 'COMiniSatPS_Pulsar_drup': 17843.140000000003, 'CaDiCaL': 30007.91, 'Maple_CM_ordUIP+': 19999.66, 'abcdsat_r18': 20018.84, 'MapleLCMDistChronoBT': 4064.17, 'expMC_LRB_VSIDS_Switch': 102168.84999999998, 'Sparrow2Riss-2018-fixfix': 45806.400000000016, 'Minisat-v2.2.0-106-ge2dd095': 0, 'glucose-3.0_PADC_10': 0}
+% Optimal Time used by each solver: {'expGlucose': 465093.0, 'expMC_VSIDS_LRB_Switch_2500': 482.82, 'Riss7.1-fix': 557.29, 'glucose4.2.1': 8.06, 'Maple_LCM_Scavel_fix2': 648.51, 'cms55-main-all4fixed': 949.61, 'Glucose_Hack_Kiel_fastBVE': 0, 'Maple_CM': 289.29, 'Maple_LCM_M1': 310.96000000000004, 'MapleCOMSPS_CHB_VSIDS_drup': 163.19, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 870.44, 'MapleCOMSPS_LRB_VSIDS_2_fix': 184.92, 'Maple_CM_Dist': 5582.79, 'glu_mix': 2096.45, 'Maple_LCM_Scavel_200_fix2': 727.87, 'Lingeling': 289.56004999999993, 'Maple_LCM+BCrestart': 404.5, 'smallsat': 1772.87, 'GHackCOMSPS_drup': 827.86, 'gluHack': 1493.8500000000001, 'Maple_LCM+BCrestart_M1': 0, 'glucose3.0': 66.53, 'Candy': 263.44, 'MapleCOMSPS_LRB_VSIDS_drup': 89.65, 'glucose-3.0_PADC_3': 62.07, 'YalSAT': 52.430009999999996, 'inIDGlucose': 20.060000000000002, 'COMiniSatPS_Pulsar_drup': 2226.75, 'CaDiCaL': 1332.9, 'Maple_CM_ordUIP+': 0, 'abcdsat_r18': 1912.52, 'MapleLCMDistChronoBT': 3287.3, 'expMC_LRB_VSIDS_Switch': 0, 'Sparrow2Riss-2018-fixfix': 404.31, 'Minisat-v2.2.0-106-ge2dd095': 59.87, 'glucose-3.0_PADC_10': 356.43}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/ASPEEDxtVwVU.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=8 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/GROUNDm2EfX3.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 4541.0, 'Lingeling': 1, 'cms55-main-all4fixed': 458}, 2: {'claspfolio': 4241.0, 'YalSAT': 87, 'glu_mix': 525, 'Maple_LCM_M1': 147}, 3: {'claspfolio': 4165.0, 'Sparrow2Riss-2018-fixfix': 534, 'gluHack': 301}, 4: {'claspfolio': 4449.0, 'abcdsat_r18': 551}, 5: {'claspfolio': 4433.0, 'smallsat': 567}, 6: {'claspfolio': 4410.0, 'Maple_LCM_Scavel_fix2': 590}, 7: {'claspfolio': 4437.0, 'expMC_LRB_VSIDS_Switch': 563}, 8: {'MapleCOMSPS_CHB_VSIDS_drup': 1, 'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 15, 'Glucose_Hack_Kiel_fastBVE': 3, 'Maple_CM_Dist': 1, 'MapleCOMSPS_LRB_VSIDS_drup': 604, 'Riss7.1-fix': 13, 'glucose4.2.1': 10, 'expMC_LRB_VSIDS_Switch_2500': 162, 'claspfolio': 4161.0, 'inIDGlucose': 14, 'Maple_LCM+BCrestart': 1, 'MapleCOMSPS_LRB_VSIDS_2_fix': 1, 'Maple_CM': 5, 'Maple_LCM_Scavel_200_fix2': 1}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 318 (-unsolvable)
+% Used Instances for Training: 318 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 4541.0, 'Lingeling': 1, 'cms55-main-all4fixed': 458}, 2: {'claspfolio': 4241.0, 'YalSAT': 87, 'glu_mix': 525, 'Maple_LCM_M1': 147}, 3: {'claspfolio': 4165.0, 'Sparrow2Riss-2018-fixfix': 534, 'gluHack': 301}, 4: {'claspfolio': 4449.0, 'abcdsat_r18': 551}, 5: {'claspfolio': 4433.0, 'smallsat': 567}, 6: {'claspfolio': 4410.0, 'Maple_LCM_Scavel_fix2': 590}, 7: {'claspfolio': 4437.0, 'expMC_LRB_VSIDS_Switch': 563}, 8: {'MapleCOMSPS_CHB_VSIDS_drup': 1, 'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 15, 'Glucose_Hack_Kiel_fastBVE': 3, 'Maple_CM_Dist': 1, 'MapleCOMSPS_LRB_VSIDS_drup': 604, 'Riss7.1-fix': 13, 'glucose4.2.1': 10, 'expMC_LRB_VSIDS_Switch_2500': 162, 'claspfolio': 4161.0, 'inIDGlucose': 14, 'Maple_LCM+BCrestart': 1, 'MapleCOMSPS_LRB_VSIDS_2_fix': 1, 'Maple_CM': 5, 'Maple_LCM_Scavel_200_fix2': 1}}
+% PAR10 on current test set: 14513.08 (35 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24245.03 (31 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 29143.21 (31 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26689.69 (32 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23508.04 (32 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 29863.01 (32 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23505.67 (32 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 34448.57 (32 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28168.28 (32 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25072.17 (32 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20423.77 (32 instances)
+% 
+%  >>> Instances: 318 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 91
+% PAR1 time: 1522.444937 (128.358987)
+% Par10 time: 14399.517264 (127.958106)
+% #TOs: 91 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 168
+% Solved (perc) (with unsolved): 0.4717
+% PAR1 (with unsolved): 2731.98
+% PAR10 (with unsolved): 26505.57
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 77
+% Solved (perc) (without unsolved): 0.6608
+% PAR1 (without unsolved): 1822.78
+% PAR10 (without unsolved): 17087.09
+% 
+% Time used by each solver: {'expGlucose': 4999.87, 'expMC_VSIDS_LRB_Switch_2500': 16005.010000000002, 'Riss7.1-fix': 132117.22, 'glucose4.2.1': 340.94, 'Maple_LCM_Scavel_fix2': 42517.19, 'cms55-main-all4fixed': 68071.14000000001, 'Glucose_Hack_Kiel_fastBVE': 0, 'Maple_CM': 0, 'Maple_LCM_M1': 15083.98, 'MapleCOMSPS_CHB_VSIDS_drup': 4999.86, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 0, 'MapleCOMSPS_LRB_VSIDS_2_fix': 16990.82, 'Maple_CM_Dist': 9999.74, 'glu_mix': 41160.00000000001, 'Maple_LCM_Scavel_200_fix2': 15341.369999999999, 'Lingeling': 36399.67999999999, 'Maple_LCM+BCrestart': 40198.38, 'smallsat': 91391.78, 'GHackCOMSPS_drup': 9999.72, 'gluHack': 4999.95, 'Maple_LCM+BCrestart_M1': 31011.780000000006, 'glucose3.0': 0, 'Candy': 15008.109999999997, 'MapleCOMSPS_LRB_VSIDS_drup': 20339.95, 'glucose-3.0_PADC_3': 0, 'YalSAT': 0, 'inIDGlucose': 0, 'COMiniSatPS_Pulsar_drup': 1039.67, 'CaDiCaL': 30002.699999999997, 'Maple_CM_ordUIP+': 14999.66, 'abcdsat_r18': 9999.73, 'MapleLCMDistChronoBT': 28430.42, 'expMC_LRB_VSIDS_Switch': 141507.98999999996, 'Sparrow2Riss-2018-fixfix': 25778.850000000006, 'Minisat-v2.2.0-106-ge2dd095': 0, 'glucose-3.0_PADC_10': 0}
+% Optimal Time used by each solver: {'expGlucose': 455091.0, 'expMC_VSIDS_LRB_Switch_2500': 781.91, 'Riss7.1-fix': 476.22999999999996, 'glucose4.2.1': 345.4, 'Maple_LCM_Scavel_fix2': 648.51, 'cms55-main-all4fixed': 1075.93, 'Glucose_Hack_Kiel_fastBVE': 101.5, 'Maple_CM': 66.21, 'Maple_LCM_M1': 310.96000000000004, 'MapleCOMSPS_CHB_VSIDS_drup': 163.19, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 870.44, 'MapleCOMSPS_LRB_VSIDS_2_fix': 184.92, 'Maple_CM_Dist': 5691.89, 'glu_mix': 2268.4300000000003, 'Maple_LCM_Scavel_200_fix2': 727.87, 'Lingeling': 289.52004999999997, 'Maple_LCM+BCrestart': 463.37, 'smallsat': 2036.0100000000002, 'GHackCOMSPS_drup': 830.56, 'gluHack': 1483.5500000000002, 'Maple_LCM+BCrestart_M1': 0, 'glucose3.0': 66.53, 'Candy': 263.44, 'MapleCOMSPS_LRB_VSIDS_drup': 126.11, 'glucose-3.0_PADC_3': 62.07, 'YalSAT': 49.75, 'inIDGlucose': 17.35, 'COMiniSatPS_Pulsar_drup': 2698.62, 'CaDiCaL': 1232.8300000000002, 'Maple_CM_ordUIP+': 98.67, 'abcdsat_r18': 1912.52, 'MapleLCMDistChronoBT': 3283.8100000000004, 'expMC_LRB_VSIDS_Switch': 0, 'Sparrow2Riss-2018-fixfix': 59.56, 'Minisat-v2.2.0-106-ge2dd095': 2.4, 'glucose-3.0_PADC_10': 356.43}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/ASPEEDWy58Zb.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=8 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/GROUNDUoLDWO.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 4500.0, 'MapleCOMSPS_LRB_VSIDS_drup': 500}, 2: {'claspfolio': 4242.0, 'glu_mix': 526, 'CaDiCaL': 99, 'MapleLCMDistChronoBT': 133}, 3: {'claspfolio': 4077.0, 'cms55-main-all4fixed': 414, 'Maple_LCM_M1': 509}, 4: {'claspfolio': 4190.0, 'Riss7.1-fix': 810}, 5: {'claspfolio': 4077.0, 'Sparrow2Riss-2018-fixfix': 8, 'gluHack': 556, 'abcdsat_r18': 359}, 6: {'Maple_CM_ordUIP+': 5, 'Maple_LCM+BCrestart_M1': 283, 'Maple_CM_ordUIP': 110, 'Candy': 30, 'Lingeling': 512, 'glucose-3.0_PADC_3': 4, 'Minisat-v2.2.0-106-ge2dd095': 2, 'claspfolio': 4002.0, 'COMiniSatPS_Pulsar_drup': 9, 'expMC_LRB_VSIDS_Switch': 1, 'YalSAT': 42}, 7: {'glucose3.0': 212, 'MapleCOMSPS_CHB_VSIDS_drup': 137, 'expMC_LRB_VSIDS_Switch_2500': 1, 'MapleCOMSPS_LRB_VSIDS_2_fix': 15, 'Maple_CM_Dist': 9, 'Maple_LCM_Scavel_200_fix2': 1, 'claspfolio': 4000.0, 'Maple_LCM+BCrestart': 1, 'smallsat': 605, 'glucose-3.0_PADC_10': 19}, 8: {'expGlucose': 345, 'expMC_VSIDS_LRB_Switch_2500': 1, 'Glucose_Hack_Kiel_fastBVE': 3, 'glucose4.2.1': 10, 'Maple_LCM_Scavel_fix2': 6, 'claspfolio': 4000.0, 'inIDGlucose': 14, 'GHackCOMSPS_drup': 616, 'Maple_CM': 5}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 318 (-unsolvable)
+% Used Instances for Training: 318 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 4500.0, 'MapleCOMSPS_LRB_VSIDS_drup': 500}, 2: {'claspfolio': 4242.0, 'glu_mix': 526, 'CaDiCaL': 99, 'MapleLCMDistChronoBT': 133}, 3: {'claspfolio': 4077.0, 'cms55-main-all4fixed': 414, 'Maple_LCM_M1': 509}, 4: {'claspfolio': 4190.0, 'Riss7.1-fix': 810}, 5: {'claspfolio': 4077.0, 'Sparrow2Riss-2018-fixfix': 8, 'gluHack': 556, 'abcdsat_r18': 359}, 6: {'Maple_CM_ordUIP+': 5, 'Maple_LCM+BCrestart_M1': 283, 'Maple_CM_ordUIP': 110, 'Candy': 30, 'Lingeling': 512, 'glucose-3.0_PADC_3': 4, 'Minisat-v2.2.0-106-ge2dd095': 2, 'claspfolio': 4002.0, 'COMiniSatPS_Pulsar_drup': 9, 'expMC_LRB_VSIDS_Switch': 1, 'YalSAT': 42}, 7: {'glucose3.0': 212, 'MapleCOMSPS_CHB_VSIDS_drup': 137, 'expMC_LRB_VSIDS_Switch_2500': 1, 'MapleCOMSPS_LRB_VSIDS_2_fix': 15, 'Maple_CM_Dist': 9, 'Maple_LCM_Scavel_200_fix2': 1, 'claspfolio': 4000.0, 'Maple_LCM+BCrestart': 1, 'smallsat': 605, 'glucose-3.0_PADC_10': 19}, 8: {'expGlucose': 345, 'expMC_VSIDS_LRB_Switch_2500': 1, 'Glucose_Hack_Kiel_fastBVE': 3, 'glucose4.2.1': 10, 'Maple_LCM_Scavel_fix2': 6, 'claspfolio': 4000.0, 'inIDGlucose': 14, 'GHackCOMSPS_drup': 616, 'Maple_CM': 5}}
+% PAR10 on current test set: 20261.72 (35 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24286.12 (31 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22690.95 (31 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 31333.26 (32 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 31290.99 (32 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 29743.84 (32 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23497.56 (32 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 31289.28 (32 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 29759.92 (32 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25086.56 (32 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 18889.79 (32 instances)
+% 
+%  >>> Instances: 318 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 91
+% PAR1 time: 1519.303900 (123.958767)
+% Par10 time: 14396.376227 (123.557886)
+% #TOs: 91 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 170
+% Solved (perc) (with unsolved): 0.4654
+% PAR1 (with unsolved): 2750.97
+% PAR10 (with unsolved): 26807.57
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 79
+% Solved (perc) (without unsolved): 0.6520
+% PAR1 (without unsolved): 1849.37
+% PAR10 (without unsolved): 17510.17
+% 
+% Time used by each solver: {'expGlucose': 0, 'expMC_VSIDS_LRB_Switch_2500': 15124.68, 'Riss7.1-fix': 132348.31, 'glucose4.2.1': 340.94, 'Maple_LCM_Scavel_fix2': 63029.950000000004, 'cms55-main-all4fixed': 67571.39000000001, 'Glucose_Hack_Kiel_fastBVE': 0, 'Maple_CM': 0, 'Maple_LCM_M1': 10226.32, 'MapleCOMSPS_CHB_VSIDS_drup': 0, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 4999.86, 'MapleCOMSPS_LRB_VSIDS_2_fix': 36017.9, 'Maple_CM_Dist': 5127.2699999999995, 'glu_mix': 45908.07, 'Maple_LCM_Scavel_200_fix2': 15646.96, 'Lingeling': 52683.359999999986, 'Maple_LCM+BCrestart': 4999.86, 'smallsat': 43583.12, 'GHackCOMSPS_drup': 9999.8, 'gluHack': 4999.85, 'Maple_LCM+BCrestart_M1': 70941.35999999999, 'glucose3.0': 0, 'Candy': 819.79, 'MapleCOMSPS_LRB_VSIDS_drup': 24999.389999999996, 'glucose-3.0_PADC_3': 0, 'YalSAT': 49.620000000000005, 'inIDGlucose': 4999.87, 'COMiniSatPS_Pulsar_drup': 12553.73, 'CaDiCaL': 39999.02, 'Maple_CM_ordUIP+': 0, 'abcdsat_r18': 0, 'MapleLCMDistChronoBT': 45699.560000000005, 'expMC_LRB_VSIDS_Switch': 131482.86, 'Sparrow2Riss-2018-fixfix': 30620.820000000003, 'Minisat-v2.2.0-106-ge2dd095': 0, 'glucose-3.0_PADC_10': 0}
+% Optimal Time used by each solver: {'expGlucose': 455091.0, 'expMC_VSIDS_LRB_Switch_2500': 544.5, 'Riss7.1-fix': 573.94, 'glucose4.2.1': 349.0, 'Maple_LCM_Scavel_fix2': 648.51, 'cms55-main-all4fixed': 1419.82, 'Glucose_Hack_Kiel_fastBVE': 101.5, 'Maple_CM': 289.29, 'Maple_LCM_M1': 310.96000000000004, 'MapleCOMSPS_CHB_VSIDS_drup': 0, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 811.65, 'MapleCOMSPS_LRB_VSIDS_2_fix': 184.92, 'Maple_CM_Dist': 5660.080000000001, 'glu_mix': 2268.4300000000003, 'Maple_LCM_Scavel_200_fix2': 727.87, 'Lingeling': 289.56005999999996, 'Maple_LCM+BCrestart': 463.37, 'smallsat': 1639.91, 'GHackCOMSPS_drup': 580.6999999999999, 'gluHack': 1498.9599999999998, 'Maple_LCM+BCrestart_M1': 0, 'glucose3.0': 66.53, 'Candy': 263.44, 'MapleCOMSPS_LRB_VSIDS_drup': 126.11, 'glucose-3.0_PADC_3': 62.07, 'YalSAT': 51.54000999999998, 'inIDGlucose': 20.060000000000002, 'COMiniSatPS_Pulsar_drup': 1816.65, 'CaDiCaL': 1160.3600000000004, 'Maple_CM_ordUIP+': 98.67, 'abcdsat_r18': 1912.52, 'MapleLCMDistChronoBT': 3287.2999999999997, 'expMC_LRB_VSIDS_Switch': 0, 'Sparrow2Riss-2018-fixfix': 403.11999999999995, 'Minisat-v2.2.0-106-ge2dd095': 59.87, 'glucose-3.0_PADC_10': 356.43}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/ASPEEDwNMBLY.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=8 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/GROUNDRGD8nI.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 4598.0, 'Riss7.1-fix': 100, 'CaDiCaL': 302}, 2: {'MapleLCMDistChronoBT': 147, 'Lingeling': 43, 'glucose4.2.1': 129, 'cms55-main-all4fixed': 551, 'claspfolio': 4097.0, 'inIDGlucose': 33}, 3: {'claspfolio': 4428.0, 'gluHack': 572}, 4: {'claspfolio': 4035.0, 'glu_mix': 526, 'Maple_LCM_Scavel_200_fix2': 439}, 5: {'claspfolio': 4066.0, 'smallsat': 363, 'expMC_LRB_VSIDS_Switch': 571}, 6: {'claspfolio': 4289.0, 'Sparrow2Riss-2018-fixfix': 551, 'Maple_LCM_Scavel_fix2': 160}, 7: {'claspfolio': 4056.0, 'Maple_LCM+BCrestart': 253, 'expMC_LRB_VSIDS_Switch_2500': 102, 'abcdsat_r18': 589}, 8: {'MapleCOMSPS_LRB_VSIDS_2_fix': 1, 'Maple_LCM+BCrestart_M1': 139, 'GHackCOMSPS_drup': 3, 'glucose3.0': 237, 'MapleCOMSPS_CHB_VSIDS_drup': 3, 'Maple_CM_ordUIP': 12, 'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 1, 'Glucose_Hack_Kiel_fastBVE': 3, 'Maple_CM_Dist': 9, 'MapleCOMSPS_LRB_VSIDS_drup': 500, 'claspfolio': 4073.0, 'Maple_LCM_M1': 1, 'glucose-3.0_PADC_10': 4, 'Maple_CM': 5, 'YalSAT': 1}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 318 (-unsolvable)
+% Used Instances for Training: 318 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 4598.0, 'Riss7.1-fix': 100, 'CaDiCaL': 302}, 2: {'MapleLCMDistChronoBT': 147, 'Lingeling': 43, 'glucose4.2.1': 129, 'cms55-main-all4fixed': 551, 'claspfolio': 4097.0, 'inIDGlucose': 33}, 3: {'claspfolio': 4428.0, 'gluHack': 572}, 4: {'claspfolio': 4035.0, 'glu_mix': 526, 'Maple_LCM_Scavel_200_fix2': 439}, 5: {'claspfolio': 4066.0, 'smallsat': 363, 'expMC_LRB_VSIDS_Switch': 571}, 6: {'claspfolio': 4289.0, 'Sparrow2Riss-2018-fixfix': 551, 'Maple_LCM_Scavel_fix2': 160}, 7: {'claspfolio': 4056.0, 'Maple_LCM+BCrestart': 253, 'expMC_LRB_VSIDS_Switch_2500': 102, 'abcdsat_r18': 589}, 8: {'MapleCOMSPS_LRB_VSIDS_2_fix': 1, 'Maple_LCM+BCrestart_M1': 139, 'GHackCOMSPS_drup': 3, 'glucose3.0': 237, 'MapleCOMSPS_CHB_VSIDS_drup': 3, 'Maple_CM_ordUIP': 12, 'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 1, 'Glucose_Hack_Kiel_fastBVE': 3, 'Maple_CM_Dist': 9, 'MapleCOMSPS_LRB_VSIDS_drup': 500, 'claspfolio': 4073.0, 'Maple_LCM_M1': 1, 'glucose-3.0_PADC_10': 4, 'Maple_CM': 5, 'YalSAT': 1}}
+% PAR10 on current test set: 17371.38 (35 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 19470.89 (31 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 27481.53 (31 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26742.17 (32 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28199.28 (32 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25069.93 (32 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23528.33 (32 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20398.17 (32 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 29725.03 (32 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 29809.62 (32 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28213.71 (32 instances)
+% 
+%  >>> Instances: 318 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 92
+% PAR1 time: 1535.358334 (124.973230)
+% Par10 time: 14553.936950 (124.566151)
+% #TOs: 92 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 164
+% Solved (perc) (with unsolved): 0.4843
+% PAR1 (with unsolved): 2671.34
+% PAR10 (with unsolved): 25878.88
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 72
+% Solved (perc) (without unsolved): 0.6814
+% PAR1 (without unsolved): 1723.39
+% PAR10 (without unsolved): 16059.67
+% 
+% Time used by each solver: {'expGlucose': 0, 'expMC_VSIDS_LRB_Switch_2500': 4999.95, 'Riss7.1-fix': 45844.11, 'glucose4.2.1': 9999.73, 'Maple_LCM_Scavel_fix2': 43108.350000000006, 'cms55-main-all4fixed': 73233.98000000003, 'Glucose_Hack_Kiel_fastBVE': 0, 'Maple_CM': 0, 'Maple_LCM_M1': 0, 'MapleCOMSPS_CHB_VSIDS_drup': 0, 'Maple_CM_ordUIP': 4999.94, 'expMC_LRB_VSIDS_Switch_2500': 0, 'MapleCOMSPS_LRB_VSIDS_2_fix': 42783.62, 'Maple_CM_Dist': 22629.0, 'glu_mix': 50450.29, 'Maple_LCM_Scavel_200_fix2': 915.5400000000001, 'Lingeling': 88117.01000000001, 'Maple_LCM+BCrestart': 19999.76, 'smallsat': 53224.08000000001, 'GHackCOMSPS_drup': 0, 'gluHack': 4999.85, 'Maple_LCM+BCrestart_M1': 46286.36000000001, 'glucose3.0': 0, 'Candy': 14999.669999999998, 'MapleCOMSPS_LRB_VSIDS_drup': 70101.1, 'glucose-3.0_PADC_3': 0, 'YalSAT': 0, 'inIDGlucose': 5184.17, 'COMiniSatPS_Pulsar_drup': 32536.28, 'CaDiCaL': 40335.02, 'Maple_CM_ordUIP+': 30141.370000000003, 'abcdsat_r18': 25018.53, 'MapleLCMDistChronoBT': 33764.7, 'expMC_LRB_VSIDS_Switch': 50548.29, 'Sparrow2Riss-2018-fixfix': 35230.14000000001, 'Minisat-v2.2.0-106-ge2dd095': 0, 'glucose-3.0_PADC_10': 0}
+% Optimal Time used by each solver: {'expGlucose': 460092.0, 'expMC_VSIDS_LRB_Switch_2500': 781.91, 'Riss7.1-fix': 510.27000000000004, 'glucose4.2.1': 349.0, 'Maple_LCM_Scavel_fix2': 648.0699999999999, 'cms55-main-all4fixed': 1325.78, 'Glucose_Hack_Kiel_fastBVE': 101.5, 'Maple_CM': 289.29, 'Maple_LCM_M1': 280.63, 'MapleCOMSPS_CHB_VSIDS_drup': 163.19, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 607.38, 'MapleCOMSPS_LRB_VSIDS_2_fix': 184.92, 'Maple_CM_Dist': 5691.89, 'glu_mix': 2268.4300000000003, 'Maple_LCM_Scavel_200_fix2': 459.92, 'Lingeling': 289.56005999999996, 'Maple_LCM+BCrestart': 463.37, 'smallsat': 1838.3600000000001, 'GHackCOMSPS_drup': 306.36, 'gluHack': 1501.6299999999999, 'Maple_LCM+BCrestart_M1': 0, 'glucose3.0': 66.53, 'Candy': 263.44, 'MapleCOMSPS_LRB_VSIDS_drup': 126.11, 'glucose-3.0_PADC_3': 62.07, 'YalSAT': 53.30000999999999, 'inIDGlucose': 20.060000000000002, 'COMiniSatPS_Pulsar_drup': 2601.73, 'CaDiCaL': 1038.01, 'Maple_CM_ordUIP+': 98.67, 'abcdsat_r18': 1657.9299999999998, 'MapleLCMDistChronoBT': 3287.3, 'expMC_LRB_VSIDS_Switch': 0, 'Sparrow2Riss-2018-fixfix': 401.43999999999994, 'Minisat-v2.2.0-106-ge2dd095': 57.47, 'glucose-3.0_PADC_10': 356.43}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/ASPEEDrPNNVX.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=8 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/GROUNDplFbQV.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 4474.0, 'glu_mix': 526}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 4119.0, 'Riss7.1-fix': 325, 'expMC_LRB_VSIDS_Switch': 556}, 5: {'claspfolio': 4248.0, 'Maple_LCM_M1': 177, 'gluHack': 575}, 6: {'claspfolio': 4386.0, 'abcdsat_r18': 614}, 7: {'Maple_LCM+BCrestart_M1': 187, 'glucose3.0': 50, 'glucose-3.0_PADC_10': 4, 'expMC_LRB_VSIDS_Switch_2500': 1, 'MapleCOMSPS_LRB_VSIDS_2_fix': 15, 'Maple_CM_Dist': 4, 'YalSAT': 50, 'claspfolio': 4296.0, 'smallsat': 356, 'CaDiCaL': 37}, 8: {'MapleCOMSPS_CHB_VSIDS_drup': 1, 'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 53, 'Glucose_Hack_Kiel_fastBVE': 3, 'Lingeling': 901, 'glucose4.2.1': 10, 'Maple_LCM_Scavel_fix2': 6, 'claspfolio': 4000.0, 'inIDGlucose': 14, 'Maple_CM': 4}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 318 (-unsolvable)
+% Used Instances for Training: 318 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 5000.0}, 2: {'claspfolio': 4474.0, 'glu_mix': 526}, 3: {'claspfolio': 5000.0}, 4: {'claspfolio': 4119.0, 'Riss7.1-fix': 325, 'expMC_LRB_VSIDS_Switch': 556}, 5: {'claspfolio': 4248.0, 'Maple_LCM_M1': 177, 'gluHack': 575}, 6: {'claspfolio': 4386.0, 'abcdsat_r18': 614}, 7: {'Maple_LCM+BCrestart_M1': 187, 'glucose3.0': 50, 'glucose-3.0_PADC_10': 4, 'expMC_LRB_VSIDS_Switch_2500': 1, 'MapleCOMSPS_LRB_VSIDS_2_fix': 15, 'Maple_CM_Dist': 4, 'YalSAT': 50, 'claspfolio': 4296.0, 'smallsat': 356, 'CaDiCaL': 37}, 8: {'MapleCOMSPS_CHB_VSIDS_drup': 1, 'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 53, 'Glucose_Hack_Kiel_fastBVE': 3, 'Lingeling': 901, 'glucose4.2.1': 10, 'Maple_LCM_Scavel_fix2': 6, 'claspfolio': 4000.0, 'inIDGlucose': 14, 'Maple_CM': 4}}
+% PAR10 on current test set: 24355.25 (35 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 30715.04 (31 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21093.78 (31 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25097.41 (32 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20469.34 (32 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23646.38 (32 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 18822.32 (32 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25067.99 (32 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 32848.53 (32 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25060.39 (32 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21952.17 (32 instances)
+% 
+%  >>> Instances: 318 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 89
+% PAR1 time: 1477.146856 (108.003057)
+% Par10 time: 14071.206604 (107.614411)
+% #TOs: 89 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 155
+% Solved (perc) (with unsolved): 0.5126
+% PAR1 (with unsolved): 2534.40
+% PAR10 (with unsolved): 24468.36
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 66
+% Solved (perc) (without unsolved): 0.7118
+% PAR1 (without unsolved): 1576.15
+% PAR10 (without unsolved): 14545.58
+% 
+% Time used by each solver: {'expGlucose': 4999.85, 'expMC_VSIDS_LRB_Switch_2500': 0, 'Riss7.1-fix': 110618.18000000001, 'glucose4.2.1': 4999.86, 'Maple_LCM_Scavel_fix2': 74623.22000000002, 'cms55-main-all4fixed': 52330.880000000005, 'Glucose_Hack_Kiel_fastBVE': 0, 'Maple_CM': 0, 'Maple_LCM_M1': 0, 'MapleCOMSPS_CHB_VSIDS_drup': 0, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 4999.88, 'MapleCOMSPS_LRB_VSIDS_2_fix': 40181.66, 'Maple_CM_Dist': 10718.87, 'glu_mix': 14999.57, 'Maple_LCM_Scavel_200_fix2': 25343.87, 'Lingeling': 63019.76, 'Maple_LCM+BCrestart': 14999.59, 'smallsat': 34145.19, 'GHackCOMSPS_drup': 14999.65, 'gluHack': 0, 'Maple_LCM+BCrestart_M1': 44998.96, 'glucose3.0': 0, 'Candy': 5168.7, 'MapleCOMSPS_LRB_VSIDS_drup': 39999.03, 'glucose-3.0_PADC_3': 0, 'YalSAT': 0, 'inIDGlucose': 6.8, 'COMiniSatPS_Pulsar_drup': 33499.33, 'CaDiCaL': 30499.83, 'Maple_CM_ordUIP+': 19999.45, 'abcdsat_r18': 4999.86, 'MapleLCMDistChronoBT': 33247.92, 'expMC_LRB_VSIDS_Switch': 82276.01, 'Sparrow2Riss-2018-fixfix': 40227.59, 'Minisat-v2.2.0-106-ge2dd095': 0, 'glucose-3.0_PADC_10': 0}
+% Optimal Time used by each solver: {'expGlucose': 445089.0, 'expMC_VSIDS_LRB_Switch_2500': 781.91, 'Riss7.1-fix': 574.8000000000001, 'glucose4.2.1': 347.19, 'Maple_LCM_Scavel_fix2': 648.51, 'cms55-main-all4fixed': 1466.77, 'Glucose_Hack_Kiel_fastBVE': 101.5, 'Maple_CM': 289.29, 'Maple_LCM_M1': 167.0, 'MapleCOMSPS_CHB_VSIDS_drup': 163.19, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 786.37, 'MapleCOMSPS_LRB_VSIDS_2_fix': 184.92, 'Maple_CM_Dist': 2936.1, 'glu_mix': 2268.4300000000003, 'Maple_LCM_Scavel_200_fix2': 267.95, 'Lingeling': 0.07003999999999999, 'Maple_LCM+BCrestart': 331.64, 'smallsat': 1693.28, 'GHackCOMSPS_drup': 830.5600000000001, 'gluHack': 903.06, 'Maple_LCM+BCrestart_M1': 0, 'glucose3.0': 66.53, 'Candy': 0, 'MapleCOMSPS_LRB_VSIDS_drup': 126.11, 'glucose-3.0_PADC_3': 62.07, 'YalSAT': 52.930009999999996, 'inIDGlucose': 20.060000000000002, 'COMiniSatPS_Pulsar_drup': 2588.41, 'CaDiCaL': 1217.51, 'Maple_CM_ordUIP+': 98.67, 'abcdsat_r18': 1559.3100000000002, 'MapleLCMDistChronoBT': 3287.3, 'expMC_LRB_VSIDS_Switch': 0, 'Sparrow2Riss-2018-fixfix': 405.96, 'Minisat-v2.2.0-106-ge2dd095': 59.87, 'glucose-3.0_PADC_10': 356.43}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/ASPEEDjTInx1.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=8 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/GROUNDuBE1J4.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 4503.0, 'GHackCOMSPS_drup': 497}, 2: {'claspfolio': 4051.0, 'MapleCOMSPS_LRB_VSIDS_drup': 521, 'Maple_LCM+BCrestart': 161, 'Maple_CM': 267}, 3: {'claspfolio': 4035.0, 'glu_mix': 365, 'gluHack': 600}, 4: {'claspfolio': 4044.0, 'cms55-main-all4fixed': 467, 'smallsat': 489}, 5: {'claspfolio': 4188.0, 'Riss7.1-fix': 212, 'abcdsat_r18': 600}, 6: {'COMiniSatPS_Pulsar_drup': 1, 'Maple_CM_ordUIP': 5, 'glucose-3.0_PADC_10': 30, 'Candy': 4, 'Lingeling': 512, 'claspfolio': 4085.0, 'Maple_LCM_M1': 189, 'CaDiCaL': 173, 'expMC_LRB_VSIDS_Switch': 1}, 7: {'Maple_LCM+BCrestart_M1': 3, 'glucose3.0': 4, 'MapleCOMSPS_CHB_VSIDS_drup': 4, 'expMC_LRB_VSIDS_Switch_2500': 1, 'MapleCOMSPS_LRB_VSIDS_2_fix': 6, 'Maple_CM_Dist': 4, 'YalSAT': 242, 'Maple_LCM_Scavel_200_fix2': 519, 'claspfolio': 4000.0, 'MapleLCMDistChronoBT': 217}, 8: {'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 9, 'Glucose_Hack_Kiel_fastBVE': 3, 'Sparrow2Riss-2018-fixfix': 366, 'glucose4.2.1': 10, 'Maple_LCM_Scavel_fix2': 590, 'claspfolio': 4000.0, 'inIDGlucose': 14}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 318 (-unsolvable)
+% Used Instances for Training: 318 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 4503.0, 'GHackCOMSPS_drup': 497}, 2: {'claspfolio': 4051.0, 'MapleCOMSPS_LRB_VSIDS_drup': 521, 'Maple_LCM+BCrestart': 161, 'Maple_CM': 267}, 3: {'claspfolio': 4035.0, 'glu_mix': 365, 'gluHack': 600}, 4: {'claspfolio': 4044.0, 'cms55-main-all4fixed': 467, 'smallsat': 489}, 5: {'claspfolio': 4188.0, 'Riss7.1-fix': 212, 'abcdsat_r18': 600}, 6: {'COMiniSatPS_Pulsar_drup': 1, 'Maple_CM_ordUIP': 5, 'glucose-3.0_PADC_10': 30, 'Candy': 4, 'Lingeling': 512, 'claspfolio': 4085.0, 'Maple_LCM_M1': 189, 'CaDiCaL': 173, 'expMC_LRB_VSIDS_Switch': 1}, 7: {'Maple_LCM+BCrestart_M1': 3, 'glucose3.0': 4, 'MapleCOMSPS_CHB_VSIDS_drup': 4, 'expMC_LRB_VSIDS_Switch_2500': 1, 'MapleCOMSPS_LRB_VSIDS_2_fix': 6, 'Maple_CM_Dist': 4, 'YalSAT': 242, 'Maple_LCM_Scavel_200_fix2': 519, 'claspfolio': 4000.0, 'MapleLCMDistChronoBT': 217}, 8: {'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 9, 'Glucose_Hack_Kiel_fastBVE': 3, 'Sparrow2Riss-2018-fixfix': 366, 'glucose4.2.1': 10, 'Maple_LCM_Scavel_fix2': 590, 'claspfolio': 4000.0, 'inIDGlucose': 14}}
+% PAR10 on current test set: 33101.33 (35 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25907.94 (31 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22691.31 (31 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 32894.38 (32 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 29770.52 (32 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28175.25 (32 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28167.12 (32 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28207.68 (32 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 32857.72 (32 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25056.91 (32 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 17412.48 (32 instances)
+% 
+%  >>> Instances: 318 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 94
+% PAR1 time: 1566.860126 (126.167500)
+% Par10 time: 14868.451321 (125.747857)
+% #TOs: 94 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 172
+% Solved (perc) (with unsolved): 0.4591
+% PAR1 (with unsolved): 2792.21
+% PAR10 (with unsolved): 27131.83
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 78
+% Solved (perc) (without unsolved): 0.6518
+% PAR1 (without unsolved): 1865.72
+% PAR10 (without unsolved): 17535.37
+% 
+% Time used by each solver: {'expGlucose': 0, 'expMC_VSIDS_LRB_Switch_2500': 15269.739999999998, 'Riss7.1-fix': 97064.16999999998, 'glucose4.2.1': 4999.94, 'Maple_LCM_Scavel_fix2': 68080.48999999999, 'cms55-main-all4fixed': 78558.24000000002, 'Glucose_Hack_Kiel_fastBVE': 0, 'Maple_CM': 0, 'Maple_LCM_M1': 4999.85, 'MapleCOMSPS_CHB_VSIDS_drup': 4999.86, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 0, 'MapleCOMSPS_LRB_VSIDS_2_fix': 20698.089999999997, 'Maple_CM_Dist': 14999.68, 'glu_mix': 79577.11, 'Maple_LCM_Scavel_200_fix2': 66368.77, 'Lingeling': 61912.55, 'Maple_LCM+BCrestart': 41006.03999999999, 'smallsat': 22897.43, 'GHackCOMSPS_drup': 9999.71, 'gluHack': 0, 'Maple_LCM+BCrestart_M1': 19999.44, 'glucose3.0': 0, 'Candy': 21116.969999999998, 'MapleCOMSPS_LRB_VSIDS_drup': 35046.82, 'glucose-3.0_PADC_3': 0, 'YalSAT': 0, 'inIDGlucose': 0, 'COMiniSatPS_Pulsar_drup': 6719.349999999999, 'CaDiCaL': 30000.379999999997, 'Maple_CM_ordUIP+': 9999.81, 'abcdsat_r18': 9999.73, 'MapleLCMDistChronoBT': 20257.05, 'expMC_LRB_VSIDS_Switch': 122542.34999999998, 'Sparrow2Riss-2018-fixfix': 20774.320000000003, 'Minisat-v2.2.0-106-ge2dd095': 0, 'glucose-3.0_PADC_10': 0}
+% Optimal Time used by each solver: {'expGlucose': 470094.0, 'expMC_VSIDS_LRB_Switch_2500': 781.91, 'Riss7.1-fix': 566.01, 'glucose4.2.1': 349.0, 'Maple_LCM_Scavel_fix2': 648.51, 'cms55-main-all4fixed': 1518.9, 'Glucose_Hack_Kiel_fastBVE': 101.5, 'Maple_CM': 289.29, 'Maple_LCM_M1': 310.96000000000004, 'MapleCOMSPS_CHB_VSIDS_drup': 163.19, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 870.44, 'MapleCOMSPS_LRB_VSIDS_2_fix': 117.50999999999999, 'Maple_CM_Dist': 5691.89, 'glu_mix': 1903.96, 'Maple_LCM_Scavel_200_fix2': 727.87, 'Lingeling': 289.56005999999996, 'Maple_LCM+BCrestart': 463.37, 'smallsat': 1622.8500000000001, 'GHackCOMSPS_drup': 776.76, 'gluHack': 929.77, 'Maple_LCM+BCrestart_M1': 0, 'glucose3.0': 66.53, 'Candy': 263.44, 'MapleCOMSPS_LRB_VSIDS_drup': 50.18, 'glucose-3.0_PADC_3': 62.07, 'YalSAT': 50.87000999999999, 'inIDGlucose': 2.71, 'COMiniSatPS_Pulsar_drup': 2732.86, 'CaDiCaL': 1214.5700000000002, 'Maple_CM_ordUIP+': 98.67, 'abcdsat_r18': 1912.52, 'MapleLCMDistChronoBT': 3150.27, 'expMC_LRB_VSIDS_Switch': 0, 'Sparrow2Riss-2018-fixfix': 379.7099999999999, 'Minisat-v2.2.0-106-ge2dd095': 59.87, 'glucose-3.0_PADC_10': 0}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/ASPEEDWMHOup.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=8 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/GROUNDkoInGV.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 4519.0, 'Lingeling': 1, 'glu_mix': 480}, 2: {'claspfolio': 4129.0, 'Maple_LCM_Scavel_fix2': 590, 'gluHack': 281}, 3: {'claspfolio': 4300.0, 'cms55-main-all4fixed': 551, 'Maple_LCM+BCrestart': 149}, 4: {'claspfolio': 4100.0, 'Riss7.1-fix': 738, 'MapleLCMDistChronoBT': 162}, 5: {'claspfolio': 4055.0, 'YalSAT': 242, 'Maple_LCM+BCrestart_M1': 147, 'Maple_LCM_Scavel_200_fix2': 556}, 6: {'claspfolio': 4041.0, 'smallsat': 345, 'abcdsat_r18': 614}, 7: {'Sparrow2Riss-2018-fixfix': 534, 'glucose3.0': 4, 'MapleCOMSPS_CHB_VSIDS_drup': 6, 'expMC_LRB_VSIDS_Switch_2500': 1, 'GHackCOMSPS_drup': 2, 'Maple_CM_Dist': 4, 'expMC_VSIDS_LRB_Switch_2500': 312, 'claspfolio': 4131.0, 'Maple_LCM_M1': 2, 'glucose-3.0_PADC_10': 4}, 8: {'expGlucose': 6, 'Glucose_Hack_Kiel_fastBVE': 5, 'glucose4.2.1': 107, 'claspfolio': 4000.0, 'inIDGlucose': 6, 'MapleCOMSPS_LRB_VSIDS_2_fix': 872, 'Maple_CM': 4}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 318 (-unsolvable)
+% Used Instances for Training: 318 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 4519.0, 'Lingeling': 1, 'glu_mix': 480}, 2: {'claspfolio': 4129.0, 'Maple_LCM_Scavel_fix2': 590, 'gluHack': 281}, 3: {'claspfolio': 4300.0, 'cms55-main-all4fixed': 551, 'Maple_LCM+BCrestart': 149}, 4: {'claspfolio': 4100.0, 'Riss7.1-fix': 738, 'MapleLCMDistChronoBT': 162}, 5: {'claspfolio': 4055.0, 'YalSAT': 242, 'Maple_LCM+BCrestart_M1': 147, 'Maple_LCM_Scavel_200_fix2': 556}, 6: {'claspfolio': 4041.0, 'smallsat': 345, 'abcdsat_r18': 614}, 7: {'Sparrow2Riss-2018-fixfix': 534, 'glucose3.0': 4, 'MapleCOMSPS_CHB_VSIDS_drup': 6, 'expMC_LRB_VSIDS_Switch_2500': 1, 'GHackCOMSPS_drup': 2, 'Maple_CM_Dist': 4, 'expMC_VSIDS_LRB_Switch_2500': 312, 'claspfolio': 4131.0, 'Maple_LCM_M1': 2, 'glucose-3.0_PADC_10': 4}, 8: {'expGlucose': 6, 'Glucose_Hack_Kiel_fastBVE': 5, 'glucose4.2.1': 107, 'claspfolio': 4000.0, 'inIDGlucose': 6, 'MapleCOMSPS_LRB_VSIDS_2_fix': 872, 'Maple_CM': 4}}
+% PAR10 on current test set: 17409.62 (35 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24373.48 (31 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 287 (-unsolvable)
+% Used Instances for Training: 287 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 17828.67 (31 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 29760.25 (32 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21978.69 (32 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28192.21 (32 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26614.09 (32 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 29757.76 (32 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 29738.11 (32 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28186.48 (32 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20418.79 (32 instances)
+% 
+%  >>> Instances: 318 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 91
+% PAR1 time: 1521.144403 (126.537093)
+% Par10 time: 14398.216730 (126.136212)
+% #TOs: 91 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 163
+% Solved (perc) (with unsolved): 0.4874
+% PAR1 (with unsolved): 2647.64
+% PAR10 (with unsolved): 25713.68
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 72
+% Solved (perc) (without unsolved): 0.6828
+% PAR1 (without unsolved): 1704.63
+% PAR10 (without unsolved): 15977.76
+% 
+% Time used by each solver: {'expGlucose': 0, 'expMC_VSIDS_LRB_Switch_2500': 20109.64, 'Riss7.1-fix': 142506.87000000002, 'glucose4.2.1': 14999.669999999998, 'Maple_LCM_Scavel_fix2': 48035.659999999996, 'cms55-main-all4fixed': 68470.56000000001, 'Glucose_Hack_Kiel_fastBVE': 0, 'Maple_CM': 0, 'Maple_LCM_M1': 14999.57, 'MapleCOMSPS_CHB_VSIDS_drup': 9999.81, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 0, 'MapleCOMSPS_LRB_VSIDS_2_fix': 17071.699999999997, 'Maple_CM_Dist': 0, 'glu_mix': 20563.72, 'Maple_LCM_Scavel_200_fix2': 71005.26000000001, 'Lingeling': 76746.63, 'Maple_LCM+BCrestart': 40953.299999999996, 'smallsat': 58401.079999999994, 'GHackCOMSPS_drup': 0, 'gluHack': 15128.52, 'Maple_LCM+BCrestart_M1': 8626.869999999999, 'glucose3.0': 0, 'Candy': 20587.19, 'MapleCOMSPS_LRB_VSIDS_drup': 0, 'glucose-3.0_PADC_3': 0, 'YalSAT': 431.94, 'inIDGlucose': 0, 'COMiniSatPS_Pulsar_drup': 2021.97, 'CaDiCaL': 14999.579999999998, 'Maple_CM_ordUIP+': 44998.91, 'abcdsat_r18': 10225.439999999999, 'MapleLCMDistChronoBT': 30173.059999999994, 'expMC_LRB_VSIDS_Switch': 45792.89, 'Sparrow2Riss-2018-fixfix': 45066.44, 'Minisat-v2.2.0-106-ge2dd095': 0, 'glucose-3.0_PADC_10': 0}
+% Optimal Time used by each solver: {'expGlucose': 455091.0, 'expMC_VSIDS_LRB_Switch_2500': 536.5, 'Riss7.1-fix': 244.71, 'glucose4.2.1': 346.35, 'Maple_LCM_Scavel_fix2': 648.51, 'cms55-main-all4fixed': 1475.16, 'Glucose_Hack_Kiel_fastBVE': 101.5, 'Maple_CM': 289.29, 'Maple_LCM_M1': 310.96000000000004, 'MapleCOMSPS_CHB_VSIDS_drup': 163.19, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 684.6099999999999, 'MapleCOMSPS_LRB_VSIDS_2_fix': 184.92, 'Maple_CM_Dist': 5691.89, 'glu_mix': 1723.78, 'Maple_LCM_Scavel_200_fix2': 727.87, 'Lingeling': 289.5600599999999, 'Maple_LCM+BCrestart': 462.99, 'smallsat': 1924.23, 'GHackCOMSPS_drup': 830.5600000000001, 'gluHack': 1501.63, 'Maple_LCM+BCrestart_M1': 0, 'glucose3.0': 66.53, 'Candy': 263.44, 'MapleCOMSPS_LRB_VSIDS_drup': 126.11, 'glucose-3.0_PADC_3': 0, 'YalSAT': 52.27001, 'inIDGlucose': 20.060000000000002, 'COMiniSatPS_Pulsar_drup': 2732.86, 'CaDiCaL': 1129.9400000000003, 'Maple_CM_ordUIP+': 98.67, 'abcdsat_r18': 1912.52, 'MapleLCMDistChronoBT': 3287.2999999999997, 'expMC_LRB_VSIDS_Switch': 0, 'Sparrow2Riss-2018-fixfix': 388.71, 'Minisat-v2.2.0-106-ge2dd095': 59.87, 'glucose-3.0_PADC_10': 356.43}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/ASPEEDyv2Kfp.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=8 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/GROUNDS0xeAf.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 4506.0, 'Maple_LCM_Scavel_200_fix2': 494}, 2: {'claspfolio': 4102.0, 'Maple_CM_Dist': 898}, 3: {'claspfolio': 4043.0, 'smallsat': 343, 'abcdsat_r18': 614}, 4: {'claspfolio': 4016.0, 'Maple_LCM_Scavel_fix2': 589, 'gluHack': 395}, 5: {'claspfolio': 4016.0, 'cms55-main-all4fixed': 563, 'glu_mix': 421}, 6: {'claspfolio': 4009.0, 'Sparrow2Riss-2018-fixfix': 270, 'MapleLCMDistChronoBT': 592, 'expMC_LRB_VSIDS_Switch_2500': 129}, 7: {'claspfolio': 4009.0, 'YalSAT': 42, 'Maple_LCM+BCrestart': 196, 'Maple_LCM_M1': 137, 'GHackCOMSPS_drup': 616}, 8: {'Maple_LCM+BCrestart_M1': 12, 'glucose3.0': 4, 'MapleCOMSPS_CHB_VSIDS_drup': 6, 'Maple_CM_ordUIP': 2, 'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 53, 'Glucose_Hack_Kiel_fastBVE': 5, 'Lingeling': 861, 'Riss7.1-fix': 6, 'glucose4.2.1': 10, 'Candy': 3, 'claspfolio': 4009.0, 'inIDGlucose': 11, 'MapleCOMSPS_LRB_VSIDS_2_fix': 1, 'glucose-3.0_PADC_10': 4, 'Maple_CM': 5}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 318 (-unsolvable)
+% Used Instances for Training: 318 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 4506.0, 'Maple_LCM_Scavel_200_fix2': 494}, 2: {'claspfolio': 4102.0, 'Maple_CM_Dist': 898}, 3: {'claspfolio': 4043.0, 'smallsat': 343, 'abcdsat_r18': 614}, 4: {'claspfolio': 4016.0, 'Maple_LCM_Scavel_fix2': 589, 'gluHack': 395}, 5: {'claspfolio': 4016.0, 'cms55-main-all4fixed': 563, 'glu_mix': 421}, 6: {'claspfolio': 4009.0, 'Sparrow2Riss-2018-fixfix': 270, 'MapleLCMDistChronoBT': 592, 'expMC_LRB_VSIDS_Switch_2500': 129}, 7: {'claspfolio': 4009.0, 'YalSAT': 42, 'Maple_LCM+BCrestart': 196, 'Maple_LCM_M1': 137, 'GHackCOMSPS_drup': 616}, 8: {'Maple_LCM+BCrestart_M1': 12, 'glucose3.0': 4, 'MapleCOMSPS_CHB_VSIDS_drup': 6, 'Maple_CM_ordUIP': 2, 'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 53, 'Glucose_Hack_Kiel_fastBVE': 5, 'Lingeling': 861, 'Riss7.1-fix': 6, 'glucose4.2.1': 10, 'Candy': 3, 'claspfolio': 4009.0, 'inIDGlucose': 11, 'MapleCOMSPS_LRB_VSIDS_2_fix': 1, 'glucose-3.0_PADC_10': 4, 'Maple_CM': 5}}
+% PAR10 on current test set: 21607.34 (35 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25897.86 (31 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22670.44 (31 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 24283.93 (31 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 31318.31 (32 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23496.39 (32 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 31287.01 (32 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26628.62 (32 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23522.06 (32 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21993.83 (32 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28179.37 (32 instances)
+% 
+%  >>> Instances: 317 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 89
+% PAR1 time: 1474.187224 (97.883114)
+% Par10 time: 14107.975868 (97.492763)
+% #TOs: 89 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 164
+% Solved (perc) (with unsolved): 0.4826
+% PAR1 (with unsolved): 2662.58
+% PAR10 (with unsolved): 25943.34
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 75
+% Solved (perc) (without unsolved): 0.6711
+% PAR1 (without unsolved): 1750.17
+% PAR10 (without unsolved): 16552.80
+% 
+% Time used by each solver: {'expGlucose': 0, 'expMC_VSIDS_LRB_Switch_2500': 4999.95, 'Riss7.1-fix': 111200.12000000001, 'glucose4.2.1': 25340.29, 'Maple_LCM_Scavel_fix2': 52983.36999999999, 'cms55-main-all4fixed': 72970.06000000001, 'Glucose_Hack_Kiel_fastBVE': 0, 'Maple_CM': 0, 'Maple_LCM_M1': 15230.689999999999, 'MapleCOMSPS_CHB_VSIDS_drup': 19999.61, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 0, 'MapleCOMSPS_LRB_VSIDS_2_fix': 11999.77, 'Maple_CM_Dist': 20400.769999999997, 'glu_mix': 24999.399999999998, 'Maple_LCM_Scavel_200_fix2': 59998.70000000001, 'Lingeling': 67708.87, 'Maple_LCM+BCrestart': 10376.0, 'smallsat': 47844.09999999999, 'GHackCOMSPS_drup': 9999.8, 'gluHack': 0, 'Maple_LCM+BCrestart_M1': 46548.58000000001, 'glucose3.0': 0, 'Candy': 5842.57, 'MapleCOMSPS_LRB_VSIDS_drup': 19999.609999999997, 'glucose-3.0_PADC_3': 0, 'YalSAT': 0, 'inIDGlucose': 0, 'COMiniSatPS_Pulsar_drup': 23568.510000000002, 'CaDiCaL': 24999.46, 'Maple_CM_ordUIP+': 0, 'abcdsat_r18': 4999.86, 'MapleLCMDistChronoBT': 30439.069999999996, 'expMC_LRB_VSIDS_Switch': 100760.97, 'Sparrow2Riss-2018-fixfix': 30793.92, 'Minisat-v2.2.0-106-ge2dd095': 0, 'glucose-3.0_PADC_10': 0}
+% Optimal Time used by each solver: {'expGlucose': 445089.0, 'expMC_VSIDS_LRB_Switch_2500': 781.91, 'Riss7.1-fix': 570.19, 'glucose4.2.1': 349.0, 'Maple_LCM_Scavel_fix2': 648.51, 'cms55-main-all4fixed': 1518.9, 'Glucose_Hack_Kiel_fastBVE': 101.5, 'Maple_CM': 223.08, 'Maple_LCM_M1': 174.29000000000002, 'MapleCOMSPS_CHB_VSIDS_drup': 163.19, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 830.69, 'MapleCOMSPS_LRB_VSIDS_2_fix': 67.86999999999999, 'Maple_CM_Dist': 2951.68, 'glu_mix': 1372.6, 'Maple_LCM_Scavel_200_fix2': 727.87, 'Lingeling': 289.54004999999995, 'Maple_LCM+BCrestart': 190.98, 'smallsat': 2036.01, 'GHackCOMSPS_drup': 830.5600000000001, 'gluHack': 1501.63, 'Maple_LCM+BCrestart_M1': 0, 'glucose3.0': 66.53, 'Candy': 263.44, 'MapleCOMSPS_LRB_VSIDS_drup': 112.39, 'glucose-3.0_PADC_3': 62.07, 'YalSAT': 51.63000999999999, 'inIDGlucose': 20.060000000000002, 'COMiniSatPS_Pulsar_drup': 2432.18, 'CaDiCaL': 1345.7500000000002, 'Maple_CM_ordUIP+': 98.67, 'abcdsat_r18': 1088.11, 'MapleLCMDistChronoBT': 537.5400000000001, 'expMC_LRB_VSIDS_Switch': 0, 'Sparrow2Riss-2018-fixfix': 403.67999999999995, 'Minisat-v2.2.0-106-ge2dd095': 59.87, 'glucose-3.0_PADC_10': 356.43}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/ASPEEDeJKUi8.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=8 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/GROUNDsbIDRm.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 4672.0, 'Lingeling': 328}, 2: {'claspfolio': 4007.0, 'glu_mix': 409, 'GHackCOMSPS_drup': 584}, 3: {'claspfolio': 4135.0, 'cms55-main-all4fixed': 577, 'Maple_LCM_Scavel_200_fix2': 288}, 4: {'claspfolio': 4311.0, 'gluHack': 600, 'expMC_LRB_VSIDS_Switch_2500': 89}, 5: {'claspfolio': 4015.0, 'Maple_LCM+BCrestart_M1': 556, 'MapleLCMDistChronoBT': 162, 'Maple_CM': 267}, 6: {'claspfolio': 4007.0, 'Riss7.1-fix': 487, 'smallsat': 417, 'CaDiCaL': 89}, 7: {'MapleCOMSPS_LRB_VSIDS_2_fix': 15, 'COMiniSatPS_Pulsar_drup': 560, 'YalSAT': 242, 'glucose3.0': 4, 'MapleCOMSPS_CHB_VSIDS_drup': 4, 'Maple_CM_ordUIP': 2, 'Glucose_Hack_Kiel_fastBVE': 3, 'Maple_CM_Dist': 2, 'MapleCOMSPS_LRB_VSIDS_drup': 1, 'glucose4.2.1': 88, 'claspfolio': 4008.0, 'inIDGlucose': 67, 'Maple_LCM+BCrestart': 1, 'Maple_LCM_M1': 1, 'Maple_CM_ordUIP+': 2}, 8: {'abcdsat_r18': 458, 'expGlucose': 6, 'expMC_VSIDS_LRB_Switch_2500': 1, 'Sparrow2Riss-2018-fixfix': 534, 'Maple_LCM_Scavel_fix2': 1, 'claspfolio': 4000.0}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 317 (-unsolvable)
+% Used Instances for Training: 317 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 4672.0, 'Lingeling': 328}, 2: {'claspfolio': 4007.0, 'glu_mix': 409, 'GHackCOMSPS_drup': 584}, 3: {'claspfolio': 4135.0, 'cms55-main-all4fixed': 577, 'Maple_LCM_Scavel_200_fix2': 288}, 4: {'claspfolio': 4311.0, 'gluHack': 600, 'expMC_LRB_VSIDS_Switch_2500': 89}, 5: {'claspfolio': 4015.0, 'Maple_LCM+BCrestart_M1': 556, 'MapleLCMDistChronoBT': 162, 'Maple_CM': 267}, 6: {'claspfolio': 4007.0, 'Riss7.1-fix': 487, 'smallsat': 417, 'CaDiCaL': 89}, 7: {'MapleCOMSPS_LRB_VSIDS_2_fix': 15, 'COMiniSatPS_Pulsar_drup': 560, 'YalSAT': 242, 'glucose3.0': 4, 'MapleCOMSPS_CHB_VSIDS_drup': 4, 'Maple_CM_ordUIP': 2, 'Glucose_Hack_Kiel_fastBVE': 3, 'Maple_CM_Dist': 2, 'MapleCOMSPS_LRB_VSIDS_drup': 1, 'glucose4.2.1': 88, 'claspfolio': 4008.0, 'inIDGlucose': 67, 'Maple_LCM+BCrestart': 1, 'Maple_LCM_M1': 1, 'Maple_CM_ordUIP+': 2}, 8: {'abcdsat_r18': 458, 'expGlucose': 6, 'expMC_VSIDS_LRB_Switch_2500': 1, 'Sparrow2Riss-2018-fixfix': 534, 'Maple_LCM_Scavel_fix2': 1, 'claspfolio': 4000.0}}
+% PAR10 on current test set: 29313.08 (36 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21109.20 (31 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21042.86 (31 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 27496.67 (31 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28204.80 (32 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21949.40 (32 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20378.14 (32 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 34417.97 (32 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 32874.25 (32 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25076.37 (32 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: MapleLCMDistChronoBT
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28210.04 (32 instances)
+% 
+%  >>> Instances: 317 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 90
+% PAR1 time: 1510.124890 (126.473965)
+% Par10 time: 14285.866215 (126.077489)
+% #TOs: 90 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 165
+% Solved (perc) (with unsolved): 0.4795
+% PAR1 (with unsolved): 2680.32
+% PAR10 (with unsolved): 26103.03
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 75
+% Solved (perc) (without unsolved): 0.6696
+% PAR1 (without unsolved): 1760.62
+% PAR10 (without unsolved): 16628.46
+% 
+% Time used by each solver: {'expGlucose': 4999.87, 'expMC_VSIDS_LRB_Switch_2500': 0, 'Riss7.1-fix': 116017.30000000003, 'glucose4.2.1': 0, 'Maple_LCM_Scavel_fix2': 57869.13, 'cms55-main-all4fixed': 68290.84, 'Glucose_Hack_Kiel_fastBVE': 0, 'Maple_CM': 212.82, 'Maple_LCM_M1': 5062.71, 'MapleCOMSPS_CHB_VSIDS_drup': 9999.72, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 10131.97, 'MapleCOMSPS_LRB_VSIDS_2_fix': 37246.2, 'Maple_CM_Dist': 7.84, 'glu_mix': 35650.43, 'Maple_LCM_Scavel_200_fix2': 35275.09999999999, 'Lingeling': 67186.33, 'Maple_LCM+BCrestart': 20230.239999999998, 'smallsat': 69643.32, 'GHackCOMSPS_drup': 9999.8, 'gluHack': 4999.85, 'Maple_LCM+BCrestart_M1': 41021.060000000005, 'glucose3.0': 0, 'Candy': 5828.179999999999, 'MapleCOMSPS_LRB_VSIDS_drup': 34999.18, 'glucose-3.0_PADC_3': 0, 'YalSAT': 0, 'inIDGlucose': 0, 'COMiniSatPS_Pulsar_drup': 12853.099999999999, 'CaDiCaL': 4999.86, 'Maple_CM_ordUIP+': 14999.579999999998, 'abcdsat_r18': 4999.86, 'MapleLCMDistChronoBT': 20272.55, 'expMC_LRB_VSIDS_Switch': 121608.22999999998, 'Sparrow2Riss-2018-fixfix': 35221.649999999994, 'Minisat-v2.2.0-106-ge2dd095': 0, 'glucose-3.0_PADC_10': 0}
+% Optimal Time used by each solver: {'expGlucose': 450090.0, 'expMC_VSIDS_LRB_Switch_2500': 781.91, 'Riss7.1-fix': 570.54, 'glucose4.2.1': 349.0, 'Maple_LCM_Scavel_fix2': 299.59, 'cms55-main-all4fixed': 1404.13, 'Glucose_Hack_Kiel_fastBVE': 101.5, 'Maple_CM': 289.29, 'Maple_LCM_M1': 310.96000000000004, 'MapleCOMSPS_CHB_VSIDS_drup': 163.19, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 631.5, 'MapleCOMSPS_LRB_VSIDS_2_fix': 184.45999999999998, 'Maple_CM_Dist': 5636.91, 'glu_mix': 1976.9299999999998, 'Maple_LCM_Scavel_200_fix2': 727.87, 'Lingeling': 289.56004999999993, 'Maple_LCM+BCrestart': 463.37, 'smallsat': 1829.06, 'GHackCOMSPS_drup': 830.5600000000001, 'gluHack': 1198.96, 'Maple_LCM+BCrestart_M1': 0, 'glucose3.0': 66.53, 'Candy': 263.44, 'MapleCOMSPS_LRB_VSIDS_drup': 126.11, 'glucose-3.0_PADC_3': 62.07, 'YalSAT': 53.01000999999999, 'inIDGlucose': 20.060000000000002, 'COMiniSatPS_Pulsar_drup': 2579.4500000000003, 'CaDiCaL': 1312.8700000000001, 'Maple_CM_ordUIP+': 98.67, 'abcdsat_r18': 1893.2999999999997, 'MapleLCMDistChronoBT': 3287.3, 'expMC_LRB_VSIDS_Switch': 0, 'Sparrow2Riss-2018-fixfix': 401.19, 'Minisat-v2.2.0-106-ge2dd095': 59.87, 'glucose-3.0_PADC_10': 356.43}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/ASPEEDLnjnaF.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=8 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/GROUNDyqEh2q.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 4505.0, 'Lingeling': 1, 'Maple_LCM_Scavel_200_fix2': 494}, 2: {'claspfolio': 4275.0, 'Maple_CM_Dist': 173, 'abcdsat_r18': 552}, 3: {'claspfolio': 4412.0, 'glucose-3.0_PADC_3': 588}, 4: {'claspfolio': 4156.0, 'YalSAT': 242, 'Candy': 602}, 5: {'claspfolio': 4025.0, 'glu_mix': 438, 'GHackCOMSPS_drup': 537}, 6: {'claspfolio': 4063.0, 'Riss7.1-fix': 321, 'CaDiCaL': 74, 'expMC_LRB_VSIDS_Switch': 437, 'expMC_LRB_VSIDS_Switch_2500': 105}, 7: {'claspfolio': 4048.0, 'Maple_LCM+BCrestart': 221, 'smallsat': 580, 'Maple_LCM+BCrestart_M1': 151}, 8: {'COMiniSatPS_Pulsar_drup': 1, 'Maple_CM_ordUIP': 1, 'MapleCOMSPS_CHB_VSIDS_drup': 3, 'expGlucose': 34, 'expMC_VSIDS_LRB_Switch_2500': 9, 'Glucose_Hack_Kiel_fastBVE': 3, 'MapleCOMSPS_LRB_VSIDS_drup': 297, 'glucose4.2.1': 3, 'Maple_LCM_Scavel_fix2': 452, 'gluHack': 1, 'cms55-main-all4fixed': 1, 'claspfolio': 4016.0, 'inIDGlucose': 13, 'Maple_LCM_M1': 2, 'MapleLCMDistChronoBT': 159, 'Maple_CM': 5}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 317 (-unsolvable)
+% Used Instances for Training: 317 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 4505.0, 'Lingeling': 1, 'Maple_LCM_Scavel_200_fix2': 494}, 2: {'claspfolio': 4275.0, 'Maple_CM_Dist': 173, 'abcdsat_r18': 552}, 3: {'claspfolio': 4412.0, 'glucose-3.0_PADC_3': 588}, 4: {'claspfolio': 4156.0, 'YalSAT': 242, 'Candy': 602}, 5: {'claspfolio': 4025.0, 'glu_mix': 438, 'GHackCOMSPS_drup': 537}, 6: {'claspfolio': 4063.0, 'Riss7.1-fix': 321, 'CaDiCaL': 74, 'expMC_LRB_VSIDS_Switch': 437, 'expMC_LRB_VSIDS_Switch_2500': 105}, 7: {'claspfolio': 4048.0, 'Maple_LCM+BCrestart': 221, 'smallsat': 580, 'Maple_LCM+BCrestart_M1': 151}, 8: {'COMiniSatPS_Pulsar_drup': 1, 'Maple_CM_ordUIP': 1, 'MapleCOMSPS_CHB_VSIDS_drup': 3, 'expGlucose': 34, 'expMC_VSIDS_LRB_Switch_2500': 9, 'Glucose_Hack_Kiel_fastBVE': 3, 'MapleCOMSPS_LRB_VSIDS_drup': 297, 'glucose4.2.1': 3, 'Maple_LCM_Scavel_fix2': 452, 'gluHack': 1, 'cms55-main-all4fixed': 1, 'claspfolio': 4016.0, 'inIDGlucose': 13, 'Maple_LCM_M1': 2, 'MapleLCMDistChronoBT': 159, 'Maple_CM': 5}}
+% PAR10 on current test set: 23790.66 (36 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% 
+% >>> Algorithm Scheduler: Aspeed <<<
+% 
+% >>> 1-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25890.02 (31 instances)
+% >>> 2-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 22682.26 (31 instances)
+% >>> 3-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 286 (-unsolvable)
+% Used Instances for Training: 286 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 33952.14 (31 instances)
+% >>> 4-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25073.92 (32 instances)
+% >>> 5-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 28266.74 (32 instances)
+% >>> 6-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 26599.37 (32 instances)
+% >>> 7-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 21956.57 (32 instances)
+% >>> 8-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 25071.47 (32 instances)
+% >>> 9-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 20398.02 (32 instances)
+% >>> 10-th iteration<<<
+% Backup Solver: Maple_LCM_Scavel_200_fix2
+% Input Instances for Training: 285 (-unsolvable)
+% Used Instances for Training: 285 (-unsolvable)
+% Train with k-NN
+% PAR10 on current test set: 23535.98 (32 instances)
+% 
+%  >>> Instances: 317 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 89
+% PAR1 time: 1493.101199 (124.180176)
+% Par10 time: 14126.889842 (123.789825)
+% #TOs: 89 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 160
+% Solved (perc) (with unsolved): 0.4953
+% PAR1 (with unsolved): 2609.22
+% PAR10 (with unsolved): 25322.16
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 71
+% Solved (perc) (without unsolved): 0.6886
+% PAR1 (without unsolved): 1675.98
+% PAR10 (without unsolved): 15689.14
+% 
+% Time used by each solver: {'expGlucose': 0, 'expMC_VSIDS_LRB_Switch_2500': 4999.95, 'Riss7.1-fix': 25019.630000000005, 'glucose4.2.1': 0, 'Maple_LCM_Scavel_fix2': 61469.96, 'cms55-main-all4fixed': 109143.82, 'Glucose_Hack_Kiel_fastBVE': 0, 'Maple_CM': 0, 'Maple_LCM_M1': 4999.86, 'MapleCOMSPS_CHB_VSIDS_drup': 0, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 0, 'MapleCOMSPS_LRB_VSIDS_2_fix': 39472.44000000001, 'Maple_CM_Dist': 0, 'glu_mix': 4999.86, 'Maple_LCM_Scavel_200_fix2': 193063.41000000003, 'Lingeling': 72443.78, 'Maple_LCM+BCrestart': 34999.10999999999, 'smallsat': 94054.79999999999, 'GHackCOMSPS_drup': 14999.57, 'gluHack': 0, 'Maple_LCM+BCrestart_M1': 32642.29, 'glucose3.0': 0, 'Candy': 0, 'MapleCOMSPS_LRB_VSIDS_drup': 4999.94, 'glucose-3.0_PADC_3': 0, 'YalSAT': 0, 'inIDGlucose': 0, 'COMiniSatPS_Pulsar_drup': 1086.44, 'CaDiCaL': 30300.329999999998, 'Maple_CM_ordUIP+': 0, 'abcdsat_r18': 231.57999999999998, 'MapleLCMDistChronoBT': 0, 'expMC_LRB_VSIDS_Switch': 62347.799999999996, 'Sparrow2Riss-2018-fixfix': 35814.6, 'Minisat-v2.2.0-106-ge2dd095': 0, 'glucose-3.0_PADC_10': 0}
+% Optimal Time used by each solver: {'expGlucose': 445089.0, 'expMC_VSIDS_LRB_Switch_2500': 781.91, 'Riss7.1-fix': 529.22, 'glucose4.2.1': 349.0, 'Maple_LCM_Scavel_fix2': 349.36, 'cms55-main-all4fixed': 1515.1000000000001, 'Glucose_Hack_Kiel_fastBVE': 101.5, 'Maple_CM': 289.29, 'Maple_LCM_M1': 310.96000000000004, 'MapleCOMSPS_CHB_VSIDS_drup': 163.19, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 870.44, 'MapleCOMSPS_LRB_VSIDS_2_fix': 184.92, 'Maple_CM_Dist': 5691.89, 'glu_mix': 2268.4300000000003, 'Maple_LCM_Scavel_200_fix2': 727.87, 'Lingeling': 289.5500599999999, 'Maple_LCM+BCrestart': 463.37, 'smallsat': 1931.51, 'GHackCOMSPS_drup': 830.5600000000001, 'gluHack': 1501.63, 'Maple_LCM+BCrestart_M1': 0, 'glucose3.0': 0, 'Candy': 263.44, 'MapleCOMSPS_LRB_VSIDS_drup': 126.11, 'glucose-3.0_PADC_3': 62.07, 'YalSAT': 12.06001, 'inIDGlucose': 20.060000000000002, 'COMiniSatPS_Pulsar_drup': 2186.23, 'CaDiCaL': 1141.77, 'Maple_CM_ordUIP+': 98.67, 'abcdsat_r18': 1451.4299999999998, 'MapleLCMDistChronoBT': 2890.2799999999997, 'expMC_LRB_VSIDS_Switch': 0, 'Sparrow2Riss-2018-fixfix': 405.96, 'Minisat-v2.2.0-106-ge2dd095': 59.87, 'glucose-3.0_PADC_10': 356.43}
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/gringo src/trainer/aspeed/enc/encoding-bounded-paper-Step1.lp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/ASPEEDw_rVQf.facts -c maxsolver=100 -c optMode=1 -c maxPreSlice=500 -c cores=8 -c featTime=500
+% src/../binaries/runsolver -w /dev/null -M 6000 -W 1000 src/../binaries/clasp /pfs/tc1/gscratch/hkashgar/flexfolio/SAT2018/models/8-core/GROUNDJMadzx.gr --quiet=1,1
+% 
+% Schedule {1: {'claspfolio': 4502.0, 'abcdsat_r18': 498}, 2: {'claspfolio': 4139.0, 'Lingeling': 861}, 3: {'claspfolio': 4402.0, 'gluHack': 598}, 4: {'claspfolio': 4001.0, 'glu_mix': 462, 'GHackCOMSPS_drup': 537}, 5: {'claspfolio': 4006.0, 'Sparrow2Riss-2018-fixfix': 184, 'Riss7.1-fix': 810}, 6: {'claspfolio': 4411.0, 'Maple_LCM_Scavel_fix2': 589}, 7: {'claspfolio': 4109.0, 'cms55-main-all4fixed': 467, 'MapleLCMDistChronoBT': 424}, 8: {'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 9, 'Glucose_Hack_Kiel_fastBVE': 2, 'glucose4.2.1': 5, 'expMC_LRB_VSIDS_Switch_2500': 225, 'claspfolio': 4169.0, 'inIDGlucose': 2, 'smallsat': 580}}
+% 
+% >>> End of Algorithm Scheduler <<<
+% 
+% Input Instances for Training: 317 (-unsolvable)
+% Used Instances for Training: 317 (-unsolvable)
+% Train with k-NN
+% Pre-Solving schedule: {1: {'claspfolio': 4502.0, 'abcdsat_r18': 498}, 2: {'claspfolio': 4139.0, 'Lingeling': 861}, 3: {'claspfolio': 4402.0, 'gluHack': 598}, 4: {'claspfolio': 4001.0, 'glu_mix': 462, 'GHackCOMSPS_drup': 537}, 5: {'claspfolio': 4006.0, 'Sparrow2Riss-2018-fixfix': 184, 'Riss7.1-fix': 810}, 6: {'claspfolio': 4411.0, 'Maple_LCM_Scavel_fix2': 589}, 7: {'claspfolio': 4109.0, 'cms55-main-all4fixed': 467, 'MapleLCMDistChronoBT': 424}, 8: {'expGlucose': 8, 'expMC_VSIDS_LRB_Switch_2500': 9, 'Glucose_Hack_Kiel_fastBVE': 2, 'glucose4.2.1': 5, 'expMC_LRB_VSIDS_Switch_2500': 225, 'claspfolio': 4169.0, 'inIDGlucose': 2, 'smallsat': 580}}
+% PAR10 on current test set: 27939.20 (36 instances)
+% 
+%  >>> Instances: 353 <<<
+%  >>> Oracle Evaluation (w/o unsolved) <<<
+% 
+% Unsolved (not by any algorithm and not by feature computation): 101
+% PAR1 time: 1516.986572 (121.016905)
+% Par10 time: 14392.054561 (120.616111)
+% #TOs: 101 (0)
+% 
+%  >>> Cross Fold Evaluation <<<
+% 
+% Presolved: 0
+% Prediction ties: 0
+% >>>With Unsolvable Instances
+% Timeouts (with unsolved): 161
+% Solved (perc) (with unsolved): 0.5439
+% PAR1 (with unsolved): 2476.59
+% PAR10 (with unsolved): 23000.67
+% >>>Without Unsolved Instances (depends on pre-solved in feature groups)
+% Timeouts (without unsolved): 60
+% Solved (perc) (without unsolved): 0.7619
+% PAR1 (without unsolved): 1465.22
+% PAR10 (without unsolved): 12179.51
+% 
+% Time used by each solver: {'expGlucose': 13037.380000000001, 'expMC_VSIDS_LRB_Switch_2500': 23299.210000000003, 'Riss7.1-fix': 183621.08, 'glucose4.2.1': 12391.990000000002, 'Maple_LCM_Scavel_fix2': 147383.19, 'cms55-main-all4fixed': 152723.18999999994, 'Glucose_Hack_Kiel_fastBVE': 1131.75, 'Maple_CM': 16920.899999999998, 'Maple_LCM_M1': 29331.64, 'MapleCOMSPS_CHB_VSIDS_drup': 10056.050000000001, 'Maple_CM_ordUIP': 3054.09, 'expMC_LRB_VSIDS_Switch_2500': 25437.209999999995, 'MapleCOMSPS_LRB_VSIDS_2_fix': 50122.759999999995, 'Maple_CM_Dist': 32673.149999999998, 'glu_mix': 164238.71000000008, 'Maple_LCM_Scavel_200_fix2': 110752.76999999999, 'Lingeling': 142949.32006000003, 'Maple_LCM+BCrestart': 51688.37999999999, 'smallsat': 225611.32999999993, 'GHackCOMSPS_drup': 93219.84999999999, 'gluHack': 123840.23, 'Maple_LCM+BCrestart_M1': 75378.48000000003, 'glucose3.0': 14170.59, 'Candy': 24971.739999999998, 'MapleCOMSPS_LRB_VSIDS_drup': 99945.08000000002, 'glucose-3.0_PADC_3': 17979.69, 'YalSAT': 33850.070009999996, 'inIDGlucose': 6264.02, 'COMiniSatPS_Pulsar_drup': 31948.150000000005, 'CaDiCaL': 31620.489999999998, 'Maple_CM_ordUIP+': 4780.849999999999, 'abcdsat_r18': 142416.12000000002, 'MapleLCMDistChronoBT': 78151.88999999998, 'expMC_LRB_VSIDS_Switch': 123752.18999999999, 'Sparrow2Riss-2018-fixfix': 105357.64000000001, 'Minisat-v2.2.0-106-ge2dd095': 70, 'glucose-3.0_PADC_10': 2170.5699999999997}
+% Optimal Time used by each solver: {'expGlucose': 505101.0, 'expMC_VSIDS_LRB_Switch_2500': 781.91, 'Riss7.1-fix': 574.8000000000001, 'glucose4.2.1': 349.0, 'Maple_LCM_Scavel_fix2': 648.51, 'cms55-main-all4fixed': 1518.9, 'Glucose_Hack_Kiel_fastBVE': 101.5, 'Maple_CM': 289.29, 'Maple_LCM_M1': 310.96, 'MapleCOMSPS_CHB_VSIDS_drup': 163.19, 'Maple_CM_ordUIP': 0, 'expMC_LRB_VSIDS_Switch_2500': 870.44, 'MapleCOMSPS_LRB_VSIDS_2_fix': 184.92, 'Maple_CM_Dist': 5691.89, 'glu_mix': 2268.43, 'Maple_LCM_Scavel_200_fix2': 727.87, 'Lingeling': 289.5600599999999, 'Maple_LCM+BCrestart': 463.37, 'smallsat': 2036.01, 'GHackCOMSPS_drup': 830.56, 'gluHack': 1501.63, 'Maple_LCM+BCrestart_M1': 0, 'glucose3.0': 66.53, 'Candy': 263.44, 'MapleCOMSPS_LRB_VSIDS_drup': 126.11, 'glucose-3.0_PADC_3': 62.07, 'YalSAT': 53.31000999999999, 'inIDGlucose': 20.060000000000002, 'COMiniSatPS_Pulsar_drup': 2732.8599999999997, 'CaDiCaL': 1347.39, 'Maple_CM_ordUIP+': 98.67, 'abcdsat_r18': 1912.52, 'MapleLCMDistChronoBT': 3287.3, 'expMC_LRB_VSIDS_Switch': 0, 'Sparrow2Riss-2018-fixfix': 405.95999999999987, 'Minisat-v2.2.0-106-ge2dd095': 59.87, 'glucose-3.0_PADC_10': 356.43}
