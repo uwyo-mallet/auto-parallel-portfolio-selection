@@ -39,6 +39,7 @@
 @attribute HORNY.VAR.min numeric
 @attribute HORNY.VAR.max numeric
 @attribute HORNY.VAR.entropy numeric
+
 @attribute horn.clauses.fraction numeric
 @attribute VG.mean numeric
 @attribute VG.coeff.variation numeric
