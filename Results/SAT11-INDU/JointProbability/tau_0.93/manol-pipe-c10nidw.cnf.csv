@@ -1,5 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"manol-pipe-c10nidw.cnf","minisathackcontrasat_2011.03.02",436.57,694.535567567568,1495.93898001569,531.93,113.06,0,0,0,5,"pred"
-"manol-pipe-c10nidw.cnf","lingeling.587f.4882048.110513",295.45,797.736551801802,1334.36188844499,313.35,113.06,0,0,0,5,"pred"
-"manol-pipe-c10nidw.cnf","minisathackLR_GL_SHR_2011.03.02",266.88,824.992921171171,1439.02619798438,369.78,113.06,0,0,0,5,"pred"
-"manol-pipe-c10nidw.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,931.665786036036,1640.31404793227,5000,113.06,0,0,0,5,"pred"

@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/safe029_power.opt_false-unreach-call.i-cbmc-u2.cnf","GHackCOMSPS_DRUP",5.682,194.073629641351,713.858482580826,5.62,4.574,0,0,0,5,"pred"
-"sat/safe029_power.opt_false-unreach-call.i-cbmc-u2.cnf","BeansAndEggs",7.08,219.266184177215,753.41160985657,6.82,4.574,0,0,0,5,"pred"
-"sat/safe029_power.opt_false-unreach-call.i-cbmc-u2.cnf","COMiniSatPSChandrasekharDRUP",6.565,276.412070042194,883.906310037099,6.26,4.574,0,0,0,5,"pred"
-"sat/safe029_power.opt_false-unreach-call.i-cbmc-u2.cnf","glucose",7.485,283.629073945148,914.116558026938,7.39,4.574,0,0,0,5,"pred"
-"sat/safe029_power.opt_false-unreach-call.i-cbmc-u2.cnf","tc_glucose",6.527,321.487377531646,991.570735187741,6.72,4.574,0,0,0,5,"pred"
-"sat/safe029_power.opt_false-unreach-call.i-cbmc-u2.cnf","glue_alt",4.574,332.787100210971,1038.22353350585,4.56,4.574,0,0,0,5,"pred"
-"sat/safe029_power.opt_false-unreach-call.i-cbmc-u2.cnf","cmsat5_autotune2",10.6,334.003662974683,1053.69030488776,10.89,4.574,0,0,0,5,"pred"

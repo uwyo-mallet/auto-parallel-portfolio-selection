@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/uniqinv47prop.cnf","cms55.main.all4fixed",796.162,1340.24650642978,1780.95860026899,5000,796.162,0,0,0,5,"pred"
-"sat/uniqinv47prop.cnf","Sparrow2Riss.2018.fixfix",2352.771,2127.3585036379,1735.09693023677,5000,796.162,0,0,0,5,"pred"
-"sat/uniqinv47prop.cnf","Riss7.1.fix",2279.876,2464.6068964467,2042.48270928492,5000,796.162,0,0,0,5,"pred"
-"sat/uniqinv47prop.cnf","Maple_CM_ordUIP.",2772.358,2727.58375634518,1611.95749732717,2827.61,796.162,0,0,0,5,"pred"
-"sat/uniqinv47prop.cnf","Maple_CM",2771.076,2840.38468460237,1766.13016830248,2809.66,796.162,0,0,0,5,"pred"
-"sat/uniqinv47prop.cnf","Maple_LCM_M1",2755.579,2871.89931116751,1671.63097838424,2818.69,796.162,0,0,0,5,"pred"
-"sat/uniqinv47prop.cnf","YalSAT",5000,5000,0,5000,796.162,0,0,0,5,"pred"

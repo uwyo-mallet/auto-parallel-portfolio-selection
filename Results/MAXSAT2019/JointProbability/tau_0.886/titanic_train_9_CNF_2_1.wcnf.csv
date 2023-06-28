@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"titanic_train_9_CNF_2_1.wcnf","MaxHS",24.02,1089.30116422616,472.633764794228,24.16,1.46,0,0,0,5,"pred"
-"titanic_train_9_CNF_2_1.wcnf","UWrMaxSat.1.0",1.46,1137.64722478565,448.941896890498,1.46,1.46,0,0,0,5,"pred"
-"titanic_train_9_CNF_2_1.wcnf","Open.WBO.ms",257.84,1142.63067955677,513.744128701717,265.97,1.46,0,0,0,5,"pred"

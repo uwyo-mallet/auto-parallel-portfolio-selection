@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sokoban-sequential-p145-microban-sequential050-NOTKNOWN.cnf","SAT09referencesolverprecosat_236",1022.74,1439.69014666667,1732.66815944516,1022.74,1022.74,0,0,0,5,"pred"

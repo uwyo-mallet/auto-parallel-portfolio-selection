@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"aaai10-planning-ipc5-pipesworld-27-step14.cnf","MPhaseSAT64",46.92,337.112076344086,942.903767196286,46.59,7.06,0,0,0,5,"pred"
-"aaai10-planning-ipc5-pipesworld-27-step14.cnf","RestartSAT_B95",38.32,377.353177419355,938.771352458909,42.49,7.06,0,0,0,5,"pred"

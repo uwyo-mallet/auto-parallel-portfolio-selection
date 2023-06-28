@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ak128modasbg2asisc.cnf","Riss6",33.199,922.612883333333,1787.79567764335,33.55,33.199,0,0,0,5,"pred"
-"sat/ak128modasbg2asisc.cnf","glucose_hack_kiel_newScript",5000,3913.75196399371,1892.76789456153,5000,33.199,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"post-cbmc-zfcp-28-u2-noholes.cnf","MPhaseSAT64",109.61,1858.24233866667,2113.33733431223,109.61,14.35,0,0,0,5,"pred"

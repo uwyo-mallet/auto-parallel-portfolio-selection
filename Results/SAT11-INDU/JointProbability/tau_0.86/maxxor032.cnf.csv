@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"maxxor032.cnf","glueminisat.2.2.5",45.59,1179.36998888889,1683.96039602029,47.07,45.59,0,0,0,5,"pred"
-"maxxor032.cnf","lingeling.587f.4882048.110513",125.4,1409.81145555556,1845.28320282848,126.64,45.59,0,0,0,5,"pred"
-"maxxor032.cnf","MPhaseSAT64",4038.88,1709.77505833333,2079.98828973066,4057.4,45.59,0,0,0,5,"pred"

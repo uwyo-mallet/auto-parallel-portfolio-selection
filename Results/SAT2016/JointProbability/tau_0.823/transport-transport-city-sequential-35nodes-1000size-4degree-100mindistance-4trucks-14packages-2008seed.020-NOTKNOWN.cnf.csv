@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.020-NOTKNOWN.cnf","MapleCOMSPS_LRB_DRUP",193.05,1060.06094974747,1485.75623875378,194.57,73.909,0,0,0,5,"pred"
-"sat/transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.020-NOTKNOWN.cnf","MapleCOMSPS_DRUP",133.614,1586.26859179293,1375.16584823246,134.88,73.909,0,0,0,5,"pred"
-"sat/transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.020-NOTKNOWN.cnf","MapleCMS",92.375,1689.86027386364,1756.88286217828,91.97,73.909,0,0,0,5,"pred"

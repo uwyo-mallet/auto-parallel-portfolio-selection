@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"UCG-20-5p1.cnf","lingeling.587f.4882048.110513",169.06,1233.04293763441,1048.78044429055,180.07,121.8,0,0,0,5,"pred"
-"UCG-20-5p1.cnf","glueminisat.2.2.5",399.83,1337.85045698925,1157.48031590617,593.89,121.8,0,0,0,5,"pred"
-"UCG-20-5p1.cnf","minisathackcontrasat_2011.03.02",266.03,1467.89355376344,1445.03447657349,399.5,121.8,0,0,0,5,"pred"
-"UCG-20-5p1.cnf","SAT09referencesolverprecosat_236",121.8,1758.67257096774,989.970473982303,149.69,121.8,0,0,0,5,"pred"
-"UCG-20-5p1.cnf","minisathackminisat_psm_2011.04.01",210.16,1768.96100107527,1493.24756108429,277.04,121.8,0,0,0,5,"pred"

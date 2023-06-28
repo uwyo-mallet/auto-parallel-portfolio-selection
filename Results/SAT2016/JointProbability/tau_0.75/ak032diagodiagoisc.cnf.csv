@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ak032diagodiagoisc.cnf","Lingelingbbcmain",33.657,3281.37938773585,1905.43269468547,34.63,33.657,0,0,0,5,"pred"
-"sat/ak032diagodiagoisc.cnf","Splatz06vmain",82.791,3439.98570062893,1890.0917027743,84.71,33.657,0,0,0,5,"pred"
-"sat/ak032diagodiagoisc.cnf","CHBR_glucose",5000,4154.12017059749,1478.42925186333,5000,33.657,0,0,0,5,"pred"
-"sat/ak032diagodiagoisc.cnf","glue_alt",433.345,4156.60470801887,1411.48687726525,455.18,33.657,0,0,0,5,"pred"
-"sat/ak032diagodiagoisc.cnf","abcdSAT_drup",5000,4202.64013679245,1556.06303018943,5000,33.657,0,0,0,5,"pred"

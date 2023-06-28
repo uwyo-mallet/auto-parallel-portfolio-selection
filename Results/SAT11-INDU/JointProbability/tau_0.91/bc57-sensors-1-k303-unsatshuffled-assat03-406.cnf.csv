@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackLR_GL_SHR_2011.03.02",858.1,742.279855769231,1198.64462068802,1077.7,663.18,0,0,0,5,"pred"
-"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackcontrasat_2011.03.02",989.72,858.20623076923,1343.62534144256,1207.13,663.18,0,0,0,5,"pred"
-"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","glueminisat.2.2.5",745.36,881.207695512821,1521.77530749019,870.71,663.18,0,0,0,5,"pred"

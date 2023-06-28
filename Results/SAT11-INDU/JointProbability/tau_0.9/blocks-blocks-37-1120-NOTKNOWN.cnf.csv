@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"blocks-blocks-37-1120-NOTKNOWN.cnf","SAT09referencesolverprecosat_236",143.04,430.594248842593,564.566294835592,147.21,40.67,0,0,0,5,"pred"
-"blocks-blocks-37-1120-NOTKNOWN.cnf","lingeling.587f.4882048.110513",50.83,566.27492824074,549.060246460178,52.35,40.67,0,0,0,5,"pred"

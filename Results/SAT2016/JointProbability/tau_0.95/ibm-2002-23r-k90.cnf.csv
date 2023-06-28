@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ibm-2002-23r-k90.cnf","glucose_hack_kiel_newScript",107.942,2252.25888169935,2177.10188627844,107.59,53.267,0,0,0,5,"pred"
-"sat/ibm-2002-23r-k90.cnf","cmsat5_main2",112.926,2276.98722696078,2195.94640862161,111.99,53.267,0,0,0,5,"pred"
-"sat/ibm-2002-23r-k90.cnf","cmsat5_autotune2",110.122,2460.07771928105,2297.81968693012,121.05,53.267,0,0,0,5,"pred"
-"sat/ibm-2002-23r-k90.cnf","MapleCOMSPS_LRB_DRUP",53.507,2500.75266421569,2215.25439794712,55.27,53.267,0,0,0,5,"pred"
-"sat/ibm-2002-23r-k90.cnf","abcdSAT_drup",139.575,2521.0473620915,2228.07233550001,138.34,53.267,0,0,0,5,"pred"

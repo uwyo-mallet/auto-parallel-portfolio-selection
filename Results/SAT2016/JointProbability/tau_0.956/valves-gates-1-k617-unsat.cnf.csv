@@ -1,7 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/valves-gates-1-k617-unsat.cnf","CHBR_glucose_tuned",943.508,2344.64804151874,2118.62944810316,1126.83,821.783,0,0,0,5,"pred"
-"sat/valves-gates-1-k617-unsat.cnf","MapleCOMSPS_LRB_DRUP",5000,2395.69369516765,2138.58145764228,5000,821.783,0,0,0,5,"pred"
-"sat/valves-gates-1-k617-unsat.cnf","cmsat5_main2",1584.802,2484.43487938856,2126.99692578497,1719.18,821.783,0,0,0,5,"pred"
-"sat/valves-gates-1-k617-unsat.cnf","MapleCOMSPS_CHB_DRUP",5000,2489.44101794872,2205.12366225252,5000,821.783,0,0,0,5,"pred"
-"sat/valves-gates-1-k617-unsat.cnf","Lingelingbbcmain",2087.868,2559.68361577909,2045.37599085187,2319.69,821.783,0,0,0,5,"pred"
-"sat/valves-gates-1-k617-unsat.cnf","tb_glucose",1044.334,2562.51169447732,2209.51744502989,1214.75,821.783,0,0,0,5,"pred"

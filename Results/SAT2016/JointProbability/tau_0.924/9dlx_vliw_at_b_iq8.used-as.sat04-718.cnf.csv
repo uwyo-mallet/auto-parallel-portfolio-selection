@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/9dlx_vliw_at_b_iq8.used-as.sat04-718.cnf","glucose",903.479,1619.8922004717,1433.23720063255,1082.28,695.201,0,0,0,5,"pred"
-"sat/9dlx_vliw_at_b_iq8.used-as.sat04-718.cnf","Splatz06vmain",695.201,1652.45756666667,1640.57268218813,817.95,695.201,0,0,0,5,"pred"
-"sat/9dlx_vliw_at_b_iq8.used-as.sat04-718.cnf","CHBR_glucose_tuned",1011.914,1782.40824386792,1435.42583072651,1221.94,695.201,0,0,0,5,"pred"
-"sat/9dlx_vliw_at_b_iq8.used-as.sat04-718.cnf","Glucose_nbSat",1368.726,1815.72348805031,1326.7264520532,1647.57,695.201,0,0,0,5,"pred"
-"sat/9dlx_vliw_at_b_iq8.used-as.sat04-718.cnf","MapleCOMSPS_LRB_DRUP",1246.989,1829.40623396226,1571.36177994834,1495.05,695.201,0,0,0,5,"pred"
-"sat/9dlx_vliw_at_b_iq8.used-as.sat04-718.cnf","MapleCOMSPS_CHB_DRUP",1215.582,1856.46723490566,1609.5167470585,1579.65,695.201,0,0,0,5,"pred"
-"sat/9dlx_vliw_at_b_iq8.used-as.sat04-718.cnf","YALSAT03r",5000,5000,0,5000,695.201,0,0,0,5,"pred"

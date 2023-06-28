@@ -1,5 +1,0 @@
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** JOB 2108793 ON tknl01 CANCELLED AT 2022-01-29T18:19:20 DUE TO TIME LIMIT ***
-srun: error: tknl01: task 0: Exited with exit code 1
-srun: launch/slurm: _step_signal: Terminating StepId=2108793.0
-100039.27

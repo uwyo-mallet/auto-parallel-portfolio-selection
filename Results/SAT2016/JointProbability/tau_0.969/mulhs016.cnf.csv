@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/mulhs016.cnf","MapleGlucose",5000,3507.17720390295,2037.30273822943,5000,5000,0,0,0,5,"pred"

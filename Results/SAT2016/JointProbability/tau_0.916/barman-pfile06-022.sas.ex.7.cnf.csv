@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/barman-pfile06-022.sas.ex.7.cnf","MapleCOMSPS_LRB_DRUP",1358.362,1243.26479103774,1792.51747924624,1355.92149646356,1.21,0,0,0,5,"pred"
-"sat/barman-pfile06-022.sas.ex.7.cnf","CHBR_glucose_tuned",1344.465,1303.75216823899,1866.14707316318,1340.08588189125,1.21,0,0,0,5,"pred"
-"sat/barman-pfile06-022.sas.ex.7.cnf","GHackCOMSPS_DRUP",1364.369,1321.94246430818,1924.3719468795,1363.68074329919,1.21,0,0,0,5,"pred"
-"sat/barman-pfile06-022.sas.ex.7.cnf","gulch",1429.112,1425.60249764151,1904.37477521414,1426.44357201045,1.21,0,0,0,5,"pred"
-"sat/barman-pfile06-022.sas.ex.7.cnf","abcdSAT_drup",1551.621,1461.59153883648,1845.72640376345,1548.58513198274,1.21,0,0,0,5,"pred"
-"sat/barman-pfile06-022.sas.ex.7.cnf","CHBR_glucose",1347.533,1480.07472720126,1951.65045149675,1342.58240626478,1.21,0,0,0,5,"pred"
-"sat/barman-pfile06-022.sas.ex.7.cnf","glucose",1377.252,1591.93684056604,1979.90872895191,1374.8889135617,1.21,0,0,0,5,"pred"

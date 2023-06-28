@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/bibd-16-80-15-3-2_glb.cnf","inIDGlucose",5.508,2553.13427777778,2386.91147059892,6.05,1.077,0,0,0,5,"pred"
-"sat/bibd-16-80-15-3-2_glb.cnf","Minisat.v2.2.0.106.ge2dd095",5.406,2787.3281787037,2292.34986749662,6.18,1.077,0,0,0,5,"pred"

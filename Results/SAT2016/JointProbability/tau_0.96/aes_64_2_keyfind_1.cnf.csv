@@ -1,5 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/aes_64_2_keyfind_1.cnf","MapleCOMSPS_LRB_DRUP",5000,3252.3003310231,2095.71658933026,5000,5000,0,0,0,5,"pred"
-"sat/aes_64_2_keyfind_1.cnf","COMiniSatPSChandrasekharDRUP",5000,3328.86837772277,1980.42055543466,5000,5000,0,0,0,5,"pred"
-"sat/aes_64_2_keyfind_1.cnf","glueminisat.2210.81.main",5000,3379.27069174917,1918.87648232607,5000,5000,0,0,0,5,"pred"
-"sat/aes_64_2_keyfind_1.cnf","glucose",5000,3410.43152772277,1964.23446028589,5000,5000,0,0,0,5,"pred"

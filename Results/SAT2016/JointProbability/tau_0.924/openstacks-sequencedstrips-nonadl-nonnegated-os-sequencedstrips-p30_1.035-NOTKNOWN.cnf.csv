@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_1.035-NOTKNOWN.cnf","MapleCOMSPS_LRB_DRUP",5000,2638.0999979798,2245.69621651464,5000,5000,0,0,0,5,"pred"
-"sat/openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_1.035-NOTKNOWN.cnf","cmsat5_autotune2",5000,2988.85394141414,2173.06411693102,5000,5000,0,0,0,5,"pred"
-"sat/openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_1.035-NOTKNOWN.cnf","tc_glucose",5000,3018.19374507576,2124.78959022056,5000,5000,0,0,0,5,"pred"
-"sat/openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_1.035-NOTKNOWN.cnf","MapleCMS",5000,3018.31054873737,2131.02498310245,5000,5000,0,0,0,5,"pred"
-"sat/openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_1.035-NOTKNOWN.cnf","YALSAT03r",5000,5000,0,5000,5000,0,0,0,5,"pred"

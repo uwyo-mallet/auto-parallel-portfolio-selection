@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"b21-s_PathRelaxation_FS_48.wcnf","UWrMaxSat.1.0",0.3,537.888211492788,427.211533130994,0.3,0.22,0,0,0,5,"pred"
-"b21-s_PathRelaxation_FS_48.wcnf","maxino2018",0.22,717.315545094259,570.313234652991,0.22,0.22,0,0,0,5,"pred"

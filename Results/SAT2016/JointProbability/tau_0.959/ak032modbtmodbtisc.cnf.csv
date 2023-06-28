@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ak032modbtmodbtisc.cnf","Splatz06vmain",286.779,3771.80555770042,1946.67218761981,286.779,286.779,0,0,0,5,"pred"

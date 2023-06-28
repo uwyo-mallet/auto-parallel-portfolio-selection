@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/cms-scheel-md5-families-r24-c5-p6-11-15-16-19.cnf","Maple_LCM_Scavel_200_fix2",99.453,263.555780935252,128.736319038384,99.453,1.123,0,0,0,5,"pred"

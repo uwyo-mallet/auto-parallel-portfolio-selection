@@ -1,3 +1,0 @@
-srun: error: m105: task 0: Exited with exit code 1
-srun: launch/slurm: _step_signal: Terminating StepId=2111696.0
-100038.93

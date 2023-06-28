@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ex145_10.cnf","Maple_LCM_Scavel_fix2",5000,3890.53716551724,2024.35042366848,5000,5000,0,0,0,5,"pred"
-"sat/ex145_10.cnf","CaDiCaL",5000,3919.70398908046,1630.74734407629,5000,5000,0,0,0,5,"pred"
-"sat/ex145_10.cnf","Glucose_Hack_Kiel_fastBVE",5000,4035.51791034483,1694.35565925907,5000,5000,0,0,0,5,"pred"
-"sat/ex145_10.cnf","Maple_LCM.BCrestart",5000,4088.08872413793,1781.20497143239,5000,5000,0,0,0,5,"pred"
-"sat/ex145_10.cnf","abcdsat_r18",5000,4109.90873678161,1646.3672275096,5000,5000,0,0,0,5,"pred"
-"sat/ex145_10.cnf","Sparrow2Riss.2018.fixfix",5000,4221.05874195402,1708.92342051264,5000,5000,0,0,0,5,"pred"
-"sat/ex145_10.cnf","Lingeling",5000,4327.33861551724,1711.58998588051,5000,5000,0,0,0,5,"pred"

@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ak128simpbbg2msisc.cnf","Riss6",34.62,1373.78103831418,2040.88617327151,34.5,34.62,0,0,0,5,"pred"
-"sat/ak128simpbbg2msisc.cnf","CHBR_glucose",5000,3199.84396398468,1760.98680562012,5000,34.62,0,0,0,5,"pred"
-"sat/ak128simpbbg2msisc.cnf","CHBR_glucose_tuned",5000,3304.15144128352,1854.69771766797,5000,34.62,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/factoring94418953x321534781.cnf","Lingeling",1873.632,770.484953333333,911.850720170397,1873.632,406.102,0,0,0,5,"pred"

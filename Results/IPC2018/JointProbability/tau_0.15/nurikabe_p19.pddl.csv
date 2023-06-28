@@ -1,5 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"nurikabe_p19.pddl","Delfi1",403.34,683.782703463204,476.933086051803,412.16,403.34,0,0,0,5,"pred"
-"nurikabe_p19.pddl","Delfi2",1800,1156.18928138528,650.616198960315,1800,403.34,0,0,0,5,"pred"
-"nurikabe_p19.pddl","FDMS1",1800,1739.78532467532,291.363671410651,1800,403.34,0,0,0,5,"pred"
-"nurikabe_p19.pddl","Symple.2",1800,1739.85683116883,283.879892941345,1800,403.34,0,0,0,5,"pred"

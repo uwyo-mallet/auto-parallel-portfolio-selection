@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"smtlib-qfbv-aigs-lfsr_004_127_112-tseitin.cnf","minisathackcontrasat_2011.03.02",2.79,532.105976689977,1332.39342024689,2.82,2.79,0,0,0,5,"pred"
-"smtlib-qfbv-aigs-lfsr_004_127_112-tseitin.cnf","MPhaseSAT64",15.59,547.381187645688,1393.36060228423,15.65,2.79,0,0,0,5,"pred"

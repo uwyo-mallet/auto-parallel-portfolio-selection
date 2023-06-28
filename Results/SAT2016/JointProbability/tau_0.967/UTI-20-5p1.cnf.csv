@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/UTI-20-5p1.cnf","MapleCOMSPS_LRB_DRUP",144.915,533.185494157088,1096.17509110146,151.01,80.095,0,0,0,5,"pred"
-"sat/UTI-20-5p1.cnf","MapleCOMSPS_CHB_DRUP",84.757,548.760787931034,1061.51365400618,89.18,80.095,0,0,0,5,"pred"
-"sat/UTI-20-5p1.cnf","CHBR_glucose_tuned",496.466,563.127811015325,1161.7858875909,514.56,80.095,0,0,0,5,"pred"

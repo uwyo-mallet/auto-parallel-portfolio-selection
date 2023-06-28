@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"countbitsarray04_32.cnf","MPhaseSAT64",5000,2512.21107444466,1836.87576576334,5000,5000,0,0,0,5,"pred"
-"countbitsarray04_32.cnf","glueminisat.2.2.5",5000,2519.77451129673,1947.65235691613,5000,5000,0,0,0,5,"pred"
-"countbitsarray04_32.cnf","lingeling.587f.4882048.110513",5000,2572.94849323476,1902.71738622083,5000,5000,0,0,0,5,"pred"
-"countbitsarray04_32.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,2745.24769342983,1885.82109906232,5000,5000,0,0,0,5,"pred"
-"countbitsarray04_32.cnf","minisathackLR_GL_SHR_2011.03.02",5000,2802.27945373595,2096.10073509644,5000,5000,0,0,0,5,"pred"
-"countbitsarray04_32.cnf","minisathackcontrasat_2011.03.02",5000,2894.77360656674,1918.47038785943,5000,5000,0,0,0,5,"pred"
-"countbitsarray04_32.cnf","minisathackminisat_psm_2011.04.01",5000,2940.39249924635,1807.27872554705,5000,5000,0,0,0,5,"pred"

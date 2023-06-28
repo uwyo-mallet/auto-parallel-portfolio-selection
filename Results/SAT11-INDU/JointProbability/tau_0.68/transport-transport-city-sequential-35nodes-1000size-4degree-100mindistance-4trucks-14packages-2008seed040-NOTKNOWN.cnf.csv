@@ -1,7 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","SAT09referencesolverprecosat_236",1321.33,2683.08774458875,1862.2783541734,1472.61,226.06,0,0,0,5,"pred"
-"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","rcl_2011.04.01",226.06,2895.41497619048,2038.93316473682,242.17,226.06,0,0,0,5,"pred"
-"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","minisathackMiniSAT_2.2.0.agile.26",865.05,3051.86745021645,1794.60894080741,924.41,226.06,0,0,0,5,"pred"
-"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","MPhaseSAT64",5000,3272.98131601732,2163.83616983595,5000,226.06,0,0,0,5,"pred"
-"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","RestartSAT_B95",5000,3701.76807142857,1775.92398046657,5000,226.06,0,0,0,5,"pred"
-"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed040-NOTKNOWN.cnf","minisathackcontrasat_2011.03.02",1284.69,3944.64851082251,1510.56082985691,1372.98,226.06,0,0,0,5,"pred"

@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/frb35-17-5-mgd_ext.cnf","Maple_LCM.BCrestart",65.144,654.669004393939,1371.39416645413,73.7,2.204,0,0,0,5,"pred"
-"sat/frb35-17-5-mgd_ext.cnf","MapleCOMSPS_LRB_VSIDS_2_fix",22.18,660.793287121212,1388.82017111544,25.27,2.204,0,0,0,5,"pred"
-"sat/frb35-17-5-mgd_ext.cnf","inIDGlucose",89.034,662.225418333334,1349.62465563853,101.86,2.204,0,0,0,5,"pred"

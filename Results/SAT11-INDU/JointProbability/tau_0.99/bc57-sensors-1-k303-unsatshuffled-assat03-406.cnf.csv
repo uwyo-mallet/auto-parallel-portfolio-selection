@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackLR_GL_SHR_2011.03.02",858.1,742.279855769231,1198.64462068802,858.1,663.18,0,0,0,5,"pred"

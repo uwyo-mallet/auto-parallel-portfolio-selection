@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"UCG-20-5p1.cnf","lingeling.587f.4882048.110513",169.06,1233.04293763441,1048.78044429055,169.42,121.8,0,0,0,5,"pred"
-"UCG-20-5p1.cnf","glueminisat.2.2.5",399.83,1337.85045698925,1157.48031590617,421.42,121.8,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"vmpc_36renamed-assat05-1922.cnf","MPhaseSAT64",2429.1,2229.41471095571,1302.10919582394,2429.1,2429.1,0,0,0,5,"pred"

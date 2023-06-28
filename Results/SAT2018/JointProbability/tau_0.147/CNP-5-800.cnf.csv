@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/CNP-5-800.cnf","Sparrow2Riss.2018.fixfix",2.122,2.05205574712644,0.129518615846207,2.18,2.122,0,0,0,5,"pred"
-"sat/CNP-5-800.cnf","YalSAT",8.553,8.73956954023002,9.01430642248158,9.9,2.122,0,0,0,5,"pred"
-"sat/CNP-5-800.cnf","Maple_LCM_Scavel_200_fix2",41.033,362.03521954023,351.813521503879,48.78,2.122,0,0,0,5,"pred"
-"sat/CNP-5-800.cnf","COMiniSatPS_Pulsar_drup",486.523,453.033676436782,544.867873463094,588.61,2.122,0,0,0,5,"pred"
-"sat/CNP-5-800.cnf","Maple_CM_Dist",627.096,931.091672988506,1178.28766453153,5000,2.122,0,0,0,5,"pred"
-"sat/CNP-5-800.cnf","Maple_CM_ordUIP",89.134,1031.22204310345,1070.15512509489,107.45,2.122,0,0,0,5,"pred"
-"sat/CNP-5-800.cnf","glucose.3.0_PADC_3",966.76,1243.09049655172,1294.71030558224,5000,2.122,0,0,0,5,"pred"

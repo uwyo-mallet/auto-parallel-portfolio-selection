@@ -1,7 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/sdiv40prop.cnf","cms55.main.all4fixed",5000,2639.76405355556,2248.4668778058,5000,5000,0,0,0,5,"pred"
-"sat/sdiv40prop.cnf","expGlucose",5000,3547.52093066667,2103.48063822251,5000,5000,0,0,0,5,"pred"
-"sat/sdiv40prop.cnf","Maple_CM_ordUIP",5000,3572.05695444444,1860.50850212575,5000,5000,0,0,0,5,"pred"
-"sat/sdiv40prop.cnf","CaDiCaL",5000,3591.11688844444,1895.75157861261,5000,5000,0,0,0,5,"pred"
-"sat/sdiv40prop.cnf","glucose.3.0_PADC_3",5000,3690.05202622222,2034.67063380619,5000,5000,0,0,0,5,"pred"
-"sat/sdiv40prop.cnf","glu_mix",5000,3706.04168466667,2066.31715735527,5000,5000,0,0,0,5,"pred"

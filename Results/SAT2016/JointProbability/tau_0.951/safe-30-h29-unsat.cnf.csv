@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/safe-30-h29-unsat.cnf","BeansAndEggs",5000,1753.70554669811,2199.7206878717,5000,5000,0,0,0,5,"pred"
-"sat/safe-30-h29-unsat.cnf","MapleGlucose",5000,1775.43012751572,2154.92414458722,5000,5000,0,0,0,5,"pred"
-"sat/safe-30-h29-unsat.cnf","CHBR_glucose_tuned",5000,1784.08575880503,2102.21928819929,5000,5000,0,0,0,5,"pred"
-"sat/safe-30-h29-unsat.cnf","glucose_hack_kiel_newScript",5000,1973.98283773585,2204.62453962006,5000,5000,0,0,0,5,"pred"
-"sat/safe-30-h29-unsat.cnf","YALSAT03r",5000,5000,0,5000,5000,0,0,0,5,"pred"

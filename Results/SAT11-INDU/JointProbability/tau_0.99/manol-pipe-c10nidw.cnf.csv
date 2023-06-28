@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"manol-pipe-c10nidw.cnf","minisathackcontrasat_2011.03.02",436.57,694.535567567568,1495.93898001569,436.57,113.06,0,0,0,5,"pred"

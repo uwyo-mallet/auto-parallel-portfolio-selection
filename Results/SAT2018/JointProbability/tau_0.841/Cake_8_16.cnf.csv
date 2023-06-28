@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/Cake_8_16.cnf","smallsat",5000,1559.45230168776,2027.46666045401,5000,370.377,0,0,0,5,"pred"
-"sat/Cake_8_16.cnf","Maple_CM_Dist",5000,1669.67974683544,2108.41264605798,5000,370.377,0,0,0,5,"pred"
-"sat/Cake_8_16.cnf","abcdsat_r18",5000,2009.46974345992,2184.89705775774,5000,370.377,0,0,0,5,"pred"
-"sat/Cake_8_16.cnf","Maple_LCM_Scavel_200_fix2",5000,2159.63658565401,2306.47795173065,5000,370.377,0,0,0,5,"pred"
-"sat/Cake_8_16.cnf","Lingeling",5000,2355.62667383966,2142.8227411122,5000,370.377,0,0,0,5,"pred"

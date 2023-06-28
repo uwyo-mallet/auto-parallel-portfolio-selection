@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"aaai10-planning-ipc5-pipesworld-18-step16.cnf","lingeling.587f.4882048.110513",51.74,154.131751748252,322.048877057442,52.06,30.44,0,0,0,5,"pred"
-"aaai10-planning-ipc5-pipesworld-18-step16.cnf","glueminisat.2.2.5",30.44,170.736644522145,458.179850213336,31.28,30.44,0,0,0,5,"pred"

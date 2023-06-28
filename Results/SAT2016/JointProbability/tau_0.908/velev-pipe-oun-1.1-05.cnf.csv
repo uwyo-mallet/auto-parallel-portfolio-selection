@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/velev-pipe-oun-1.1-05.cnf","Splatz06vmain",2495.268,691.886925670498,1022.53318375217,2495.268,2495.268,0,0,0,5,"pred"

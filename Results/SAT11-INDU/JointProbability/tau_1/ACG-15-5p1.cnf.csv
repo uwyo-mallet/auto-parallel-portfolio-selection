@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"ACG-15-5p1.cnf","minisathackcontrasat_2011.03.02",73,1330.58191724942,1645.63337733628,73,41.66,0,0,0,5,"pred"

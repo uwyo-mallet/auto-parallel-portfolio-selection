@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/factoring87654321x12345678.cnf","smallsat",155.379,647.937891666667,1035.09164692249,180.61,45.311,0,0,0,5,"pred"
-"sat/factoring87654321x12345678.cnf","Lingeling",1452.939,675.526808,935.332833828251,1643.07,45.311,0,0,0,5,"pred"
-"sat/factoring87654321x12345678.cnf","glucose4.2.1",176.104,1224.94827633333,1304.90387943474,204.99,45.311,0,0,0,5,"pred"

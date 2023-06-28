@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"blocks-blocks-37-1150-SAT.cnf","RestartSAT_B95",27.56,76.8454807692307,155.77198171939,30.98,9.46,0,0,0,5,"pred"
-"blocks-blocks-37-1150-SAT.cnf","glucose_2.0",16.53,83.5994102564103,137.060239627441,17.28,9.46,0,0,0,5,"pred"

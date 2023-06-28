@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"TWComp_huck_N74.wcnf","UWrMaxSat.1.0",2.87,1462.01352546403,1002.00321590867,2.96,0.47,0,0,0,5,"pred"
-"TWComp_huck_N74.wcnf","Open.WBO.ms",32.55,1620.06648339992,879.973998631322,36.09,0.47,0,0,0,5,"pred"

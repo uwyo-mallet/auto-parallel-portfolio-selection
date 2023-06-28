@@ -1,5 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ak032modbtmodbtisc.cnf","Splatz06vmain",286.779,3771.80555770042,1946.67218761981,290.4,286.779,0,0,0,5,"pred"
-"sat/ak032modbtmodbtisc.cnf","glucose_hack_kiel_newScript",4381.899,3967.56009251055,1847.84599682477,4452.99,286.779,0,0,0,5,"pred"
-"sat/ak032modbtmodbtisc.cnf","abcdSAT_drup",5000,4012.85538449367,1737.57032249104,5000,286.779,0,0,0,5,"pred"
-"sat/ak032modbtmodbtisc.cnf","Lingelingbbcmain",5000,4050.16038565401,1799.10231778812,5000,286.779,0,0,0,5,"pred"

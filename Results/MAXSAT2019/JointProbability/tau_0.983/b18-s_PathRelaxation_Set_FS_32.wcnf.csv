@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"b18-s_PathRelaxation_Set_FS_32.wcnf","maxino2018",20.47,1286.5319844726,953.085942128205,20.47,17.21,0,0,0,5,"pred"

@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/Sz1024_34824.smt2-stp212.cnf","Splatz06vmain",5000,3191.74180849673,2069.8303782477,5000,3741.045,0,0,0,5,"pred"
-"sat/Sz1024_34824.smt2-stp212.cnf","MapleCOMSPS_DRUP",5000,3320.42183937908,2045.44825242169,5000,3741.045,0,0,0,5,"pred"
-"sat/Sz1024_34824.smt2-stp212.cnf","glueminisat.2210.81.main",5000,3511.56039591503,1876.67819864735,5000,3741.045,0,0,0,5,"pred"
-"sat/Sz1024_34824.smt2-stp212.cnf","tb_glucose",5000,3537.96562091503,1866.78043184849,5000,3741.045,0,0,0,5,"pred"
-"sat/Sz1024_34824.smt2-stp212.cnf","BeansAndEggs",5000,3591.05051519608,1843.06586856039,5000,3741.045,0,0,0,5,"pred"
-"sat/Sz1024_34824.smt2-stp212.cnf","GHackCOMSPS_DRUP",5000,3625.22885310457,1829.67886880842,5000,3741.045,0,0,0,5,"pred"
-"sat/Sz1024_34824.smt2-stp212.cnf","COMiniSatPSChandrasekharDRUP",5000,3650.7808493464,1886.0886551275,5000,3741.045,0,0,0,5,"pred"

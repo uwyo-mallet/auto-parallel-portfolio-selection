@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/cms-scheel-md4-families-r24-c6-p0-5-10-11-17-18.cnf","MapleLCMDistChronoBT",189.104,40.5784186666667,49.4536010470244,209.71,0.38,0,0,0,5,"pred"
-"sat/cms-scheel-md4-families-r24-c6-p0-5-10-11-17-18.cnf","Maple_CM",0.76,45.1145619999999,63.8219181792123,0.71,0.38,0,0,0,5,"pred"
-"sat/cms-scheel-md4-families-r24-c6-p0-5-10-11-17-18.cnf","Maple_CM_Dist",0.605,59.777792,174.200816598646,0.51,0.38,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/sokoban-p20.sas.cr.25.cnf","abcdSAT_drup",1053.219,1792.18831301775,1607.63154324628,1053.219,1053.219,0,0,0,5,"pred"

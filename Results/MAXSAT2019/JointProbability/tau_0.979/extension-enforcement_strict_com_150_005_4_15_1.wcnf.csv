@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"extension-enforcement_strict_com_150_005_4_15_1.wcnf","UWrMaxSat.1.0",6.78,666.493306334337,891.611676163599,6.78,0.44,0,0,0,5,"pred"

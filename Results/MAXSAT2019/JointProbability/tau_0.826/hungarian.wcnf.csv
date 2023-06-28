@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"hungarian.wcnf","Open.WBO.ms.pre",3600,1390.25483854231,1151.36871740346,3600,3600,0,0,0,5,"pred"
-"hungarian.wcnf","UWrMaxSat.1.0",3600,1521.81673386993,1091.34562712286,3600,3600,0,0,0,5,"pred"
-"hungarian.wcnf","maxino2018",3600,1709.04051406599,1280.55332439481,3600,3600,0,0,0,5,"pred"
-"hungarian.wcnf","Open.WBO.g",3600,1770.12581607844,1035.06963801264,3600,3600,0,0,0,5,"pred"
-"hungarian.wcnf","Open.WBO.ms",3600,1852.73902262965,1186.0646094127,3600,3600,0,0,0,5,"pred"

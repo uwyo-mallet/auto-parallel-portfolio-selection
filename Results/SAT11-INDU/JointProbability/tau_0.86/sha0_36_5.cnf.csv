@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sha0_36_5.cnf","minisathackreferenceminisat_2.2.0",435.05,326.401083333333,994.3589503543,468.37,16.7,0,0,0,5,"pred"
-"sha0_36_5.cnf","minisathackcir_minisat_2011.05.13_simp_",45.59,544.288065972222,1296.73126505277,47.98,16.7,0,0,0,5,"pred"
-"sha0_36_5.cnf","MPhaseSAT64",266.2,630.517140046296,1136.7725245335,268.39,16.7,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"homer16shuffled.cnf","minisathackcir_minisat_2011.05.13_simp_",1920.38,2010.0001655914,1552.5252701969,1920.38,450.84,0,0,0,5,"pred"

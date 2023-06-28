@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"caldera_p19.pddl","Delfi2",1800,1660.98044097222,311.297809050387,1800,1800,0,0,0,5,"pred"
-"caldera_p19.pddl","Scorpion",1800,1673.46738541667,360.441798963915,1800,1800,0,0,0,5,"pred"
-"caldera_p19.pddl","Planning.PDBs",1800,1674.37699305556,351.343801320665,1800,1800,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/Cake_8_16.cnf","smallsat",5000,1559.45230168776,2027.46666045401,5000,370.377,0,0,0,5,"pred"

@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/9dlx_vliw_at_b_iq9.used-as.sat04-719.cnf","Splatz06vmain",1017.303,1817.2185721519,1738.88941963884,1145.41,1017.303,0,0,0,5,"pred"
-"sat/9dlx_vliw_at_b_iq9.used-as.sat04-719.cnf","MapleCOMSPS_LRB_DRUP",1979.961,1942.04375421941,1653.05059210516,2403.6,1017.303,0,0,0,5,"pred"
-"sat/9dlx_vliw_at_b_iq9.used-as.sat04-719.cnf","BeansAndEggs",1734.504,1945.79327362869,1615.09729489563,1814.41,1017.303,0,0,0,5,"pred"
-"sat/9dlx_vliw_at_b_iq9.used-as.sat04-719.cnf","cmsat5_autotune2",1533.183,2029.25540042194,1741.19332927346,1584.12,1017.303,0,0,0,5,"pred"
-"sat/9dlx_vliw_at_b_iq9.used-as.sat04-719.cnf","Lingelingbbcmain",1475.479,2129.62339251055,1724.01882186496,1761.66,1017.303,0,0,0,5,"pred"

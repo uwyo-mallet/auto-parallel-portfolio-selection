@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/TimetableCNFEncoding_20_UNKNOWN.cnf","MapleLCMDistChronoBT",84.207,667.979758045977,1400.73292967939,114.96,11.854,0,0,0,5,"pred"
-"sat/TimetableCNFEncoding_20_UNKNOWN.cnf","gluHack",45.993,2169.83576666667,1309.52110519868,69.12,11.854,0,0,0,5,"pred"
-"sat/TimetableCNFEncoding_20_UNKNOWN.cnf","Riss7.1.fix",15.765,4349.64673103448,1664.0714665446,20.11,11.854,0,0,0,5,"pred"
-"sat/TimetableCNFEncoding_20_UNKNOWN.cnf","expGlucose",5000,4380.95418505747,1596.44618976576,5000,11.854,0,0,0,5,"pred"
-"sat/TimetableCNFEncoding_20_UNKNOWN.cnf","MapleCOMSPS_CHB_VSIDS_drup",46.248,4482.69412413793,1314.85876810959,69.34,11.854,0,0,0,5,"pred"
-"sat/TimetableCNFEncoding_20_UNKNOWN.cnf","MapleCOMSPS_LRB_VSIDS_2_fix",312.987,4566.12624137931,1318.69564027585,492.85,11.854,0,0,0,5,"pred"
-"sat/TimetableCNFEncoding_20_UNKNOWN.cnf","expMC_VSIDS_LRB_Switch_2500",2611.141,4573.0653908046,1279.43864399441,2775.57,11.854,0,0,0,5,"pred"

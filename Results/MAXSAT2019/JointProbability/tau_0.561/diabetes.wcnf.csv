@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"diabetes.wcnf","Open.WBO.ms.pre",3600,1426.34317506459,237.420410753625,3600,3600,0,0,0,5,"pred"
-"diabetes.wcnf","UWrMaxSat.1.0",3600,1544.36233767516,288.512869043072,3600,3600,0,0,0,5,"pred"
-"diabetes.wcnf","Open.WBO.ms",3600,1560.81607857354,292.689804161149,3600,3600,0,0,0,5,"pred"
-"diabetes.wcnf","maxino2018",3600,1593.38920866015,317.513910326626,3600,3600,0,0,0,5,"pred"
-"diabetes.wcnf","Open.WBO.g",3600,1652.6968720397,297.746089955992,3600,3600,0,0,0,5,"pred"

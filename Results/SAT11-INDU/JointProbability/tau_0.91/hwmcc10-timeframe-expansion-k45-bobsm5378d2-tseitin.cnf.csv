@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"hwmcc10-timeframe-expansion-k45-bobsm5378d2-tseitin.cnf","glueminisat.2.2.5",38.88,815.542822916666,1566.14209109221,38.88,38.88,0,0,0,5,"pred"

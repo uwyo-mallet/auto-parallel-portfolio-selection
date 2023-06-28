@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"velev-pipe-o-uns-11-6.cnf","glucose_2.0",595.34,968.199708193228,1311.09122986344,612.02,9.25,0,0,0,5,"pred"
-"velev-pipe-o-uns-11-6.cnf","lingeling.587f.4882048.110513",13.88,998.833340587764,1391.61954453161,13.92,9.25,0,0,0,5,"pred"

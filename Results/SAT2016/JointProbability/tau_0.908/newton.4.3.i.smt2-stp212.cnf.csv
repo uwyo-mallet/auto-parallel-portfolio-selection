@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/newton.4.3.i.smt2-stp212.cnf","glueminisat.2210.81.main",158.719,449.211193392505,1038.81746843854,175.18,158.719,0,0,0,5,"pred"
-"sat/newton.4.3.i.smt2-stp212.cnf","Glucose_nbSat",246.317,500.034470512821,977.996943069972,278.71,158.719,0,0,0,5,"pred"
-"sat/newton.4.3.i.smt2-stp212.cnf","glucose",238.608,514.005684812623,1062.15894667061,276.31,158.719,0,0,0,5,"pred"
-"sat/newton.4.3.i.smt2-stp212.cnf","tb_glucose",207.453,553.923012130177,1170.56042402321,228.47,158.719,0,0,0,5,"pred"
-"sat/newton.4.3.i.smt2-stp212.cnf","tc_glucose",222.286,600.331765187377,1154.4117750648,240.04,158.719,0,0,0,5,"pred"
-"sat/newton.4.3.i.smt2-stp212.cnf","CHBR_glucose",220.131,629.786140927022,1126.4929603423,258.27,158.719,0,0,0,5,"pred"
-"sat/newton.4.3.i.smt2-stp212.cnf","gulch",349.79,654.733208777121,1109.88897201209,390.28,158.719,0,0,0,5,"pred"

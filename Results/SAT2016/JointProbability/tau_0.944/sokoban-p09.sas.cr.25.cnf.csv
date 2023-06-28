@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/sokoban-p09.sas.cr.25.cnf","MapleCMS",0.87,1096.95313937909,1718.22481712888,0.61,0.186,0,0,0,5,"pred"
-"sat/sokoban-p09.sas.cr.25.cnf","cmsat5_main2",0.835,1150.69247924837,1865.14119273585,0.57,0.186,0,0,0,5,"pred"
-"sat/sokoban-p09.sas.cr.25.cnf","GHackCOMSPS_DRUP",0.288,1272.59632075163,1814.44344478902,0.19,0.186,0,0,0,5,"pred"

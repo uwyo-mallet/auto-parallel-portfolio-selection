@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"blocks-4-ipc5-h21-unknown.cnf","minisathackEBMiniSAT_2011.03.02",18.78,1102.35206089744,1835.52360824667,18.78,8.54,0,0,0,5,"pred"

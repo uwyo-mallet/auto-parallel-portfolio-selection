@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"blocks-blocks-36-0170-NOTKNOWN.cnf","glucose_2.0",44.9,169.270579569893,408.532339543205,58.25,18.65,0,0,0,5,"pred"
-"blocks-blocks-36-0170-NOTKNOWN.cnf","rcl_2011.04.01",31.62,180.133659139785,363.702502067549,38.72,18.65,0,0,0,5,"pred"
-"blocks-blocks-36-0170-NOTKNOWN.cnf","RestartSAT_B95",22.3,185.068972043011,538.626297259471,30.65,18.65,0,0,0,5,"pred"
-"blocks-blocks-36-0170-NOTKNOWN.cnf","lingeling.587f.4882048.110513",38.43,201.30171827957,521.65969828938,44.74,18.65,0,0,0,5,"pred"
-"blocks-blocks-36-0170-NOTKNOWN.cnf","minisathackcir_minisat_2011.05.13_simp_",25.46,212.489452688172,719.891955344249,33.5,18.65,0,0,0,5,"pred"
-"blocks-blocks-36-0170-NOTKNOWN.cnf","MPhaseSAT64",71.81,248.591546236559,493.918797967722,73.52,18.65,0,0,0,5,"pred"
-"blocks-blocks-36-0170-NOTKNOWN.cnf","SAT09referencesolverprecosat_236",202.86,336.10321827957,522.325915075546,231.81,18.65,0,0,0,5,"pred"

@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ak064simpbbg2btaig.cnf","Lingelingbbcmain",5000,1455.15749226804,1993.93703272718,5000,251.703,0,0,0,5,"pred"
-"sat/ak064simpbbg2btaig.cnf","Riss6",251.703,1607.23944879725,2126.74812229538,253.2,251.703,0,0,0,5,"pred"
-"sat/ak064simpbbg2btaig.cnf","COMiniSatPSChandrasekharDRUP",5000,1732.35835017182,2003.96470876931,5000,251.703,0,0,0,5,"pred"
-"sat/ak064simpbbg2btaig.cnf","Splatz06vmain",943.626,3707.65832405498,1899.5096332531,1044.65,251.703,0,0,0,5,"pred"
-"sat/ak064simpbbg2btaig.cnf","cmsat5_autotune2",5000,3874.98583745704,1876.95803807922,5000,251.703,0,0,0,5,"pred"

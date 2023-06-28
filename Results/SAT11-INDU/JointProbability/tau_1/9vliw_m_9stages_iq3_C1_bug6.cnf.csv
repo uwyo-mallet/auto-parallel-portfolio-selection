@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"9vliw_m_9stages_iq3_C1_bug6.cnf","minisathackLR_GL_SHR_2011.03.02",113.17,590.117951923077,1035.27014624197,113.17,4.18,0,0,0,5,"pred"

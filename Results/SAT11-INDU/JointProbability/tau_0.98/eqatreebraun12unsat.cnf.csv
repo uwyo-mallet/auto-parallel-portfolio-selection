@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"eqatreebraun12unsat.cnf","MPhaseSAT64",2213.76,1763.84645949074,1981.50845887247,2213.76,2213.76,0,0,0,5,"pred"

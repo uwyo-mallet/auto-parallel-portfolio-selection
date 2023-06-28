@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ak064diagodiagoisc.cnf","Lingelingbbcmain",2126.826,1747.93990495781,1911.80837997662,2403.29,2126.826,0,0,0,5,"pred"
-"sat/ak064diagodiagoisc.cnf","Splatz06vmain",2408.485,2093.73234050633,1863.28525419733,2872.15,2126.826,0,0,0,5,"pred"
-"sat/ak064diagodiagoisc.cnf","glue_alt",5000,2401.71701677215,1533.88224376731,5000,2126.826,0,0,0,5,"pred"
-"sat/ak064diagodiagoisc.cnf","abcdSAT_drup",5000,3012.3417064346,1654.58662608143,5000,2126.826,0,0,0,5,"pred"
-"sat/ak064diagodiagoisc.cnf","glueminisat.2210.81.main",5000,3040.0109899789,1327.68088496337,5000,2126.826,0,0,0,5,"pred"
-"sat/ak064diagodiagoisc.cnf","cmsat5_main2",5000,3211.36506603376,1487.99089033941,5000,2126.826,0,0,0,5,"pred"
-"sat/ak064diagodiagoisc.cnf","cmsat5_autotune2",5000,3326.8960128692,1509.02355305052,5000,2126.826,0,0,0,5,"pred"

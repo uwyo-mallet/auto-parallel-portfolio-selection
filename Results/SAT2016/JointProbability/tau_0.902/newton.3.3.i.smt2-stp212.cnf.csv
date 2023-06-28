@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/newton.3.3.i.smt2-stp212.cnf","MapleCOMSPS_LRB_DRUP",218.081,419.386486489899,847.721219808129,243.77,140.236,0,0,0,5,"pred"
-"sat/newton.3.3.i.smt2-stp212.cnf","CHBR_glucose_tuned",224.648,437.156225126263,918.330901465112,254.82,140.236,0,0,0,5,"pred"
-"sat/newton.3.3.i.smt2-stp212.cnf","CHBR_glucose",208.032,486.146088383839,1007.21722242497,252.97,140.236,0,0,0,5,"pred"
-"sat/newton.3.3.i.smt2-stp212.cnf","BeansAndEggs",482.077,506.896000757576,908.669285219102,568.63,140.236,0,0,0,5,"pred"
-"sat/newton.3.3.i.smt2-stp212.cnf","abcdSAT_drup",167.99,510.683289141414,1107.12814286457,202.45,140.236,0,0,0,5,"pred"
-"sat/newton.3.3.i.smt2-stp212.cnf","gulch",321.721,610.165418434344,964.856038351439,362.19,140.236,0,0,0,5,"pred"
-"sat/newton.3.3.i.smt2-stp212.cnf","YALSAT03r",5000,5000,0,5000,140.236,0,0,0,5,"pred"

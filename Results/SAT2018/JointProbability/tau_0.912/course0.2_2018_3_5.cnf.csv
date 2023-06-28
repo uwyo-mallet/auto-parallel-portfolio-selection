@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/course0.2_2018_3_5.cnf","Maple_LCM.BCrestart_M1",168.076,1963.69688066667,1724.75399079632,250.41,56.418,0,0,0,5,"pred"
-"sat/course0.2_2018_3_5.cnf","Riss7.1.fix",207.594,2063.881531,1664.66266273739,289.74,56.418,0,0,0,5,"pred"
-"sat/course0.2_2018_3_5.cnf","Maple_LCM_Scavel_200_fix2",399.69,2160.945224,1782.70783482868,559.71,56.418,0,0,0,5,"pred"
-"sat/course0.2_2018_3_5.cnf","MapleCOMSPS_LRB_VSIDS_drup",195.415,2170.540771,1686.30380629195,307.44,56.418,0,0,0,5,"pred"
-"sat/course0.2_2018_3_5.cnf","Maple_CM_ordUIP.",176.78,2232.579011,1710.99274202973,256.12,56.418,0,0,0,5,"pred"
-"sat/course0.2_2018_3_5.cnf","Maple_CM_ordUIP",177.572,2312.66687566667,1631.09434017108,256.28,56.418,0,0,0,5,"pred"
-"sat/course0.2_2018_3_5.cnf","Maple_CM",179.462,2316.574938,1753.50843401392,256.95,56.418,0,0,0,5,"pred"

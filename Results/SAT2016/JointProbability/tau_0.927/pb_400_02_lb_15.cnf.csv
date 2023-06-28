@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/pb_400_02_lb_15.cnf","Lingelingbbcmain",113.745,1993.99700874587,1987.34417780558,141.77,43.595,0,0,0,5,"pred"
-"sat/pb_400_02_lb_15.cnf","Glucose_nbSat",54.902,2006.49267920792,2005.02058408913,60.28,43.595,0,0,0,5,"pred"
-"sat/pb_400_02_lb_15.cnf","MapleGlucose",43.595,2046.35345594059,1661.70816432569,46.86,43.595,0,0,0,5,"pred"
-"sat/pb_400_02_lb_15.cnf","MapleCOMSPS_DRUP",83.301,2110.09810874587,2035.66497490845,89.57,43.595,0,0,0,5,"pred"
-"sat/pb_400_02_lb_15.cnf","glueminisat.2210.81.main",140.148,2167.80479191419,2003.70484644805,147.87,43.595,0,0,0,5,"pred"
-"sat/pb_400_02_lb_15.cnf","MapleCOMSPS_CHB_DRUP",81.297,2313.94689075908,2036.48559371053,85.33,43.595,0,0,0,5,"pred"
-"sat/pb_400_02_lb_15.cnf","MapleCMS",288.533,2330.22530874587,1927.93298479314,311.03,43.595,0,0,0,5,"pred"

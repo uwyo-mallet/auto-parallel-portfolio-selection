@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"UTI-20-10t1.cnf","minisathackminisat_psm_2011.04.01",3.81,1298.63783866667,1668.87657026392,4.76,1.05,0,0,0,5,"pred"
-"UTI-20-10t1.cnf","SAT09referencesolverprecosat_236",13.95,1381.9054392381,1658.18526169407,17.24,1.05,0,0,0,5,"pred"
-"UTI-20-10t1.cnf","glucose_2.0",1.05,1500.645584,1555.07898660748,1.47,1.05,0,0,0,5,"pred"
-"UTI-20-10t1.cnf","minisathackMiniSAT_2.2.0.agile.26",3.63,1557.53230933333,2065.53957479052,4.4,1.05,0,0,0,5,"pred"
-"UTI-20-10t1.cnf","lingeling.587f.4882048.110513",5.32,1627.02999066667,1486.17828988443,5.86,1.05,0,0,0,5,"pred"
-"UTI-20-10t1.cnf","minisathackcontrasat_2011.03.02",1.99,1709.48620723809,1899.01778671535,2.48,1.05,0,0,0,5,"pred"
-"UTI-20-10t1.cnf","MPhaseSAT64",6.04,1784.01449866667,2017.04752209028,6.55,1.05,0,0,0,5,"pred"

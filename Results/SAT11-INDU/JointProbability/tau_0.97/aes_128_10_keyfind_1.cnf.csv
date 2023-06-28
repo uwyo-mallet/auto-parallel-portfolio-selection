@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"aes_128_10_keyfind_1.cnf","glucose_2.0",5000,2975.01132692308,2076.00914946753,5000,5000,0,0,0,5,"pred"

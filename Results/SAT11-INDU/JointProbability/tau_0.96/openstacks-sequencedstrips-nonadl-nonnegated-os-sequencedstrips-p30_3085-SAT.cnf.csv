@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SAT.cnf","minisathackMiniSAT_2.2.0.agile.26",7.97,1776.46256060606,1947.96849307848,7.97,3.45,0,0,0,5,"pred"

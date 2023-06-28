@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/velev-vliw-uns-2.0-uq5.cnf","glucose",182.412,855.7534839934,1227.40007079512,199.53,172.772,0,0,0,5,"pred"
-"sat/velev-vliw-uns-2.0-uq5.cnf","Splatz06vmain",172.772,970.979281683168,1474.5250637691,174.35,172.772,0,0,0,5,"pred"
-"sat/velev-vliw-uns-2.0-uq5.cnf","Glucose_nbSat",225.95,1221.37763052805,1412.69454117037,240.94,172.772,0,0,0,5,"pred"
-"sat/velev-vliw-uns-2.0-uq5.cnf","CHBR_glucose",239.347,1274.46585726073,1572.7050628861,265.81,172.772,0,0,0,5,"pred"
-"sat/velev-vliw-uns-2.0-uq5.cnf","YALSAT03r",5000,5000,0,5000,172.772,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"SAT_RACE06__velev-pipe-sat-10-b9cnfwcnf2.wcnf","Open.WBO.ms.pre",123.35,1356.70137019509,284.406566627325,123.35,6.26,0,0,0,5,"pred"

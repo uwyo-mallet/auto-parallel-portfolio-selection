@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/safe029_power.opt_false-unreach-call.i-cbmc-u2.cnf","GHackCOMSPS_DRUP",5.682,194.073629641351,713.858482580826,5.68,4.574,0,0,0,5,"pred"
-"sat/safe029_power.opt_false-unreach-call.i-cbmc-u2.cnf","BeansAndEggs",7.08,219.266184177215,753.41160985657,6.94,4.574,0,0,0,5,"pred"

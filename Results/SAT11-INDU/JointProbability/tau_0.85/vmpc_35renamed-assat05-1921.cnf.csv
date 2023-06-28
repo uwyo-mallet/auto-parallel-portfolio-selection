@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"vmpc_35renamed-assat05-1921.cnf","glucose_2.0",3578.58,2810.84012162162,1640.23058980349,3696.13,3187.81,0,0,0,5,"pred"
-"vmpc_35renamed-assat05-1921.cnf","MPhaseSAT64",3187.81,2920.60163738739,1349.04609563132,3199.39,3187.81,0,0,0,5,"pred"

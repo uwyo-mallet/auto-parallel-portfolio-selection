@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/modgen-n200-m90860q08c40-1585.cnf","MapleCOMSPS_CHB_DRUP",13.363,306.899675345168,931.862833848255,13.363,0.184,0,0,0,5,"pred"

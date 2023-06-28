@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/Nb39T6.cnf","smallsat",217.242,431.699210587002,815.298306822053,263.35,193.954,0,0,0,5,"pred"
-"sat/Nb39T6.cnf","COMiniSatPS_Pulsar_drup",193.954,447.065331761007,934.030204640321,222.58,193.954,0,0,0,5,"pred"
-"sat/Nb39T6.cnf","expMC_LRB_VSIDS_Switch_2500",451.424,562.615440566038,707.971019574842,555.25,193.954,0,0,0,5,"pred"

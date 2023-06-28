@@ -1,5 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"driverlog3_v01arenamed-assat05-3963.cnf","minisathackcontrasat_2011.03.02",0,888.026694805195,1734.09963703764,0,0,0,0,0,5,"pred"
-"driverlog3_v01arenamed-assat05-3963.cnf","rcl_2011.04.01",0.01,906.473506493506,1625.04450609524,0,0,0,0,0,5,"pred"
-"driverlog3_v01arenamed-assat05-3963.cnf","glueminisat.2.2.5",0,1018.50317748918,1736.97021511947,0,0,0,0,0,5,"pred"
-"driverlog3_v01arenamed-assat05-3963.cnf","minisathackminisat_psm_2011.04.01",0,1047.37446969697,1728.84982323577,0,0,0,0,0,5,"pred"

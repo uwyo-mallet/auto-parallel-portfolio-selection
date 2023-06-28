@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/sokoban-p20.sas.ex.13.cnf","Splatz06vmain",2812.467,1726.88913487972,1566.55597350611,2846.25,1984.009,0,0,0,5,"pred"
-"sat/sokoban-p20.sas.ex.13.cnf","cmsat5_main2",2825.869,1995.51460773196,1629.69884095427,2967.25,1984.009,0,0,0,5,"pred"

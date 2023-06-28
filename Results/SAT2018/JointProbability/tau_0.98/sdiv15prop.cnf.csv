@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/sdiv15prop.cnf","Maple_LCM.BCrestart_M1",151.212,712.157109848485,1145.22732789649,170.3,127.6,0,0,0,5,"pred"
-"sat/sdiv15prop.cnf","Maple_LCM.BCrestart",142.978,758.912548484849,1127.52282807684,161.17,127.6,0,0,0,5,"pred"

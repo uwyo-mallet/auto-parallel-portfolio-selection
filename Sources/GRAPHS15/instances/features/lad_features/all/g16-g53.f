@@ -1,1 +1,0 @@
-1880 removed values (percentage = 21.114106, min = 0.000000, max = 61.904762) in 0.000000 seconds

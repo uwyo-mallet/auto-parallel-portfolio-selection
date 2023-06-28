@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/E02F22.cnf","BeansAndEggs",189.215,1330.44138543417,1359.87806275241,185.31,116.606,0,0,0,5,"pred"
-"sat/E02F22.cnf","CHBR_glucose_tuned",291.912,1613.83452380952,1543.02530726436,296.3,116.606,0,0,0,5,"pred"

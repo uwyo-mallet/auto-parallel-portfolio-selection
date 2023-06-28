@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"abb313GPIA-9-trused-assat04-321.cnf","lingeling.587f.4882048.110513",3.12,1152.19623100343,1383.77056503222,2.98,0.06,0,0,0,5,"pred"
-"abb313GPIA-9-trused-assat04-321.cnf","MPhaseSAT64",9.51,1467.08433863038,1689.05206743647,9.58,0.06,0,0,0,5,"pred"

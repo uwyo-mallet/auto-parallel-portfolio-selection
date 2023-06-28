@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"extension-enforcement_strict_com_150_005_0_15_2.wcnf","MaxHS",80.36,862.099856415714,451.773743488021,108.73,1.34,0,0,0,5,"pred"
-"extension-enforcement_strict_com_150_005_0_15_2.wcnf","Open.WBO.ms.pre",10.68,981.25636437956,389.344617536472,10.77,1.34,0,0,0,5,"pred"

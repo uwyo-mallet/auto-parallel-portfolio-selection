@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"E05X15.cnf","RestartSAT_B95",3.8,383.122261261261,1116.145761017,3.8,3.8,0,0,0,5,"pred"

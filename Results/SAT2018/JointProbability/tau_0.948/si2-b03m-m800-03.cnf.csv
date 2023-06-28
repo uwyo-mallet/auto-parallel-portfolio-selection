@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/si2-b03m-m800-03.cnf","expMC_VSIDS_LRB_Switch_2500",113.586,794.834094129979,1439.23228576827,129.5,1.261,0,0,0,5,"pred"
-"sat/si2-b03m-m800-03.cnf","MapleLCMDistChronoBT",121.648,810.535161006289,1422.50121041465,134.92,1.261,0,0,0,5,"pred"
-"sat/si2-b03m-m800-03.cnf","glucose3.0",117.75,933.525228301887,1582.97883088435,134.45,1.261,0,0,0,5,"pred"

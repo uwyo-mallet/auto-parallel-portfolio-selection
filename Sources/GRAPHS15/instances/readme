@@ -1,4 +1,0 @@
-phase instances missing
-created phase with phase-generator:
-	added #include <random> to create_random_graph.cc
-	compiled with gcc 7.3.0 

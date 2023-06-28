@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/Problem14_label48_true-unreach-call.c.cnf","COMiniSatPS_Pulsar_drup",93.596,62.4144895178198,45.0178221714728,93.596,47.504,0,0,0,5,"pred"

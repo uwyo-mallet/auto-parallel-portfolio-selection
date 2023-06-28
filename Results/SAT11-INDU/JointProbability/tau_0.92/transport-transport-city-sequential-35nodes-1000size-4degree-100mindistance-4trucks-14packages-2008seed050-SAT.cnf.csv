@@ -1,5 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed050-SAT.cnf","minisathackcontrasat_2011.03.02",5000,1711.3645870577,1361.73131638019,5000,425.31,0,0,0,5,"pred"
-"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed050-SAT.cnf","glucose_2.0",5000,1719.76345025385,1817.66371315073,5000,425.31,0,0,0,5,"pred"
-"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed050-SAT.cnf","minisathackMiniSAT_2.2.0.agile.26",925.57,1868.30980614026,1411.65903237219,967.79,425.31,0,0,0,5,"pred"
-"transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed050-SAT.cnf","SAT09referencesolverprecosat_236",1315.66,1891.85654132123,1650.84653325194,1430.52,425.31,0,0,0,5,"pred"

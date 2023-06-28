@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/newton.2.3.i.smt2-cvc4.cnf","MapleCOMSPS_CHB_DRUP",343.179,1365.268017507,1850.84228398639,343.179,300.085,0,0,0,5,"pred"

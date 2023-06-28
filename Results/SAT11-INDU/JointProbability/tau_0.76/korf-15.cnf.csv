@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"korf-15.cnf","lingeling.587f.4882048.110513",37.15,135.822667824074,469.970433920615,37.27,5.54,0,0,0,5,"pred"
-"korf-15.cnf","SAT09referencesolverprecosat_236",10.56,252.164430555555,820.265570477829,10.81,5.54,0,0,0,5,"pred"
-"korf-15.cnf","glueminisat.2.2.5",24.19,296.461402777778,1046.83309696524,24.41,5.54,0,0,0,5,"pred"

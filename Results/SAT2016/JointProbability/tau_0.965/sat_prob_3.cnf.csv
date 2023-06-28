@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/sat_prob_3.cnf","Splatz06vmain",1371.183,3483.84871186869,2033.43360466498,5000,1371.183,0,0,0,5,"pred"
-"sat/sat_prob_3.cnf","COMiniSatPSChandrasekharDRUP",4474.566,3521.04359229798,1912.53417340592,4851.65,1371.183,0,0,0,5,"pred"
-"sat/sat_prob_3.cnf","abcdSAT_drup",5000,3525.0514604798,1940.45047468548,5000,1371.183,0,0,0,5,"pred"
-"sat/sat_prob_3.cnf","glucose_hack_kiel_newScript",3244.608,3556.18391376263,1935.42118191097,3583.67,1371.183,0,0,0,5,"pred"
-"sat/sat_prob_3.cnf","glucose",2179.493,3623.54902083333,2006.83163974233,2329.18,1371.183,0,0,0,5,"pred"
-"sat/sat_prob_3.cnf","glue_alt",1982.419,3649.90205593434,1998.30797502952,2024.49,1371.183,0,0,0,5,"pred"
-"sat/sat_prob_3.cnf","YALSAT03r",5000,5000,0,5000,1371.183,0,0,0,5,"pred"

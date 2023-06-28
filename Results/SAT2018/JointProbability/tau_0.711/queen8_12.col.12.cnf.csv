@@ -1,5 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/queen8_12.col.12.cnf","CaDiCaL",7.96,1368.6711643824,1922.55109824916,9.36,0.02,0,0,0,5,"pred"
-"sat/queen8_12.col.12.cnf","Maple_LCM_Scavel_fix2",198.484,2444.08080617597,2090.70081394101,231.19,0.02,0,0,0,5,"pred"
-"sat/queen8_12.col.12.cnf","MapleLCMDistChronoBT",301.658,2552.35313248731,2129.48265128343,348.51,0.02,0,0,0,5,"pred"
-"sat/queen8_12.col.12.cnf","Lingeling",0.02,2845.3285034687,2191.05966178333,0.02,0.02,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"rbcl_xits_15_SAT.cnf","minisathackreferenceminisat_2.2.0",0.03,1160.98444230769,1952.24582369171,0.03,0.02,0,0,0,5,"pred"

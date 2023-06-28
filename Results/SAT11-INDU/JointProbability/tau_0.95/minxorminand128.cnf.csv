@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"minxorminand128.cnf","rcl_2011.04.01",5000,1190.74791435185,1974.10390882007,5000,892.88,0,0,0,5,"pred"
-"minxorminand128.cnf","SAT09referencesolverprecosat_236",1855.36,1246.23578009259,1789.80974947766,2011.86,892.88,0,0,0,5,"pred"
-"minxorminand128.cnf","minisathackcontrasat_2011.03.02",5000,1398.91875810185,2031.17740433475,5000,892.88,0,0,0,5,"pred"

@@ -1,5 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/uniqinv20prop.cnf","Lingeling",88.405,931.774302222222,1471.17567737062,100.13,19.076,0,0,0,5,"pred"
-"sat/uniqinv20prop.cnf","cms55.main.all4fixed",19.076,1086.50151066667,1554.77927182063,22.13,19.076,0,0,0,5,"pred"
-"sat/uniqinv20prop.cnf","Riss7.1.fix",75.105,1384.29334755556,1670.63581713735,87.98,19.076,0,0,0,5,"pred"
-"sat/uniqinv20prop.cnf","CaDiCaL",449.991,1482.59912044444,1657.79195636656,531.05,19.076,0,0,0,5,"pred"

@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"snake_p10.pddl","blind",10.8,149.619923303835,330.998601164633,11.11,10.8,0,0,0,5,"pred"
-"snake_p10.pddl","DecStar",387.05,418.478622418879,523.886025267227,387.57,10.8,0,0,0,5,"pred"
-"snake_p10.pddl","Scorpion",316.34,463.71681120944,379.260200975612,316.69,10.8,0,0,0,5,"pred"
-"snake_p10.pddl","Delfi1",928.03,742.961109144543,386.116259998475,928.69,10.8,0,0,0,5,"pred"
-"snake_p10.pddl","Metis2",626.16,1056.41207522124,811.116211162663,622.08,10.8,0,0,0,5,"pred"
-"snake_p10.pddl","Delfi2",657.12,1104.3570339233,768.99979609749,651.77,10.8,0,0,0,5,"pred"
-"snake_p10.pddl","Metis1",661.26,1134.20668141593,802.6771804284,668.23,10.8,0,0,0,5,"pred"

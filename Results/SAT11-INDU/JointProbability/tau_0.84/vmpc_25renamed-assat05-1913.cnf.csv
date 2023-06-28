@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"vmpc_25renamed-assat05-1913.cnf","minisathackLR_GL_SHR_2011.03.02",41.81,1093.26471875,1325.77170917527,43.2,3.59,0,0,0,5,"pred"
-"vmpc_25renamed-assat05-1913.cnf","MPhaseSAT64",81.45,1157.25087268519,1527.4340358959,82.77,3.59,0,0,0,5,"pred"
-"vmpc_25renamed-assat05-1913.cnf","minisathackreferenceminisat_2.2.0",18.6,1314.15209375,1705.12169601742,19.41,3.59,0,0,0,5,"pred"
-"vmpc_25renamed-assat05-1913.cnf","glucose_2.0",3.59,1471.95368055556,1031.26870010681,3.82,3.59,0,0,0,5,"pred"
-"vmpc_25renamed-assat05-1913.cnf","glueminisat.2.2.5",36.01,1557.54011689815,1738.33310849394,35.83,3.59,0,0,0,5,"pred"

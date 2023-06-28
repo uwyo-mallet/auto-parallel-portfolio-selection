@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/TimetableCNFEncoding_9_UNKNOWN.cnf","expMC_LRB_VSIDS_Switch",5000,4661.48606844332,1120.64509431568,5000,5000,0,0,0,5,"pred"
-"sat/TimetableCNFEncoding_9_UNKNOWN.cnf","gluHack",5000,4708.95434788494,978.633016153889,5000,5000,0,0,0,5,"pred"
-"sat/TimetableCNFEncoding_9_UNKNOWN.cnf","Minisat.v2.2.0.106.ge2dd095",5000,4720.47344145516,1052.6151936272,5000,5000,0,0,0,5,"pred"
-"sat/TimetableCNFEncoding_9_UNKNOWN.cnf","MapleCOMSPS_LRB_VSIDS_2_fix",5000,4722.77642758037,1060.80592602504,5000,5000,0,0,0,5,"pred"
-"sat/TimetableCNFEncoding_9_UNKNOWN.cnf","YalSAT",5000,5000,0,5000,5000,0,0,0,5,"pred"

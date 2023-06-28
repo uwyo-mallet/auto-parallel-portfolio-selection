@@ -1,3 +1,0 @@
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** STEP 2107854.0 ON tknl02 CANCELLED AT 2022-01-29T18:17:49 DUE TO TIME LIMIT ***
-slurmstepd: error: *** JOB 2107854 ON tknl02 CANCELLED AT 2022-01-29T18:17:49 DUE TO TIME LIMIT ***

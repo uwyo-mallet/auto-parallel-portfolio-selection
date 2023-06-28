@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/sted5_0x24204-50.cnf","gluHack",318.223,2311.46087075758,2332.89508450212,362.44,25.668,0,0,0,5,"pred"
-"sat/sted5_0x24204-50.cnf","glu_mix",336.235,2330.68223560606,2227.25454618646,378.1,25.668,0,0,0,5,"pred"
-"sat/sted5_0x24204-50.cnf","abcdsat_r18",663.006,2343.40003787879,2313.71351022179,745.94,25.668,0,0,0,5,"pred"

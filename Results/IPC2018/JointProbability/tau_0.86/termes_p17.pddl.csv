@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"termes_p17.pddl","symbolic.bidirectional",11.71,40.8219142156863,138.60405256807,11.71,11.71,0,0,0,5,"pred"

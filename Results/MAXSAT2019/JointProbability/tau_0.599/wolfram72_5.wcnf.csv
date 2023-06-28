@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"wolfram72_5.wcnf","MaxHS",14.84,4.24941566866265,3.40947707056905,15.12,4.77,0,0,0,5,"pred"
-"wolfram72_5.wcnf","UWrMaxSat.1.0",8.71,5.92100798403193,8.93601495766646,8.8,4.77,0,0,0,5,"pred"

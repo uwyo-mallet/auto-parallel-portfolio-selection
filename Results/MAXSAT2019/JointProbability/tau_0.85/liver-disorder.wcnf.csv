@@ -1,5 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"liver-disorder.wcnf","Open.WBO.ms.pre",3600,1213.34559075081,1050.06360674574,3600,3600,0,0,0,5,"pred"
-"liver-disorder.wcnf","Open.WBO.g",3600,1270.51451579789,1168.42061903313,3600,3600,0,0,0,5,"pred"
-"liver-disorder.wcnf","maxino2018",3600,1331.35676335844,1269.4648376375,3600,3600,0,0,0,5,"pred"
-"liver-disorder.wcnf","Open.WBO.ms",3600,1571.69751906522,1217.17154826279,3600,3600,0,0,0,5,"pred"

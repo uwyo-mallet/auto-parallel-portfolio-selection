@@ -1,7 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/5or7mod8.rules.7-7.cnf","glucose4.2.1",5000,1628.8674869697,2008.25454813185,5000,5000,0,0,0,5,"pred"
-"sat/5or7mod8.rules.7-7.cnf","CaDiCaL",5000,1812.40957651515,2172.15383838052,5000,5000,0,0,0,5,"pred"
-"sat/5or7mod8.rules.7-7.cnf","Riss7.1.fix",5000,1884.44256181818,2267.79901864848,5000,5000,0,0,0,5,"pred"
-"sat/5or7mod8.rules.7-7.cnf","glucose3.0",5000,1884.83271439394,2087.30010260274,5000,5000,0,0,0,5,"pred"
-"sat/5or7mod8.rules.7-7.cnf","cms55.main.all4fixed",5000,1890.89791863636,2033.46964163843,5000,5000,0,0,0,5,"pred"
-"sat/5or7mod8.rules.7-7.cnf","expMC_LRB_VSIDS_Switch",5000,1937.38373257576,2139.52598442914,5000,5000,0,0,0,5,"pred"

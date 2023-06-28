@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ak128boothbg2btisc.cnf","Riss6",5000,3280.95861603535,2145.28446832015,5000,2.022,0,0,0,5,"pred"

@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/Sz512_15127_3.smt2-cvc4.cnf","glueminisat.2210.81.main",168.533,2939.31514663866,1836.93125000057,172.94,99.364,0,0,0,5,"pred"
-"sat/Sz512_15127_3.smt2-cvc4.cnf","glue_alt",278.941,2974.62560112045,1834.81310574149,289.53,99.364,0,0,0,5,"pred"

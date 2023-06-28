@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"vmpc_25renamed-assat05-1913.cnf","minisathackLR_GL_SHR_2011.03.02",41.81,1093.26471875,1325.77170917527,42.32,3.59,0,0,0,5,"pred"
-"vmpc_25renamed-assat05-1913.cnf","MPhaseSAT64",81.45,1157.25087268519,1527.4340358959,81.72,3.59,0,0,0,5,"pred"

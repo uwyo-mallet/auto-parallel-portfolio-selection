@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/miza-sr06-md5-48-01.cnf","GHackCOMSPS_DRUP",353.395,1249.03840353535,1556.15290862981,359.88,46.306,0,0,0,5,"pred"
-"sat/miza-sr06-md5-48-01.cnf","glucose",2057.102,1348.22340378788,1704.93592800171,2052.32219631964,46.306,0,0,0,5,"pred"
-"sat/miza-sr06-md5-48-01.cnf","Glucose_nbSat",522.024,1383.07264709596,1699.3112656921,559.61,46.306,0,0,0,5,"pred"

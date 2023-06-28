@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"dekkerused-assat04-989.cnf","SAT09referencesolverprecosat_236",10.26,706.620393518518,1473.36568365065,10.31,3.08,0,0,0,5,"pred"
-"dekkerused-assat04-989.cnf","glucose_2.0",4.96,725.365217592593,1461.03026865877,4.84,3.08,0,0,0,5,"pred"

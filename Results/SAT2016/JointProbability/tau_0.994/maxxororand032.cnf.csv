@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/maxxororand032.cnf","gulch",619.647,1784.51541090686,2162.90871565466,619.647,156.629,0,0,0,5,"pred"

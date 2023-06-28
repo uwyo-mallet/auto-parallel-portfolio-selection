@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"partial-10-13-s.cnf","lingeling.587f.4882048.110513",4621.77,1505.82146666667,1850.38962587598,4926.98,312.69,0,0,0,5,"pred"
-"partial-10-13-s.cnf","MPhaseSAT64",4569.88,1563.071888,1829.92038731226,4701.51,312.69,0,0,0,5,"pred"
-"partial-10-13-s.cnf","SAT09referencesolverprecosat_236",1519.24,1601.97378666667,1804.18729952425,1643.85,312.69,0,0,0,5,"pred"

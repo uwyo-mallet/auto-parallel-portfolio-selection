@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/school1.col.14.cnf","Sparrow2Riss.2018.fixfix",0.721,909.252949069374,1711.38508215148,0.83,0.457,0,0,0,5,"pred"
-"sat/school1.col.14.cnf","Riss7.1.fix",0.457,1180.32758815567,1982.59479255158,0.36,0.457,0,0,0,5,"pred"
-"sat/school1.col.14.cnf","CaDiCaL",5000,2308.03019686971,1500.90740472166,5000,0.457,0,0,0,5,"pred"
-"sat/school1.col.14.cnf","MapleLCMDistChronoBT",5000,4735.5351319797,962.749763191403,5000,0.457,0,0,0,5,"pred"
-"sat/school1.col.14.cnf","Maple_LCM_Scavel_fix2",5000,4749.09837791878,950.036469297645,5000,0.457,0,0,0,5,"pred"

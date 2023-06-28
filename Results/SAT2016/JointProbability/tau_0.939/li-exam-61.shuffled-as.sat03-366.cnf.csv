@@ -1,5 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/li-exam-61.shuffled-as.sat03-366.cnf","tb_glucose",5000,3227.03885128205,2155.97281780585,5000,5000,0,0,0,5,"pred"
-"sat/li-exam-61.shuffled-as.sat03-366.cnf","COMiniSatPSChandrasekharDRUP",5000,3289.82484861933,2078.41571962655,5000,5000,0,0,0,5,"pred"
-"sat/li-exam-61.shuffled-as.sat03-366.cnf","BeansAndEggs",5000,3387.61035138067,2062.02782378876,5000,5000,0,0,0,5,"pred"
-"sat/li-exam-61.shuffled-as.sat03-366.cnf","Splatz06vmain",5000,3538.12846311637,2115.42103141615,5000,5000,0,0,0,5,"pred"

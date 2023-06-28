@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"vmpc_32renamed-assat05-1919.cnf","glucose_2.0",1162.49,2600.64401851852,1402.81438040468,1206.32,144.67,0,0,0,5,"pred"
-"vmpc_32renamed-assat05-1919.cnf","minisathackLR_GL_SHR_2011.03.02",720.42,3032.26325833333,1725.33671082967,740.72,144.67,0,0,0,5,"pred"
-"vmpc_32renamed-assat05-1919.cnf","MPhaseSAT64",1354.54,3247.53326296296,1610.71777388939,1365.37,144.67,0,0,0,5,"pred"

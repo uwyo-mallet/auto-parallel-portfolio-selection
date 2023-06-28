@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"ibm-2002-30r-k85.cnf","MPhaseSAT64",746.86,328.150878472222,507.388137351802,746.86,32.86,0,0,0,5,"pred"

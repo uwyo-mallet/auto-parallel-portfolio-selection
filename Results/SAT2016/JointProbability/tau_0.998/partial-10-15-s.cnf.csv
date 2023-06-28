@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/partial-10-15-s.cnf","CHBR_glucose_tuned",1282.423,4447.47726635021,1422.67675085828,1282.423,149.312,0,0,0,5,"pred"

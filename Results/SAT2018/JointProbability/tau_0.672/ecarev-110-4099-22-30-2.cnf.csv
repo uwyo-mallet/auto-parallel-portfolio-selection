@@ -1,7 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ecarev-110-4099-22-30-2.cnf","smallsat",227.215,240.912309393939,160.945459497646,263.51,102.898,0,0,0,5,"pred"
-"sat/ecarev-110-4099-22-30-2.cnf","glucose4.2.1",218.586,272.097208636364,147.353328003949,266.42,102.898,0,0,0,5,"pred"
-"sat/ecarev-110-4099-22-30-2.cnf","glucose3.0",183.462,282.902757272727,465.864567258943,239.52,102.898,0,0,0,5,"pred"
-"sat/ecarev-110-4099-22-30-2.cnf","Maple_LCM.BCrestart_M1",180.332,308.973351515151,606.133857977187,219.21,102.898,0,0,0,5,"pred"
-"sat/ecarev-110-4099-22-30-2.cnf","Riss7.1.fix",219.361,321.103631969697,394.770555032122,276.78,102.898,0,0,0,5,"pred"
-"sat/ecarev-110-4099-22-30-2.cnf","abcdsat_r18",235.364,336.737868030303,195.184711214718,286.43,102.898,0,0,0,5,"pred"

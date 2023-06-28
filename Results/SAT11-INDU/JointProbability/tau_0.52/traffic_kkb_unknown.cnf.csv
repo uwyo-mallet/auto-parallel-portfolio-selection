@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"traffic_kkb_unknown.cnf","glucose_2.0",78.5,98.7329307359307,130.010557879259,87.63,78.5,0,0,0,5,"pred"
-"traffic_kkb_unknown.cnf","minisathackEBMiniSAT_2011.03.02",230.86,215.840846320346,138.549905667718,285.29,78.5,0,0,0,5,"pred"
-"traffic_kkb_unknown.cnf","SAT09referencesolverprecosat_236",267.77,266.361636363636,146.696521523717,337.41,78.5,0,0,0,5,"pred"
-"traffic_kkb_unknown.cnf","minisathackminisat_psm_2011.04.01",156.34,267.85875974026,589.223983840616,173.8,78.5,0,0,0,5,"pred"
-"traffic_kkb_unknown.cnf","minisathackreferenceminisat_2.2.0",185.07,270.591294372294,549.206783642182,230.24,78.5,0,0,0,5,"pred"
-"traffic_kkb_unknown.cnf","glueminisat.2.2.5",177.5,309.988846320346,786.399738684201,195.56,78.5,0,0,0,5,"pred"
-"traffic_kkb_unknown.cnf","minisathackcontrasat_2011.03.02",322.9,350.65570995671,548.282018540469,412.9,78.5,0,0,0,5,"pred"

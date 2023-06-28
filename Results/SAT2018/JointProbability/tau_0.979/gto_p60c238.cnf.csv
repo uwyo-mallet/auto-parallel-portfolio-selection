@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/gto_p60c238.cnf","MapleLCMDistChronoBT",142.743,498.730541486811,1217.26253599003,155.2,120.103,0,0,0,5,"pred"
-"sat/gto_p60c238.cnf","smallsat",195.461,557.338983453237,1228.25330277949,222.04,120.103,0,0,0,5,"pred"

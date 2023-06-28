@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"velev-pipe-o-uns-10-7.cnf","glueminisat.2.2.5",69.16,403.553858796296,992.831096856149,69.56,69.16,0,0,0,5,"pred"
-"velev-pipe-o-uns-10-7.cnf","lingeling.587f.4882048.110513",69.52,674.540774305555,1308.68579005662,69.81,69.16,0,0,0,5,"pred"

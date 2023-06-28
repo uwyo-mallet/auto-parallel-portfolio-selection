@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/sokoban-p18.sas.cr.29.cnf","cmsat5_autotune2",0.744,330.565154123711,1090.4401719622,0.74,0.472,0,0,0,5,"pred"
-"sat/sokoban-p18.sas.cr.29.cnf","glucose",0.618,366.668464604811,1026.55947856914,0.46,0.472,0,0,0,5,"pred"
-"sat/sokoban-p18.sas.cr.29.cnf","cmsat5_main2",0.755,397.706031786942,1058.31500899212,0.74,0.472,0,0,0,5,"pred"

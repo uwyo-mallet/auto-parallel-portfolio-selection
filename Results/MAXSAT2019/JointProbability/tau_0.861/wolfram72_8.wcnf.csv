@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"wolfram72_8.wcnf","MaxHS",18.18,4.3577954804676,3.38139486332601,18.18,4.27,0,0,0,5,"pred"

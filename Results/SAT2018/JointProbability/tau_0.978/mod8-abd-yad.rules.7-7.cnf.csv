@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/mod8-abd-yad.rules.7-7.cnf","GHackCOMSPS_drup",111.414,4233.78009133333,1485.35512455539,139.08,6.376,0,0,0,5,"pred"
-"sat/mod8-abd-yad.rules.7-7.cnf","Maple_CM_Dist",103.968,4268.94670733333,1550.27330592233,5000,6.376,0,0,0,5,"pred"
-"sat/mod8-abd-yad.rules.7-7.cnf","gluHack",20.743,4269.31460155556,1468.31407381606,27.83,6.376,0,0,0,5,"pred"

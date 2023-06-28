@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"hsat_vc12062.cnf","minisathackcontrasat_2011.03.02",0.32,123.945970701299,602.85086459582,0.32,0.32,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/le450_15a.col.15.cnf","Riss7.1.fix",0.52,1105.17801939203,1905.31544243921,0.52,0.52,0,0,0,5,"pred"

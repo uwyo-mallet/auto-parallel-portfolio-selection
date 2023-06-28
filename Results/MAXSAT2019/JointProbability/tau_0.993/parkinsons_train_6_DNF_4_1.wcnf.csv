@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"parkinsons_train_6_DNF_4_1.wcnf","Open.WBO.ms.pre",6.22,1048.10357223609,723.907766149248,6.22,0.2,0,0,0,5,"pred"

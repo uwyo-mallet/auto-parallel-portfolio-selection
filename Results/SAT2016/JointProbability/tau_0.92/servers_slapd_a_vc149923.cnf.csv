@@ -1,8 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/servers_slapd_a_vc149923.cnf","CHBR_glucose_tuned",160.345,3212.96761776961,1906.50323631444,171.9,0.46,0,0,0,5,"pred"
-"sat/servers_slapd_a_vc149923.cnf","glucose_hack_kiel_newScript",325.307,3239.75046568628,1979.44524051019,329.5,0.46,0,0,0,5,"pred"
-"sat/servers_slapd_a_vc149923.cnf","tb_glucose",138.319,3281.05499571079,1883.53584508068,148.05,0.46,0,0,0,5,"pred"
-"sat/servers_slapd_a_vc149923.cnf","MapleCOMSPS_DRUP",57.457,3387.23732156863,1902.46217857668,60.61,0.46,0,0,0,5,"pred"
-"sat/servers_slapd_a_vc149923.cnf","cmsat5_autotune2",5000,3436.68505355392,2008.6725568792,5000,0.46,0,0,0,5,"pred"
-"sat/servers_slapd_a_vc149923.cnf","GHackCOMSPS_DRUP",182.474,3458.62688590686,1904.18975257544,196.85,0.46,0,0,0,5,"pred"
-"sat/servers_slapd_a_vc149923.cnf","Splatz06vmain",0.46,3579.44269203431,1901.66895636332,0.29,0.46,0,0,0,5,"pred"

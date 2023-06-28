@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"settlers_p12.pddl","Metis1",8.45,280.023663188002,448.675317658595,8.49,7.52,0,0,0,5,"pred"
-"settlers_p12.pddl","Symple.1",1800,1800,0,1800,7.52,0,0,0,5,"pred"

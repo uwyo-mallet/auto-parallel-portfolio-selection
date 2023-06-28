@@ -1,6 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/ak128boothboothisc.cnf","BeansAndEggs",5000,1644.83050232843,2178.05404620448,5000,5000,0,0,0,5,"pred"
-"sat/ak128boothboothisc.cnf","glue_alt",5000,2641.99922352941,1636.18149379552,5000,5000,0,0,0,5,"pred"
-"sat/ak128boothboothisc.cnf","tb_glucose",5000,2674.67558860294,1647.80744085395,5000,5000,0,0,0,5,"pred"
-"sat/ak128boothboothisc.cnf","MapleCOMSPS_CHB_DRUP",5000,2707.27082941177,1648.40181491705,5000,5000,0,0,0,5,"pred"
-"sat/ak128boothboothisc.cnf","tc_glucose",5000,2715.35224779412,1547.92942686663,5000,5000,0,0,0,5,"pred"

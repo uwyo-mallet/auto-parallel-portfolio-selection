@@ -1,4 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/less-cy-caa.rules.6-4.cnf","Riss7.1.fix",3.16,1764.96594873096,2195.35878440082,3.72,3.16,0,0,0,5,"pred"
-"sat/less-cy-caa.rules.6-4.cnf","Sparrow2Riss.2018.fixfix",288.095,1860.48894052453,1864.29333166922,332.31,3.16,0,0,0,5,"pred"
-"sat/less-cy-caa.rules.6-4.cnf","glu_mix",5000,2405.76558790186,2065.06303972931,5000,3.16,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/terminator_03_true-unreach-call_true-termination.i.cnf","glucose3.0",378.324,819.332066666666,1260.21922399651,378.324,16.896,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"caldera-split_p09.pddl","Delfi1",1446.44,647.628441767068,790.574805205542,1446.44,189.28,0,0,0,5,"pred"

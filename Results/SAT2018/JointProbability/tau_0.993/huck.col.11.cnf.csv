@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/huck.col.11.cnf","glu_mix",73.436,3065.80001038961,2155.17134879319,73.436,0.011,0,0,0,5,"pred"

@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"vga-debugdimacs.wcnf","maxino2018",2.45,259.736756093482,404.68215603613,2.45,1.45,0,0,0,5,"pred"

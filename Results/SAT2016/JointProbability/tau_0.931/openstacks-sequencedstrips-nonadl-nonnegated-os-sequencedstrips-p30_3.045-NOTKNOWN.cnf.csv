@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3.045-NOTKNOWN.cnf","tc_glucose",5000,2390.49843053221,2208.55891534236,5000,5000,0,0,0,5,"pred"
-"sat/openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3.045-NOTKNOWN.cnf","MapleCOMSPS_LRB_DRUP",5000,2660.64409215686,2272.59518637324,5000,5000,0,0,0,5,"pred"

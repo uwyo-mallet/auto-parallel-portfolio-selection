@@ -1,5 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sokoban-sequential-p145-microban-sequential040-NOTKNOWN.cnf","SAT09referencesolverprecosat_236",380,1290.41202380952,1604.5680338934,421.61,380,0,0,0,5,"pred"
-"sokoban-sequential-p145-microban-sequential040-NOTKNOWN.cnf","MPhaseSAT64",499.49,2453.72801515152,1729.02892279262,505.73,380,0,0,0,5,"pred"
-"sokoban-sequential-p145-microban-sequential040-NOTKNOWN.cnf","rcl_2011.04.01",4362.99,3184.2203961039,2278.95083513083,4552.03,380,0,0,0,5,"pred"
-"sokoban-sequential-p145-microban-sequential040-NOTKNOWN.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,3247.99303030303,2139.40907761524,5000,380,0,0,0,5,"pred"

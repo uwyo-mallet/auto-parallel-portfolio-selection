@@ -1,2 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"sat/UTI-20-10p1.cnf","COMiniSatPSChandrasekharDRUP",319.781,1187.53624250493,1794.13890520372,319.781,319.781,0,0,0,5,"pred"

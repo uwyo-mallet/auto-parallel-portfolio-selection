@@ -1,3 +1,0 @@
-"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
-"g2_n38e52_n53e67.wcnf","Open.WBO.ms.pre",13.28,982.605675284387,667.71114726765,13.3,11.07,0,0,0,5,"pred"
-"g2_n38e52_n53e67.wcnf","Open.WBO.ms",24.02,1199.99926143606,681.409607206999,24,11.07,0,0,0,5,"pred"

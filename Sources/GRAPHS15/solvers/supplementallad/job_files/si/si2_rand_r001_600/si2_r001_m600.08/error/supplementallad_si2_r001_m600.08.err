@@ -1,3 +1,0 @@
-srun: error: m195: task 0: Exited with exit code 1
-srun: launch/slurm: _step_signal: Terminating StepId=2117225.0
-100027.23
