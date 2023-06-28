@@ -1,8 +1,8 @@
 source for solvers and instances: SAT2016 Competition 
 https://baldur.iti.kit.edu/sat-competition-2016/
 
-author: Haniye Kashgarani
-translator in coseal format: Haniye Kashgarani
+author: **
+translator in coseal format: **
 
 Number of instances: 274
 Number of solvers: 25

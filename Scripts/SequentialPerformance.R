@@ -6,7 +6,7 @@ if(Sys.info()['sysname']=="Linux"){
     source("/gscratch/hkashgar/OrganizedScripts/ParallelLevel.R") 
   }
 } else{
-  source("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/ParallelLevel.R")
+  source("C:/Users/hnyk9/Thesis/OrganizedScripts/ParallelLevel.R")
 }
 
 library(ggplot2)
@@ -33,8 +33,8 @@ SequentialPerformance <- R6Class(
       #set scenario path 
       if(benchmarks_name == "SAT2018"){
         if(Sys.info()['sysname']!="Linux"){
-          self$scenario_path = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT18/SAT18_EXP/")
-          self$features_path = "C:/Users/hnyk9/OneDrive - University of Wyoming/PortfolioScheduling/ExperimentResults/csvs/SAT18/SAT2018_features.csv"
+          self$scenario_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT18/SAT18_EXP/")
+          self$features_path = "C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/SAT18/SAT2018_features.csv"
         } else{
           self$scenario_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT18/SAT18_EXP/")
           self$features_path = "/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/SAT18/SAT2018_features.csv"
@@ -45,8 +45,8 @@ SequentialPerformance <- R6Class(
         }
       } else if(benchmarks_name == "SAT2016"){
         if(Sys.info()['sysname']!="Linux"){
-          self$scenario_path = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT16/SAT16-MAIN/")
-          self$features_path = "C:/Users/hnyk9/OneDrive - University of Wyoming/PortfolioScheduling/ExperimentResults/csvs/SAT16/SAT2016_features.csv"
+          self$scenario_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT16/SAT16-MAIN/")
+          self$features_path = "C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/SAT16/SAT2016_features.csv"
         } else{
           self$scenario_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT16/SAT16-MAIN/")
           self$features_path = "/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/SAT16/SAT2016_features.csv"
@@ -57,8 +57,8 @@ SequentialPerformance <- R6Class(
         }
       } else if(benchmarks_name == "GRAPHS2015"){
         if(Sys.info()['sysname']!="Linux"){
-          self$scenario_path = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/Portfolio-Scheduling/originalCSVs-Teton_GRAPHS15/GRAPHS-2015/")
-          self$features_path = "C:/Users/hnyk9/OneDrive - University of Wyoming/Portfolio-Scheduling/originalCSVs-Teton_GRAPHS15/GRAPHS2015_features.csv"
+          self$scenario_path = paste("C:/Users/hnyk9/Thesis/Portfolio-Scheduling/originalCSVs-Teton_GRAPHS15/GRAPHS-2015/")
+          self$features_path = "C:/Users/hnyk9/Thesis/Portfolio-Scheduling/originalCSVs-Teton_GRAPHS15/GRAPHS2015_features.csv"
         } else{
           self$scenario_path = paste("/home/haniye/Documents/Portfolio-Scheduling/originalCSVs-Teton_GRAPHS15/GRAPHS-2015/")
           self$features_path = "/home/haniye/Documents/Portfolio-Scheduling/originalCSVs-Teton_GRAPHS15/GRAPHS2015_features.csv"
@@ -69,14 +69,38 @@ SequentialPerformance <- R6Class(
         }
       } else if(benchmarks_name == "MAXSAT2019"){
         if(Sys.info()['sysname']!="Linux"){
-          self$scenario_path = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/PortfolioScheduling/ExperimentResults/aslib_scenarios/MAXSAT19/MAXSAT-2019/")
-          self$features_path = "C:/Users/hnyk9/OneDrive - University of Wyoming/PortfolioScheduling/ExperimentResults/csvs/MAXSAT19/MAXSAT2019_features.csv"
+          self$scenario_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/aslib_scenarios/MAXSAT19/MAXSAT-2019/")
+          self$features_path = "C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/MAXSAT19/MAXSAT2019_features.csv"
         } else{
           self$scenario_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/aslib_scenarios/MAXSAT19/MAXSAT-2019/")
           self$features_path = "/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/MAXSAT19/MAXSAT2019_features.csv"
           if(cluster){
             self$scenario_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/aslib_scenarios/MAXSAT19/MAXSAT-2019/")
             self$features_path = "/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/MAXSAT19/MAXSAT2019_features.csv"            
+          }
+        }
+      } else if(benchmarks_name == "IPC2018"){
+        if(Sys.info()['sysname']!="Linux"){
+          self$scenario_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/aslib_scenarios/IPC2018/IPC2018/")
+          self$features_path = "C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/IPC2018/IPC2018_features.csv"
+        } else{
+          self$scenario_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/aslib_scenarios/IPC2018/IPC2018/")
+          self$features_path = "/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/IPC2018/IPC2018_features.csv"
+          if(cluster){
+            self$scenario_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/aslib_scenarios/IPC2018/IPC2018/")
+            self$features_path = "/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/IPC2018/IPC2018_features.csv"            
+          }
+        }
+      } else if(benchmarks_name == "SAT11-INDU"){
+        if(Sys.info()['sysname']!="Linux"){
+          self$scenario_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT11-INDU/SAT11-INDU/")
+          self$features_path = "C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/SAT11-INDU/SAT11-INDU_features.csv"
+        } else{
+          self$scenario_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT11-INDU/SAT11-INDU/")
+          self$features_path = "/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/SAT11-INDU/SAT11-INDU_features.csv"
+          if(cluster){
+            self$scenario_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT11-INDU/SAT11-INDU/")
+            self$features_path = "/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/SAT11-INDU/SAT11-INDU_features.csv"            
           }
         }
       }
@@ -458,6 +482,7 @@ SequentialPerformance <- R6Class(
       n.outer.folds = length(llama.cv$test)
       outer.preds = vector("list", n.outer.folds)
       ldf = llama.cv
+      
       for (i in 1:n.outer.folds) {
         ldf2 = ldf
         ldf2$data = ldf$data[ldf$train[[i]],]
@@ -485,7 +510,8 @@ SequentialPerformance <- R6Class(
         parallelStop()
         best.i = getMinIndex(ys)
         best.parvals = des.list[[best.i]]
-        #messagef("[Best]: %s : par10 = %g", ParamHelpers::paramValueToString(par.set, best.parvals), ys[best.i])
+        print(best.parvals)
+        messagef("[Best]: %s : par10 = %g", ParamHelpers::paramValueToString(par.set, best.parvals), ys[best.i])
         parvals= best.parvals
         
         learner2 = setHyperPars(learner, par.vals = parvals)
@@ -499,8 +525,6 @@ SequentialPerformance <- R6Class(
       
       retval = outer.preds[[1]]
       retval$predictions = do.call(rbind, lapply(outer.preds, function(x) { x$predictions }))
-      #predict(outer.preds[[i]]$models, ldf$data[ldf$test[[i]],])
-      
       saveRDS(retval, file = paste(savepath,"/randomForest_predictions.RDS",sep=""))
       saveRDS(outer.preds, file = paste(savepath,"/randomForest_all.RDS",sep=""))
       return(retval) 

@@ -6,7 +6,7 @@ if(Sys.info()['sysname']=="Linux"){
     source("/gscratch/hkashgar/OrganizedScripts/SequentialPerformance.R") 
   }
 } else{
-  source("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/SequentialPerformance.R")
+  source("C:/Users/hnyk9/Thesis/OrganizedScripts/SequentialPerformance.R")
 }
 
 
@@ -35,9 +35,9 @@ PredictionResults = R6Class(
           
         }
       } else{
-        self$predictionPath = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/",self$benchmarks_name,"/preds/",sep = "")
-        self$modelPath =  paste("C:/Users/hnyk9/OneDrive - University of Wyoming/mlr-scripts/",self$benchmarks_name,"/Prediction/StandardError/",sep="")
-        self$selectionPath = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/",self$benchmarks_name,"/selection/",sep = "")
+        self$predictionPath = paste("C:/Users/hnyk9/Thesis/OrganizedScripts/",self$benchmarks_name,"/preds/",sep = "")
+        self$modelPath =  paste("C:/Users/hnyk9/Thesis/mlr-scripts/",self$benchmarks_name,"/Prediction/StandardError/",sep="")
+        self$selectionPath = paste("C:/Users/hnyk9/Thesis/OrganizedScripts/",self$benchmarks_name,"/selection/",sep = "")
       }
       if(is.null(self$sequentialData$scenario)) self$sequentialData$get_scenario()
     },  
@@ -51,7 +51,7 @@ PredictionResults = R6Class(
       #instance ids are ordered as 
       parallelStartSocket(cpus = self$cpus)
       for(i in 1:length(instances)){
-        if(startsWith(self$benchmarks_name,"SAT")){
+        if(startsWith(self$benchmarks_name,"SAT2")){
           if(!file.exists(paste(savePath,"/",str_split(instances[i],"sat/")[[1]][2],".csv",sep=""))){
             data = predictions[which(predictions$instance_id==instances[i]),]
             data = data[-5]
@@ -573,10 +573,7 @@ PredictionResults = R6Class(
     #method = -1 >> no selection just order based on predicted runtime
     #method = 0 >> select top solvers based on mean predicted solver accross all folds
     #method = 1 >> select top solvers based on mean predicted solver accross all folds
-    #method = 0 >> select top solvers based on mean predicted solver accross all folds
-    #method = 0 >> select top solvers based on mean predicted solver accross all folds
-    #method = 0 >> select top solvers based on mean predicted solver accross all folds
-    
+
     #add options for par10 prediction
     selection_based_on_SE = function(predictionPath = self$predictionPath, saveTo = self$selectionPath, method_number = 1, 
                                      top_selection = 0,ignoreTimeoutsOnVBS=FALSE, orderBy = "pred", delta = 0, 
@@ -813,319 +810,6 @@ PredictionResults = R6Class(
           }
           data = otherRows
         }
-        #--------------
-        # 
-        # #the following ones are statistical selection - they may be wrong
-        # else if(method_number==7){
-        #   tvalues = vector()
-        #   for(i in 1:nrow(csv)){
-        #     s1 = csv$Prediction_StandardError[i]
-        #     s2 = minrow$Prediction_StandardError
-        #     n = 500
-        #     m1 = csv$PredictedRuntime[i]
-        #     m2 = minrow$PredictedRuntime
-        #     tvalues = append(tvalues,abs(m1-m2)/sqrt(((s1^2)/n)+((s2^2)/n)))
-        #     #df = ((s1^2/n+s2^2/n)^2)/(((((s1^2)/n)^2)/(n-1))+((((s2^2)/n)^2)/(n-1)))
-        #   }
-        #   
-        #   values = tvalues>1.96
-        #   
-        #   solvers = which(values==1)
-        #   data = csv[solvers,]
-        #   if(!(minrow$Solver %in% data$Solver)){
-        #     data = rbind(data,minrow)
-        #   }
-        #   data = data[order(data$PredictedRuntime),]
-        #   if(top_selection!=0){
-        #     if(nrow(data)>top_selection){
-        #       data = data[1:top_selection,]
-        #     }
-        #   }
-        # }
-        # else if(method_number==8){
-        #   #pred in SE
-        #   upperbound = min + minrow$Prediction_StandardError
-        #   lowerbound = min - minrow$Prediction_StandardError
-        #   otherRows = csv[which(csv$PredictedRuntime<= upperbound),]
-        #   otherRows = otherRows[which(otherRows$PredictedRuntime>=lowerbound),]
-        #   #top 5 
-        #   otherRows = otherRows[order(otherRows$PredictedRuntime),]
-        #   tvalues = vector()
-        #   for(i in 1:nrow(otherRows)){
-        #     s1 = otherRows$Prediction_StandardError[i]
-        #     s2 = minrow$Prediction_StandardError
-        #     n = 500
-        #     m1 = otherRows$PredictedRuntime[i]
-        #     m2 = minrow$PredictedRuntime
-        #     tvalues = append(tvalues,abs(m1-m2)/sqrt(((s1^2)/n)+((s2^2)/n)))
-        #     #df = ((s1^2/n+s2^2/n)^2)/(((((s1^2)/n)^2)/(n-1))+((((s2^2)/n)^2)/(n-1)))
-        #   }
-        #   
-        #   values = tvalues>1.96
-        #   
-        #   solvers = which(values==1)
-        #   data = otherRows[solvers,]
-        #   if(!(minrow$Solver %in% data$Solver)){
-        #     data = rbind(data,minrow)
-        #   }
-        #   data = data[order(data$PredictedRuntime),]
-        #   if(top_selection!=0){
-        #     if(nrow(data)>top_selection){
-        #       data = data[1:top_selection,]
-        #     }
-        #   }
-        # }
-        # else if(method_number==9){
-        #   #lowebound as good as min pred
-        #   upperbound = min
-        #   otherRows = csv[which((csv$PrdictedRuntime-csv$Prediction_StandardError)<= upperbound),]
-        #   otherRows = otherRows[order(otherRows$PredictedRuntime - otherRows$Prediction_StandardError),]
-        #   otherRows = otherRows[order(otherRows$PredictedRuntime - otherRows$Prediction_StandardError),]
-        #   #top 5 
-        #   otherRows = otherRows[order(otherRows$PredictedRuntime),]
-        #   tvalues = vector()
-        #   for(i in 1:nrow(otherRows)){
-        #     s1 = otherRows$Prediction_StandardError[i]
-        #     s2 = minrow$Prediction_StandardError
-        #     n = 500
-        #     m1 = otherRows$PredictedRuntime[i]
-        #     m2 = minrow$PredictedRuntime
-        #     tvalues = append(tvalues,abs(m1-m2)/sqrt(((s1^2)/n)+((s2^2)/n)))
-        #     #df = ((s1^2/n+s2^2/n)^2)/(((((s1^2)/n)^2)/(n-1))+((((s2^2)/n)^2)/(n-1)))
-        #   }
-        #   
-        #   values = tvalues>1.96
-        #   
-        #   solvers = which(values==1)
-        #   data = otherRows[solvers,]
-        #   if(!(minrow$Solver %in% data$Solver)){
-        #     data = rbind(data,minrow)
-        #   }
-        #   data = data[order(data$PredictedRuntime),]
-        #   if(top_selection!=0){
-        #     if(nrow(data)>top_selection){
-        #       data = data[1:top_selection,]
-        #     }
-        #   }
-        # }
-        # else if(method_number==10){
-        #   #top 5 
-        #   otherRows = csv[order(csv$PredictedRuntime),]
-        #   tvalues = vector()
-        #   solo = self$sequentialData$actual_CSV
-        #   minsolver = minrow$Solver
-        #   B = sum(solo[minsolver]>=5000)
-        #   
-        #   for(solver in solvers){
-        #     C = sum(solo[solver]>=5000)
-        #     x_2 = ((abs(C-B)-1)^2)/(B+C)
-        #     tvalues = append(tvalues,x_2)
-        #   }
-        #   
-        #   values = tvalues>3.841
-        #   
-        #   solvers = which(values==1)
-        #   data = otherRows[solvers,]
-        #   if(!(minrow$Solver %in% data$Solver)){
-        #     data = rbind(data,minrow)
-        #   }
-        #   data = data[order(data$PredictedRuntime),]
-        #   if(top_selection!=0){
-        #     if(nrow(data)>top_selection){
-        #       data = data[1:top_selection,]
-        #     }
-        #   }
-        # }
-        # else if(method_number==11){
-        #   #top 5 
-        #   otherRows = csv[order(csv$PredictedRuntime),]
-        #   tvalues = vector()
-        #   solo = read.csv("../prediction_simple_reg.csv")
-        #   minsolver = minrow$Solver
-        #   B = sum(solo[minsolver]>=5000)
-        #   
-        #   for(solver in solvers_all){
-        #     C = sum(solo[solver]>=5000)
-        #     x_2 = ((abs(C-B)-1)^2)/(B+C)
-        #     tvalues = append(tvalues,x_2)
-        #   }
-        #   
-        #   values = tvalues>3.841
-        #   
-        #   solvers = which(values==1)
-        #   data = otherRows[solvers,]
-        #   if(!(minrow$Solver %in% data$Solver)){
-        #     data = rbind(data,minrow)
-        #   }
-        #   data = data[order(data$PredictedRuntime),]
-        #   if(top_selection!=0){
-        #     if(nrow(data)>top_selection){
-        #       data = data[1:top_selection,]
-        #     }
-        #   }
-        # }
-        # else if(method_number==12){
-        #   #pred in SE
-        #   upperbound = min + minrow$Prediction_StandardError
-        #   lowerbound = min - minrow$Prediction_StandardError
-        #   otherRows = csv[which(csv$prediction<= upperbound),]
-        #   otherRows = otherRows[which(otherRows$PredictedRuntime>=lowerbound),]
-        #   #top 5 
-        #   otherRows = otherRows[order(otherRows$PredictedRuntime),]
-        #   tvalues = vector()
-        #   solo = read.csv("../prediction_simple_reg.csv")
-        #   minsolver = minrow$Solver
-        #   B = sum(solo[minsolver]>=5000)
-        #   
-        #   for(solver in otherRows$Solver){
-        #     C = sum(solo[solver]>=5000)
-        #     x_2 = ((abs(C-B)-1)^2)/(B+C)
-        #     tvalues = append(tvalues,x_2)
-        #   }
-        #   
-        #   values = tvalues>3.841
-        #   
-        #   solvers = which(values==1)
-        #   data = otherRows[solvers,]
-        #   if(!(minrow$Solver %in% data$Solver)){
-        #     data = rbind(data,minrow)
-        #   }
-        #   data = data[order(data$PredictedRuntime),]
-        #   if(top_selection!=0){
-        #     if(nrow(data)>top_selection){
-        #       data = data[1:top_selection,]
-        #     }
-        #   }
-        # }
-        # else if(method_number==13){
-        #   #pred in SE
-        #   upperbound = min
-        #   otherRows = csv[which((csv$PredictedRuntime-csv$Prediction_StandardError)<= upperbound),]
-        #   otherRows = otherRows[order(otherRows$PredictedRuntime - otherRows$Prediction_StandardError),]
-        #   #top 5 
-        #   otherRows = otherRows[order(otherRows$PredictedRuntime),]
-        #   tvalues = vector()
-        #   solo = read.csv("../prediction_simple_reg.csv")
-        #   minsolver = minrow$Solver
-        #   B = sum(solo[minsolver]>=5000)
-        #   
-        #   for(solver in otherRows$Solver){
-        #     C = sum(solo[solver]>=5000)
-        #     x_2 = ((abs(C-B)-1)^2)/(B+C)
-        #     tvalues = append(tvalues,x_2)
-        #   }
-        #   
-        #   values = tvalues>3.841
-        #   
-        #   solvers = which(values==1)
-        #   data = otherRows[solvers,]
-        #   if(!(minrow$Solver %in% data$Solver)){
-        #     data = rbind(data,minrow)
-        #   }
-        #   data = data[order(data$PredictedRuntime),]
-        #   if(top_selection!=0){
-        #     if(nrow(data)>top_selection){
-        #       data = data[1:top_selection,]
-        #     }
-        #   }
-        # }
-        # else if(method_number==14){
-        #   #top 5 
-        #   otherRows = csv[order(csv$PredictedRuntime),]
-        #   tvalues = vector()
-        #   solo = read.csv("../lowerbound_prediction_simple_reg.csv")
-        #   minsolver = minrow$Solver
-        #   B = sum(solo[minsolver]>=5000)
-        #   
-        #   for(solver in solvers_all){
-        #     C = sum(solo[solver]>=5000)
-        #     x_2 = ((abs(C-B)-1)^2)/(B+C)
-        #     tvalues = append(tvalues,x_2)
-        #   }
-        #   
-        #   values = tvalues>3.841
-        #   
-        #   solvers = which(values==1)
-        #   data = otherRows[solvers,]
-        #   if(!(minrow$Solver %in% data$Solver)){
-        #     data = rbind(data,minrow)
-        #   }
-        #   data = data[order(data$PredictedRuntime),]
-        #   if(top_selection!=0){
-        #     if(nrow(data)>top_selection){
-        #       data = data[1:top_selection,]
-        #     }
-        #   }
-        # }
-        # else if(method_number==15){
-        #   #pred in SE
-        #   upperbound = min + minrow$Prediction_StandardError
-        #   lowerbound = min - minrow$Prediction_StandardError
-        #   otherRows = csv[which(csv$prediction<= upperbound),]
-        #   otherRows = otherRows[which(otherRows$PredictedRuntime>=lowerbound),]
-        #   #top 5 
-        #   otherRows = otherRows[order(otherRows$PredictedRuntime),]
-        #   tvalues = vector()
-        #   solo = read.csv("../lowerbound_prediction_simple_reg.csv")
-        #   minsolver = minrow$Solver
-        #   B = sum(solo[minsolver]>=5000)
-        #   
-        #   for(solver in otherRows$Solver){
-        #     C = sum(solo[solver]>=5000)
-        #     x_2 = ((abs(C-B)-1)^2)/(B+C)
-        #     tvalues = append(tvalues,x_2)
-        #   }
-        #   
-        #   values = tvalues>3.841
-        #   
-        #   solvers = which(values==1)
-        #   data = otherRows[solvers,]
-        #   if(!(minrow$Solver %in% data$Solver)){
-        #     data = rbind(data,minrow)
-        #   }
-        #   data = data[order(data$PredictedRuntime),]
-        #   if(top_selection!=0){
-        #     if(nrow(data)>top_selection){
-        #       data = data[1:top_selection,]
-        #     }
-        #   }
-        # }
-        # else if(method_number==16){
-        #   #pred in SE
-        #   upperbound = min
-        #   otherRows = csv[which((csv$PredictedRuntime-csv$Prediction_StandardError)<= upperbound),]
-        #   otherRows = otherRows[order(otherRows$PredictedRuntime - otherRows$Prediction_StandardError),]
-        #   #top 5 
-        #   otherRows = otherRows[order(otherRows$PredictedRuntime),]
-        #   tvalues = vector()
-        #   solo = read.csv("../lowerbound_prediction_simple_reg.csv")
-        #   minsolver = minrow$Solver
-        #   B = sum(solo[minsolver]>=5000)
-        #   
-        #   for(solver in otherRows$Solver){
-        #     C = sum(solo[solver]>=5000)
-        #     x_2 = ((abs(C-B)-1)^2)/(B+C)
-        #     tvalues = append(tvalues,x_2)
-        #   }
-        #   
-        #   values = tvalues>3.841
-        #   
-        #   solvers = which(values==1)
-        #   data = otherRows[solvers,]
-        #   if(!(minrow$Solver %in% data$Solver)){
-        #     data = rbind(data,minrow)
-        #   }
-        #   data = data[order(data$PredictedRuntime),]
-        #   if(top_selection!=0){
-        #     if(nrow(data)>top_selection){
-        #       data = data[1:top_selection,]
-        #     }
-        #   }
-        # }
-        
-        
-        #--------------
-        
         
         
         data = data[1:5]
@@ -1180,11 +864,244 @@ PredictionResults = R6Class(
       return(coresSelection)
     },
     #ned to have csvs from (selection-based_on_SE)
-    time_splitting_scheduling = function(predictionPath = self$predictionPath, saveTo = self$selectionPath, method_number = 1, 
-                                         top_selection = 0,ignoreTimeoutsOnVBS=FALSE, orderBy = "pred", delta = 0, 
-                                         delta_prime = 0, alpha = 0, JP_limit = 0.1, getCores = TRUE){
+    time_splitting_scheduling = function(predictionPath = self$predictionPath, selectionPath = self$selectionPath, cores = 1,
+                                         ignoreTimeoutsOnVBS=FALSE, orderBy = "pred", a = 1){
+      instances = self$sequentialData$actual_CSV$InstanceName
+      if(self$benchmarks_name %in% c("SAT2018","SAT2016")){
+        instances = unlist(lapply(instances,function(x){
+          str_split(x,"/")[[1]][2]
+        }))
+      }
+      for(instance in instances){
+        preds = read.csv(paste(predictionPath,instance,".csv",sep=""))
+        
+        if(orderBy == "pred+SE"){
+        preds = preds[order(preds$PredictedRuntime + preds$Prediction_StandardError),]
+        } else if(orderBy == "pred+aSE"){
+        preds = preds[order(preds$PredictedRuntime + a * preds$Prediction_StandardError),]
+        } else {
+          preds = preds[order(preds$PredictedRuntime),]
+        }
+        
+        actual_parallel_runtime = data.frame()
+        path = self$sequentialData$actual_CSV_path
+        path = str_split(path,"/")[[1]]
+        path = path[-length(path)]
+        path = paste(path, collapse = '/') 
+        #this can be improved by a reg model 
+        if(cores==1){
+          filename = paste(path,"/teton-",self$benchmarks_name,"-",length(self$sequentialData$solvers),"-solvers-solo.csv",sep = "")
+          actual_parallel_runtime = read.csv(filename)
+        } else if (cores<10){
+          filename = paste(path,"/teton-",self$benchmarks_name,"-",length(self$sequentialData$solvers),"-solvers-",cores,"-parallel.csv",sep = "")
+          actual_parallel_runtime = read.csv(filename)
+        } else if(cores>31){
+          filename = paste(path,"/teton-",self$benchmarks_name,"-",length(self$sequentialData$solvers),"-solvers-32-parallel.csv",sep = "")
+          actual_parallel_runtime = read.csv(filename)    
+        } else if(cores>=10 ){
+          core = round(cores,-1)
+          filename = paste(path,"/teton-",self$benchmarks_name,"-",length(self$sequentialData$solvers),"-solvers-",core,"-parallel.csv",sep = "")
+          actual_parallel_runtime = read.csv(filename)
+        } 
+        parallel_runtimes <- vector()
+        csvrow = actual_parallel_runtime[which(actual_parallel_runtime$InstanceName == preds[1,]$InstanceName),]
+        for(m in 0:nrow(preds)){
+          parallel_runtimes <- append(parallel_runtimes,csvrow[preds[m,]$Solver])
+          parallel_runtimes = unname(unlist(parallel_runtimes))
+        }
+        vbs_runtime = self$sequentialData$get_VBS()[which(self$sequentialData$get_VBS()$InstanceName == preds[1,]$InstanceName),]$VBS_Runtime
+        #parallel_runtimes[which(parallel_runtimes==5000)]<-50000
+        #vbs_runtime[which(vbs_runtime==5000)]<-50000
+        preds <- cbind(preds,parallel_runtimes)
+        preds <- cbind(preds,c(rep(vbs_runtime,nrow(preds))))
+        colnames(preds) = c("InstanceName","Solver","SequentialRuntime","PredictedRuntime",
+                           "Prediction_StandardError","ParallelRuntime","VBSRuntime")
+        
+        coreCol = rep(c(1:cores),nrow(preds)/cores)
+        if(length(coreCol)<nrow(preds)){
+          for(c in 1:(nrow(preds)-length(coreCol))){
+            coreCol = append(coreCol, c)
+          }
+        }
+        preds$cores = coreCol
+        
+        solvedTime = data.frame(matrix(nrow = 0, ncol = 2))
+        elem = 1
+        for(c in 1:cores){
+            solvers = preds[which(preds$cores == c),]$Solver
+            total = 0
+            for(s in 1:length(solvers)){
+              solver_time = preds[which(preds$Solver == solvers[s]),] 
+              if(orderBy == "pred"){
+                scheduled_for = solver_time$PredictedRuntime
+              } else if(orderBy == "pred+SE") {
+                scheduled_for = solver_time$PredictedRuntime + solver_time$Prediction_StandardError
+              } else if(orderBy == "pred+aSE") {
+                scheduled_for = solver_time$PredictedRuntime + a*solver_time$Prediction_StandardError
+              } else {
+                scheduled_for = self$sequentialData$Cutoff
+              }
+              if(scheduled_for > self$sequentialData$Cutoff){
+                scheduled_for = self$sequentialData$Cutoff
+              }
+              solver_time = solver_time$ParallelRuntime
+              solvedFlag = FALSE
+              if(solver_time <= scheduled_for && solver_time <= (self$sequentialData$Cutoff - total)){
+                solvedFlag = TRUE
+                total = total + solver_time                  
+                solvedTime = rbind(solvedTime,c(solvers[s],total))
+                elem = elem +1
+                if(s < length(solvers)){
+                  for(r in (s+1):length(solvers)){
+                    solvedTime= rbind(solvedTime,c(solvers[r],Inf))
+                    elem = elem +1
+                  }
+                }
+                break
+              } else {
+                total = total + scheduled_for
+                solvedTime= rbind(solvedTime,c(solvers[s],Inf))
+              }
+              s = s+1
+            }
+        }
+        colnames(solvedTime) <- c("Solver","ResultingTime")
+        colnam = colnames(preds)
+        preds = merge(solvedTime,preds,x.by=Solver)[c(colnam, "ResultingTime")]
+        if(orderBy == "pred"){
+          preds = preds[order(preds$PredictedRuntime),]
+        } else if(orderBy == "pred+SE") {
+          preds = preds[order(preds$PredictedRuntime + preds$Prediction_StandardError),]
+        } else if(orderBy == "pred+aSE"){
+          preds = preds[order(preds$PredictedRuntime + a* preds$Prediction_StandardError),]
+        }
+        
+        write.csv(preds,paste(selectionPath,"/",instance,".csv",sep=""),row.names = FALSE)
+      }
+    },
+    
+    time_splitting_scheduling_scraper = function(selectionPath,ignoreTimeouts=FALSE, median=FALSE, orderBy = "pred", a = 1){
+      tablePar10 <- data.frame(matrix(nrow = 0, ncol = 8+self$sequentialData$n_solvers))
+      tableMCP <- data.frame(matrix(nrow = 0, ncol = 8+self$sequentialData$n_solvers))
+      tableSuccess <- data.frame(matrix(nrow = 0, ncol = 8+self$sequentialData$n_solvers))
+      tableRuntime <- data.frame(matrix(nrow = 0, ncol = 8+self$sequentialData$n_solvers))
+      instance_files = list.files(selectionPath,pattern =".csv")
+      if(ignoreTimeouts){
+        unsolved = lapply(self$sequentialData$unsolvedInstances, function(x) str_split(x,"sat/")[[1]][2])
+        unsolved = unlist(unsolved)
+        unsolved = paste(unsolved,".csv",sep = "")
+        instance_files = instance_files[!instance_files %in% unsolved]
+      }
+      #min parallel runtime of selected schedule
+      parallel_runtimes = vector()
+      
+      sequential_runtimes = vector()
+      vbs_runtime = vector()
+      nrows = vector()
+      data = data.frame(matrix(nrow=0,ncol=8+self$sequentialData$n_solvers))
+      for(instance in instance_files){
+        #if(".csv" %in% instance){
+        csv = read.csv(paste(selectionPath,"/",instance,sep = ""))
+        if(nrow(csv)<self$sequentialData$n_solvers){
+          print(paste("some solvers are not listed: ", instance))
+        }
+        #}
+        #else{
+        #  csv = read.csv(paste(selectionPath,"/",instance,".csv",sep = ""))
+        #}
+        min_scheduled_min = min(csv$ResultingTime)
+        min_sequential_runtimes = min(csv$SequentialRuntime)
+        min_parallel_min = min(csv$ParallelRuntime)
+        vbs_runtime = csv$VBSRuntime[1]
+        n_selected_solvers = nrow(csv)
+        cores = max(csv$cores)
+        if(orderBy == "pred"){
+          min_pred_min = min(csv$PredictedRuntime)
+        } else if(orderBy == "pred+SE"){ 
+          min_pred_min = min(csv$PredictedRuntime + csv$Prediction_StandardError)
+        } else if(orderBy == "pred+aSE"){
+          min_pred_min = min(csv$PredictedRuntime + a* csv$Prediction_StandardError)
+        }
+        row = c(instance,vbs_runtime,
+                min_sequential_runtimes,min_parallel_min,
+                min_pred_min,min_scheduled_min,
+                n_selected_solvers,cores, orderBy)
+        data = rbind(row,data)
+      }
+      colnames(data)= c("InstanceName","VBSRuntime","min_sequential_runtimes",
+                        "min_parallel_runtime", "min_prediction", "min_resulting_time", 
+                        "n_selected_solvers","cores","orderBy")
+      data[2:7] = lapply(data[2:7],as.numeric)
+      data$min_resulting_time[which(is.infinite(data$min_resulting_time))] <- self$sequentialData$Cutoff
+      #vbs_not_selected= data[which(data$vbs_runtime!=data$min_sequential_runtimes),]
+      vbs = as.numeric(data$VBSRuntime)
+      selec_seq = as.numeric(data$min_sequential_runtimes)
+      mcp_seq = selec_seq - vbs
+      mcp_seq[which(mcp_seq<0)]<-0
+      selec_par = as.numeric(data$min_parallel_runtime)
+      selec_schedul = as.numeric(data$min_resulting_time)
+      mcp_par = selec_par - vbs
+      mcp_par[which(mcp_par<0)]<-0
+      
+      mcp_schedule = selec_schedul - vbs
+      mcp_schedule[which(mcp_schedule<0)]<-0
+      orderBy = data$orderBy[1]
+      #success
+      if(median == TRUE){
+        rowRuntime <- c("Runtime",median(vbs),median(selec_seq),median(selec_par),median(selec_schedul),
+                        median(as.numeric(data$n_selected_solvers)),data$cores[1],mean(selec_seq == vbs), ignoreTimeouts, median, orderBy)
+        #success
+        #should be mean since will be true false otherwise
+        rowSuccess <- c("Success",mean(vbs<self$sequentialData$Cutoff),mean(selec_seq<self$sequentialData$Cutoff),
+                        mean(selec_par<self$sequentialData$Cutoff),mean(selec_schedul<self$sequentialData$Cutoff),
+                        median(as.numeric(data$n_selected_solvers)),data$cores[1],mean(selec_seq == vbs), ignoreTimeouts, median, orderBy)
+        
+        rowMCP <- c("MCP",0,median(mcp_seq),median(mcp_par),median(mcp_schedule),
+                    median(data$n_selected_solvers),data$cores[1],mean(selec_seq == vbs), ignoreTimeouts, median, orderBy)
+        
+        vbs[which(vbs>=self$sequentialData$Cutoff)]<-self$sequentialData$Cutoff*10
+        selec_seq[which(selec_seq>=self$sequentialData$Cutoff)]<-self$sequentialData$Cutoff*10
+        selec_par[which(selec_par>=self$sequentialData$Cutoff)]<-self$sequentialData$Cutoff*10
+        selec_schedul[which(selec_schedul>=self$sequentialData$Cutoff)]<-self$sequentialData$Cutoff*10
+        
+        rowPar10 <- c("Par10",median(vbs),median(selec_seq),median(selec_par),median(selec_schedul),
+                      median(as.numeric(data$n_selected_solvers)),data$cores[1],mean(selec_seq == vbs), ignoreTimeouts, median, orderBy)
+      } else{
+        rowRuntime <- c("Runtime",mean(vbs),mean(selec_seq),mean(selec_par),mean(selec_schedul),
+                        mean(as.numeric(data$n_selected_solvers)),data$cores[1],mean(selec_seq == vbs), ignoreTimeouts, median, orderBy)
+        #success
+        rowSuccess <- c("Success",mean(vbs<self$sequentialData$Cutoff),mean(selec_seq<self$sequentialData$Cutoff),
+                        mean(selec_par<self$sequentialData$Cutoff),mean(selec_schedul<self$sequentialData$Cutoff),
+                        mean(as.numeric(data$n_selected_solvers)),data$cores[1],mean(selec_seq == vbs), ignoreTimeouts, median, orderBy)
+        
+        rowMCP <- c("MCP",0,mean(mcp_seq),mean(mcp_par),mean(mcp_schedule),
+                    mean(as.numeric(data$n_selected_solvers)),data$cores[1],mean(selec_seq == vbs), ignoreTimeouts, median, orderBy)
+        
+        vbs[which(vbs>=self$sequentialData$Cutoff)]<-self$sequentialData$Cutoff*10
+        selec_seq[which(selec_seq>=self$sequentialData$Cutoff)]<-self$sequentialData$Cutoff*10
+        selec_par[which(selec_par>=self$sequentialData$Cutoff)]<-self$sequentialData$Cutoff*10
+        selec_schedul[which(selec_schedul>=self$sequentialData$Cutoff)]<-self$sequentialData$Cutoff*10
+        
+        rowPar10 <- c("Par10",mean(vbs),mean(selec_seq),mean(selec_par),mean(selec_schedul),
+                      mean(as.numeric(data$n_selected_solvers)),data$cores[1],mean(selec_seq == vbs), ignoreTimeouts, median, orderBy)
+      }
+      
+      tableRuntime <- rbind(rowRuntime,tableRuntime)
+      tableMCP <- rbind(rowMCP,tableMCP)
+      tableSuccess <- rbind(rowSuccess,tableSuccess)
+      tablePar10 <- rbind(rowPar10,tablePar10)
+      colnames(tableRuntime)<- c("metric","VBS","Sequential_time","Parallel_time","Schedule_time",
+                                 "#selected_solvers","cores","vbs_selection", "ignoreTimeouts", "median", "orderBy")
+      colnames(tableMCP)<- c("metric","VBS","Sequential_time","Parallel_time","Schedule_time",
+                             "#selected_solvers","cores","vbs_selection", "ignoreTimeouts", "median", "orderBy")
+      colnames(tableSuccess)<- c("metric","VBS","Sequential_time","Parallel_time","Schedule_time",
+                                 "#selected_solvers","cores","vbs_selection", "ignoreTimeouts", "median", "orderBy")
+      colnames(tablePar10)<- c("metric","VBS","Sequential_time","Parallel_time","Schedule_time",
+                               "#selected_solvers","cores","vbs_selection", "ignoreTimeouts", "median", "orderBy")
+      return(list(tableRuntime, tableMCP,tablePar10,tableSuccess))
       
     },
+    
     selection_based_on_SE_thetaForAlg = function(predictionPath = self$predictionPath, saveTo = self$selectionPath, 
                                                  top_selection = 0,ignoreTimeoutsOnVBS=FALSE, orderBy = "pred", thetas){
       print(predictionPath)
@@ -1915,7 +1832,7 @@ PredictionResults = R6Class(
         unsolved = paste(unsolved,".csv",sep = "")
         instance_files = instance_files[!instance_files %in% unsolved]
       }
-      #min parallel runtime of selected schedule
+      min parallel runtime of selected schedule
       parallel_runtimes = vector()
       
       sequential_runtimes = vector()
@@ -1923,12 +1840,12 @@ PredictionResults = R6Class(
       nrows = vector()
       data = data.frame(matrix(nrow=0,ncol=8+self$sequentialData$n_solvers))
       for(instance in instance_files){
-        #if(".csv" %in% instance){
+        if(".csv" %in% instance){
         csv = read.csv(paste(selectionPath,"/",instance,sep = ""))
-        #}
-        #else{
-        #  csv = read.csv(paste(selectionPath,"/",instance,".csv",sep = ""))
-        #}
+        }
+        else{
+         csv = read.csv(paste(selectionPath,"/",instance,".csv",sep = ""))
+        }
         min_parallel_min = min(csv$ParallelRuntime)
         min_sequential_runtimes = min(csv$SequentialRuntime)
         vbs_runtime = csv$VBSRuntime[1]
@@ -1938,7 +1855,7 @@ PredictionResults = R6Class(
       }
       colnames(data)= c("InstanceName","VBSRuntime","min_sequential_runtimes",
                         "min_parallel_runtime","n_selected_solvers", colnames(csv)[9:length(colnames(csv))-1],"orderBy")
-      #vbs_not_selected= data[which(data$vbs_runtime!=data$min_sequential_runtimes),]
+      vbs_not_selected= data[which(data$vbs_runtime!=data$min_sequential_runtimes),]
       vbs = as.numeric(data$VBSRuntime)
       selec_seq = as.numeric(data$min_sequential_runtimes)
       mcp_seq = selec_seq - vbs
@@ -1948,12 +1865,12 @@ PredictionResults = R6Class(
       mcp_par[which(mcp_par<0)]<-0
       theta = unlist(unname(data[1,7:length(colnames(data))-1]))
       orderBy = data$orderBy[1]
-      #success
+      success
       if(median == TRUE){
         rowRuntime <- c("Runtime",method_number,median(vbs),median(selec_seq),median(selec_par),
                         median(as.numeric(data$n_selected_solvers)),mean(selec_seq == vbs), theta, ignoreTimeouts, median, orderBy)
-        #success
-        #should be mean since will be true false otherwise
+        success
+        should be mean since will be true false otherwise
         rowSuccess <- c("Success",method_number,mean(vbs<self$sequentialData$Cutoff),mean(selec_seq<self$sequentialData$Cutoff),mean(selec_par<self$sequentialData$Cutoff),
                         median(as.numeric(data$n_selected_solvers)),mean(selec_seq == vbs), theta, ignoreTimeouts, median, orderBy)
         
@@ -1969,7 +1886,7 @@ PredictionResults = R6Class(
       } else{
         rowRuntime <- c("Runtime",method_number,mean(vbs),mean(selec_seq),mean(selec_par),
                         mean(as.numeric(data$n_selected_solvers)),mean(selec_seq == vbs), theta , ignoreTimeouts, median, orderBy)
-        #success
+        success
         rowSuccess <- c("Success",method_number,mean(vbs<self$sequentialData$Cutoff),mean(selec_seq<self$sequentialData$Cutoff),mean(selec_par<self$sequentialData$Cutoff),
                         mean(as.numeric(data$n_selected_solvers)),mean(selec_seq == vbs), theta, ignoreTimeouts, median, orderBy)
         
@@ -2312,8 +2229,27 @@ PredictionResults = R6Class(
       return(retval)
     },
     
-    #split by solver preds, should be completed
-    split_pred_by_solver = function(predictionPath){
+    actual_error = function(predictionPath = self$predictionPath){
+      solvers = self$sequentialData$solvers
+      predictionCsvs = list.files(predictionPath, full.names = TRUE)
+      results = data.frame(matrix(nrow = 0, ncol = 7))
+      for(solver in solvers){
+        for(csv in predictionCsvs){
+          prediction = read.csv(csv)
+          prediction = prediction[which(prediction$Solver == solver),]
+          prediction$ActualError = prediction$ActualRuntime - prediction$PredictedRuntime
+          # negative: y_hat > y
+          # positive: y_hat < y 
+          if(prediction$ActualError<0){
+            prediction$ErrorDifferences = prediction$ActualError + prediction$Prediction_StandardError
+          } else{ 
+            prediction$ErrorDifferences = prediction$ActualError - prediction$Prediction_StandardError
+          }
+          prediction$Margin_of_Error = prediction$ActualError/prediction$Prediction_StandardError 
+          results = rbind(results, prediction)
+        }
+      }
+      return(results)
     }
   )
 )

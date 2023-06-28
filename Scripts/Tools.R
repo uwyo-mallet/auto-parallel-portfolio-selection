@@ -27,7 +27,7 @@ Tools <- R6Class(
     #set working directory
     set_wd = function(path, cluster = FALSE){
       if(Sys.info()['sysname']!="Linux"){
-        path = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/",path,sep = "")
+        path = paste("C:/Users/hnyk9/Thesis/",path,sep = "")
         if(dir.exists(path)){
           setwd(path)
         } else {print(paste("Directory '",path,"' doesn't exits!",sep=""))}

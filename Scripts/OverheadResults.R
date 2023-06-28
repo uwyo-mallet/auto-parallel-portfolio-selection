@@ -6,7 +6,7 @@ if(Sys.info()['sysname']=="Linux"){
     source("/gscratch/hkashgar/OrganizedScripts/PredictionResults.R") 
   }
 } else{
-  source("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/PredictionResults.R")
+  source("C:/Users/hnyk9/Thesis/OrganizedScripts/PredictionResults.R")
 }
 
 library(reshape)
@@ -57,15 +57,15 @@ OverheadResults = R6Class(
           self$actualOverheadPersolver_percPlotPath = paste("/gscratch/hkashgar/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_solver_perc/plot/",sep = "")
         }
       } else{
-        self$actualOverheadPercore_secondsPath = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_core_seconds/",sep = "")
-        self$actualOverheadPercore_secondsPlotPath = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_core_seconds/plot/",sep = "")
-        self$actualOverheadPercore_percPath = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_core_perc/",sep = "")
-        self$actualOverheadPercore_percPlotPath = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_core_perc/plot/",sep = "")
+        self$actualOverheadPercore_secondsPath = paste("C:/Users/hnyk9/Thesis/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_core_seconds/",sep = "")
+        self$actualOverheadPercore_secondsPlotPath = paste("C:/Users/hnyk9/Thesis/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_core_seconds/plot/",sep = "")
+        self$actualOverheadPercore_percPath = paste("C:/Users/hnyk9/Thesis/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_core_perc/",sep = "")
+        self$actualOverheadPercore_percPlotPath = paste("C:/Users/hnyk9/Thesis/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_core_perc/plot/",sep = "")
         
-        self$actualOverheadPersolver_secondsPath = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_solver_seconds/",sep = "")
-        self$actualOverheadPersolver_secondsPlotPath = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_solver_seconds/plot/",sep = "")
-        self$actualOverheadPersolver_percPath = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_solver_perc/",sep = "")
-        self$actualOverheadPersolver_percPlotPath = paste("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_solver_perc/plot/",sep = "")
+        self$actualOverheadPersolver_secondsPath = paste("C:/Users/hnyk9/Thesis/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_solver_seconds/",sep = "")
+        self$actualOverheadPersolver_secondsPlotPath = paste("C:/Users/hnyk9/Thesis/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_solver_seconds/plot/",sep = "")
+        self$actualOverheadPersolver_percPath = paste("C:/Users/hnyk9/Thesis/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_solver_perc/",sep = "")
+        self$actualOverheadPersolver_percPlotPath = paste("C:/Users/hnyk9/Thesis/OrganizedScripts/",self$benchmarks_name,"/actual_overhead_per_solver_perc/plot/",sep = "")
       }
       if(is.null(self$sequentialData$scenario)) self$sequentialData$get_scenario()
     },  
