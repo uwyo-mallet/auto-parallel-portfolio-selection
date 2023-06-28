@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"TEAMS20_l10aacnf.wcnf","UWrMaxSat.1.0",0.28,131.869481183656,527.2083740193,0.28,0.28,0,0,0,5,"pred"
+"TEAMS20_l10aacnf.wcnf","maxino2018",0.38,169.878310956783,564.674120641648,0.37,0.28,0,0,0,5,"pred"

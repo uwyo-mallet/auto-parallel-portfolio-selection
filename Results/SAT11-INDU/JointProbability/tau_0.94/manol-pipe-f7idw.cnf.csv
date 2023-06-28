@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"manol-pipe-f7idw.cnf","SAT09referencesolverprecosat_236",19.74,293.747310897436,696.121018400418,19.74,13.67,0,0,0,5,"pred"

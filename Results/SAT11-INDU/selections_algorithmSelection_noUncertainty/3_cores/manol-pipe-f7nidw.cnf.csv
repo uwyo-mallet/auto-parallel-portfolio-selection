@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"manol-pipe-f7nidw.cnf","glueminisat.2.2.5",20.07,412.141512,965.54333585833,22.74,16.72,0,0,0,0,"pred"
+"manol-pipe-f7nidw.cnf","lingeling.587f.4882048.110513",33.91,414.405956,855.303190180339,34.42,16.72,0,0,0,0,"pred"
+"manol-pipe-f7nidw.cnf","minisathackEBMiniSAT_2011.03.02",90.67,581.48229508772,1334.66019820646,62.53,16.72,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sqrt_ineq_2.c.cnf","Maple_CM",86.122,721.566133333333,1292.93109578225,86.122,0.928,0,0,0,0,"pred"

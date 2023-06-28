@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ak128modasbg2asisc.cnf","Riss6",33.199,922.612883333333,1787.79567764335,34.57,33.199,0,0,0,5,"pred"
+"sat/ak128modasbg2asisc.cnf","glueminisat.2210.81.main",3304.527,3821.74280801887,1613.42649331246,3529.57,33.199,0,0,0,5,"pred"
+"sat/ak128modasbg2asisc.cnf","glucose_hack_kiel_newScript",5000,3913.75196399371,1892.76789456153,5000,33.199,0,0,0,5,"pred"
+"sat/ak128modasbg2asisc.cnf","abcdSAT_drup",5000,4194.24937484277,1595.87335512884,5000,33.199,0,0,0,5,"pred"
+"sat/ak128modasbg2asisc.cnf","tb_glucose",5000,4269.15834968554,1497.29371310472,5000,33.199,0,0,0,5,"pred"
+"sat/ak128modasbg2asisc.cnf","tc_glucose",5000,4375.61153867925,1505.08379764205,5000,33.199,0,0,0,5,"pred"
+"sat/ak128modasbg2asisc.cnf","CHBR_glucose",1384.706,4468.96949261006,1417.85867854506,1508.22,33.199,0,0,0,5,"pred"

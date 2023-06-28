@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/modgen-n200-m90860q08c40-6336.cnf","CHBR_glucose_tuned",23.567,436.290833946078,1171.72900008563,23.567,5.926,0,0,0,5,"pred"

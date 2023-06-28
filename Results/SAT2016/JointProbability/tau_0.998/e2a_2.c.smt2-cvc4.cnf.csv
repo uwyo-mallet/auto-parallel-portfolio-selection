@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/e2a_2.c.smt2-cvc4.cnf","cmsat5_autotune2",0.192,1001.4459622549,1862.33636811734,0.192,0.029,0,0,0,5,"pred"

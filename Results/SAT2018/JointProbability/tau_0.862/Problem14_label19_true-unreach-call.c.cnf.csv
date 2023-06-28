@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Problem14_label19_true-unreach-call.c.cnf","GHackCOMSPS_drup",21.426,61.1581759090909,105.94712768925,25.09,21.426,0,0,0,5,"pred"
+"sat/Problem14_label19_true-unreach-call.c.cnf","CaDiCaL",58.891,87.0862318181818,109.307258598645,70.72,21.426,0,0,0,5,"pred"
+"sat/Problem14_label19_true-unreach-call.c.cnf","Maple_CM",40.671,94.0806925757575,117.020761084594,47.38,21.426,0,0,0,5,"pred"

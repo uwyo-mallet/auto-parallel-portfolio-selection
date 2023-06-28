@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/apn-sbox6-cut3-helpbox30.cnf","Maple_LCM.BCrestart_M1",203.466,447.616898148148,383.632467310385,241.4,49.996,0,0,0,5,"pred"
+"sat/apn-sbox6-cut3-helpbox30.cnf","Maple_LCM_Scavel_200_fix2",307.1,483.790922222222,974.901233110334,337.05,49.996,0,0,0,5,"pred"
+"sat/apn-sbox6-cut3-helpbox30.cnf","Maple_LCM_M1",230.194,585.308417592593,1172.26717603417,267.47,49.996,0,0,0,5,"pred"
+"sat/apn-sbox6-cut3-helpbox30.cnf","Maple_LCM.BCrestart",1008.387,588.267116666667,1120.02173312971,5000,49.996,0,0,0,5,"pred"
+"sat/apn-sbox6-cut3-helpbox30.cnf","smallsat",221.376,630.041677777778,1092.9304469453,247.82,49.996,0,0,0,5,"pred"

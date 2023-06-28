@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/a_rphp085_04.cnf","gluHack",643.806,1025.9087608291,1081.26350809084,5000,643.806,0,0,0,0,"pred"
+"sat/a_rphp085_04.cnf","Maple_LCM_Scavel_200_fix2",2178.416,2501.58650736041,1791.47149550684,5000,643.806,0,0,0,0,"pred"
+"sat/a_rphp085_04.cnf","expMC_LRB_VSIDS_Switch_2500",2060.003,2527.25400761421,2071.89473210174,5000,643.806,0,0,0,0,"pred"
+"sat/a_rphp085_04.cnf","CaDiCaL",3519.964,2890.66842461929,2247.45161038916,5000,643.806,0,0,0,0,"pred"
+"sat/a_rphp085_04.cnf","glu_mix",5000,2916.77486345178,2034.78430882333,5000,643.806,0,0,0,0,"pred"
+"sat/a_rphp085_04.cnf","Maple_LCM.BCrestart",1873.9,2921.2544856176,1992.7145369441,5000,643.806,0,0,0,0,"pred"
+"sat/a_rphp085_04.cnf","Maple_LCM_M1",1989.075,2939.0516036379,1973.91699234104,5000,643.806,0,0,0,0,"pred"

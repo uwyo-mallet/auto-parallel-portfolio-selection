@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/uniqinv46prop.cnf","cms55.main.all4fixed",854.123,1261.62325423012,1719.60588699969,854.123,854.123,0,0,0,5,"pred"

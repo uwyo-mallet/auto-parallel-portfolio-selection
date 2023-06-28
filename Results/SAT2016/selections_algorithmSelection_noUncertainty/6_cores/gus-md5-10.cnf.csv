@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/gus-md5-10.cnf","COMiniSatPSChandrasekharDRUP",1293.993,3274.11388300654,2034.13892137079,1434.24,830.545,0,0,0,0,"pred"
+"sat/gus-md5-10.cnf","Glucose_nbSat",1989.607,3294.85113349673,2134.50843484406,2016.9,830.545,0,0,0,0,"pred"
+"sat/gus-md5-10.cnf","gulch",2304.526,3354.03711862745,2036.7190821455,2311.98,830.545,0,0,0,0,"pred"
+"sat/gus-md5-10.cnf","glucose",1799.312,3511.56535947712,1949.18478930962,1845.6,830.545,0,0,0,0,"pred"
+"sat/gus-md5-10.cnf","glucose_hack_kiel_newScript",2129.085,3546.17159869281,2098.60533290711,2127.76,830.545,0,0,0,0,"pred"
+"sat/gus-md5-10.cnf","tb_glucose",2352.027,3630.53837075163,1991.34852621031,2411.12,830.545,0,0,0,0,"pred"

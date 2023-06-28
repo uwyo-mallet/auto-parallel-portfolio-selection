@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"traffic_pcb_unknown.cnf","glucose_2.0",82.28,114.426272522523,209.591210240127
+"traffic_pcb_unknown.cnf","glueminisat.2.2.5",177.14,352.288364864865,876.410291763049
+"traffic_pcb_unknown.cnf","lingeling.587f.4882048.110513",222.48,300.633074324324,408.145904256304
+"traffic_pcb_unknown.cnf","minisathackcir_minisat_2011.05.13_simp_",353.21,389.416087837838,543.154145551901
+"traffic_pcb_unknown.cnf","minisathackcontrasat_2011.03.02",332.36,291.200887387387,78.6804117855493
+"traffic_pcb_unknown.cnf","minisathackEBMiniSAT_2011.03.02",164.38,259.034295045045,317.781806814622
+"traffic_pcb_unknown.cnf","minisathackLR_GL_SHR_2011.03.02",464.25,632.421486486486,776.083892984673
+"traffic_pcb_unknown.cnf","minisathackMiniSAT_2.2.0.agile.26",215.21,204.367121621622,52.1599833198076
+"traffic_pcb_unknown.cnf","minisathackminisat_psm_2011.04.01",146.44,380.108675675676,968.944140855319
+"traffic_pcb_unknown.cnf","minisathackreferenceminisat_2.2.0",216.81,274.709948198198,575.906174204695
+"traffic_pcb_unknown.cnf","MPhaseSAT64",396.26,451.034018018018,463.167389950299
+"traffic_pcb_unknown.cnf","rcl_2011.04.01",343.75,418.806299549549,617.245335070954
+"traffic_pcb_unknown.cnf","RestartSAT_B95",332.62,377.44936036036,359.782681743801
+"traffic_pcb_unknown.cnf","SAT09referencesolverprecosat_236",262.54,320.510837837838,580.017299130225

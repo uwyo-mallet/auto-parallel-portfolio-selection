@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ex067_10.cnf","Maple_LCM_Scavel_fix2",177.326,2321.23404416244,2128.82513431012,201.59,81.569,0,0,0,0,"pred"
+"sat/ex067_10.cnf","Maple_CM_Dist",518.063,2374.91100456853,2165.92199363849,612.84,81.569,0,0,0,0,"pred"

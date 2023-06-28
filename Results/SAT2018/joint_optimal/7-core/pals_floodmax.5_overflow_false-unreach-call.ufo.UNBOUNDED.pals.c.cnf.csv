@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/pals_floodmax.5_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","cms55.main.all4fixed",3093.032,909.346591666667,1554.36936059061,5000,1512.525,0,0,0,5,"pred"
+"sat/pals_floodmax.5_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","Maple_LCM_Scavel_200_fix2",5000,957.904713666667,1626.21060000283,5000,1512.525,0,0,0,5,"pred"
+"sat/pals_floodmax.5_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","glu_mix",1810.006,1005.30313666667,1565.6062031638,5000,1512.525,0,0,0,5,"pred"
+"sat/pals_floodmax.5_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","Maple_LCM.BCrestart",5000,1046.27298866667,1632.15195276602,5000,1512.525,0,0,0,5,"pred"
+"sat/pals_floodmax.5_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","gluHack",5000,1175.71536866667,1733.85073622671,5000,1512.525,0,0,0,5,"pred"
+"sat/pals_floodmax.5_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","inIDGlucose",4739.623,1189.283988,1657.83739256617,5000,1512.525,0,0,0,5,"pred"
+"sat/pals_floodmax.5_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","Maple_LCM_Scavel_fix2",5000,1228.68374066667,1857.5710053367,5000,1512.525,0,0,0,5,"pred"

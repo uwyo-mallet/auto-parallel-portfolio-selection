@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/course_flat_0.12_2018_3_1.cnf","COMiniSatPS_Pulsar_drup",536.63,1029.10065462963,1190.04017714066,588.99,275.843,0,0,0,5,"pred"
+"sat/course_flat_0.12_2018_3_1.cnf","glucose3.0",498.394,1059.91545740741,917.352735058501,539.8,275.843,0,0,0,5,"pred"
+"sat/course_flat_0.12_2018_3_1.cnf","Riss7.1.fix",596.675,1206.02119074074,1692.63531869149,642.19,275.843,0,0,0,5,"pred"

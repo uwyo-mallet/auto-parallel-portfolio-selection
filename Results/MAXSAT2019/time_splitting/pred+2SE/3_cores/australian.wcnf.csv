@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"australian.wcnf","Open.WBO.ms.pre",3600,1356.70137019509,284.406566627325,3600,3600,1,"Inf"
+"australian.wcnf","Open.WBO.ms",3600,1393.32446620081,310.51837337333,3600,3600,2,"Inf"
+"australian.wcnf","UWrMaxSat.1.0",3600,1400.06014098036,325.956907494122,3600,3600,3,"Inf"
+"australian.wcnf","maxino2018",3600,1515.79395355114,275.43052425768,3600,3600,1,"Inf"
+"australian.wcnf","Open.WBO.g",3600,1567.14434166244,317.732327347967,3600,3600,2,"Inf"
+"australian.wcnf","QMaxSAT2018",3600,1649.87594274798,303.228039444591,3600,3600,3,"Inf"
+"australian.wcnf","MaxHS",3600,2235.33943238429,276.173357755069,3600,3600,1,"Inf"

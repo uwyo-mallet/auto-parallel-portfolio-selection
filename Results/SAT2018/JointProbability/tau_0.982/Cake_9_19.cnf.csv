@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Cake_9_19.cnf","smallsat",5000,3056.61294219409,2190.18519025009,5000,5000,0,0,0,5,"pred"
+"sat/Cake_9_19.cnf","Maple_LCM_Scavel_fix2",5000,3080.73582257384,2235.98521391684,5000,5000,0,0,0,5,"pred"
+"sat/Cake_9_19.cnf","CaDiCaL",5000,3089.55068438819,2141.75050436954,5000,5000,0,0,0,5,"pred"

@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"causal_n5_i9_N10000_uai13_constant_int.wcnf","MaxHS",16.42,517.866246623864,532.950771843914,20.25,2.61,1,"20.25"
+"causal_n5_i9_N10000_uai13_constant_int.wcnf","UWrMaxSat.1.0",3.4,613.715399082859,663.232701919364,3.89,2.61,3,"3.89"
+"causal_n5_i9_N10000_uai13_constant_int.wcnf","maxino2018",2.61,633.739066568451,651.255403151306,3.24,2.61,4,"3.24"
+"causal_n5_i9_N10000_uai13_constant_int.wcnf","Open.WBO.ms.pre",8.14,612.788015910492,715.148608136915,9.35,2.61,2,"9.35"
+"causal_n5_i9_N10000_uai13_constant_int.wcnf","Open.WBO.ms",33.39,643.36781988201,690.724104157476,45.55,2.61,5,"45.55"
+"causal_n5_i9_N10000_uai13_constant_int.wcnf","Open.WBO.g",5.1,644.00507031371,795.996601723965,6.11,2.61,6,"6.11"
+"causal_n5_i9_N10000_uai13_constant_int.wcnf","QMaxSAT2018",3.64,1000.09384362571,1133.59803919053,4.82,2.61,1,"Inf"

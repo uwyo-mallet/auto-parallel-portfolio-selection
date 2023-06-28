@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"b14_C-mbd14-0307.wcnf","UWrMaxSat.1.0",8.36,555.503309520239,570.295396311907,8.4,8.36,0,0,0,0,"pred"
+"b14_C-mbd14-0307.wcnf","Open.WBO.ms",33.3,570.627793666793,720.823824483546,33.43,8.36,0,0,0,0,"pred"

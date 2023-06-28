@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"petri-net-alignment_p02.pddl","Complementary2",22.63,121.218777108434,266.743795810084,22.63,3.78,0,0,0,0,"pred"

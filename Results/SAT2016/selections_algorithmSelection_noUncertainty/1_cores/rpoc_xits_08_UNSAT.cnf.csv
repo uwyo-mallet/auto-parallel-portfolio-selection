@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/rpoc_xits_08_UNSAT.cnf","MapleCMS",317.611,2900.11935245098,1806.16754020285,317.611,317.611,0,0,0,0,"pred"

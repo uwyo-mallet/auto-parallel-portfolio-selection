@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/CNP-5-1800.cnf","COMiniSatPS_Pulsar_drup",19.238,49.7155781774581,40.6555077523723,19.238,0.5,0,0,0,0,"pred"

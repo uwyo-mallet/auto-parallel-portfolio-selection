@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/newton.4.3.i.smt2-stp212.cnf","glueminisat.2210.81.main",158.719,449.211193392505,1038.81746843854,158.719,158.719,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/satcoin-genesis-SAT-5.cnf","Candy",1.763,3.2876789308176,1.13827743547152,1.763,0.589,0,0,0,0,"pred"

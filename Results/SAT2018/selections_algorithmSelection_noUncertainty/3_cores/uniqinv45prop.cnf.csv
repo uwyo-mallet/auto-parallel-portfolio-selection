@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/uniqinv45prop.cnf","cms55.main.all4fixed",611.847,793.246923666667,829.599746019153,695.88,611.847,0,0,0,0,"pred"
+"sat/uniqinv45prop.cnf","Maple_LCM.BCrestart",2763.648,2737.14756033333,734.732425586111,2797.36,611.847,0,0,0,0,"pred"
+"sat/uniqinv45prop.cnf","Maple_CM_ordUIP.",2757.11,2740.77709533333,869.007511283856,2765.74,611.847,0,0,0,0,"pred"

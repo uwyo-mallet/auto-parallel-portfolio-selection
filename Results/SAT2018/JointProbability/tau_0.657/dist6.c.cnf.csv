@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/dist6.c.cnf","cms55.main.all4fixed",84.91,86.2722088744588,29.4166755926467,96.1,78.361,0,0,0,5,"pred"
+"sat/dist6.c.cnf","smallsat",102.551,113.165182034632,65.5116587498161,115.17,78.361,0,0,0,5,"pred"
+"sat/dist6.c.cnf","YalSAT",5000,5000,0,5000,78.361,0,0,0,5,"pred"

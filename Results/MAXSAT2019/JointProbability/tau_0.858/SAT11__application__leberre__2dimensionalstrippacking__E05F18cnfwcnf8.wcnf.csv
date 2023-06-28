@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","Open.WBO.ms.pre",65.84,535.653236909996,680.394598549138,70.25,23.23,0,0,0,5,"pred"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","Open.WBO.ms",77.38,617.038386964646,627.428328649366,80.03,23.23,0,0,0,5,"pred"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","UWrMaxSat.1.0",23.23,681.806041080117,755.541755993734,24.8,23.23,0,0,0,5,"pred"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","maxino2018",96.33,772.294418377695,801.488564625582,101.83,23.23,0,0,0,5,"pred"

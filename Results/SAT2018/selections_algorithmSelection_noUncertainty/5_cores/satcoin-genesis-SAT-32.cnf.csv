@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/satcoin-genesis-SAT-32.cnf","inIDGlucose",2.019,1.42819633333334,0.444229008838408,2.56,1.336,0,0,0,0,"pred"
+"sat/satcoin-genesis-SAT-32.cnf","CaDiCaL",1.336,2.41868766666658,1.44554264608993,1.6,1.336,0,0,0,0,"pred"
+"sat/satcoin-genesis-SAT-32.cnf","Riss7.1.fix",3.81,3.77830466666664,0.144640884173851,4.28,1.336,0,0,0,0,"pred"
+"sat/satcoin-genesis-SAT-32.cnf","Candy",6.228,3.84919900000001,0.808379281248363,8.32,1.336,0,0,0,0,"pred"
+"sat/satcoin-genesis-SAT-32.cnf","Lingeling",32.236,33.8962546666666,3.52888321706014,37.6,1.336,0,0,0,0,"pred"

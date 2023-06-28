@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"atcoss_sugar_19.wcnf","Open.WBO.ms.pre",55.42,1343.50876004438,261.008081757766,66.19,42.95,1,"66.19"
+"atcoss_sugar_19.wcnf","maxino2018",99.79,1580.97604614015,298.448780171231,122.78,42.95,2,"122.78"
+"atcoss_sugar_19.wcnf","Open.WBO.ms",80.26,1583.41886428657,286.697402892599,98.63,42.95,3,"98.63"

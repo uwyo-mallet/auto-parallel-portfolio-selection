@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"c-fat500-2clq.wcnf","Open.WBO.ms.pre",24,1078.18441206959,1086.48246843069,24.03,0.36,1,"24.03"
+"c-fat500-2clq.wcnf","UWrMaxSat.1.0",0.36,1261.31361820986,1215.81764269144,0.35,0.36,2,"0.35"
+"c-fat500-2clq.wcnf","Open.WBO.ms",16.69,1732.89727037777,1284.57058573187,16.66,0.36,3,"16.66"
+"c-fat500-2clq.wcnf","Open.WBO.g",12.12,1757.85231659802,1270.78630933368,12.08,0.36,4,"12.08"

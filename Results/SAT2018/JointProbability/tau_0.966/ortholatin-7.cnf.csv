@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ortholatin-7.cnf","Maple_LCM.BCrestart",23.225,2645.82531633333,2049.2985917553,25.96,0.58,0,0,0,5,"pred"
+"sat/ortholatin-7.cnf","MapleLCMDistChronoBT",20.712,2791.802952,2157.33100732203,23.16,0.58,0,0,0,5,"pred"

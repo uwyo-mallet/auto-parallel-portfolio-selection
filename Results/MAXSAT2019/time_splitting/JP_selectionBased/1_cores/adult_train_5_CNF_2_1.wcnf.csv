@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"adult_train_5_CNF_2_1.wcnf","MaxHS",3600,1971.28237085312,1193.83272312324,3600,2548.51,1,"Inf"

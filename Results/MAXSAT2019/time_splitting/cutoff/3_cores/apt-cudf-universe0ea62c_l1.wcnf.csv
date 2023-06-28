@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"apt-cudf-universe0ea62c_l1.wcnf","Open.WBO.ms.pre",0.14,1164.65816526639,1422.93660599107,0.16,0.07,1,"0.16"
+"apt-cudf-universe0ea62c_l1.wcnf","UWrMaxSat.1.0",0.35,1575.18652366828,1463.35579426568,0.35,0.07,2,"0.35"
+"apt-cudf-universe0ea62c_l1.wcnf","QMaxSAT2018",3600,1579.49053193826,1505.91245434621,3600,0.07,3,"Inf"
+"apt-cudf-universe0ea62c_l1.wcnf","Open.WBO.ms",0.09,1707.61816796173,1555.51025086294,0.08,0.07,1,"Inf"
+"apt-cudf-universe0ea62c_l1.wcnf","Open.WBO.g",0.07,1971.2904699975,1511.11775864976,0.06,0.07,2,"Inf"
+"apt-cudf-universe0ea62c_l1.wcnf","maxino2018",0.07,2176.59066979043,1464.64229343401,0.07,0.07,3,"3085.47298628447"
+"apt-cudf-universe0ea62c_l1.wcnf","MaxHS",2.83,2659.65022592436,1187.37255913027,2.79,0.07,1,"Inf"

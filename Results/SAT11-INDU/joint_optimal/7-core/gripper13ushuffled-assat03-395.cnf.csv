@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"gripper13ushuffled-assat03-395.cnf","MPhaseSAT64",5000,1482.92872294372,2075.89550447823,5000,1092.68,0,0,0,5,"pred"
+"gripper13ushuffled-assat03-395.cnf","minisathackcir_minisat_2011.05.13_simp_",3426.55,1615.70145887446,1996.79660662116,3645.38,1092.68,0,0,0,5,"pred"
+"gripper13ushuffled-assat03-395.cnf","minisathackreferenceminisat_2.2.0",5000,1657.91892857143,1940.90595131821,5000,1092.68,0,0,0,5,"pred"
+"gripper13ushuffled-assat03-395.cnf","glucose_2.0",5000,1692.61704545455,2159.47951801468,5000,1092.68,0,0,0,5,"pred"
+"gripper13ushuffled-assat03-395.cnf","RestartSAT_B95",5000,1693.03000865801,2126.3286014791,5000,1092.68,0,0,0,5,"pred"
+"gripper13ushuffled-assat03-395.cnf","minisathackcontrasat_2011.03.02",3678.09,1751.09856060606,2110.21637038212,3912,1092.68,0,0,0,5,"pred"
+"gripper13ushuffled-assat03-395.cnf","minisathackLR_GL_SHR_2011.03.02",5000,1831.20732900433,2065.51181415912,5000,1092.68,0,0,0,5,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sokoban-p10.sas.cr.35.cnf","CHBR_glucose_tuned",1.88,757.916999754902,1393.75609781834,1.78,0.938,0,0,0,5,"pred"
+"sat/sokoban-p10.sas.cr.35.cnf","abcdSAT_drup",7.895,764.183906372549,1395.45801885374,7.72,0.938,0,0,0,5,"pred"

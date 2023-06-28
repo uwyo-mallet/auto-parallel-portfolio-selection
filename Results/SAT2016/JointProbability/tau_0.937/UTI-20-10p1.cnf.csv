@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/UTI-20-10p1.cnf","COMiniSatPSChandrasekharDRUP",319.781,1187.53624250493,1794.13890520372,326.49,319.781,0,0,0,5,"pred"
+"sat/UTI-20-10p1.cnf","MapleCOMSPS_CHB_DRUP",774.219,1365.1212995069,1977.48043476306,861.45,319.781,0,0,0,5,"pred"
+"sat/UTI-20-10p1.cnf","tb_glucose",1052.667,1375.35814418146,1893.33054921172,1080,319.781,0,0,0,5,"pred"
+"sat/UTI-20-10p1.cnf","CHBR_glucose_tuned",599.162,1390.95632051282,1792.55200195072,648.04,319.781,0,0,0,5,"pred"
+"sat/UTI-20-10p1.cnf","MapleCOMSPS_LRB_DRUP",597.825,1421.79003589744,1908.32044427769,614.76,319.781,0,0,0,5,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf7.wcnf","UWrMaxSat.1.0",2.31,583.875940415896,989.281251841571,2.31,0.88,0,0,0,0,"pred"

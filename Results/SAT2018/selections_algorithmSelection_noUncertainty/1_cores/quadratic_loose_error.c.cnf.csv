@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/quadratic_loose_error.c.cnf","MapleCOMSPS_LRB_VSIDS_2_fix",39.557,310.442427241963,998.881135081224,39.557,9.765,0,0,0,0,"pred"

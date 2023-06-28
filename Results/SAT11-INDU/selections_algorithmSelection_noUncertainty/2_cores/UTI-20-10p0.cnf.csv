@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"UTI-20-10p0.cnf","lingeling.587f.4882048.110513",486.28,1435.61889139785,822.063319468956,491.38,347.56,0,0,0,0,"pred"
+"UTI-20-10p0.cnf","glueminisat.2.2.5",347.56,1622.64302580645,1060.92326292744,364.42,347.56,0,0,0,0,"pred"

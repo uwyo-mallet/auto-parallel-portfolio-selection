@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/mchess_15.cnf","Lingeling",0.005,276.100894244604,1018.13240239175,0,0.005,0,0,0,5,"pred"
+"sat/mchess_15.cnf","Maple_CM_ordUIP",247.286,1414.98441007194,1365.8010388952,282.3,0.005,0,0,0,5,"pred"
+"sat/mchess_15.cnf","Maple_LCM.BCrestart_M1",123.949,1454.36274340527,1519.37685224899,141.63,0.005,0,0,0,5,"pred"

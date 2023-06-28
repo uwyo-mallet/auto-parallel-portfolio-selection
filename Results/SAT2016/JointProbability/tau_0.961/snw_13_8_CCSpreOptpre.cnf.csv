@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/snw_13_8_CCSpreOptpre.cnf","BeansAndEggs",29.093,333.914871893491,870.171164763849,29.093,23.195,0,0,0,5,"pred"

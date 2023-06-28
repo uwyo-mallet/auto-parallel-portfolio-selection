@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"gus-md5-11.cnf","minisathackMiniSAT_2.2.0.agile.26",910.25,2240.27937152778,1752.34012488696,1258.96,910.25,0,0,0,0,"pred"
+"gus-md5-11.cnf","rcl_2011.04.01",1216.98,2432.13862615741,1667.16337931602,1584.03,910.25,0,0,0,0,"pred"
+"gus-md5-11.cnf","minisathackreferenceminisat_2.2.0",1754.37,2835.69557638889,2294.02941790079,2326.72,910.25,0,0,0,0,"pred"
+"gus-md5-11.cnf","minisathackEBMiniSAT_2011.03.02",1132.03,2996.87218055556,2093.86735844286,1472.23,910.25,0,0,0,0,"pred"
+"gus-md5-11.cnf","lingeling.587f.4882048.110513",5000,3025.08292476852,2310.6605662202,5000,910.25,0,0,0,0,"pred"
+"gus-md5-11.cnf","MPhaseSAT64",5000,3065.59766666667,2241.60585459279,5000,910.25,0,0,0,0,"pred"
+"gus-md5-11.cnf","minisathackminisat_psm_2011.04.01",1073.45,3104.29064583333,2182.47015223426,1392.56,910.25,0,0,0,0,"pred"

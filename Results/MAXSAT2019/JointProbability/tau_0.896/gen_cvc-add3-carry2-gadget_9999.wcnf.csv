@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"gen_cvc-add3-carry2-gadget_9999.wcnf","MaxHS",2.36,970.140274353604,1217.14895541385,2.35,1.12,0,0,0,5,"pred"
+"gen_cvc-add3-carry2-gadget_9999.wcnf","Open.WBO.ms.pre",10.43,1225.57059241754,1160.22829665894,10.44,1.12,0,0,0,5,"pred"

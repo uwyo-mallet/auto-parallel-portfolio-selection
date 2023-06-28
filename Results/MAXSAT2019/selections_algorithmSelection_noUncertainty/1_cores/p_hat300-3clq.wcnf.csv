@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"p_hat300-3clq.wcnf","MaxHS",3600,2438.21938761411,1465.89571137847,3600,1700.96,0,0,0,0,"pred"

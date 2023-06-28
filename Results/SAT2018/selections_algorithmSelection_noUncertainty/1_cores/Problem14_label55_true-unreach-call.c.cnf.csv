@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Problem14_label55_true-unreach-call.c.cnf","MapleCOMSPS_LRB_VSIDS_drup",53.58,69.7223734177214,57.8835974357916,53.58,14.717,0,0,0,0,"pred"

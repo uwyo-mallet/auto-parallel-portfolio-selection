@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/apn-sbox6-cut4-helpbox31.cnf","smallsat",1287.328,527.811383122363,504.028476730025,1453.84,28.324,0,0,0,5,"pred"
+"sat/apn-sbox6-cut4-helpbox31.cnf","Maple_CM_ordUIP",474.55,652.824379957806,919.47865766591,519.16,28.324,0,0,0,5,"pred"

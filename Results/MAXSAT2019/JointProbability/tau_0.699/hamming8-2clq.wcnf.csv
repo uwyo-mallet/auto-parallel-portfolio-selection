@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"hamming8-2clq.wcnf","Open.WBO.ms.pre",3600,1996.01516547998,1494.67619494487,3600,3600,0,0,0,5,"pred"
+"hamming8-2clq.wcnf","Open.WBO.g",3600,2886.50951296137,1341.66736785726,3600,3600,0,0,0,5,"pred"
+"hamming8-2clq.wcnf","Open.WBO.ms",3600,2978.77313413939,1321.81232541377,3600,3600,0,0,0,5,"pred"

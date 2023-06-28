@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"UCG-15-10p1.cnf","lingeling.587f.4882048.110513",193.09,386.056235930736,794.679466447877,193.55,193.09,0,0,0,5,"pred"
+"UCG-15-10p1.cnf","minisathackcontrasat_2011.03.02",410.74,399.522471861472,810.591118393811,466.43,193.09,0,0,0,5,"pred"

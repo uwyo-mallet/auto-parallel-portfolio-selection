@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"b21-s_PathRelaxation_FS_28.wcnf","UWrMaxSat.1.0",0.32,261.132477904587,545.82893326951,0.31,0.21,1,"0.31"
+"b21-s_PathRelaxation_FS_28.wcnf","Open.WBO.ms.pre",7.49,286.534864561276,645.859868626945,7.47,0.21,2,"7.47"

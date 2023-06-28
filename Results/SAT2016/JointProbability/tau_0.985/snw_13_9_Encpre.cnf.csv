@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/snw_13_9_Encpre.cnf","CHBR_glucose",2.65,61.2536333333333,392.239279290413,2.65,1.355,0,0,0,5,"pred"

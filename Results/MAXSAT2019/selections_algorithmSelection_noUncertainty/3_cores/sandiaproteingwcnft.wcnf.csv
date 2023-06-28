@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sandiaproteingwcnft.wcnf","Open.WBO.ms.pre",232.08,1343.50876004438,261.008081757766,224.07,32.33,0,0,0,0,"pred"
+"sandiaproteingwcnft.wcnf","maxino2018",171.99,1580.97604614015,298.448780171231,175.18,32.33,0,0,0,0,"pred"
+"sandiaproteingwcnft.wcnf","Open.WBO.ms",81.93,1583.41886428657,286.697402892599,82.43,32.33,0,0,0,0,"pred"

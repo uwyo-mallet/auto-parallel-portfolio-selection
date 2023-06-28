@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/udiv35prop.cnf","Riss7.1.fix",296.475,2235.983503,1866.04591568269,348.68,216.266,0,0,0,0,"pred"
+"sat/udiv35prop.cnf","CaDiCaL",279.563,2473.98259833333,1749.181927958,350.13,216.266,0,0,0,0,"pred"
+"sat/udiv35prop.cnf","Candy",216.266,2586.345805,1778.88511033384,268.14,216.266,0,0,0,0,"pred"
+"sat/udiv35prop.cnf","glucose4.2.1",223.968,2627.78956566667,1875.5395715846,274.46,216.266,0,0,0,0,"pred"
+"sat/udiv35prop.cnf","Sparrow2Riss.2018.fixfix",457.481,2653.27614633333,1744.07381466948,518.46,216.266,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"hungarian.wcnf","Open.WBO.ms.pre",3600,1390.25483854231,1151.36871740346,3600,3600,1,"Inf"

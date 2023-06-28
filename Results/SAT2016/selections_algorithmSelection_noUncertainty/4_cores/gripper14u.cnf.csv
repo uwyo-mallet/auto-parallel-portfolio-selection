@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/gripper14u.cnf","Lingelingbbcmain",1699.211,2798.08239656357,2096.75417702015,1735.52,1180.303,0,0,0,0,"pred"
+"sat/gripper14u.cnf","MapleCMS",5000,3126.26930378007,2031.03024739959,5000,1180.303,0,0,0,0,"pred"
+"sat/gripper14u.cnf","CHBR_glucose_tuned",5000,3286.4311871134,2084.12873098351,5000,1180.303,0,0,0,0,"pred"
+"sat/gripper14u.cnf","cmsat5_autotune2",5000,3332.27402457045,2074.3622828863,5000,1180.303,0,0,0,0,"pred"

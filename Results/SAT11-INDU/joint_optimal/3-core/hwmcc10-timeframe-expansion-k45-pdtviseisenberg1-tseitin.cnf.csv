@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"hwmcc10-timeframe-expansion-k45-pdtviseisenberg1-tseitin.cnf","glueminisat.2.2.5",24.84,597.946309677419,1390.37711247252,26.62,24.84,0,0,0,5,"pred"
+"hwmcc10-timeframe-expansion-k45-pdtviseisenberg1-tseitin.cnf","lingeling.587f.4882048.110513",37.06,678.534411827957,1459.79990914493,37.4,24.84,0,0,0,5,"pred"
+"hwmcc10-timeframe-expansion-k45-pdtviseisenberg1-tseitin.cnf","SAT09referencesolverprecosat_236",83.58,700.613784946237,1369.84519820632,93.12,24.84,0,0,0,5,"pred"

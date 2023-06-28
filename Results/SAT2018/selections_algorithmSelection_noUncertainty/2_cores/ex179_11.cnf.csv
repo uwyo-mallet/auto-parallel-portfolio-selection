@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ex179_11.cnf","MapleCOMSPS_CHB_VSIDS_drup",977.214,858.695863080169,1322.28540162387,1149.72,292.794,0,0,0,0,"pred"
+"sat/ex179_11.cnf","Maple_CM_Dist",819.857,889.561432700422,1465.82702524675,926.96,292.794,0,0,0,0,"pred"

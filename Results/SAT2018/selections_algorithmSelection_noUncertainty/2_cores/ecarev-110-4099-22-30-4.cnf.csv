@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ecarev-110-4099-22-30-4.cnf","gluHack",264.832,182.52488,57.2477954587486,303.56,111.147,0,0,0,0,"pred"
+"sat/ecarev-110-4099-22-30-4.cnf","Maple_LCM_M1",196.927,189.008183,117.490648391327,229.07,111.147,0,0,0,0,"pred"

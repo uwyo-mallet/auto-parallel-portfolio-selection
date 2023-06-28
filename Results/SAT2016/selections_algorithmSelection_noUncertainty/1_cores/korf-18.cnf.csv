@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/korf-18.cnf","abcdSAT_drup",385.832,1431.18228113207,1602.38951363443,385.832,247.741,0,0,0,0,"pred"

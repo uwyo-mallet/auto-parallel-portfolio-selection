@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"post-cbmc-zfcp-28-u2-noholes.cnf","MPhaseSAT64",109.61,1858.24233866667,2113.33733431223,117.58,14.35,0,0,0,0,"pred"
+"post-cbmc-zfcp-28-u2-noholes.cnf","lingeling.587f.4882048.110513",94.22,1865.10282533333,2065.63602606879,106.4,14.35,0,0,0,0,"pred"
+"post-cbmc-zfcp-28-u2-noholes.cnf","glueminisat.2.2.5",40.38,2124.22605390476,2105.98871663743,46.23,14.35,0,0,0,0,"pred"
+"post-cbmc-zfcp-28-u2-noholes.cnf","SAT09referencesolverprecosat_236",5000,2170.77189866667,2107.07652866382,5000,14.35,0,0,0,0,"pred"
+"post-cbmc-zfcp-28-u2-noholes.cnf","minisathackMiniSAT_2.2.0.agile.26",38.97,2295.91507866667,2207.74594781174,45.08,14.35,0,0,0,0,"pred"
+"post-cbmc-zfcp-28-u2-noholes.cnf","minisathackEBMiniSAT_2011.03.02",40.23,2348.49627333333,2084.49742613927,46.81,14.35,0,0,0,0,"pred"

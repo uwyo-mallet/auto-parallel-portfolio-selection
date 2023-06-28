@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"AES1-60-17.wcnf","MaxHS",3.32,866.533452076408,628.860936077446,3.35,0.96,1,"3.35"
+"AES1-60-17.wcnf","Open.WBO.ms.pre",38.32,938.313263390663,474.637121559542,39.38,0.96,2,"39.38"

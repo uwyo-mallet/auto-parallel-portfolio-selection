@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"slp-synthesis-aes-bottom14.cnf","lingeling.587f.4882048.110513",5000,2660.7806516129,2193.78377803638,5000,2636.24,0,0,0,0,"pred"
+"slp-synthesis-aes-bottom14.cnf","SAT09referencesolverprecosat_236",4835.65,3004.05439139785,2288.37069282082,5000,2636.24,0,0,0,0,"pred"
+"slp-synthesis-aes-bottom14.cnf","minisathackEBMiniSAT_2011.03.02",5000,3435.05813548387,2070.80163459764,5000,2636.24,0,0,0,0,"pred"
+"slp-synthesis-aes-bottom14.cnf","minisathackcontrasat_2011.03.02",5000,3444.93641182796,2147.71821898363,5000,2636.24,0,0,0,0,"pred"
+"slp-synthesis-aes-bottom14.cnf","glueminisat.2.2.5",2636.24,3490.30909892473,1849.78869031073,3055.95,2636.24,0,0,0,0,"pred"
+"slp-synthesis-aes-bottom14.cnf","glucose_2.0",5000,3590.93154731183,2083.83930413938,5000,2636.24,0,0,0,0,"pred"
+"slp-synthesis-aes-bottom14.cnf","minisathackLR_GL_SHR_2011.03.02",5000,3591.26804946237,2073.89769195098,5000,2636.24,0,0,0,0,"pred"

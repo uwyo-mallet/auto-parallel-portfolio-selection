@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/apn-sbox5-cut5-symmbreak.cnf","Maple_CM_ordUIP",5000,2233.43342453469,2002.24028444438,5000,988.218,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"scpclr11_maxsat.wcnf","MaxHS",2915.77,184.803852495938,432.620143526072,2915.77,2915.77,0,0,0,0,"pred"

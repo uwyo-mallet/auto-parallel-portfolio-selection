@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"spider_p02.pddl","Metis1",12.31,123.923532085562,354.800426230953,12.31,1.68,0,0,0,0,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"normalized-ex5piopbmsat.wcnf","MaxHS",2.62,1028.68503042822,573.386075017439,2.65,2.62,1,"2.65"
+"normalized-ex5piopbmsat.wcnf","UWrMaxSat.1.0",2954.19,1332.11032516679,559.544780688212,3006.56,2.62,2,"Inf"

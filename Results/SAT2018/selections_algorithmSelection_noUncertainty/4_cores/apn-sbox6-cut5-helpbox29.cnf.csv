@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/apn-sbox6-cut5-helpbox29.cnf","abcdsat_r18",5000,1316.15403393939,1667.45857315805,5000,222.533,0,0,0,0,"pred"
+"sat/apn-sbox6-cut5-helpbox29.cnf","Lingeling",2441.007,1392.68366530303,1504.82381172056,5000,222.533,0,0,0,0,"pred"
+"sat/apn-sbox6-cut5-helpbox29.cnf","Maple_LCM.BCrestart_M1",241.841,1550.20802636364,1662.14167870463,277.3,222.533,0,0,0,0,"pred"
+"sat/apn-sbox6-cut5-helpbox29.cnf","Glucose_Hack_Kiel_fastBVE",1293.242,1644.79534333333,1501.40591338542,5000,222.533,0,0,0,0,"pred"

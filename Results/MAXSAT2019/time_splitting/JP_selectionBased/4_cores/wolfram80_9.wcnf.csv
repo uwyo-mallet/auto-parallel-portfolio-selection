@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"wolfram80_9.wcnf","UWrMaxSat.1.0",31.98,12.8164027777778,2.11262320995157,34.03,5.14,1,"Inf"

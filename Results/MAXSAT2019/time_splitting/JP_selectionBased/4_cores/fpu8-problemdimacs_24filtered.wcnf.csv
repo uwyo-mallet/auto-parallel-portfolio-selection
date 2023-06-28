@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"fpu8-problemdimacs_24filtered.wcnf","Open.WBO.ms.pre",64.92,375.33546032335,625.750756498154,3.1,1.46,1,"3.1"
+"fpu8-problemdimacs_24filtered.wcnf","Open.WBO.ms",67.7,586.44063034805,813.885853180252,71.72,1.46,2,"71.72"
+"fpu8-problemdimacs_24filtered.wcnf","UWrMaxSat.1.0",4.14,859.814818767279,1230.5536638151,4.34,1.46,3,"4.34"
+"fpu8-problemdimacs_24filtered.wcnf","maxino2018",5.33,1222.726271758,1435.04329462371,5.78,1.46,4,"5.78"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/course0.2_2018_3.cnf","Maple_LCM_Scavel_200_fix2",2698.239,996.007472413793,1262.3726960914,2698.239,348.656,0,0,0,5,"pred"

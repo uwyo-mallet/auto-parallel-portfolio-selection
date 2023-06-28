@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/E02F22.cnf","BeansAndEggs",189.215,1330.44138543417,1359.87806275241,189.215,116.606,0,0,0,0,"pred"

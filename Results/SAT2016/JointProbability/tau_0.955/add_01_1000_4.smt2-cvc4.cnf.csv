@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/add_01_1000_4.smt2-cvc4.cnf","Splatz06vmain",12.272,1651.06571329114,2162.01653607543,12.2,6.74,0,0,0,5,"pred"
+"sat/add_01_1000_4.smt2-cvc4.cnf","glueminisat.2210.81.main",9.56,1842.91577879747,2234.7512701492,9.4,6.74,0,0,0,5,"pred"

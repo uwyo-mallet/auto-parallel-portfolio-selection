@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"normalized-par32-4opbmsat.wcnf","MaxHS",3600,2843.51822323322,1089.83211385312,3600,3600,1,"Inf"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"snake_p18.pddl","Delfi2",425.27,872.798920138889,461.400573375227,595.6,425.27,0,0,0,5,"pred"
+"snake_p18.pddl","blind",1800,1551.21281944444,477.828881652265,1800,425.27,0,0,0,5,"pred"

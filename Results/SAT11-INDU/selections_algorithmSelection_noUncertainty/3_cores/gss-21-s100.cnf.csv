@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"gss-21-s100.cnf","MPhaseSAT64",32.15,1038.86994444444,1854.31035132938,31.88,31.31,0,0,0,0,"pred"
+"gss-21-s100.cnf","lingeling.587f.4882048.110513",4111.75,1124.29747337963,1513.3586095252,4119.9,31.31,0,0,0,0,"pred"
+"gss-21-s100.cnf","rcl_2011.04.01",5000,1227.81140393518,1974.03100043964,5000,31.31,0,0,0,0,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"s38584_nan_explicit_5_0.wcnf","Open.WBO.ms.pre",3600,885.320236936118,761.082565563531,3600,366.54,1,"Inf"
+"s38584_nan_explicit_5_0.wcnf","UWrMaxSat.1.0",366.54,1016.83475893008,833.419882405531,390.54,366.54,2,"390.54"

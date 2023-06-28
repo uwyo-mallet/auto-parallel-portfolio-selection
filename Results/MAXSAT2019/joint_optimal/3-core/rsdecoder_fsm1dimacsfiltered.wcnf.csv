@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"rsdecoder_fsm1dimacsfiltered.wcnf","Open.WBO.ms.pre",16.28,1167.65387418257,919.602217688584,16.69,2.58,0,0,0,5,"pred"
+"rsdecoder_fsm1dimacsfiltered.wcnf","UWrMaxSat.1.0",5.8,1169.63176703923,839.556301924035,5.9,2.58,0,0,0,5,"pred"
+"rsdecoder_fsm1dimacsfiltered.wcnf","maxino2018",6.73,1255.53071798586,751.674299871784,6.93,2.58,0,0,0,5,"pred"

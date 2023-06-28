@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"wqueens14_12wcspdir.wcnf","MaxHS",9.31,820.154375791879,613.92104686666,9.31,0.03,1,"9.31"

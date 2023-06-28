@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.050-SAT.cnf","MapleCMS",4380.171,1356.27424747899,1453.59274085381,5000,53.749,0,0,0,0,"pred"
+"sat/transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.050-SAT.cnf","MapleCOMSPS_LRB_DRUP",53.749,1857.51820336134,1279.49772814213,52.52,53.749,0,0,0,0,"pred"
+"sat/transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.050-SAT.cnf","MapleCOMSPS_DRUP",1904.772,2037.39501862745,1266.67287076467,2029.9,53.749,0,0,0,0,"pred"
+"sat/transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.050-SAT.cnf","CHBR_glucose_tuned",5000,2876.4027907563,2202.39516488372,5000,53.749,0,0,0,0,"pred"
+"sat/transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.050-SAT.cnf","cmsat5_main2",5000,2897.87495826331,2139.82497668182,5000,53.749,0,0,0,0,"pred"
+"sat/transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.050-SAT.cnf","MapleGlucose",5000,2917.76349719888,2218.62586675441,5000,53.749,0,0,0,0,"pred"
+"sat/transport-transport-city-sequential-35nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.050-SAT.cnf","Splatz06vmain",5000,2963.09752689076,1968.66611468099,5000,53.749,0,0,0,0,"pred"

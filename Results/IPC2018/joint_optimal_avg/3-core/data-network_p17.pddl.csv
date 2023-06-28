@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"data-network_p17.pddl","symbolic.bidirectional",156.39,1367.12177586207,726.75500675354,170.65,38.24,0,0,0,5,"pred"
+"data-network_p17.pddl","FDMS2",1800,1377.43542528736,725.789891256257,1800,38.24,0,0,0,5,"pred"
+"data-network_p17.pddl","Complementary1",626.82,1434.1890862069,634.686701480036,660.32,38.24,0,0,0,5,"pred"

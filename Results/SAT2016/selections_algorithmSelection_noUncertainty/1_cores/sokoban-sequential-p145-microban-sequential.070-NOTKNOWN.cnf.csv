@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sokoban-sequential-p145-microban-sequential.070-NOTKNOWN.cnf","tb_glucose",5000,2609.4345572165,1773.13240758816,5000,1796.676,0,0,0,0,"pred"

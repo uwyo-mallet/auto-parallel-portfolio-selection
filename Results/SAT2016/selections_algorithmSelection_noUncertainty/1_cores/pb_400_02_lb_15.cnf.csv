@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/pb_400_02_lb_15.cnf","Lingelingbbcmain",113.745,1993.99700874587,1987.34417780558,113.745,43.595,0,0,0,0,"pred"

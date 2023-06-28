@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"normalized-ssa7552-038opbmsat.wcnf","Open.WBO.ms",10.45,1282.76302490491,574.808088969132,10.45,0.66,0,0,0,5,"pred"

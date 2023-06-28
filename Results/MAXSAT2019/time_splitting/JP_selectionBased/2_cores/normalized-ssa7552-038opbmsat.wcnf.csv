@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"normalized-ssa7552-038opbmsat.wcnf","Open.WBO.ms",10.45,1282.76302490491,574.808088969132,10.43,0.66,1,"10.43"
+"normalized-ssa7552-038opbmsat.wcnf","UWrMaxSat.1.0",0.66,1344.14385013172,672.915237202926,0.66,0.66,2,"0.66"

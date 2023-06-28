@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"ionosphere_train_1_CNF_5_1.wcnf","Open.WBO.ms.pre",3600,1510.04589703635,1319.0542628739,3600,3600,1,"Inf"

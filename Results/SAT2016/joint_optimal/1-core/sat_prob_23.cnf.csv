@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sat_prob_23.cnf","abcdSAT_drup",2838.459,1215.91736502525,1899.79812120993,2838.459,1212.83,0,0,0,5,"pred"

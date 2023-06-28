@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/apn-sbox6-cut4-helpbox29.cnf","MapleCOMSPS_LRB_VSIDS_2_fix",380.175,1286.24097316562,1385.73009688231,449.15,190.661,0,0,0,0,"pred"
+"sat/apn-sbox6-cut4-helpbox29.cnf","smallsat",447.883,1313.72928710692,1295.35768499316,522.72,190.661,0,0,0,0,"pred"
+"sat/apn-sbox6-cut4-helpbox29.cnf","Maple_LCM.BCrestart_M1",2112.331,1455.7975812369,1402.88019030586,5000,190.661,0,0,0,0,"pred"
+"sat/apn-sbox6-cut4-helpbox29.cnf","glu_mix",526.401,1470.57812002096,1610.11558065995,663.88,190.661,0,0,0,0,"pred"
+"sat/apn-sbox6-cut4-helpbox29.cnf","Maple_LCM_Scavel_fix2",479.045,1781.00348899371,1796.0296679681,579.76,190.661,0,0,0,0,"pred"

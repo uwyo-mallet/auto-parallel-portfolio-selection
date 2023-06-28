@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"GenHyperTW_dubois21.wcnf","Open.WBO.ms",709.88,256.111074084612,396.722872271816,709.88,275.25,1,"Inf"

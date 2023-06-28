@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/satcoin-genesis-SAT-9.cnf","inIDGlucose",1.05,1.00564425287361,0.34392930426881,1.05,0.792,0,0,0,5,"pred"

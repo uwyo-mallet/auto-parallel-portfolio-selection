@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/avg_true-unreach-call.i.cnf","MapleLCMDistChronoBT",2582.315,1870.70851466667,2180.425112376,2582.55,101.155,0,0,0,5,"pred"
+"sat/avg_true-unreach-call.i.cnf","Maple_LCM.BCrestart_M1",2544.369,1975.82430466667,2046.95851686514,2592.44,101.155,0,0,0,5,"pred"

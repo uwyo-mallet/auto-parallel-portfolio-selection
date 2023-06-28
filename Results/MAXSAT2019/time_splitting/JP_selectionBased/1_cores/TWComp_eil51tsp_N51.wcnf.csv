@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"TWComp_eil51tsp_N51.wcnf","MaxHS",1869.15,923.154190338617,584.166057129403,1869.15,270.25,1,"Inf"

@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ecarev-110-4099-22-30-2.cnf","smallsat",227.215,240.912309393939,160.945459497646,251.67,102.898,0,0,0,0,"pred"
+"sat/ecarev-110-4099-22-30-2.cnf","glucose4.2.1",218.586,272.097208636364,147.353328003949,261.87,102.898,0,0,0,0,"pred"
+"sat/ecarev-110-4099-22-30-2.cnf","COMiniSatPS_Pulsar_drup",102.898,276.706398181818,737.486352490351,118.76,102.898,0,0,0,0,"pred"

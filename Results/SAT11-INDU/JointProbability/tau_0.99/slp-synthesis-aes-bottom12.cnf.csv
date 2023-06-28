@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"slp-synthesis-aes-bottom12.cnf","SAT09referencesolverprecosat_236",196.84,1718.61897800926,2109.31176703136,196.84,12.06,0,0,0,5,"pred"

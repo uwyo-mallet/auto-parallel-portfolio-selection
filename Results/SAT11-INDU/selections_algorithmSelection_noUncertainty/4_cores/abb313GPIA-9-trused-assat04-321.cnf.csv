@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"abb313GPIA-9-trused-assat04-321.cnf","lingeling.587f.4882048.110513",3.12,1152.19623100343,1383.77056503222,2.97,0.06,0,0,0,0,"pred"
+"abb313GPIA-9-trused-assat04-321.cnf","MPhaseSAT64",9.51,1467.08433863038,1689.05206743647,9.37,0.06,0,0,0,0,"pred"
+"abb313GPIA-9-trused-assat04-321.cnf","SAT09referencesolverprecosat_236",0.87,1572.1172843481,1779.23503779403,0.96,0.06,0,0,0,0,"pred"
+"abb313GPIA-9-trused-assat04-321.cnf","minisathackLR_GL_SHR_2011.03.02",1.27,1723.31005860057,1695.72638667851,1.26,0.06,0,0,0,0,"pred"

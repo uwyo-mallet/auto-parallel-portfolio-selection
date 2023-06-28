@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"normalized-f20c10b_024_area_delay.wcnf","MaxHS",24.72,812.017686308496,960.691112054205,24.72,0.19,1,"24.72"

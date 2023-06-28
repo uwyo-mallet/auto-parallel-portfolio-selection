@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"atcoss_mesat_06.wcnf","QMaxSAT2018",215.95,2529.57102713178,1231.60913609,215.95,51.59,1,"215.95"

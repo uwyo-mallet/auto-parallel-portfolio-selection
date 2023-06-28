@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/podwr001_power.opt_false-unreach-call.i-cbmc-u2.cnf","tc_glucose",32.511,199.753575630252,569.232064345946,34.42,21.424,0,0,0,0,"pred"
+"sat/podwr001_power.opt_false-unreach-call.i-cbmc-u2.cnf","glucose",38.231,237.772132773109,742.696045467326,39.75,21.424,0,0,0,0,"pred"
+"sat/podwr001_power.opt_false-unreach-call.i-cbmc-u2.cnf","MapleCOMSPS_LRB_DRUP",32.304,250.49823977591,716.41131823768,36.86,21.424,0,0,0,0,"pred"
+"sat/podwr001_power.opt_false-unreach-call.i-cbmc-u2.cnf","tb_glucose",30.482,280.416226610644,876.685200948421,33.19,21.424,0,0,0,0,"pred"
+"sat/podwr001_power.opt_false-unreach-call.i-cbmc-u2.cnf","BeansAndEggs",31.578,293.311624509804,1023.00261831154,32.19,21.424,0,0,0,0,"pred"

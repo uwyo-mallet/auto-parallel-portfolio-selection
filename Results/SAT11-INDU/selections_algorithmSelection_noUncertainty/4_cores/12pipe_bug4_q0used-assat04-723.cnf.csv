@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"12pipe_bug4_q0used-assat04-723.cnf","lingeling.587f.4882048.110513",31.16,534.54945483871,965.071532407997,33.23,4.45,0,0,0,0,"pred"
+"12pipe_bug4_q0used-assat04-723.cnf","SAT09referencesolverprecosat_236",30.06,770.975530107527,1355.05916892052,32.6,4.45,0,0,0,0,"pred"
+"12pipe_bug4_q0used-assat04-723.cnf","minisathackcir_minisat_2011.05.13_simp_",110.93,924.520731182796,1582.6563012433,139.18,4.45,0,0,0,0,"pred"
+"12pipe_bug4_q0used-assat04-723.cnf","RestartSAT_B95",17.14,953.669307526881,1723.28430636827,20.9,4.45,0,0,0,0,"pred"

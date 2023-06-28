@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"MinFill_R0_mulsoli3.wcnf","Open.WBO.ms.pre",1175.03,1356.70137019509,284.406566627325,1175.03,381.08,0,0,0,5,"pred"

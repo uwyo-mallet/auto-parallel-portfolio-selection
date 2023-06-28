@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Nb29T6.cnf","abcdsat_r18",226.778,167.149096551724,111.017370591214,322.74,68.159,0,0,0,0,"pred"
+"sat/Nb29T6.cnf","Maple_LCM_M1",178.946,284.689568965517,175.509201642405,266.03,68.159,0,0,0,0,"pred"
+"sat/Nb29T6.cnf","smallsat",68.159,323.874001724138,910.859475230085,103.26,68.159,0,0,0,0,"pred"
+"sat/Nb29T6.cnf","Maple_LCM_Scavel_fix2",218.616,427.013990804598,166.719937440417,320.16,68.159,0,0,0,0,"pred"
+"sat/Nb29T6.cnf","expMC_LRB_VSIDS_Switch_2500",143.142,507.820418390804,912.181495401057,201.48,68.159,0,0,0,0,"pred"
+"sat/Nb29T6.cnf","COMiniSatPS_Pulsar_drup",73.34,515.369683333333,1251.43553365663,108.24,68.159,0,0,0,0,"pred"

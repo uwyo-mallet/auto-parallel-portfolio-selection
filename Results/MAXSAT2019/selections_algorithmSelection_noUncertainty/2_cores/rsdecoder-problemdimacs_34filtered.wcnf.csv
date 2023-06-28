@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"rsdecoder-problemdimacs_34filtered.wcnf","maxino2018",7.87,1269.94930159798,1422.7565597461,8.53,1.75,0,0,0,0,"pred"
+"rsdecoder-problemdimacs_34filtered.wcnf","QMaxSAT2018",163.98,1386.01779974271,1360.31893527612,176.11,1.75,0,0,0,0,"pred"

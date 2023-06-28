@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"titanic_train_0_CNF_4_1.wcnf","UWrMaxSat.1.0",3600,865.799223566082,658.700670635169,3600,2449.7,1,"Inf"
+"titanic_train_0_CNF_4_1.wcnf","Open.WBO.ms.pre",2449.7,874.111832440552,640.965034183341,2461.98,2449.7,2,"Inf"

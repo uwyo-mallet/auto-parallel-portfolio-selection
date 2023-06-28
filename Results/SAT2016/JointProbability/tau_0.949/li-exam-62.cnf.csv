@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/li-exam-62.cnf","glue_alt",5000,4864.59016944445,644.270965577091,5000,5000,0,0,0,5,"pred"
+"sat/li-exam-62.cnf","BeansAndEggs",5000,4890.81418181818,599.733789153848,5000,5000,0,0,0,5,"pred"
+"sat/li-exam-62.cnf","abcdSAT_drup",5000,4892.44490227273,668.669816208765,5000,5000,0,0,0,5,"pred"
+"sat/li-exam-62.cnf","Lingelingbbcmain",5000,4895.02692727273,603.281631751022,5000,5000,0,0,0,5,"pred"
+"sat/li-exam-62.cnf","cmsat5_main2",5000,4902.16923333333,634.961452116991,5000,5000,0,0,0,5,"pred"
+"sat/li-exam-62.cnf","GHackCOMSPS_DRUP",5000,4914.58110858586,617.148394649996,5000,5000,0,0,0,5,"pred"
+"sat/li-exam-62.cnf","YALSAT03r",5000,5000,0,5000,5000,0,0,0,5,"pred"

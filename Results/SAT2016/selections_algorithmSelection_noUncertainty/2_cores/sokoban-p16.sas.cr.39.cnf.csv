@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sokoban-p16.sas.cr.39.cnf","MapleCMS",3966.644,3372.41254362745,1537.43814753325,4035.95,3966.644,0,0,0,0,"pred"
+"sat/sokoban-p16.sas.cr.39.cnf","abcdSAT_drup",5000,3458.97419787582,1205.03948625238,5000,3966.644,0,0,0,0,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/snw_16_8_pre.cnf","GHackCOMSPS_DRUP",1517.991,1830.09038907563,2015.78228371554,1538.99,1404.911,0,0,0,5,"pred"
+"sat/snw_16_8_pre.cnf","Glucose_nbSat",1774.069,1849.273317507,2009.45094869708,1772.46251497588,1404.911,0,0,0,5,"pred"

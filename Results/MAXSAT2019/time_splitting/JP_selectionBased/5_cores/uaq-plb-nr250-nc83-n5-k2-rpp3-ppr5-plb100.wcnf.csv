@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"uaq-plb-nr250-nc83-n5-k2-rpp3-ppr5-plb100.wcnf","Open.WBO.ms.pre",29.68,1150.85982257573,975.193974163598,29.64,7.97,1,"29.64"
+"uaq-plb-nr250-nc83-n5-k2-rpp3-ppr5-plb100.wcnf","Open.WBO.ms",119.52,1532.56657051905,747.798205279704,121.43,7.97,2,"121.43"
+"uaq-plb-nr250-nc83-n5-k2-rpp3-ppr5-plb100.wcnf","UWrMaxSat.1.0",7.97,1934.07501313785,1081.49969818467,8.03,7.97,3,"8.03"

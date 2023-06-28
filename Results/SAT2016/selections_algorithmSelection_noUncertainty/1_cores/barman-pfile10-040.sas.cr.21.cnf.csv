@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/barman-pfile10-040.sas.cr.21.cnf","glueminisat.2210.81.main",8.267,192.90715625,635.028086028286,8.267,4.826,0,0,0,0,"pred"

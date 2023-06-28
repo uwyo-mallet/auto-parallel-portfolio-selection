@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/valves-gates-1-k617-unsat.cnf","CHBR_glucose_tuned",943.508,2344.64804151874,2118.62944810316,939.676705165513,821.783,0,0,0,0,"pred"
+"sat/valves-gates-1-k617-unsat.cnf","MapleCOMSPS_LRB_DRUP",5000,2395.69369516765,2138.58145764228,5000,821.783,0,0,0,0,"pred"

@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"MinFill_R0_mulsoli2.wcnf","Open.WBO.ms.pre",1802.21,1456.90478532287,264.299613017685,2102.72,313.42,1,"Inf"
+"MinFill_R0_mulsoli2.wcnf","Open.WBO.ms",3600,1545.22377620604,319.460126196448,3600,313.42,2,"Inf"
+"MinFill_R0_mulsoli2.wcnf","Open.WBO.g",3600,1548.79654703501,310.680526194455,3600,313.42,3,"Inf"
+"MinFill_R0_mulsoli2.wcnf","maxino2018",3600,1556.8440108787,318.06576409471,3600,313.42,4,"Inf"

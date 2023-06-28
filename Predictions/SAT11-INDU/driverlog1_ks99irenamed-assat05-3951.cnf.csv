@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"driverlog1_ks99irenamed-assat05-3951.cnf","glucose_2.0",0,674.841123873874,1565.01531147025
+"driverlog1_ks99irenamed-assat05-3951.cnf","glueminisat.2.2.5",0,335.394778206778,1064.48187880481
+"driverlog1_ks99irenamed-assat05-3951.cnf","lingeling.587f.4882048.110513",0,922.764279279279,1859.93619568422
+"driverlog1_ks99irenamed-assat05-3951.cnf","minisathackcir_minisat_2011.05.13_simp_",0,707.263162162162,1521.21658258174
+"driverlog1_ks99irenamed-assat05-3951.cnf","minisathackcontrasat_2011.03.02",0,378.730158944659,1066.95497474364
+"driverlog1_ks99irenamed-assat05-3951.cnf","minisathackEBMiniSAT_2011.03.02",0,171.933385135135,652.757674882298
+"driverlog1_ks99irenamed-assat05-3951.cnf","minisathackLR_GL_SHR_2011.03.02",0,439.283939189189,1241.26586727153
+"driverlog1_ks99irenamed-assat05-3951.cnf","minisathackMiniSAT_2.2.0.agile.26",0,707.381332368082,1577.19403321351
+"driverlog1_ks99irenamed-assat05-3951.cnf","minisathackminisat_psm_2011.04.01",0,633.031855855856,1560.94580483469
+"driverlog1_ks99irenamed-assat05-3951.cnf","minisathackreferenceminisat_2.2.0",0,950.010977477477,1587.78063672427
+"driverlog1_ks99irenamed-assat05-3951.cnf","MPhaseSAT64",0,402.478792631918,1193.56305514135
+"driverlog1_ks99irenamed-assat05-3951.cnf","rcl_2011.04.01",0,645.881515765766,1476.77936554735
+"driverlog1_ks99irenamed-assat05-3951.cnf","RestartSAT_B95",0,640.416509009009,1501.92205526331
+"driverlog1_ks99irenamed-assat05-3951.cnf","SAT09referencesolverprecosat_236",0,421.001645752896,885.098485546246

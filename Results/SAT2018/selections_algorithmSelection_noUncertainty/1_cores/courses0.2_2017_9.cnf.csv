@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/courses0.2_2017_9.cnf","MapleCOMSPS_LRB_VSIDS_2_fix",698.926,1437.99227698815,1330.72625191261,698.926,102.395,0,0,0,0,"pred"

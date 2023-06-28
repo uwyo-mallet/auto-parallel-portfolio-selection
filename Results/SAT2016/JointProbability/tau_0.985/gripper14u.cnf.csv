@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/gripper14u.cnf","Lingelingbbcmain",1699.211,2798.08239656357,2096.75417702015,1699.211,1180.303,0,0,0,5,"pred"

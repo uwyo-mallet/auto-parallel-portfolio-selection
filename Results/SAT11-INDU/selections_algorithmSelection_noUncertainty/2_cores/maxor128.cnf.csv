@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"maxor128.cnf","glueminisat.2.2.5",3606.24,3262.25043243243,2063.69365759586,3828.99,1617.27,0,0,0,0,"pred"
+"maxor128.cnf","SAT09referencesolverprecosat_236",1722.81,3468.50870495496,1958.68926826298,1826.34,1617.27,0,0,0,0,"pred"

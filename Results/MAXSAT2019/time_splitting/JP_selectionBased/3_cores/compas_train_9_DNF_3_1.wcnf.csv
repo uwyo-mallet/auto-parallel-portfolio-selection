@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"compas_train_9_DNF_3_1.wcnf","UWrMaxSat.1.0",3600,774.814512921852,838.18959007086,3600,1408.51,1,"Inf"
+"compas_train_9_DNF_3_1.wcnf","MaxHS",1408.51,1043.08090399258,900.56814606295,1433.19,1408.51,2,"Inf"
+"compas_train_9_DNF_3_1.wcnf","maxino2018",3600,1325.62960454532,1339.87598954066,3600,1408.51,3,"Inf"

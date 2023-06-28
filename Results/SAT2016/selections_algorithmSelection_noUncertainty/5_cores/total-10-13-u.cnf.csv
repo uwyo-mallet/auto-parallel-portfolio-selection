@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/total-10-13-u.cnf","cmsat5_main2",212.409,2809.78229240924,2093.11947345666,214.88,120.539,0,0,0,0,"pred"
+"sat/total-10-13-u.cnf","glue_alt",341.823,2841.81241485149,2123.22468917339,350.63,120.539,0,0,0,0,"pred"
+"sat/total-10-13-u.cnf","glueminisat.2210.81.main",306.8,2848.08212062706,2246.66093860434,320.85,120.539,0,0,0,0,"pred"
+"sat/total-10-13-u.cnf","gulch",415.193,2870.30423234323,2197.12357917147,417.9,120.539,0,0,0,0,"pred"
+"sat/total-10-13-u.cnf","abcdSAT_drup",178.565,2931.21864834984,2006.05960001787,181.64,120.539,0,0,0,0,"pred"

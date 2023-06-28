@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/modgen-n200-m90860q08c40-11953.cnf","CHBR_glucose_tuned",92.695,125.062949312715,266.965151485692,96.08,1.265,0,0,0,5,"pred"
+"sat/modgen-n200-m90860q08c40-11953.cnf","gulch",18.536,152.395947250859,480.884271208853,17.99,1.265,0,0,0,5,"pred"
+"sat/modgen-n200-m90860q08c40-11953.cnf","MapleCOMSPS_DRUP",17.842,280.468334364261,978.160525939199,17.83,1.265,0,0,0,5,"pred"

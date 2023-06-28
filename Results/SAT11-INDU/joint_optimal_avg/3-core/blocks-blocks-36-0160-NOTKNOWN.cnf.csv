@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"blocks-blocks-36-0160-NOTKNOWN.cnf","lingeling.587f.4882048.110513",31.36,143.748770562771,444.643335943919,33.59,10.86,0,0,0,5,"pred"
+"blocks-blocks-36-0160-NOTKNOWN.cnf","minisathackEBMiniSAT_2011.03.02",31.32,145.305054112554,280.828451706891,28.24,10.86,0,0,0,5,"pred"
+"blocks-blocks-36-0160-NOTKNOWN.cnf","rcl_2011.04.01",79.1,178.154112554112,590.341376945962,87.85,10.86,0,0,0,5,"pred"

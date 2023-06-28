@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"smulo064.cnf","glueminisat.2.2.5",5000,2739.37283216783,2210.48563897626,5000,5000,0,0,0,5,"pred"
+"smulo064.cnf","glucose_2.0",5000,2881.20905011655,2247.96582707451,5000,5000,0,0,0,5,"pred"
+"smulo064.cnf","lingeling.587f.4882048.110513",5000,2924.78638927739,2227.58416041496,5000,5000,0,0,0,5,"pred"

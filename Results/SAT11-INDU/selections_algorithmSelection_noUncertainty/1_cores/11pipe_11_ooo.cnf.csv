@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"11pipe_11_ooo.cnf","glueminisat.2.2.5",2292.78,547.177072,1230.04442357288,2292.78,1687.46,0,0,0,0,"pred"

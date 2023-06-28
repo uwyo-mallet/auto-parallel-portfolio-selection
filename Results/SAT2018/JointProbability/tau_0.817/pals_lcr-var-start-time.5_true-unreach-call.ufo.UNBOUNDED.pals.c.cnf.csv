@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/pals_lcr-var-start-time.5_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","glu_mix",78.844,510.968304329004,657.778458121461,91.94,43.029,0,0,0,5,"pred"
+"sat/pals_lcr-var-start-time.5_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","cms55.main.all4fixed",99.007,645.174353030303,1119.12456499613,114.78,43.029,0,0,0,5,"pred"
+"sat/pals_lcr-var-start-time.5_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","COMiniSatPS_Pulsar_drup",204.323,656.50550995671,682.055842877888,245.42,43.029,0,0,0,5,"pred"
+"sat/pals_lcr-var-start-time.5_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","Maple_CM",178.307,672.258464502164,951.393181560011,209.49,43.029,0,0,0,5,"pred"
+"sat/pals_lcr-var-start-time.5_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","Maple_CM_ordUIP",178.933,723.37037965368,966.112026427784,207.98,43.029,0,0,0,5,"pred"
+"sat/pals_lcr-var-start-time.5_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","YalSAT",5000,5000,0,5000,43.029,0,0,0,5,"pred"

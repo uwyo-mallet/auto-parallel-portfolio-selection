@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/q_query_3_L200_coli.sat.cnf","MapleCOMSPS_LRB_DRUP",188.034,2232.16120669935,1972.25653871952,187.52,45.198,0,0,0,5,"pred"
+"sat/q_query_3_L200_coli.sat.cnf","gulch",110.805,2253.94279052288,1976.57127340006,110.1,45.198,0,0,0,5,"pred"

@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"spi-debugdimacs.wcnf","Open.WBO.ms.pre",177.04,1382.20900965695,234.424386785799,176.33,5.28,1,"176.33"
+"spi-debugdimacs.wcnf","Open.WBO.ms",560.51,1460.75656495906,302.564119785347,624.13,5.28,2,"624.13"
+"spi-debugdimacs.wcnf","UWrMaxSat.1.0",12.69,1492.98828162678,302.120717104747,13.34,5.28,1,"Inf"
+"spi-debugdimacs.wcnf","maxino2018",40.04,1559.46149370708,305.825298093782,41.82,5.28,2,"Inf"
+"spi-debugdimacs.wcnf","Open.WBO.g",5.28,1600.7989602808,301.117167910583,5.07,5.28,1,"Inf"
+"spi-debugdimacs.wcnf","QMaxSAT2018",599.16,1761.51047224053,261.443823230648,615.18,5.28,2,"Inf"
+"spi-debugdimacs.wcnf","MaxHS",49.93,2248.6645004303,268.540884799636,51.71,5.28,1,"Inf"

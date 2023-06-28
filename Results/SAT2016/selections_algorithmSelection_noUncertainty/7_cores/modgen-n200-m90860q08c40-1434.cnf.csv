@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/modgen-n200-m90860q08c40-1434.cnf","MapleCOMSPS_CHB_DRUP",160.079,671.301679867987,1479.03415624752,164.14,18.661,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-1434.cnf","CHBR_glucose_tuned",278.584,767.309284983498,1367.13764837042,287.34,18.661,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-1434.cnf","COMiniSatPSChandrasekharDRUP",296.02,857.055983993399,1364.20906547692,318.83,18.661,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-1434.cnf","CHBR_glucose",161.319,869.720567821783,1552.40368485953,163.56,18.661,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-1434.cnf","MapleCOMSPS_LRB_DRUP",364.816,901.487402145215,1612.59462043471,369.03,18.661,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-1434.cnf","abcdSAT_drup",644.48,929.21724719472,1486.18485321673,646.12,18.661,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-1434.cnf","MapleCMS",1188.656,959.413174257426,1551.89417607027,1210.92,18.661,0,0,0,0,"pred"

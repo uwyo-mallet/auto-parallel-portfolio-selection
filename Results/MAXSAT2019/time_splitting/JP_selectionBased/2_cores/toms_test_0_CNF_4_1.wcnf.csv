@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"toms_test_0_CNF_4_1.wcnf","Open.WBO.ms.pre",3600,1942.22659488005,998.610220217849,3600,3600,1,"Inf"
+"toms_test_0_CNF_4_1.wcnf","UWrMaxSat.1.0",3600,2154.54039364039,1160.14388860482,3600,3600,2,"Inf"

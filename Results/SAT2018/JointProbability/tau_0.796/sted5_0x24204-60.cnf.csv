@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sted5_0x24204-60.cnf","smallsat",5000,1797.81458343816,2110.29476767108,5000,5000,0,0,0,5,"pred"
+"sat/sted5_0x24204-60.cnf","glu_mix",5000,2411.11763742138,2016.85102818233,5000,5000,0,0,0,5,"pred"
+"sat/sted5_0x24204-60.cnf","glucose3.0",5000,2879.0885927673,2301.77169272021,5000,5000,0,0,0,5,"pred"
+"sat/sted5_0x24204-60.cnf","COMiniSatPS_Pulsar_drup",5000,2906.38280062893,2254.59149673438,5000,5000,0,0,0,5,"pred"

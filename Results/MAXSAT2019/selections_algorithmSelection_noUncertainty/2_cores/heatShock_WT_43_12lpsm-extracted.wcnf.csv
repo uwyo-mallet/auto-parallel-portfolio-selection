@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"heatShock_WT_43_12lpsm-extracted.wcnf","Open.WBO.ms",13.12,410.80824789165,550.944621725467,13.7,1.04,0,0,0,0,"pred"
+"heatShock_WT_43_12lpsm-extracted.wcnf","Open.WBO.ms.pre",3.57,411.104115391991,534.965541366286,3.67,1.04,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Sz512_15128_1.smt2-cvc4.cnf","abcdSAT_drup",5000,4033.20340464135,1792.63574311239,5000,328.535,0,0,0,5,"pred"

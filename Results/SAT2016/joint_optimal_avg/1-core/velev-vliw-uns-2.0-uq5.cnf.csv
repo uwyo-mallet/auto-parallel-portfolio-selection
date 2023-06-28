@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/velev-vliw-uns-2.0-uq5.cnf","glucose",182.412,855.7534839934,1227.40007079512,182.412,172.772,0,0,0,5,"pred"

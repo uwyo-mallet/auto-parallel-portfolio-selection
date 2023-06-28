@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/patat-08-comp-3.cnf","glucose4.2.1",73.061,1703.10922955556,1780.99172821061,92.94,6.375,0,0,0,0,"pred"
+"sat/patat-08-comp-3.cnf","Glucose_Hack_Kiel_fastBVE",26.265,1938.87588688889,2051.46305630916,32.44,6.375,0,0,0,0,"pred"

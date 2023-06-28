@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/test_v7_r12_vr10_c1_s18160.smt2-cvc4.cnf","tc_glucose",5000,1556.39676717172,1758.21456626567,5000,5000,0,0,0,5,"pred"
+"sat/test_v7_r12_vr10_c1_s18160.smt2-cvc4.cnf","tb_glucose",5000,1604.18579810606,1759.63543664185,5000,5000,0,0,0,5,"pred"
+"sat/test_v7_r12_vr10_c1_s18160.smt2-cvc4.cnf","YALSAT03r",5000,5000,0,5000,5000,0,0,0,5,"pred"

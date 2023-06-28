@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"vda_gr_rcs_w9shuffled.cnf","lingeling.587f.4882048.110513",1.28,1671.54997086247,2121.12760829788,1.28,0.02,0,0,0,0,"pred"

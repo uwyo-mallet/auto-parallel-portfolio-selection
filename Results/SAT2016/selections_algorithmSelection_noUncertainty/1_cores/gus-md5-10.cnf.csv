@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/gus-md5-10.cnf","COMiniSatPSChandrasekharDRUP",1293.993,3274.11388300654,2034.13892137079,1293.993,830.545,0,0,0,0,"pred"

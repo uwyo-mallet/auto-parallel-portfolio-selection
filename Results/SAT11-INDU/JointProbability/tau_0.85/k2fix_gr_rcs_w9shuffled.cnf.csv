@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"k2fix_gr_rcs_w9shuffled.cnf","lingeling.587f.4882048.110513",207.26,621.612896270397,1424.74318612649,209.22,13.27,0,0,0,5,"pred"
+"k2fix_gr_rcs_w9shuffled.cnf","MPhaseSAT64",64.27,942.976769230768,1679.49376938089,64.05,13.27,0,0,0,5,"pred"

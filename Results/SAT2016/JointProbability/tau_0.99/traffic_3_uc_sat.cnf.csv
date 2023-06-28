@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/traffic_3_uc_sat.cnf","MapleCOMSPS_DRUP",61.021,2197.04681288515,1956.06867728024,61.021,18.306,0,0,0,5,"pred"

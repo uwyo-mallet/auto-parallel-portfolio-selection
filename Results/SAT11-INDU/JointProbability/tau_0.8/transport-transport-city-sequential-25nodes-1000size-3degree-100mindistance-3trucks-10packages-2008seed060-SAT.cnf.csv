@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"transport-transport-city-sequential-25nodes-1000size-3degree-100mindistance-3trucks-10packages-2008seed060-SAT.cnf","rcl_2011.04.01",86.82,1159.7168525641,1792.21646091455,93.21,86.82,0,0,0,5,"pred"
+"transport-transport-city-sequential-25nodes-1000size-3degree-100mindistance-3trucks-10packages-2008seed060-SAT.cnf","SAT09referencesolverprecosat_236",92.65,1308.12378205128,1340.59729462733,104.09,86.82,0,0,0,5,"pred"
+"transport-transport-city-sequential-25nodes-1000size-3degree-100mindistance-3trucks-10packages-2008seed060-SAT.cnf","MPhaseSAT64",5000,1314.50849038462,1885.56597277969,5000,86.82,0,0,0,5,"pred"
+"transport-transport-city-sequential-25nodes-1000size-3degree-100mindistance-3trucks-10packages-2008seed060-SAT.cnf","glucose_2.0",215.2,1493.78753846154,1870.58031053298,218.19,86.82,0,0,0,5,"pred"
+"transport-transport-city-sequential-25nodes-1000size-3degree-100mindistance-3trucks-10packages-2008seed060-SAT.cnf","minisathackMiniSAT_2.2.0.agile.26",593.48,1564.25628846154,1339.55184940303,595.61,86.82,0,0,0,5,"pred"
+"transport-transport-city-sequential-25nodes-1000size-3degree-100mindistance-3trucks-10packages-2008seed060-SAT.cnf","glueminisat.2.2.5",3897.25,1988.32658012821,1786.90423348506,5000,86.82,0,0,0,5,"pred"

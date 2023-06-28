@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"aaai10-planning-ipc5-pathways-17-step21.cnf","SAT09referencesolverprecosat_236",85.98,560.939099099099,1224.25917559655,85.98,54.24,0,0,0,5,"pred"

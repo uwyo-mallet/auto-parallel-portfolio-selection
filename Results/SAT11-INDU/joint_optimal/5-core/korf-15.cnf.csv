@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"korf-15.cnf","lingeling.587f.4882048.110513",37.15,135.822667824074,469.970433920615,38.05,5.54,0,0,0,5,"pred"
+"korf-15.cnf","SAT09referencesolverprecosat_236",10.56,252.164430555555,820.265570477829,11.39,5.54,0,0,0,5,"pred"
+"korf-15.cnf","glueminisat.2.2.5",24.19,296.461402777778,1046.83309696524,24.77,5.54,0,0,0,5,"pred"
+"korf-15.cnf","MPhaseSAT64",13.68,341.089837962963,1008.36409931966,13.67,5.54,0,0,0,5,"pred"
+"korf-15.cnf","minisathackcontrasat_2011.03.02",32.4,347.640753472223,1072.98912169691,32.37,5.54,0,0,0,5,"pred"

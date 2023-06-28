@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"E02F22.cnf","glucose_2.0",162.35,1357.90847972973,1548.73876178663,189.65,30.31,0,0,0,0,"pred"
+"E02F22.cnf","glueminisat.2.2.5",447.27,1557.53880630631,1783.53405007917,549.4,30.31,0,0,0,0,"pred"
+"E02F22.cnf","minisathackminisat_psm_2011.04.01",30.31,1810.43704504504,1929.12269289031,32.57,30.31,0,0,0,0,"pred"
+"E02F22.cnf","RestartSAT_B95",419.21,2079.65357657658,1969.5107461779,535.07,30.31,0,0,0,0,"pred"

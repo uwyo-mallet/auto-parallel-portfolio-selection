@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"uaq-nr-nr220-nc73-n3-k2-rpp4-ppr2-plb50.wcnf","UWrMaxSat.1.0",6.64,15.5429512820513,25.1571529547699,6.64,6.64,0,0,0,0,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"uaq-ppr-nr200-nc66-n5-k2-rpp6-ppr6-plb100.wcnf","Open.WBO.ms.pre",3600,1576.29302569394,768.949748607187,3600,3600,1,"Inf"
+"uaq-ppr-nr200-nc66-n5-k2-rpp6-ppr6-plb100.wcnf","Open.WBO.ms",3600,1587.57203684479,645.185701171054,3600,3600,2,"Inf"

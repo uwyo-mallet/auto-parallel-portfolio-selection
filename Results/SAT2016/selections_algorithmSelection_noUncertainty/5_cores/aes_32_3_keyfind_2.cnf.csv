@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/aes_32_3_keyfind_2.cnf","gulch",717.849,2957.60870114943,2060.03715930954,727.04,35.024,0,0,0,0,"pred"
+"sat/aes_32_3_keyfind_2.cnf","MapleGlucose",806.553,3135.08046149425,2099.66713510972,803.913972625706,35.024,0,0,0,0,"pred"
+"sat/aes_32_3_keyfind_2.cnf","glueminisat.2210.81.main",840.039,3144.67425622605,2079.12894770627,854.89,35.024,0,0,0,0,"pred"
+"sat/aes_32_3_keyfind_2.cnf","tb_glucose",2021.211,3234.50044980843,2042.07556580297,2096.37,35.024,0,0,0,0,"pred"
+"sat/aes_32_3_keyfind_2.cnf","MapleCOMSPS_DRUP",241.672,3234.55532068966,2089.97323606518,241.45,35.024,0,0,0,0,"pred"

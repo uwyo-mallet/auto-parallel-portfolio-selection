@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"heart_train_0_DNF_2_1.wcnf","MaxHS",11.84,1119.09136245093,657.430532166844,12.17,2.23,0,0,0,5,"pred"
+"heart_train_0_DNF_2_1.wcnf","Open.WBO.ms",27.35,1286.32262050669,576.259572029724,27.68,2.23,0,0,0,5,"pred"
+"heart_train_0_DNF_2_1.wcnf","Open.WBO.ms.pre",11.17,1326.59930428388,610.5750471724,11.26,2.23,0,0,0,5,"pred"

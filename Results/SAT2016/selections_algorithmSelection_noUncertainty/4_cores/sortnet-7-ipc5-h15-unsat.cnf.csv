@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sortnet-7-ipc5-h15-unsat.cnf","gulch",5000,1683.67445313531,2035.54158169739,5000,5000,0,0,0,0,"pred"
+"sat/sortnet-7-ipc5-h15-unsat.cnf","CHBR_glucose",5000,1724.02579224422,2113.01461690581,5000,5000,0,0,0,0,"pred"
+"sat/sortnet-7-ipc5-h15-unsat.cnf","MapleGlucose",5000,1872.36397656766,2216.28031916408,5000,5000,0,0,0,0,"pred"
+"sat/sortnet-7-ipc5-h15-unsat.cnf","cmsat5_autotune2",5000,1872.90397838284,2135.95542459042,5000,5000,0,0,0,0,"pred"

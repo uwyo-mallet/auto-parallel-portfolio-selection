@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"TWComp_1c75_N69.wcnf","QMaxSAT2018",3600,1214.38577880493,747.71807669533,3600,3600,0,0,0,5,"pred"
+"TWComp_1c75_N69.wcnf","UWrMaxSat.1.0",3600,1277.27715191564,725.210639380306,3600,3600,0,0,0,5,"pred"

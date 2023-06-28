@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/slp-synthesis-aes-top26.cnf","Splatz06vmain",5000,3983.15480474684,1870.45002756841,5000,2253.447,0,0,0,0,"pred"
+"sat/slp-synthesis-aes-top26.cnf","MapleGlucose",5000,4000.77097974684,1784.93389320676,5000,2253.447,0,0,0,0,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/e2_1.c.smt2-stp212.cnf","abcdSAT_drup",9.317,2440.3246085249,2321.27790254589,9.11,0.069,0,0,0,5,"pred"
+"sat/e2_1.c.smt2-stp212.cnf","glue_alt",0.314,2511.86268381226,2262.77217599758,0.22,0.069,0,0,0,5,"pred"

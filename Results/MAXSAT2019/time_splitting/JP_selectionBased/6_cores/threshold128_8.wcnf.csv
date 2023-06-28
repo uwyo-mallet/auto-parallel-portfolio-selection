@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"threshold128_8.wcnf","MaxHS",58.95,30.9182545182695,13.3079641763728,59.59,58.95,1,"Inf"

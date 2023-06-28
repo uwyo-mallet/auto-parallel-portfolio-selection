@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"dated-10-17-u.cnf","glucose_2.0",2601.39,1829.23628300371,1496.08203966749,2601.39,2097.58,0,0,0,0,"pred"

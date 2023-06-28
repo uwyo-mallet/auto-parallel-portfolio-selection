@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"causal_n6_i8_N1000_uai14_constant_int.wcnf","UWrMaxSat.1.0",0.71,878.2389488596,398.268131513273,0.71,0.71,1,"0.71"
+"causal_n6_i8_N1000_uai14_constant_int.wcnf","Open.WBO.ms.pre",7.9,889.573821875771,505.252950386234,8.11,0.71,2,"8.11"

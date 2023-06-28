@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"liver-disorder.wcnf","Open.WBO.ms.pre",3600,1213.34559075081,1050.06360674574,3600,3600,1,"Inf"
+"liver-disorder.wcnf","Open.WBO.g",3600,1270.51451579789,1168.42061903313,3600,3600,2,"Inf"

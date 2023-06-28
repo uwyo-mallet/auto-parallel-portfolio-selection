@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"normalized-mps-v2-20-10-stein45opbmsat.wcnf","MaxHS",39.48,984.778002004119,520.802683016029,39.47,7.24,1,"39.47"
+"normalized-mps-v2-20-10-stein45opbmsat.wcnf","Open.WBO.ms",51.6,1644.26190509224,794.010847374279,51.62,7.24,2,"51.62"

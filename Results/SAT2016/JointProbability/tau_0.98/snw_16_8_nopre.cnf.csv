@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/snw_16_8_nopre.cnf","glucose_hack_kiel_newScript",1643.959,2510.61247512255,1698.07648925898,1643.959,1415.032,0,0,0,5,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"UAutomizer_NestedRecursion_2b_false-termination_true-valid-memsafetyc_Abstraction2.wcnf","Open.WBO.ms.pre",0.75,951.421494093304,667.9344976785,0.73,0.17,0,0,0,5,"pred"
+"UAutomizer_NestedRecursion_2b_false-termination_true-valid-memsafetyc_Abstraction2.wcnf","MaxHS",0.33,1013.26494683116,577.099283163698,0.32,0.17,0,0,0,5,"pred"

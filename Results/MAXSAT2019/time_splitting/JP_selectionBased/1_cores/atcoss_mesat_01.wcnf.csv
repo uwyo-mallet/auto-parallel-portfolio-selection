@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"atcoss_mesat_01.wcnf","UWrMaxSat.1.0",43.14,1588.11525084431,1313.42463192633,43.14,41.45,1,"43.14"

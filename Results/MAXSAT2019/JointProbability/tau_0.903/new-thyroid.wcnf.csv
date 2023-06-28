@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"new-thyroid.wcnf","MaxHS",33.69,1076.2914328603,458.935840667159,33.14,9.89,0,0,0,5,"pred"
+"new-thyroid.wcnf","UWrMaxSat.1.0",12.33,1095.3423743647,517.840268832445,12.3,9.89,0,0,0,5,"pred"

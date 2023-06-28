@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/udiv48prop.cnf","CaDiCaL",4150.193,2949.22602445009,1047.47908591074,5000,4150.193,0,0,0,0,"pred"
+"sat/udiv48prop.cnf","MapleCOMSPS_LRB_VSIDS_drup",5000,4350.66977241963,1486.86229529186,5000,4150.193,0,0,0,0,"pred"
+"sat/udiv48prop.cnf","glucose4.2.1",5000,4460.12465846024,1278.03343571137,5000,4150.193,0,0,0,0,"pred"

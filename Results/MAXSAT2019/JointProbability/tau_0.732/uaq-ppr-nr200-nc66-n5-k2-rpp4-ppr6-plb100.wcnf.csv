@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"uaq-ppr-nr200-nc66-n5-k2-rpp4-ppr6-plb100.wcnf","UWrMaxSat.1.0",3600,1291.63955634568,1051.88347319365,3600,646.99,0,0,0,5,"pred"
+"uaq-ppr-nr200-nc66-n5-k2-rpp4-ppr6-plb100.wcnf","Open.WBO.ms.pre",646.99,1345.03828136367,1120.48194693298,665.94,646.99,0,0,0,5,"pred"
+"uaq-ppr-nr200-nc66-n5-k2-rpp4-ppr6-plb100.wcnf","Open.WBO.ms",1392.35,1625.2372927709,1084.4827688491,1430.57,646.99,0,0,0,5,"pred"
+"uaq-ppr-nr200-nc66-n5-k2-rpp4-ppr6-plb100.wcnf","Open.WBO.g",3600,1710.51982190878,1172.44600019399,3600,646.99,0,0,0,5,"pred"
+"uaq-ppr-nr200-nc66-n5-k2-rpp4-ppr6-plb100.wcnf","maxino2018",3600,1800.7808331398,1183.12680960888,3600,646.99,0,0,0,5,"pred"

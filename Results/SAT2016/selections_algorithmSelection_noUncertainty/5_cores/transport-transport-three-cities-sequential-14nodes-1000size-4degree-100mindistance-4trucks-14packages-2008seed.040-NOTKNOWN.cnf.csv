@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/transport-transport-three-cities-sequential-14nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.040-NOTKNOWN.cnf","MapleCOMSPS_LRB_DRUP",2461.885,753.197589438944,1398.38970037365,2458.37134901171,1137.453,0,0,0,0,"pred"
+"sat/transport-transport-three-cities-sequential-14nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.040-NOTKNOWN.cnf","MapleCOMSPS_CHB_DRUP",5000,1501.06769966997,1425.84596334172,5000,1137.453,0,0,0,0,"pred"
+"sat/transport-transport-three-cities-sequential-14nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.040-NOTKNOWN.cnf","glucose",5000,1584.06287244225,1298.82654571256,5000,1137.453,0,0,0,0,"pred"
+"sat/transport-transport-three-cities-sequential-14nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.040-NOTKNOWN.cnf","BeansAndEggs",5000,1619.86041666667,1338.45378634848,5000,1137.453,0,0,0,0,"pred"
+"sat/transport-transport-three-cities-sequential-14nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed.040-NOTKNOWN.cnf","MapleCOMSPS_DRUP",2348.052,1657.09144752475,982.851886107221,5000,1137.453,0,0,0,0,"pred"

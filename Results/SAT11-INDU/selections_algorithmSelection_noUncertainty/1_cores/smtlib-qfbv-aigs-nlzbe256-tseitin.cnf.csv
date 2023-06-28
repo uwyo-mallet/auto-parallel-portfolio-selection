@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"smtlib-qfbv-aigs-nlzbe256-tseitin.cnf","SAT09referencesolverprecosat_236",13.12,1675.09238333333,1860.98571152666,13.12,6.57,0,0,0,0,"pred"

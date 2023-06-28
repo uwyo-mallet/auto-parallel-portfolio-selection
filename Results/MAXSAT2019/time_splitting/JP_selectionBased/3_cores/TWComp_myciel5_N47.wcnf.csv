@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"TWComp_myciel5_N47.wcnf","MaxHS",3600,735.986308835211,948.542159974041,3600,3600,1,"Inf"
+"TWComp_myciel5_N47.wcnf","UWrMaxSat.1.0",3600,789.027018749413,954.209517523945,3600,3600,2,"Inf"
+"TWComp_myciel5_N47.wcnf","Open.WBO.ms.pre",3600,999.12393614065,1182.73277535317,3600,3600,3,"Inf"

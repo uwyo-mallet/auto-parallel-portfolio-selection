@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"uaq-ppr-nr200-nc66-n5-k2-rpp4-ppr5-plb100.wcnf","MaxHS",3600,1575.68573211758,999.100797963206,3600,15.98,1,"Inf"

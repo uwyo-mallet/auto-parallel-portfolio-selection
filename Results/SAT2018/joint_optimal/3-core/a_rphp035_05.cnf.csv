@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/a_rphp035_05.cnf","Maple_LCM_M1",915.894,1647.56457096436,1833.94739355135,5000,344.285,0,0,0,5,"pred"
+"sat/a_rphp035_05.cnf","smallsat",344.285,1665.69050031447,1901.64445360316,392.42,344.285,0,0,0,5,"pred"
+"sat/a_rphp035_05.cnf","MapleCOMSPS_LRB_VSIDS_2_fix",1994.934,1720.51673050315,1510.56144280721,5000,344.285,0,0,0,5,"pred"

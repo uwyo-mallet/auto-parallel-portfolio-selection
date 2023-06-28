@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","glucose_2.0",19.77,396.660552777778,1126.17432169505,20,19.77,0,0,0,5,"pred"
+"aaai10-planning-ipc5-pipesworld-27-step13.cnf","RestartSAT_B95",32.56,406.840866666667,1041.67828354421,35.36,19.77,0,0,0,5,"pred"

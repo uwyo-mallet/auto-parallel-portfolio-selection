@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"ibm-2004-01-k90.cnf","glucose_2.0",1.94,439.293689102564,981.523412185652,2.17,1.93,0,0,0,0,"pred"
+"ibm-2004-01-k90.cnf","minisathackreferenceminisat_2.2.0",1.93,518.169519230769,940.290580794397,2.04,1.93,0,0,0,0,"pred"
+"ibm-2004-01-k90.cnf","SAT09referencesolverprecosat_236",9.55,653.316987179487,1213.272694657,11.9,1.93,0,0,0,0,"pred"
+"ibm-2004-01-k90.cnf","rcl_2011.04.01",17.83,827.949041666667,1203.71334771883,19.55,1.93,0,0,0,0,"pred"
+"ibm-2004-01-k90.cnf","MPhaseSAT64",16.72,830.986612179487,1457.32128532164,17.33,1.93,0,0,0,0,"pred"
+"ibm-2004-01-k90.cnf","minisathackminisat_psm_2011.04.01",7.87,855.760733974359,1415.82262817515,8.54,1.93,0,0,0,0,"pred"
+"ibm-2004-01-k90.cnf","RestartSAT_B95",37.8,900.541423076923,1505.24284131855,44.68,1.93,0,0,0,0,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/bibd-8-70-35-4-15_glb.cnf","MapleLCMDistChronoBT",13.05,1658.84163505747,2151.59978638808,14.66,13.05,0,0,0,0,"pred"
+"sat/bibd-8-70-35-4-15_glb.cnf","GHackCOMSPS_drup",14.037,1908.7421454023,2008.04976818305,15.11,13.05,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/1dlx_c_iq57_a.cnf","Splatz06vmain",510.161,2348.35178125,1862.25957470129,510.161,432.95,0,0,0,0,"pred"

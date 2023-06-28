@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/si2-b06m-m1000-03.cnf","COMiniSatPS_Pulsar_drup",130.461,456.464962337662,1042.55722284923,130.461,2.965,0,0,0,0,"pred"

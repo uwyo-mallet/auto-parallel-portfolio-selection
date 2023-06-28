@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"UAutomizer_NestedRecursion_2b_false-termination_true-valid-memsafetyc_Abstraction2.wcnf","Open.WBO.ms.pre",0.75,951.421494093304,667.9344976785,0.77,0.17,1,"0.77"
+"UAutomizer_NestedRecursion_2b_false-termination_true-valid-memsafetyc_Abstraction2.wcnf","maxino2018",0.2,961.707903304172,457.833229776259,0.2,0.17,2,"0.2"
+"UAutomizer_NestedRecursion_2b_false-termination_true-valid-memsafetyc_Abstraction2.wcnf","UWrMaxSat.1.0",0.51,976.330865618589,528.262947666107,0.51,0.17,3,"0.51"
+"UAutomizer_NestedRecursion_2b_false-termination_true-valid-memsafetyc_Abstraction2.wcnf","Open.WBO.ms",0.17,993.735823136353,544.554288985307,0.18,0.17,4,"0.18"
+"UAutomizer_NestedRecursion_2b_false-termination_true-valid-memsafetyc_Abstraction2.wcnf","MaxHS",0.33,1013.26494683116,577.099283163698,0.33,0.17,5,"0.33"
+"UAutomizer_NestedRecursion_2b_false-termination_true-valid-memsafetyc_Abstraction2.wcnf","Open.WBO.g",0.17,1114.77554761678,613.610889604704,0.17,0.17,1,"Inf"
+"UAutomizer_NestedRecursion_2b_false-termination_true-valid-memsafetyc_Abstraction2.wcnf","QMaxSAT2018",2.1,1216.16685092125,782.611625748534,2.19,0.17,2,"Inf"

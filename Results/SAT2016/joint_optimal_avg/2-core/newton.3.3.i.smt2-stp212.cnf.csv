@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/newton.3.3.i.smt2-stp212.cnf","MapleCOMSPS_LRB_DRUP",218.081,419.386486489899,847.721219808129,217.99,140.236,0,0,0,5,"pred"
+"sat/newton.3.3.i.smt2-stp212.cnf","CHBR_glucose_tuned",224.648,437.156225126263,918.330901465112,223.152445893751,140.236,0,0,0,5,"pred"

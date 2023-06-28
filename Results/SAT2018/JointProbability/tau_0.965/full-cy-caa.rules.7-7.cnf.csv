@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/full-cy-caa.rules.7-7.cnf","Maple_LCM_Scavel_200_fix2",690.996,2963.86966471861,2204.19542280739,861.5,6.842,0,0,0,5,"pred"
+"sat/full-cy-caa.rules.7-7.cnf","Maple_CM_Dist",230.849,3059.83602727273,2153.52805894124,289.35,6.842,0,0,0,5,"pred"
+"sat/full-cy-caa.rules.7-7.cnf","YalSAT",3573.572,5000,0,5000,6.842,0,0,0,5,"pred"

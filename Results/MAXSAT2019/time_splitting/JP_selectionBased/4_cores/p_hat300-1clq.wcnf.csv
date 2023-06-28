@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"p_hat300-1clq.wcnf","Open.WBO.ms.pre",50.68,1013.35695435335,1102.127077027,51.51,3.41,1,"51.51"
+"p_hat300-1clq.wcnf","UWrMaxSat.1.0",3.41,1018.67877923709,1059.22887382333,3.46,3.41,2,"3.46"
+"p_hat300-1clq.wcnf","Open.WBO.ms",47.34,1099.63061759069,1176.82264039435,48.67,3.41,3,"48.67"
+"p_hat300-1clq.wcnf","Open.WBO.g",35.67,1209.7794487723,973.28574686395,36.47,3.41,4,"36.47"

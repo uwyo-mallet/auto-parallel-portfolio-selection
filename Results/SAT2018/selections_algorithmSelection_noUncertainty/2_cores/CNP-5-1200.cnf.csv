@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/CNP-5-1200.cnf","Sparrow2Riss.2018.fixfix",1.9,3.97329360587003,29.6503642192314,1.83,1.501,0,0,0,0,"pred"
+"sat/CNP-5-1200.cnf","COMiniSatPS_Pulsar_drup",179.121,47.1887829140462,37.5477789096101,211.45,1.501,0,0,0,0,"pred"

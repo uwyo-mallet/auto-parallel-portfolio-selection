@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"k2mulmitershuffled-assat03-355.cnf","glueminisat.2.2.5",961.46,1268.78871148046,1380.13469407876,961.46,961.46,0,0,0,0,"pred"

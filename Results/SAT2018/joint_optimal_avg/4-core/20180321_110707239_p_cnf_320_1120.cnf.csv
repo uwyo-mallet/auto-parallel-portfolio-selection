@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/20180321_110707239_p_cnf_320_1120.cnf","Sparrow2Riss.2018.fixfix",5.549,5.70525648148148,6.99970169362778,6.38,5.549,0,0,0,5,"pred"
+"sat/20180321_110707239_p_cnf_320_1120.cnf","Glucose_Hack_Kiel_fastBVE",5000,5000,0,5000,5.549,0,0,0,5,"pred"
+"sat/20180321_110707239_p_cnf_320_1120.cnf","glucose3.0",5000,5000,0,5000,5.549,0,0,0,5,"pred"
+"sat/20180321_110707239_p_cnf_320_1120.cnf","gluHack",5000,5000,0,5000,5.549,0,0,0,5,"pred"

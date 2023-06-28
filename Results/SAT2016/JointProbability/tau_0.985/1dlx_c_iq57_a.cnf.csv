@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/1dlx_c_iq57_a.cnf","Splatz06vmain",510.161,2348.35178125,1862.25957470129,544.99,432.95,0,0,0,5,"pred"
+"sat/1dlx_c_iq57_a.cnf","MapleCOMSPS_LRB_DRUP",659.59,2395.66318909314,1855.50839495567,680.57,432.95,0,0,0,5,"pred"
+"sat/1dlx_c_iq57_a.cnf","YALSAT03r",5000,5000,0,5000,432.95,0,0,0,5,"pred"

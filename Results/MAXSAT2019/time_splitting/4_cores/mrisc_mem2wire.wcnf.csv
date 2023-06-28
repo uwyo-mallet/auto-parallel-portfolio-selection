@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"mrisc_mem2wire.wcnf","Open.WBO.ms.pre",113.07,752.892579386735,1203.22592806079,118.85,13.23,1,"118.85"
+"mrisc_mem2wire.wcnf","Open.WBO.ms",160.03,955.118963602652,1063.244580691,219.33,13.23,2,"219.33"
+"mrisc_mem2wire.wcnf","maxino2018",13.23,994.852448536897,1228.03671863441,16.37,13.23,3,"16.37"
+"mrisc_mem2wire.wcnf","UWrMaxSat.1.0",14.98,997.942715601661,1290.65834008064,15.43,13.23,4,"15.43"
+"mrisc_mem2wire.wcnf","Open.WBO.g",34.32,1027.05939069433,1305.43019031589,45.51,13.23,1,"Inf"
+"mrisc_mem2wire.wcnf","QMaxSAT2018",27.55,1035.29624718577,1262.49625130244,37.88,13.23,2,"Inf"
+"mrisc_mem2wire.wcnf","MaxHS",162.91,1036.42608176222,1293.3872449109,196,13.23,3,"Inf"

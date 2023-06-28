@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sokoban-p17.sas.ex.11.cnf","MapleCOMSPS_LRB_DRUP",8.166,984.620699616859,1636.44469303135,8.166,0.76,0,0,0,5,"pred"

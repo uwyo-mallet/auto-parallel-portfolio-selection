@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/mchess_16.cnf","Lingeling",0.006,129.04155820643,707.528975100367,0,0.006,0,0,0,0,"pred"
+"sat/mchess_16.cnf","Maple_LCM_Scavel_fix2",399.309,1521.26378857868,1728.73071817773,469.76,0.006,0,0,0,0,"pred"
+"sat/mchess_16.cnf","MapleCOMSPS_LRB_VSIDS_2_fix",989.704,1654.76373883249,1693.99405331845,5000,0.006,0,0,0,0,"pred"
+"sat/mchess_16.cnf","CaDiCaL",166.127,1690.37583790186,2003.25091977323,190.74,0.006,0,0,0,0,"pred"
+"sat/mchess_16.cnf","Maple_LCM.BCrestart_M1",475.491,1726.64949822335,1810.5360774732,5000,0.006,0,0,0,0,"pred"
+"sat/mchess_16.cnf","Maple_CM",327.71,1781.70231920474,1769.72476355807,427.4,0.006,0,0,0,0,"pred"
+"sat/mchess_16.cnf","Maple_CM_ordUIP.",606.545,1783.06578307953,1757.8345679581,5000,0.006,0,0,0,0,"pred"

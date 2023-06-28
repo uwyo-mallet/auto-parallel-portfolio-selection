@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/newton.2.3.i.smt2-stp212.cnf","Glucose_nbSat",214.702,349.738378052805,670.324164055752,216.1,139.496,0,0,0,0,"pred"
+"sat/newton.2.3.i.smt2-stp212.cnf","glueminisat.2210.81.main",139.496,467.385376567657,1066.61976937604,135.97,139.496,0,0,0,0,"pred"

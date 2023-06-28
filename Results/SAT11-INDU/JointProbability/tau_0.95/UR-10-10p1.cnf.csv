@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"UR-10-10p1.cnf","minisathackEBMiniSAT_2011.03.02",11.34,595.530204861111,1430.68811990981,11.86,11.34,0,0,0,5,"pred"
+"UR-10-10p1.cnf","minisathackreferenceminisat_2.2.0",103.15,711.098939814815,1443.83253330394,105.35,11.34,0,0,0,5,"pred"

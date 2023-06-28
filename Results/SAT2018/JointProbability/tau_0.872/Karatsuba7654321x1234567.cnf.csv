@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Karatsuba7654321x1234567.cnf","CaDiCaL",69.332,283.059037341772,607.764689522187,78.01,69.332,0,0,0,5,"pred"
+"sat/Karatsuba7654321x1234567.cnf","Riss7.1.fix",908.983,383.637050632911,885.785328780786,1049.39,69.332,0,0,0,5,"pred"

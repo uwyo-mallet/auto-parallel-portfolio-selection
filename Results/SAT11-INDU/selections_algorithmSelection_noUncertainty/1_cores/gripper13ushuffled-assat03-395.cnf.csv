@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"gripper13ushuffled-assat03-395.cnf","MPhaseSAT64",5000,1482.92872294372,2075.89550447823,5000,1092.68,0,0,0,0,"pred"

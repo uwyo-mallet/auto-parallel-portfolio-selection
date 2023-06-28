@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"dekkerused-assat04-989.cnf","SAT09referencesolverprecosat_236",10.26,706.620393518518,1473.36568365065,10.49,3.08,0,0,0,5,"pred"
+"dekkerused-assat04-989.cnf","minisathackminisat_psm_2011.04.01",8.17,712.884746296296,1405.06137576769,8.19,3.08,0,0,0,5,"pred"
+"dekkerused-assat04-989.cnf","glucose_2.0",4.96,725.365217592593,1461.03026865877,4.94,3.08,0,0,0,5,"pred"
+"dekkerused-assat04-989.cnf","lingeling.587f.4882048.110513",3.1,823.404860185185,1526.21925669505,3.08,3.08,0,0,0,5,"pred"
+"dekkerused-assat04-989.cnf","minisathackLR_GL_SHR_2011.03.02",14.58,837.484008333334,1545.49155284892,15.09,3.08,0,0,0,5,"pred"
+"dekkerused-assat04-989.cnf","minisathackcontrasat_2011.03.02",8.3,846.145289814815,1657.90012057383,8.24,3.08,0,0,0,5,"pred"
+"dekkerused-assat04-989.cnf","minisathackreferenceminisat_2.2.0",16.4,883.978493518519,1519.37806494732,16.47,3.08,0,0,0,5,"pred"

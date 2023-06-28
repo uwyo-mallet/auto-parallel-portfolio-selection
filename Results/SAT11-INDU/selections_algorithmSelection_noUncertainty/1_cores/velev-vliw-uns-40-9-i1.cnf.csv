@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"velev-vliw-uns-40-9-i1.cnf","glueminisat.2.2.5",702.99,295.95137012987,817.890300492756,702.99,261.46,0,0,0,0,"pred"

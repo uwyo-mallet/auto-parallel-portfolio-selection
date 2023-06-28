@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/partial-5-15-u.cnf","BeansAndEggs",5000,2335.14404089636,2202.85571306743,5000,5000,0,0,0,0,"pred"
+"sat/partial-5-15-u.cnf","MapleCOMSPS_LRB_DRUP",5000,2356.14298991597,2179.32065205056,5000,5000,0,0,0,0,"pred"
+"sat/partial-5-15-u.cnf","MapleGlucose",5000,2595.33554355742,2229.90068227545,5000,5000,0,0,0,0,"pred"

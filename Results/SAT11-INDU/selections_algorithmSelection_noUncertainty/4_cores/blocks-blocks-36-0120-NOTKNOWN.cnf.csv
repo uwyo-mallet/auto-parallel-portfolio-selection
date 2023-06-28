@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"blocks-blocks-36-0120-NOTKNOWN.cnf","minisathackcir_minisat_2011.05.13_simp_",2154.29,217.83772972973,622.825281631154,2385.92,446.46,0,0,0,0,"pred"
+"blocks-blocks-36-0120-NOTKNOWN.cnf","glucose_2.0",810.61,252.01515990991,733.656166505721,892.93,446.46,0,0,0,0,"pred"
+"blocks-blocks-36-0120-NOTKNOWN.cnf","MPhaseSAT64",662.67,283.016617117117,428.83575188605,681.45,446.46,0,0,0,0,"pred"
+"blocks-blocks-36-0120-NOTKNOWN.cnf","glueminisat.2.2.5",892.64,290.456704954955,857.629576059443,996.93,446.46,0,0,0,0,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ACG-20-5p1.cnf","MapleCOMSPS_LRB_DRUP",184.479,1950.17372183908,1930.43513320041,189.4,121.058,0,0,0,0,"pred"
+"sat/ACG-20-5p1.cnf","MapleCOMSPS_CHB_DRUP",121.058,2340.57883965517,1964.89380929288,130.15,121.058,0,0,0,0,"pred"

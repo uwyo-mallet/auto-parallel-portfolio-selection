@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/mod8-abd-yad.rules.7-7.cnf","GHackCOMSPS_drup",111.414,4233.78009133333,1485.35512455539,111.414,6.376,0,0,0,5,"pred"

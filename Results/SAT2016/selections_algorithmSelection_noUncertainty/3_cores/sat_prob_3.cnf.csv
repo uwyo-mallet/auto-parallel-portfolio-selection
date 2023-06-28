@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sat_prob_3.cnf","Splatz06vmain",1371.183,3483.84871186869,2033.43360466498,1407.66,1371.183,0,0,0,0,"pred"
+"sat/sat_prob_3.cnf","COMiniSatPSChandrasekharDRUP",4474.566,3521.04359229798,1912.53417340592,4536.27,1371.183,0,0,0,0,"pred"
+"sat/sat_prob_3.cnf","abcdSAT_drup",5000,3525.0514604798,1940.45047468548,5000,1371.183,0,0,0,0,"pred"

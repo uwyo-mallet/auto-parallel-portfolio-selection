@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"AProVE07-03.cnf","MPhaseSAT64",663.05,1306.96508741259,1777.43553606437,663.23,113.34,0,0,0,5,"pred"
+"AProVE07-03.cnf","minisathackminisat_psm_2011.04.01",587.56,1647.27808275058,1930.97938614977,590.23,113.34,0,0,0,5,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/li-exam-61.cnf","MapleCOMSPS_DRUP",5000,4827.69983514851,857.102119871452,5000,5000,0,0,0,0,"pred"

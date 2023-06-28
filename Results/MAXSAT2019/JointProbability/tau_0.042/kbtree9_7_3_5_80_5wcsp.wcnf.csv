@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"kbtree9_7_3_5_80_5wcsp.wcnf","MaxHS",26.24,218.203022799844,334.864112598725,26.46,26.24,0,0,0,5,"pred"
+"kbtree9_7_3_5_80_5wcsp.wcnf","Open.WBO.ms.pre",3600,2385.82701801607,822.492245926963,3600,26.24,0,0,0,5,"pred"
+"kbtree9_7_3_5_80_5wcsp.wcnf","Open.WBO.g",3600,2508.9556402207,828.334216848873,3600,26.24,0,0,0,5,"pred"

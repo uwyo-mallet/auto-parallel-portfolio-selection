@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ramsey-32-4.cnf","Sparrow2Riss.2018.fixfix",5000,2048.52926727273,2123.53663919551,5000,2.3,0,0,0,0,"pred"
+"sat/ramsey-32-4.cnf","smallsat",4.063,2381.53710681818,2212.99084521606,4.7,2.3,0,0,0,0,"pred"
+"sat/ramsey-32-4.cnf","Maple_CM_Dist",6.541,2404.76707772727,2193.75881446384,7.53,2.3,0,0,0,0,"pred"
+"sat/ramsey-32-4.cnf","Maple_CM_ordUIP",4.177,2473.19590212121,2158.29866198541,4.98,2.3,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/C168_FW_UT_518.cnf","Glucose_nbSat",0.045,1797.2540693038,1757.70677004998,0.045,0.007,0,0,0,5,"pred"

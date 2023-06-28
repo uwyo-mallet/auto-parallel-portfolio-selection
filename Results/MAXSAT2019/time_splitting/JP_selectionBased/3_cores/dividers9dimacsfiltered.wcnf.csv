@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"dividers9dimacsfiltered.wcnf","Open.WBO.ms.pre",7.29,794.580752346435,592.771727741293,8.19,0.34,1,"8.19"
+"dividers9dimacsfiltered.wcnf","MaxHS",83.97,794.678551964562,581.290692488405,82.9,0.34,2,"82.9"
+"dividers9dimacsfiltered.wcnf","Open.WBO.g",0.34,854.143009219185,597.813010471731,0.36,0.34,3,"0.36"

@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/patat-08-comp-3.cnf","glucose4.2.1",73.061,1703.10922955556,1780.99172821061,100.24,6.375,0,0,0,5,"pred"
+"sat/patat-08-comp-3.cnf","Glucose_Hack_Kiel_fastBVE",26.265,1938.87588688889,2051.46305630916,34.71,6.375,0,0,0,5,"pred"
+"sat/patat-08-comp-3.cnf","MapleLCMDistChronoBT",14.198,2110.61510688889,2197.72430823028,18.15,6.375,0,0,0,5,"pred"
+"sat/patat-08-comp-3.cnf","Minisat.v2.2.0.106.ge2dd095",8.478,2131.12420888889,2087.5409737649,10.94,6.375,0,0,0,5,"pred"

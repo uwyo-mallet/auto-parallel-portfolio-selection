@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"causal_n5_i8_N10000_uai13_harddeps_int.wcnf","MaxHS",13.56,686.292878755418,465.003847590943,14.3,5.55,0,0,0,0,"pred"
+"causal_n5_i8_N10000_uai13_harddeps_int.wcnf","Open.WBO.ms.pre",20.81,801.540477198074,556.02573425518,21.48,5.55,0,0,0,0,"pred"

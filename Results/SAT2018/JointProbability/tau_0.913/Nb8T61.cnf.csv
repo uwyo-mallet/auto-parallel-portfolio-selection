@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Nb8T61.cnf","smallsat",1.069,581.796351333334,1298.19160058855,1.02,0.92,0,0,0,5,"pred"
+"sat/Nb8T61.cnf","cms55.main.all4fixed",275.453,693.186299666667,1595.11687679197,331.67,0.92,0,0,0,5,"pred"
+"sat/Nb8T61.cnf","YalSAT",23.003,732.463433666667,1530.53690454742,25.25,0.92,0,0,0,5,"pred"

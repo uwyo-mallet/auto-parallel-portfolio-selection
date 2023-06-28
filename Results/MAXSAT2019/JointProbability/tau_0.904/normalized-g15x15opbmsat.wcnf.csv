@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"normalized-g15x15opbmsat.wcnf","MaxHS",108.95,864.877545037804,855.986497899301,108.95,19.54,0,0,0,5,"pred"

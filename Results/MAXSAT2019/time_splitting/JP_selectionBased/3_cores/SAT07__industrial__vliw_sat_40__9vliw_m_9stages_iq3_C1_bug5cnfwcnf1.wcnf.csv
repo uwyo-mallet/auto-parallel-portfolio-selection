@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"SAT07__industrial__vliw_sat_40__9vliw_m_9stages_iq3_C1_bug5cnfwcnf1.wcnf","Open.WBO.ms.pre",136.36,1382.20900965695,234.424386785799,190.31,5.64,1,"190.31"
+"SAT07__industrial__vliw_sat_40__9vliw_m_9stages_iq3_C1_bug5cnfwcnf1.wcnf","Open.WBO.ms",6.13,1460.75656495906,302.564119785347,6.29,5.64,2,"6.29"
+"SAT07__industrial__vliw_sat_40__9vliw_m_9stages_iq3_C1_bug5cnfwcnf1.wcnf","UWrMaxSat.1.0",55.91,1492.98828162678,302.120717104747,60.62,5.64,3,"60.62"

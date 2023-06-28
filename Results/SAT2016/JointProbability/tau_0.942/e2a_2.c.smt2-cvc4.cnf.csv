@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/e2a_2.c.smt2-cvc4.cnf","cmsat5_autotune2",0.192,1001.4459622549,1862.33636811734,0.12,0.029,0,0,0,5,"pred"
+"sat/e2a_2.c.smt2-cvc4.cnf","cmsat5_main2",0.227,1044.29906013072,1818.61394756661,0.11,0.029,0,0,0,5,"pred"
+"sat/e2a_2.c.smt2-cvc4.cnf","MapleCMS",0.271,1240.98062859477,1951.27836934761,0.12,0.029,0,0,0,5,"pred"

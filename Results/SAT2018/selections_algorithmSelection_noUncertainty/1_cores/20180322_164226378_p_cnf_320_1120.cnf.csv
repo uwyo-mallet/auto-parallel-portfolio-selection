@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/20180322_164226378_p_cnf_320_1120.cnf","Sparrow2Riss.2018.fixfix",0.53,17.6831867838431,131.787425873518,0.53,0.041,0,0,0,0,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"pesp_5min.wcnf","maxino2018",3600,1618.92770197191,865.929652877722,3600,1222.14,1,"Inf"
+"pesp_5min.wcnf","UWrMaxSat.1.0",3600,1704.07348969427,997.938121983168,3600,1222.14,2,"Inf"

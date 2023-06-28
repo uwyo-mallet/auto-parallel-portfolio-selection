@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/gss-24-s100.cnf","glucose_hack_kiel_newScript",1325.631,4287.42652147766,1363.39769436158,1320.76014208717,1325.631,0,0,0,5,"pred"
+"sat/gss-24-s100.cnf","COMiniSatPSChandrasekharDRUP",3895.71,4294.45688556701,1572.70436476595,3893.55,1325.631,0,0,0,5,"pred"

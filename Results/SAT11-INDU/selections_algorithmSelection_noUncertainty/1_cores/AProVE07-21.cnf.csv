@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"AProVE07-21.cnf","MPhaseSAT64",170.8,1602.70887066667,1834.86275514379,170.8,27.74,0,0,0,0,"pred"

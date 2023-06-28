@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","glucose_2.0",60.37,332.131956709957,961.19896154699
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","glueminisat.2.2.5",1819.55,1296.60099350649,2042.0948795648
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","lingeling.587f.4882048.110513",1089.41,513.733235930736,991.828968361266
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","minisathackcir_minisat_2011.05.13_simp_",130.14,714.018448051948,1326.21155711179
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","minisathackcontrasat_2011.03.02",600.92,342.942298701299,1037.7255764528
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","minisathackEBMiniSAT_2011.03.02",70.97,296.671681818182,435.955948752712
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","minisathackLR_GL_SHR_2011.03.02",327.98,967.63848051948,1350.84516083226
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","minisathackMiniSAT_2.2.0.agile.26",200.67,314.944292207792,1074.14321364964
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","minisathackminisat_psm_2011.04.01",105.24,103.094805194805,95.1823785915739
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","minisathackreferenceminisat_2.2.0",1048.22,626.267170995671,1030.213794876
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","MPhaseSAT64",843.3,433.108909090909,871.287343199868
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","rcl_2011.04.01",248.8,559.174647186147,1144.6852935764
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","RestartSAT_B95",1700.65,832.201082251082,1430.11093984572
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","SAT09referencesolverprecosat_236",409.93,331.175303030303,824.929106192709

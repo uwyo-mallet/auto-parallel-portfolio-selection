@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"SAT_datk45.cnf","glueminisat.2.2.5",133.42,560.543502150538,1301.47609974033,132.86,133.42,0,0,0,5,"pred"
+"SAT_datk45.cnf","glucose_2.0",211.62,658.282734408602,1234.35882401431,216.6,133.42,0,0,0,5,"pred"

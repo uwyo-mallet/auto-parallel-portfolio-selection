@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","glucose_2.0",0.41,176.263536111111,646.896166387006
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","glueminisat.2.2.5",0.56,142.331658333333,571.146664284018
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","lingeling.587f.4882048.110513",3.83,453.270062962963,1169.8488106462
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","minisathackcir_minisat_2011.05.13_simp_",0.35,541.579919444444,1314.54127909557
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","minisathackcontrasat_2011.03.02",0.53,250.708580555555,930.672188903221
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","minisathackEBMiniSAT_2011.03.02",0.56,444.15157962963,1254.61430860016
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","minisathackLR_GL_SHR_2011.03.02",0.69,427.791292592592,1183.35254497364
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","minisathackMiniSAT_2.2.0.agile.26",0.56,544.033060185185,1416.01358509447
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","minisathackminisat_psm_2011.04.01",1,471.255667663818,1215.57510555558
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","minisathackreferenceminisat_2.2.0",0.39,398.840556481481,1149.46097730911
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","MPhaseSAT64",3.59,336.661681481482,1107.59127926307
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","rcl_2011.04.01",1.05,380.035741666667,1146.51794415392
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","RestartSAT_B95",0.62,406.806637962963,1217.44795431964
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","SAT09referencesolverprecosat_236",1.08,347.408750925926,1095.44381839675

@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"ionosphere_train_1_CNF_5_1.wcnf","maxino2018",3600,1757.73440717551,1048.25053046517,3600,3600,1,"Inf"
+"ionosphere_train_1_CNF_5_1.wcnf","Open.WBO.ms.pre",3600,1510.04589703635,1319.0542628739,3600,3600,2,"Inf"
+"ionosphere_train_1_CNF_5_1.wcnf","MaxHS",3600,1975.33550212884,1115.2276864847,3600,3600,3,"Inf"
+"ionosphere_train_1_CNF_5_1.wcnf","QMaxSAT2018",3600,1894.07331707163,1200.43017158622,3600,3600,4,"Inf"
+"ionosphere_train_1_CNF_5_1.wcnf","UWrMaxSat.1.0",3600,2011.27498807734,1185.37217534477,3600,3600,1,"Inf"
+"ionosphere_train_1_CNF_5_1.wcnf","Open.WBO.ms",3600,2039.34085564653,1298.15567805993,3600,3600,2,"Inf"
+"ionosphere_train_1_CNF_5_1.wcnf","Open.WBO.g",3600,2577.95263313745,1167.71364846785,3600,3600,3,"Inf"

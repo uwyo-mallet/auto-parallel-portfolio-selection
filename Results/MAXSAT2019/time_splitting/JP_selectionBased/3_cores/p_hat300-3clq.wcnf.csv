@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"p_hat300-3clq.wcnf","MaxHS",3600,2438.21938761411,1465.89571137847,3600,1700.96,1,"Inf"
+"p_hat300-3clq.wcnf","Open.WBO.ms.pre",1700.96,3211.83239896373,998.445144683503,1736.55,1700.96,2,"1736.55"

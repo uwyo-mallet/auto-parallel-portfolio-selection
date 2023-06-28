@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"MinFill_R0_myciel5.wcnf","MaxHS",297.81,1861.77997307143,1303.39538170217,226.74,297.81,1,"226.74"
+"MinFill_R0_myciel5.wcnf","UWrMaxSat.1.0",3600,1904.94404164273,1455.86041827577,3600,297.81,2,"Inf"

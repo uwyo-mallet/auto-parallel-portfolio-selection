@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","MaxHS",3600,2243.43711765113,1418.22542186047,3600,3600,1,"Inf"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","maxino2018",3600,2868.56669843223,1133.55008263195,3600,3600,2,"Inf"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","UWrMaxSat.1.0",3600,2880.94429948144,1058.2204598938,3600,3600,3,"Inf"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","QMaxSAT2018",3600,2923.58754793888,1121.79568821803,3600,3600,1,"Inf"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","Open.WBO.ms.pre",3600,2945.57350869211,1004.19809980862,3600,3600,2,"Inf"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","Open.WBO.ms",3600,3040.27552352889,1029.58060445221,3600,3600,3,"Inf"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","Open.WBO.g",3600,3093.08382167806,915.081204673283,3600,3600,1,"Inf"

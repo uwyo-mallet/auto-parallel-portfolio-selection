@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"TWComp_oesoca+_N67.wcnf","QMaxSAT2018",94.26,1160.42008173202,739.901210102164,96.19,79.29,0,0,0,5,"pred"
+"TWComp_oesoca+_N67.wcnf","maxino2018",79.29,1206.59764561115,837.254125529888,82.63,79.29,0,0,0,5,"pred"
+"TWComp_oesoca+_N67.wcnf","Open.WBO.ms",169.99,1251.50463431775,812.185399177831,178.07,79.29,0,0,0,5,"pred"

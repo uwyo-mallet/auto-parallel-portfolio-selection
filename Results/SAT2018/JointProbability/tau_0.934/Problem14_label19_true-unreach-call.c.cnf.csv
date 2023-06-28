@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Problem14_label19_true-unreach-call.c.cnf","GHackCOMSPS_drup",21.426,61.1581759090909,105.94712768925,21.426,21.426,0,0,0,5,"pred"

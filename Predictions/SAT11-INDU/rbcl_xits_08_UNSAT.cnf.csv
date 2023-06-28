@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"rbcl_xits_08_UNSAT.cnf","glucose_2.0",1586.77,3586.43615384615,2139.23487919655
+"rbcl_xits_08_UNSAT.cnf","glueminisat.2.2.5",4020.42,2818.22391666667,2316.97210576852
+"rbcl_xits_08_UNSAT.cnf","lingeling.587f.4882048.110513",5000,2466.32762820513,2379.48224900506
+"rbcl_xits_08_UNSAT.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,3318.35101923077,2187.32361235749
+"rbcl_xits_08_UNSAT.cnf","minisathackcontrasat_2011.03.02",5000,2643.31368269231,2382.9004351808
+"rbcl_xits_08_UNSAT.cnf","minisathackEBMiniSAT_2011.03.02",1202.2,2851.88887820513,2327.65385041844
+"rbcl_xits_08_UNSAT.cnf","minisathackLR_GL_SHR_2011.03.02",3617.63,2806.92242628205,2279.33892205007
+"rbcl_xits_08_UNSAT.cnf","minisathackMiniSAT_2.2.0.agile.26",1113.63,2824.62387179487,2345.29218871641
+"rbcl_xits_08_UNSAT.cnf","minisathackminisat_psm_2011.04.01",2342.61,3157.60157051282,2250.5026673922
+"rbcl_xits_08_UNSAT.cnf","minisathackreferenceminisat_2.2.0",1047.5,3905.73456089744,1844.81546978673
+"rbcl_xits_08_UNSAT.cnf","MPhaseSAT64",5000,2897.08439423077,2397.09497269881
+"rbcl_xits_08_UNSAT.cnf","rcl_2011.04.01",5000,3590.90970512821,2099.97161168928
+"rbcl_xits_08_UNSAT.cnf","RestartSAT_B95",1563.43,3884.192625,1821.44063319468
+"rbcl_xits_08_UNSAT.cnf","SAT09referencesolverprecosat_236",1118.14,2779.20042948718,2317.48276759174

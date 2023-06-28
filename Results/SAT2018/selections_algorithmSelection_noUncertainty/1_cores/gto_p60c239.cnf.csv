@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/gto_p60c239.cnf","glu_mix",89.823,348.267183111111,987.298928100945,89.823,52.214,0,0,0,0,"pred"

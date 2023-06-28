@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sokoban-p01.sas.ex.17.cnf","Glucose_nbSat",21.584,777.958760479798,1304.2948783088,21.584,10.962,0,0,0,5,"pred"

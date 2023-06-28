@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"ionosphere_train_2_CNF_2_1.wcnf","MaxHS",3600,1174.94488050973,442.92964185201,3600,226.48,0,0,0,5,"pred"
+"ionosphere_train_2_CNF_2_1.wcnf","UWrMaxSat.1.0",1012.78,1342.64952598105,562.381136274267,1032.57,226.48,0,0,0,5,"pred"
+"ionosphere_train_2_CNF_2_1.wcnf","Open.WBO.ms",1266.89,1374.76201522996,458.521529723169,1292.64,226.48,0,0,0,5,"pred"

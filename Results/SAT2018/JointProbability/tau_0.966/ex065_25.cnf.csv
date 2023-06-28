@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ex065_25.cnf","Maple_LCM.BCrestart",5000,3464.59876149425,2236.55539429739,5000,16.977,0,0,0,5,"pred"
+"sat/ex065_25.cnf","Maple_LCM_M1",5000,3497.29645172414,1997.93087990507,5000,16.977,0,0,0,5,"pred"
+"sat/ex065_25.cnf","glucose4.2.1",5000,3638.88966034483,2244.84102829505,5000,16.977,0,0,0,5,"pred"

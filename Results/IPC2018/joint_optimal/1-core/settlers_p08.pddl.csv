@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"settlers_p08.pddl","Scorpion",1092.98,1389.06314482932,645.209703924725,1092.98,1092.98,0,0,0,5,"pred"

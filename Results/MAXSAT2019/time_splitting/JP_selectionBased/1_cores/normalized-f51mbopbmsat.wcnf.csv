@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"normalized-f51mbopbmsat.wcnf","MaxHS",0.18,863.349134997883,667.812822620296,0.18,0.04,1,"0.18"

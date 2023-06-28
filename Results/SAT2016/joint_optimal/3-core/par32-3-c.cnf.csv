@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/par32-3-c.cnf","glucose",5000,1607.11105467172,1773.7766808353,5000,1601.633,0,0,0,5,"pred"
+"sat/par32-3-c.cnf","COMiniSatPSChandrasekharDRUP",5000,1992.86862209596,1444.44300944669,5000,1601.633,0,0,0,5,"pred"
+"sat/par32-3-c.cnf","BeansAndEggs",5000,3958.07967487374,1614.93722375227,5000,1601.633,0,0,0,5,"pred"

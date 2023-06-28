@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"9dlx_vliw_at_b_iq8used-assat04-718.cnf","minisathackLR_GL_SHR_2011.03.02",613.93,789.34454516129,1086.39279075679,613.93,613.93,0,0,0,0,"pred"

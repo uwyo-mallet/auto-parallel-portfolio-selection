@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"rsdecoder_fsm1dimacsfiltered.wcnf","Open.WBO.ms.pre",16.28,1167.65387418257,919.602217688584,17.5,2.58,1,"17.5"
+"rsdecoder_fsm1dimacsfiltered.wcnf","UWrMaxSat.1.0",5.8,1169.63176703923,839.556301924035,6.04,2.58,2,"6.04"

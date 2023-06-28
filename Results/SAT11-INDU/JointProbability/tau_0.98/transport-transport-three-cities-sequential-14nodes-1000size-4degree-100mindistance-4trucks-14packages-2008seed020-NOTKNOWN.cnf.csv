@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"transport-transport-three-cities-sequential-14nodes-1000size-4degree-100mindistance-4trucks-14packages-2008seed020-NOTKNOWN.cnf","glucose_2.0",2477.06,1144.33310046787,1329.82603550971,2477.06,2193.76,0,0,0,5,"pred"

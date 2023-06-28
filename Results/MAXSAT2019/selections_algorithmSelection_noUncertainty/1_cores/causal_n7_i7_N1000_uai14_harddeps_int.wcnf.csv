@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"causal_n7_i7_N1000_uai14_harddeps_int.wcnf","UWrMaxSat.1.0",394.2,1121.27380897791,366.725907599027,394.2,69.73,0,0,0,0,"pred"

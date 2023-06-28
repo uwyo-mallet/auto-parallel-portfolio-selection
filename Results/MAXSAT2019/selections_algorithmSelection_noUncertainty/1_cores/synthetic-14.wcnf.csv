@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"synthetic-14.wcnf","maxino2018",0.06,493.25993709461,1063.40283364236,0.06,0.04,0,0,0,0,"pred"

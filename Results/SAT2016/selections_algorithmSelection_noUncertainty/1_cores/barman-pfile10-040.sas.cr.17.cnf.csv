@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/barman-pfile10-040.sas.cr.17.cnf","MapleGlucose",8.44,169.925024789916,551.551536618633,8.44,3.207,0,0,0,0,"pred"

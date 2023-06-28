@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ecarev-110-1031-23-40-3.cnf","COMiniSatPS_Pulsar_drup",11.396,184.416541606715,77.7884170564227,11.396,5.806,0,0,0,0,"pred"

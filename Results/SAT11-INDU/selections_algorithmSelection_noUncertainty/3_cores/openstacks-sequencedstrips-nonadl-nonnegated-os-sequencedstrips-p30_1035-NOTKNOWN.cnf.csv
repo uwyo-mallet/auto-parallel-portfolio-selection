@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_1035-NOTKNOWN.cnf","SAT09referencesolverprecosat_236",5000,2800.69611574074,2261.25154694817,5000,5000,0,0,0,0,"pred"
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_1035-NOTKNOWN.cnf","MPhaseSAT64",5000,3124.06667592593,2212.68540166411,5000,5000,0,0,0,0,"pred"
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_1035-NOTKNOWN.cnf","rcl_2011.04.01",5000,3201.16029050926,2223.25884364564,5000,5000,0,0,0,0,"pred"

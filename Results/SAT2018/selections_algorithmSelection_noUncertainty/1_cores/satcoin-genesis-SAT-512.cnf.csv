@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/satcoin-genesis-SAT-512.cnf","Riss7.1.fix",3.306,3.70667532467517,2.24221060703294,3.306,3.306,0,0,0,0,"pred"

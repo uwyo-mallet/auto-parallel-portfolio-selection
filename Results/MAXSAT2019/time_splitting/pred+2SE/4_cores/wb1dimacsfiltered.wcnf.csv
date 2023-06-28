@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"wb1dimacsfiltered.wcnf","UWrMaxSat.1.0",3.56,1037.05736106881,508.392107460474,3.92,0.96,3,"3.92"
+"wb1dimacsfiltered.wcnf","MaxHS",33.96,1011.83691392784,569.853017160485,38.68,0.96,2,"38.68"
+"wb1dimacsfiltered.wcnf","Open.WBO.g",0.98,998.697067203702,587.927106384198,1.13,0.96,1,"1.13"
+"wb1dimacsfiltered.wcnf","Open.WBO.ms",1.09,1040.10642927654,633.289722775285,1.22,0.96,4,"1.22"
+"wb1dimacsfiltered.wcnf","maxino2018",3.75,1103.50893338524,588.995441523666,4.38,0.96,3,"Inf"
+"wb1dimacsfiltered.wcnf","Open.WBO.ms.pre",0.96,1056.8481109382,657.371725634003,1,0.96,1,"Inf"
+"wb1dimacsfiltered.wcnf","QMaxSAT2018",3600,1096.97691173233,867.654737901338,3600,0.96,2,"Inf"

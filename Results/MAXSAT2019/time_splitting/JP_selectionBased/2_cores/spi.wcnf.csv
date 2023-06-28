@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"spi.wcnf","Open.WBO.ms.pre",31.82,786.546815249825,709.734557866244,32.02,2,1,"32.02"
+"spi.wcnf","UWrMaxSat.1.0",4.89,821.473800557192,413.35437808191,4.98,2,2,"4.98"

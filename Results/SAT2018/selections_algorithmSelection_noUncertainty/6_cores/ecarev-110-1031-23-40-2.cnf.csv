@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ecarev-110-1031-23-40-2.cnf","COMiniSatPS_Pulsar_drup",71.137,162.314737002097,87.7863756400541,86.22,71.137,0,0,0,0,"pred"
+"sat/ecarev-110-1031-23-40-2.cnf","MapleLCMDistChronoBT",94.721,174.873229979036,112.248110272477,111.88,71.137,0,0,0,0,"pred"
+"sat/ecarev-110-1031-23-40-2.cnf","Maple_CM_ordUIP",209.448,227.717964675052,164.112126473177,255.51,71.137,0,0,0,0,"pred"
+"sat/ecarev-110-1031-23-40-2.cnf","GHackCOMSPS_drup",130.366,253.212901362683,175.720159471022,161.98,71.137,0,0,0,0,"pred"
+"sat/ecarev-110-1031-23-40-2.cnf","Maple_CM_Dist",116.357,258.819762997904,391.967443380122,139.22,71.137,0,0,0,0,"pred"
+"sat/ecarev-110-1031-23-40-2.cnf","Maple_CM_ordUIP.",206.264,261.091227044025,412.133006810267,252.97,71.137,0,0,0,0,"pred"

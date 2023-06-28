@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","Open.WBO.ms",905.58,771.260366649635,766.035462722666,1131.74,160.65,0,0,0,5,"pred"
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","Open.WBO.ms.pre",718.2,826.419264110648,813.685668775324,859.56,160.65,0,0,0,5,"pred"
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","UWrMaxSat.1.0",270.06,859.471379406642,800.520903247235,365.87,160.65,0,0,0,5,"pred"
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","Open.WBO.g",160.65,1012.13098555387,879.658282415248,192.06,160.65,0,0,0,5,"pred"

@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"organic-synthesis-split_p01.pddl","symbolic.bidirectional",33.91,144.046215277778,399.995420019575,40.72,33.91,0,0,0,0,"pred"
+"organic-synthesis-split_p01.pddl","Complementary2",36.51,156.616902777778,327.049539527645,39.8,33.91,0,0,0,0,"pred"
+"organic-synthesis-split_p01.pddl","Metis2",36.41,174.180885416667,405.910196269718,43.5,33.91,0,0,0,0,"pred"
+"organic-synthesis-split_p01.pddl","Metis1",36.77,176.200798611111,454.634948074102,44.56,33.91,0,0,0,0,"pred"
+"organic-synthesis-split_p01.pddl","Delfi1",42.27,187.313670138889,456.890786045658,40.96,33.91,0,0,0,0,"pred"

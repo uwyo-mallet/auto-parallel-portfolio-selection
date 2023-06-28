@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"TWComp_myciel5_N47.wcnf","MaxHS",3600,735.986308835211,948.542159974041,3600,3600,0,0,0,5,"pred"
+"TWComp_myciel5_N47.wcnf","UWrMaxSat.1.0",3600,789.027018749413,954.209517523945,3600,3600,0,0,0,5,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"g2_n50e50_n58e61.wcnf","Open.WBO.ms.pre",10.24,895.722858097615,741.869369707784,10.24,9.91,1,"10.24"
+"g2_n50e50_n58e61.wcnf","Open.WBO.ms",13.48,899.905628221431,673.696314317687,13.56,9.91,2,"13.56"

@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/bibd-19-57-9-3-1_glb.cnf","Maple_CM",4.706,2869.74445939394,2124.77073039048,4.83,0.139,0,0,0,0,"pred"
+"sat/bibd-19-57-9-3-1_glb.cnf","expMC_LRB_VSIDS_Switch",3.614,2890.55486772727,2146.5651458996,3.69,0.139,0,0,0,0,"pred"
+"sat/bibd-19-57-9-3-1_glb.cnf","Sparrow2Riss.2018.fixfix",375.495,2974.80562106061,2109.53431929312,423.29,0.139,0,0,0,0,"pred"

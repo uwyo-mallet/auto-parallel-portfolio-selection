@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"TEAMS20_l10aacnf.wcnf","UWrMaxSat.1.0",0.28,131.869481183656,527.2083740193,0.28,0.28,1,"0.28"
+"TEAMS20_l10aacnf.wcnf","maxino2018",0.38,169.878310956783,564.674120641648,0.38,0.28,2,"0.38"
+"TEAMS20_l10aacnf.wcnf","MaxHS",3.14,247.476594207368,636.696512365617,3.45,0.28,3,"3.45"

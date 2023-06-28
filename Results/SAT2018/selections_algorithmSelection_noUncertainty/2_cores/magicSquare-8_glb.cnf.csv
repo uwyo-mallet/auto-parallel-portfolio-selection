@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/magicSquare-8_glb.cnf","MapleLCMDistChronoBT",2836.583,1215.38519820144,1816.57023158135,3120.2,9.456,0,0,0,0,"pred"
+"sat/magicSquare-8_glb.cnf","cms55.main.all4fixed",46.811,1301.32420563549,1767.97295980806,52.37,9.456,0,0,0,0,"pred"

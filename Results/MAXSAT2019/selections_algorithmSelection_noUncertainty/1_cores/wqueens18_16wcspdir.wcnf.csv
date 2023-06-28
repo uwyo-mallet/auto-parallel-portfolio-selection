@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"wqueens18_16wcspdir.wcnf","MaxHS",220.08,997.925414943397,653.183657479779,220.08,0.13,0,0,0,0,"pred"

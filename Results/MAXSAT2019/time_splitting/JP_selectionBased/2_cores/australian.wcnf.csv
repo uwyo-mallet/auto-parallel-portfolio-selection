@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"australian.wcnf","Open.WBO.ms.pre",3600,1356.70137019509,284.406566627325,3600,3600,1,"Inf"
+"australian.wcnf","Open.WBO.ms",3600,1393.32446620081,310.51837337333,3600,3600,2,"Inf"

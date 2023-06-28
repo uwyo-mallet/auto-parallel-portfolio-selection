@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/C3-2-31.cnf","inIDGlucose",38.035,1210.33284544365,1785.05731404824,43.18,15.227,0,0,0,5,"pred"
+"sat/C3-2-31.cnf","COMiniSatPS_Pulsar_drup",34.586,1231.27589736211,1830.20954201183,41.11,15.227,0,0,0,5,"pred"

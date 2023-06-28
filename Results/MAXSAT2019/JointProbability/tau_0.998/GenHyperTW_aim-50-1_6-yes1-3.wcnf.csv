@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"GenHyperTW_aim-50-1_6-yes1-3.wcnf","UWrMaxSat.1.0",3600,798.177468981946,407.515593635225,3600,3600,0,0,0,5,"pred"

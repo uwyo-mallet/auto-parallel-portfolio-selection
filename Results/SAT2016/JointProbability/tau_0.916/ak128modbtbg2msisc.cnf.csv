@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ak128modbtbg2msisc.cnf","Riss6",105.422,1255.51851871069,1970.69424619425,105.422,105.422,0,0,0,5,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"li-test4-100shuffled-assat03-370.cnf","minisathackcontrasat_2011.03.02",5000,3402.67045268817,2061.31157897714,5000,5000,0,0,0,5,"pred"

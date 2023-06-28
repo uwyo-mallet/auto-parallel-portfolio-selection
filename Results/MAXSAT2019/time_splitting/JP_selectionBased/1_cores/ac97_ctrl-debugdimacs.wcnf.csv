@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"ac97_ctrl-debugdimacs.wcnf","Open.WBO.ms",0.33,419.522035167699,822.786478187701,0.33,0.28,1,"0.33"

@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"slp-synthesis-aes-bottom20.cnf","glueminisat.2.2.5",5000,4794.71317715618,918.14301114903,5000,5000,0,0,0,0,"pred"
+"slp-synthesis-aes-bottom20.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,4878.12546503496,704.958458975058,5000,5000,0,0,0,0,"pred"
+"slp-synthesis-aes-bottom20.cnf","minisathackminisat_psm_2011.04.01",5000,4908.27416666667,404.592455429405,5000,5000,0,0,0,0,"pred"
+"slp-synthesis-aes-bottom20.cnf","RestartSAT_B95",5000,4915.84179020979,581.245209076955,5000,5000,0,0,0,0,"pred"

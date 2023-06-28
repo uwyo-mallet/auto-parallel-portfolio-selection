@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"k2fix_gr_rcs_w8shuffled.cnf","SAT09referencesolverprecosat_236",5000,196.259521990741,719.905445772779,5000,3.4,0,0,0,0,"pred"

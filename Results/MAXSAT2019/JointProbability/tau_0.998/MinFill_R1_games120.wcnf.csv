@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"MinFill_R1_games120.wcnf","maxino2018",3600,1240.09079851669,1260.97450658577,3600,3600,0,0,0,5,"pred"

@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ak128boothbg2btisc.cnf","Riss6",5000,3280.95861603535,2145.28446832015,5000,2.022,0,0,0,0,"pred"
+"sat/ak128boothbg2btisc.cnf","glueminisat.2210.81.main",3183.981,3990.03571666667,1601.81552030602,3865.03,2.022,0,0,0,0,"pred"
+"sat/ak128boothbg2btisc.cnf","glucose_hack_kiel_newScript",5000,4161.82872916667,1528.5786252764,5000,2.022,0,0,0,0,"pred"
+"sat/ak128boothbg2btisc.cnf","CHBR_glucose_tuned",3322.588,4253.59169292929,1514.10956335134,3944.38,2.022,0,0,0,0,"pred"
+"sat/ak128boothbg2btisc.cnf","MapleCOMSPS_DRUP",3153.733,4279.698475,1047.78578596793,3151.98092531151,2.022,0,0,0,0,"pred"
+"sat/ak128boothbg2btisc.cnf","YALSAT03r",5000,4280.85630631313,1513.4193482635,5000,2.022,0,0,0,0,"pred"
+"sat/ak128boothbg2btisc.cnf","Lingelingbbcmain",5000,4296.39098169192,1463.58408967726,5000,2.022,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"s38584_nan_explicit_4_0.wcnf","UWrMaxSat.1.0",58.43,419.495975599407,649.105482774977,58.43,58.43,0,0,0,5,"pred"

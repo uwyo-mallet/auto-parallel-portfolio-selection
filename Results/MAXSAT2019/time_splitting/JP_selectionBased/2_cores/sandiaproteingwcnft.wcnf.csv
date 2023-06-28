@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"sandiaproteingwcnft.wcnf","Open.WBO.ms.pre",232.08,1343.50876004438,261.008081757766,237.19,32.33,1,"237.19"
+"sandiaproteingwcnft.wcnf","maxino2018",171.99,1580.97604614015,298.448780171231,172.85,32.33,2,"172.85"

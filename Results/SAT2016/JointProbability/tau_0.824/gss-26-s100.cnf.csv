@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/gss-26-s100.cnf","glucose_hack_kiel_newScript",4720.962,4282.79040110294,1386.18465421797,4729.75,4720.962,0,0,0,5,"pred"
+"sat/gss-26-s100.cnf","COMiniSatPSChandrasekharDRUP",5000,4593.4968935049,1094.83974080065,5000,4720.962,0,0,0,5,"pred"
+"sat/gss-26-s100.cnf","glucose",5000,4675.33936139706,1082.35550815242,5000,4720.962,0,0,0,5,"pred"
+"sat/gss-26-s100.cnf","MapleGlucose",5000,4718.44095428922,1046.48914468357,5000,4720.962,0,0,0,5,"pred"
+"sat/gss-26-s100.cnf","YALSAT03r",5000,5000,0,5000,4720.962,0,0,0,5,"pred"

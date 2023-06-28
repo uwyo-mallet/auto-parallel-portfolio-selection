@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"normalized-f20c10b_005_area_delay.wcnf","MaxHS",150.34,1447.08332169955,1149.7028268936,93.07,0.98,1,"93.07"
+"normalized-f20c10b_005_area_delay.wcnf","Open.WBO.ms",16.29,1678.30149910114,1074.2151170713,16.53,0.98,2,"16.53"

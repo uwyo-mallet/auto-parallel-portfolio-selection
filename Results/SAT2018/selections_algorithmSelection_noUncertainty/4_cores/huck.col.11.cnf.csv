@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/huck.col.11.cnf","glu_mix",73.436,3065.80001038961,2155.17134879319,84.16,0.011,0,0,0,0,"pred"
+"sat/huck.col.11.cnf","CaDiCaL",4.265,3195.23912922078,2172.99620721145,4.66,0.011,0,0,0,0,"pred"
+"sat/huck.col.11.cnf","smallsat",62.077,3497.20491233766,2071.49612664497,71.56,0.011,0,0,0,0,"pred"
+"sat/huck.col.11.cnf","Maple_LCM_M1",58.076,3497.8813038961,1970.44189903024,64.79,0.011,0,0,0,0,"pred"

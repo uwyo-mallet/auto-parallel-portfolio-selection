@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sokoban-sequential-p145-microban-sequential.070-NOTKNOWN.cnf","tb_glucose",5000,2609.4345572165,1773.13240758816,5000,1796.676,0,0,0,5,"pred"
+"sat/sokoban-sequential-p145-microban-sequential.070-NOTKNOWN.cnf","tc_glucose",5000,2838.19602594502,1800.88659838181,5000,1796.676,0,0,0,5,"pred"
+"sat/sokoban-sequential-p145-microban-sequential.070-NOTKNOWN.cnf","gulch",5000,2912.93096924399,2221.68732633414,5000,1796.676,0,0,0,5,"pred"
+"sat/sokoban-sequential-p145-microban-sequential.070-NOTKNOWN.cnf","Splatz06vmain",5000,3063.19722491409,2145.86030194365,5000,1796.676,0,0,0,5,"pred"
+"sat/sokoban-sequential-p145-microban-sequential.070-NOTKNOWN.cnf","Lingelingbbcmain",5000,3082.23812353952,2153.23436389193,5000,1796.676,0,0,0,5,"pred"
+"sat/sokoban-sequential-p145-microban-sequential.070-NOTKNOWN.cnf","MapleGlucose",1796.676,3135.21421134021,2080.18647663254,1825.52,1796.676,0,0,0,5,"pred"

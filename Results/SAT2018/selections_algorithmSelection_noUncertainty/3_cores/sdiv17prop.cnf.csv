@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sdiv17prop.cnf","Maple_CM_Dist",763.862,820.490936,1354.46634717219,893.33,583.053,0,0,0,0,"pred"
+"sat/sdiv17prop.cnf","Lingeling",1331.231,834.227998666666,1298.09098852788,1503.09,583.053,0,0,0,0,"pred"
+"sat/sdiv17prop.cnf","CaDiCaL",1380.125,847.432819333333,1268.58602832712,1614.7,583.053,0,0,0,0,"pred"

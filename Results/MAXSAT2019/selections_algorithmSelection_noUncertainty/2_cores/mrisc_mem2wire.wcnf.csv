@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"mrisc_mem2wire.wcnf","Open.WBO.ms.pre",113.07,752.892579386735,1203.22592806079,112.85,13.23,0,0,0,0,"pred"
+"mrisc_mem2wire.wcnf","Open.WBO.ms",160.03,955.118963602652,1063.244580691,177.86,13.23,0,0,0,0,"pred"

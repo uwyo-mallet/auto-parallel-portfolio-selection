@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sokoban-p20.sas.cr.21.cnf","abcdSAT_drup",155.988,986.214732954546,1382.00685749496,154.15,155.988,0,0,0,5,"pred"
+"sat/sokoban-p20.sas.cr.21.cnf","Lingelingbbcmain",257.842,1007.01868194444,1298.74891406909,257.18,155.988,0,0,0,5,"pred"
+"sat/sokoban-p20.sas.cr.21.cnf","tb_glucose",243.121,1110.82840631313,1389.74285283436,248.96,155.988,0,0,0,5,"pred"

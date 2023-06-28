@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/cms-scheel-md4-families-r24-c5-p1-5-10-12-18.cnf","Maple_LCM.BCrestart_M1",68.526,76.3596888888889,99.9662322188917,68.526,0.305,0,0,0,5,"pred"

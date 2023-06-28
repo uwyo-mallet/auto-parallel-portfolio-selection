@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Nb45T6.cnf","COMiniSatPS_Pulsar_drup",353.907,402.183357777778,393.142055324974,411.32,353.907,0,0,0,0,"pred"
+"sat/Nb45T6.cnf","Maple_LCM.BCrestart",704.455,554.130443555556,160.702959384834,763.42,353.907,0,0,0,0,"pred"

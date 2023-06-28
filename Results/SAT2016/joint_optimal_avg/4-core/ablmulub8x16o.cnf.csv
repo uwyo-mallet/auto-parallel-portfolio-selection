@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ablmulub8x16o.cnf","MapleCOMSPS_DRUP",1274.119,2359.8673315126,2284.54697856992,1287.72,1274.119,0,0,0,5,"pred"
+"sat/ablmulub8x16o.cnf","CHBR_glucose",3003.414,2366.42460784314,2163.00344061249,3119.46,1274.119,0,0,0,5,"pred"
+"sat/ablmulub8x16o.cnf","abcdSAT_drup",3533.502,2390.00938445378,2244.30069042223,3572.47,1274.119,0,0,0,5,"pred"
+"sat/ablmulub8x16o.cnf","MapleCOMSPS_LRB_DRUP",2307.058,2476.74637184874,2127.46590026102,2337.01,1274.119,0,0,0,5,"pred"

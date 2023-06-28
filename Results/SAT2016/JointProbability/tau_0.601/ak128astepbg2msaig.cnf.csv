@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ak128astepbg2msaig.cnf","Riss6",106.481,1208.54698155819,1855.08887652246,107.83,106.481,0,0,0,5,"pred"
+"sat/ak128astepbg2msaig.cnf","Lingelingbbcmain",5000,2794.01346193294,2179.14220336814,5000,106.481,0,0,0,5,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","MaxHS",24.43,935.600625604076,953.862418591617,24.13,0.88,1,"24.13"
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","UWrMaxSat.1.0",2.73,949.853772872109,752.925560831276,2.77,0.88,2,"2.77"

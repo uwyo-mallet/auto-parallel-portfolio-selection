@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/rpoc_xits_08_UNSAT.cnf","MapleCMS",317.611,2900.11935245098,1806.16754020285,323.95,317.611,0,0,0,5,"pred"
+"sat/rpoc_xits_08_UNSAT.cnf","cmsat5_main2",604.923,3665.6656305147,1905.94602129509,614.51,317.611,0,0,0,5,"pred"
+"sat/rpoc_xits_08_UNSAT.cnf","cmsat5_autotune2",619.833,3781.78618492647,1833.45754542853,619.085071938609,317.611,0,0,0,5,"pred"
+"sat/rpoc_xits_08_UNSAT.cnf","BeansAndEggs",1125.884,3992.77711053922,1907.47947449625,1164.6,317.611,0,0,0,5,"pred"
+"sat/rpoc_xits_08_UNSAT.cnf","GHackCOMSPS_DRUP",997.699,4125.81819852941,1791.18797658401,1007.82,317.611,0,0,0,5,"pred"

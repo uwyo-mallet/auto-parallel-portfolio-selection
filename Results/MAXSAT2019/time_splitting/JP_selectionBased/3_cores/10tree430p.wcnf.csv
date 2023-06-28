@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"10tree430p.wcnf","MaxHS",24.66,1288.34547231761,562.658747026794,24.78,4.21,1,"24.78"
+"10tree430p.wcnf","maxino2018",6.7,1389.61518876141,636.367497822843,6.75,4.21,2,"6.75"
+"10tree430p.wcnf","Open.WBO.ms.pre",15.09,1407.95920299209,749.897274840163,15.16,4.21,3,"15.16"

@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"rand290_l2.wcnf","Open.WBO.ms.pre",0.63,457.640214283069,450.976786979494,0.64,0.45,1,"0.64"
+"rand290_l2.wcnf","UWrMaxSat.1.0",1.95,551.201233061419,452.104436075227,1.96,0.45,2,"1.96"
+"rand290_l2.wcnf","maxino2018",1.01,570.533261327412,427.470390138223,1.02,0.45,3,"1.02"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"15tree301posib.wcnf","MaxHS",9.78,1041.90933612722,441.697822611505,9.82,4.45,0,0,0,0,"pred"
+"15tree301posib.wcnf","UWrMaxSat.1.0",8.27,1077.51295391677,388.806087167886,8.31,4.45,0,0,0,0,"pred"

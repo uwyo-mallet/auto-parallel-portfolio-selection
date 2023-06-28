@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"atcoss_sugar_04.wcnf","UWrMaxSat.1.0",3600,1631.41131645365,887.723403158858,3600,3600,0,0,0,5,"pred"
+"atcoss_sugar_04.wcnf","maxino2018",3600,1715.5000413894,979.19911126785,3600,3600,0,0,0,5,"pred"
+"atcoss_sugar_04.wcnf","Open.WBO.ms.pre",3600,1767.83710195937,1006.75947110455,3600,3600,0,0,0,5,"pred"

@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/exam0.04_2018_3.cnf","glu_mix",5000,926.640049090909,1297.7597428446,5000,295.557,0,0,0,5,"pred"
+"sat/exam0.04_2018_3.cnf","Glucose_Hack_Kiel_fastBVE",849.757,1311.07564424242,853.305398694784,1221.91,295.557,0,0,0,5,"pred"
+"sat/exam0.04_2018_3.cnf","Riss7.1.fix",871.396,1360.50685,1082.25593806083,1141.17,295.557,0,0,0,5,"pred"

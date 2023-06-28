@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"caldera-split_p16.pddl","Delfi2",1800,1472.127725,636.060689500895,1800,1800,0,0,0,5,"pred"
+"caldera-split_p16.pddl","Delfi1",1800,1610.218,485.481230692317,1800,1800,0,0,0,5,"pred"
+"caldera-split_p16.pddl","Planning.PDBs",1800,1626.9945,532.725145676998,1800,1800,0,0,0,5,"pred"
+"caldera-split_p16.pddl","FDMS1",1800,1669.7999,317.312938399917,1800,1800,0,0,0,5,"pred"
+"caldera-split_p16.pddl","Metis1",1800,1682.046875,395.649975888174,1800,1800,0,0,0,5,"pred"
+"caldera-split_p16.pddl","FDMS2",1800,1717.567375,226.938448305684,1800,1800,0,0,0,5,"pred"

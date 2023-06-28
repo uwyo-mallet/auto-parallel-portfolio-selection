@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"velev-pipe-sat-10-b9.cnf","glueminisat.2.2.5",53.74,1415.0107172043,1227.5961627644,58.07,1.4,0,0,0,5,"pred"
+"velev-pipe-sat-10-b9.cnf","lingeling.587f.4882048.110513",16.7,1449.21038387097,1500.80430121679,17.71,1.4,0,0,0,5,"pred"
+"velev-pipe-sat-10-b9.cnf","minisathackcir_minisat_2011.05.13_simp_",2.07,2062.95527204301,1813.6861833985,2.6,1.4,0,0,0,5,"pred"
+"velev-pipe-sat-10-b9.cnf","minisathackLR_GL_SHR_2011.03.02",55.78,2063.03849139785,2104.74156372723,62.36,1.4,0,0,0,5,"pred"
+"velev-pipe-sat-10-b9.cnf","SAT09referencesolverprecosat_236",31.82,2182.1525172043,1492.74281929254,36.29,1.4,0,0,0,5,"pred"
+"velev-pipe-sat-10-b9.cnf","RestartSAT_B95",1.47,2244.43772365592,2098.29453212556,1.73,1.4,0,0,0,5,"pred"
+"velev-pipe-sat-10-b9.cnf","minisathackcontrasat_2011.03.02",57.88,2293.34597741936,1892.88125272703,64.53,1.4,0,0,0,5,"pred"

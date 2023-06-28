@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/CNP-5-300.cnf","YalSAT",4.993,5.22640939086297,4.93567513285294,5.45,1.868,0,0,0,0,"pred"
+"sat/CNP-5-300.cnf","Sparrow2Riss.2018.fixfix",1.868,21.0723104060914,161.523570140421,2.23,1.868,0,0,0,0,"pred"
+"sat/CNP-5-300.cnf","COMiniSatPS_Pulsar_drup",1793.233,406.288989255499,598.972941135585,5000,1.868,0,0,0,0,"pred"
+"sat/CNP-5-300.cnf","MapleCOMSPS_LRB_VSIDS_2_fix",510.942,471.877810490694,722.768457706727,572.72,1.868,0,0,0,0,"pred"
+"sat/CNP-5-300.cnf","cms55.main.all4fixed",5000,611.56742250423,663.645074531392,5000,1.868,0,0,0,0,"pred"
+"sat/CNP-5-300.cnf","MapleCOMSPS_LRB_VSIDS_drup",2375.851,842.019156768189,416.735389068829,5000,1.868,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"uaq-nr-nr220-nc73-n3-k2-rpp4-ppr2-plb50.wcnf","UWrMaxSat.1.0",6.64,15.5429512820513,25.1571529547699,6.74,6.64,1,"6.74"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"sudoku-debugdimacs.wcnf","Open.WBO.ms.pre",49.81,417.384305458262,811.151960216704,49.81,2.82,1,"49.81"

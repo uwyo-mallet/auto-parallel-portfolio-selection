@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/queen8_12.col.12.cnf","CaDiCaL",7.96,1368.6711643824,1922.55109824916,7.96,0.02,0,0,0,5,"pred"

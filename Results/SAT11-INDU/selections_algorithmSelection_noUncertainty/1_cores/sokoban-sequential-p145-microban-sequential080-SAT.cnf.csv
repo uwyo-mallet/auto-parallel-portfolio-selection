@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sokoban-sequential-p145-microban-sequential080-SAT.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,1539.97604976852,1754.04643797035,5000,2817.64,0,0,0,0,"pred"

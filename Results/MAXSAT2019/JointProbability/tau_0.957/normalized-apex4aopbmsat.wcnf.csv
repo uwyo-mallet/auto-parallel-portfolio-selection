@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"normalized-apex4aopbmsat.wcnf","UWrMaxSat.1.0",2.36,1219.45333231085,541.861006141031,2.41,0.16,0,0,0,5,"pred"
+"normalized-apex4aopbmsat.wcnf","MaxHS",4.51,1240.96302705761,599.500284739826,4.34,0.16,0,0,0,5,"pred"

@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/pb_400_02_lb_15.cnf","Lingelingbbcmain",113.745,1993.99700874587,1987.34417780558,117.15,43.595,0,0,0,5,"pred"
+"sat/pb_400_02_lb_15.cnf","Glucose_nbSat",54.902,2006.49267920792,2005.02058408913,59.83,43.595,0,0,0,5,"pred"
+"sat/pb_400_02_lb_15.cnf","MapleGlucose",43.595,2046.35345594059,1661.70816432569,40.1,43.595,0,0,0,5,"pred"
+"sat/pb_400_02_lb_15.cnf","MapleCOMSPS_DRUP",83.301,2110.09810874587,2035.66497490845,85.47,43.595,0,0,0,5,"pred"

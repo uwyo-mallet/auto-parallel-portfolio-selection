@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"traffic_b_unsat.cnf","glucose_2.0",72.37,402.063638888889,1069.77220356674,72.37,72.37,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"p_hat300-1clq.wcnf","Open.WBO.ms.pre",50.68,1013.35695435335,1102.127077027,50.68,3.41,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"gss-19-s100.cnf","MPhaseSAT64",39,1061.24395832421,1552.42193136164,39,6.58,0,0,0,0,"pred"

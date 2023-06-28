@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/apn-sbox6-cut3-helpbox30.cnf","Maple_LCM.BCrestart_M1",203.466,447.616898148148,383.632467310385,203.466,49.996,0,0,0,0,"pred"

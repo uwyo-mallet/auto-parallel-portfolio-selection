@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"b21-s_PathRelaxation_FS_47.wcnf","UWrMaxSat.1.0",0.38,537.888211492788,427.211533130994,0.38,0.38,1,"0.38"
+"b21-s_PathRelaxation_FS_47.wcnf","maxino2018",0.88,717.315545094259,570.313234652991,0.88,0.38,2,"0.88"

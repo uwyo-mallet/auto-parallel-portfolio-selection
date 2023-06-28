@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/commutativity.c.cnf","Maple_CM_ordUIP.",5000,914.531578354978,1622.80518001297,5000,5000,0,0,0,0,"pred"
+"sat/commutativity.c.cnf","cms55.main.all4fixed",5000,1025.90844025974,1859.02469865897,5000,5000,0,0,0,0,"pred"
+"sat/commutativity.c.cnf","Maple_LCM_Scavel_200_fix2",5000,1038.91039372294,1743.60569157164,5000,5000,0,0,0,0,"pred"
+"sat/commutativity.c.cnf","COMiniSatPS_Pulsar_drup",5000,1144.87523679654,1781.22677791638,5000,5000,0,0,0,0,"pred"
+"sat/commutativity.c.cnf","Maple_CM",5000,1196.393895671,1771.05367065922,5000,5000,0,0,0,0,"pred"

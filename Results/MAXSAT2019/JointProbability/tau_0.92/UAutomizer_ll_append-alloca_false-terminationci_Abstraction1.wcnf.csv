@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"UAutomizer_ll_append-alloca_false-terminationci_Abstraction1.wcnf","Open.WBO.ms",0.11,713.321384644473,529.96094959,0.12,0.11,0,0,0,5,"pred"
+"UAutomizer_ll_append-alloca_false-terminationci_Abstraction1.wcnf","maxino2018",0.11,748.274475335587,458.158658129068,0.11,0.11,0,0,0,5,"pred"
+"UAutomizer_ll_append-alloca_false-terminationci_Abstraction1.wcnf","Open.WBO.ms.pre",0.52,779.993360637956,633.570322391053,0.52,0.11,0,0,0,5,"pred"

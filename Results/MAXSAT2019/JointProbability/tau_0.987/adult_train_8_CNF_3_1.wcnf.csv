@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"adult_train_8_CNF_3_1.wcnf","QMaxSAT2018",3600,1838.97153671487,1126.74623589667,3600,3600,0,0,0,5,"pred"

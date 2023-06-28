@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","MaxHS",3600,2243.43711765113,1418.22542186047,3600,3600,1,"Inf"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","maxino2018",3600,2868.56669843223,1133.55008263195,3600,3600,2,"Inf"

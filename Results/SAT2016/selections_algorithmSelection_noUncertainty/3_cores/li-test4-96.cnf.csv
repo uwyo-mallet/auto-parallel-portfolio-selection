@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/li-test4-96.cnf","MapleCOMSPS_DRUP",5000,4940.22651915709,529.947301118412,5000,5000,0,0,0,0,"pred"
+"sat/li-test4-96.cnf","GHackCOMSPS_DRUP",5000,4974.88436398467,330.426194530722,5000,5000,0,0,0,0,"pred"
+"sat/li-test4-96.cnf","COMiniSatPSChandrasekharDRUP",5000,4982.88957356322,110.222567571365,5000,5000,0,0,0,0,"pred"

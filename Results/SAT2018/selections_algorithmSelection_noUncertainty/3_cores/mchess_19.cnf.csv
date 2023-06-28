@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/mchess_19.cnf","Lingeling",0.007,234.834868444445,869.845877467408,0,0.007,0,0,0,0,"pred"
+"sat/mchess_19.cnf","Maple_LCM_Scavel_fix2",5000,3270.46470844444,1961.69695218886,5000,0.007,0,0,0,0,"pred"
+"sat/mchess_19.cnf","smallsat",5000,3309.77471711111,1824.21588826975,5000,0.007,0,0,0,0,"pred"

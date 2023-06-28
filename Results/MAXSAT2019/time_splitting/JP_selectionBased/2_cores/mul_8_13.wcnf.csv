@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"mul_8_13.wcnf","MaxHS",3600,2287.38298699235,1054.82559933981,3600,3600,1,"Inf"
+"mul_8_13.wcnf","Open.WBO.ms",3600,2454.67782777995,1213.99295985982,3600,3600,2,"Inf"

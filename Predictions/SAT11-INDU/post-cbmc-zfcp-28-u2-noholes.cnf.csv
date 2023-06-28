@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"post-cbmc-zfcp-28-u2-noholes.cnf","glucose_2.0",19.51,2680.95391733333,2138.64944158034
+"post-cbmc-zfcp-28-u2-noholes.cnf","glueminisat.2.2.5",40.38,2124.22605390476,2105.98871663743
+"post-cbmc-zfcp-28-u2-noholes.cnf","lingeling.587f.4882048.110513",94.22,1865.10282533333,2065.63602606879
+"post-cbmc-zfcp-28-u2-noholes.cnf","minisathackcir_minisat_2011.05.13_simp_",17.81,2455.9535,2155.25538556386
+"post-cbmc-zfcp-28-u2-noholes.cnf","minisathackcontrasat_2011.03.02",39.56,2732.79482622222,2206.67613965098
+"post-cbmc-zfcp-28-u2-noholes.cnf","minisathackEBMiniSAT_2011.03.02",40.23,2348.49627333333,2084.49742613927
+"post-cbmc-zfcp-28-u2-noholes.cnf","minisathackLR_GL_SHR_2011.03.02",40.61,2673.284904,2050.94913019432
+"post-cbmc-zfcp-28-u2-noholes.cnf","minisathackMiniSAT_2.2.0.agile.26",38.97,2295.91507866667,2207.74594781174
+"post-cbmc-zfcp-28-u2-noholes.cnf","minisathackminisat_psm_2011.04.01",19.38,2601.623732,2195.09595633075
+"post-cbmc-zfcp-28-u2-noholes.cnf","minisathackreferenceminisat_2.2.0",16.68,2568.54575866667,2124.87474431416
+"post-cbmc-zfcp-28-u2-noholes.cnf","MPhaseSAT64",109.61,1858.24233866667,2113.33733431223
+"post-cbmc-zfcp-28-u2-noholes.cnf","rcl_2011.04.01",31.61,2923.25162666667,2236.29986420469
+"post-cbmc-zfcp-28-u2-noholes.cnf","RestartSAT_B95",14.35,2683.59822533333,2205.60918048878
+"post-cbmc-zfcp-28-u2-noholes.cnf","SAT09referencesolverprecosat_236",5000,2170.77189866667,2107.07652866382

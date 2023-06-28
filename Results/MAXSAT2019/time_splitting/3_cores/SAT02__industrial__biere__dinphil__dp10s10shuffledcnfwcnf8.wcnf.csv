@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"SAT02__industrial__biere__dinphil__dp10s10shuffledcnfwcnf8.wcnf","UWrMaxSat.1.0",53.21,768.311226670746,1157.59503391323,53.56,53.21,1,"53.56"
+"SAT02__industrial__biere__dinphil__dp10s10shuffledcnfwcnf8.wcnf","QMaxSAT2018",167.95,802.668247923308,1177.91167220361,169.73,53.21,2,"169.73"
+"SAT02__industrial__biere__dinphil__dp10s10shuffledcnfwcnf8.wcnf","MaxHS",938.51,879.691264051739,1039.29727857522,849.35,53.21,3,"849.35"
+"SAT02__industrial__biere__dinphil__dp10s10shuffledcnfwcnf8.wcnf","maxino2018",148.15,891.082783097187,1149.91482963664,146.26,53.21,1,"Inf"
+"SAT02__industrial__biere__dinphil__dp10s10shuffledcnfwcnf8.wcnf","Open.WBO.g",124.24,919.980913709829,1203.44796224574,128.85,53.21,2,"Inf"
+"SAT02__industrial__biere__dinphil__dp10s10shuffledcnfwcnf8.wcnf","Open.WBO.ms",221.67,1008.25502892216,1280.13556090103,222.51,53.21,3,"Inf"
+"SAT02__industrial__biere__dinphil__dp10s10shuffledcnfwcnf8.wcnf","Open.WBO.ms.pre",222.84,1040.56445606383,1347.19487251111,224.97,53.21,1,"Inf"

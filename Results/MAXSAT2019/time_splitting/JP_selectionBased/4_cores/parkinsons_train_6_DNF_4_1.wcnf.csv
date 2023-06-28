@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"parkinsons_train_6_DNF_4_1.wcnf","Open.WBO.ms.pre",6.22,1048.10357223609,723.907766149248,6.31,0.2,1,"6.31"
+"parkinsons_train_6_DNF_4_1.wcnf","Open.WBO.ms",6.4,1194.3130205691,671.763615325694,6.5,0.2,2,"6.5"
+"parkinsons_train_6_DNF_4_1.wcnf","UWrMaxSat.1.0",0.56,1195.41291928612,627.454540785385,0.57,0.2,3,"0.57"
+"parkinsons_train_6_DNF_4_1.wcnf","MaxHS",3.72,1299.2653796225,688.090613793624,3.74,0.2,4,"3.74"

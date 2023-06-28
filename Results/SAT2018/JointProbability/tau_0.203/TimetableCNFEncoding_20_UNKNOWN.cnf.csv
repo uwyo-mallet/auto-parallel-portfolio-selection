@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/TimetableCNFEncoding_20_UNKNOWN.cnf","MapleLCMDistChronoBT",84.207,667.979758045977,1400.73292967939,104.42,11.854,0,0,0,5,"pred"
+"sat/TimetableCNFEncoding_20_UNKNOWN.cnf","gluHack",45.993,2169.83576666667,1309.52110519868,63.49,11.854,0,0,0,5,"pred"
+"sat/TimetableCNFEncoding_20_UNKNOWN.cnf","Riss7.1.fix",15.765,4349.64673103448,1664.0714665446,19.06,11.854,0,0,0,5,"pred"
+"sat/TimetableCNFEncoding_20_UNKNOWN.cnf","expGlucose",5000,4380.95418505747,1596.44618976576,5000,11.854,0,0,0,5,"pred"

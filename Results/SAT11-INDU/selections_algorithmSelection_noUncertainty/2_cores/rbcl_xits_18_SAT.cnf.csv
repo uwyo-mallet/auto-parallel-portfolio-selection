@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"rbcl_xits_18_SAT.cnf","lingeling.587f.4882048.110513",0.98,984.914624,1805.51780685745,0.97,0.02,0,0,0,0,"pred"
+"rbcl_xits_18_SAT.cnf","SAT09referencesolverprecosat_236",0.66,1185.04719733333,1664.23730291202,0.67,0.02,0,0,0,0,"pred"

@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/miza-sr06-md5-48-01.cnf","GHackCOMSPS_DRUP",353.395,1249.03840353535,1556.15290862981,375.68,46.306,0,0,0,5,"pred"
+"sat/miza-sr06-md5-48-01.cnf","glucose",2057.102,1348.22340378788,1704.93592800171,2256.56,46.306,0,0,0,5,"pred"
+"sat/miza-sr06-md5-48-01.cnf","MapleCOMSPS_DRUP",229.511,1357.82601856061,1892.59348446063,236.66,46.306,0,0,0,5,"pred"
+"sat/miza-sr06-md5-48-01.cnf","Glucose_nbSat",522.024,1383.07264709596,1699.3112656921,561.01,46.306,0,0,0,5,"pred"
+"sat/miza-sr06-md5-48-01.cnf","glucose_hack_kiel_newScript",113.511,1453.80238825758,1716.97909101523,119.38,46.306,0,0,0,5,"pred"

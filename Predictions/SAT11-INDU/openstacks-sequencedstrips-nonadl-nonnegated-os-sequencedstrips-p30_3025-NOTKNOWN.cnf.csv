@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","glucose_2.0",5000,2390.29860107527,2204.72406110588
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","glueminisat.2.2.5",5000,2039.39311827957,2121.64413411412
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","lingeling.587f.4882048.110513",5000,2461.59517419355,2199.89708584152
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,3046.0286827957,2226.32835795653
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","minisathackcontrasat_2011.03.02",5000,2306.22953333333,2223.67992642485
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","minisathackEBMiniSAT_2011.03.02",5000,2334.00736021505,2277.17645511355
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","minisathackLR_GL_SHR_2011.03.02",5000,2592.36935698925,2302.47303017233
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","minisathackMiniSAT_2.2.0.agile.26",5000,2594.1863688172,2285.34457006824
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","minisathackminisat_psm_2011.04.01",5000,2063.38645376344,2205.12582839674
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","minisathackreferenceminisat_2.2.0",5000,2776.05297956989,2243.88651486605
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","MPhaseSAT64",5000,2366.37891075269,2302.13154624247
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","rcl_2011.04.01",5000,2124.91919462366,2277.73337545666
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","RestartSAT_B95",5000,2759.49153763441,2236.12680709375
+"openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3025-NOTKNOWN.cnf","SAT09referencesolverprecosat_236",5000,1708.89997204301,2174.17375622634

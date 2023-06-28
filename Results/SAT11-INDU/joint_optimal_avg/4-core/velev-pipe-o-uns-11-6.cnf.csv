@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"velev-pipe-o-uns-11-6.cnf","glucose_2.0",595.34,968.199708193228,1311.09122986344,625.62,9.25,0,0,0,5,"pred"
+"velev-pipe-o-uns-11-6.cnf","lingeling.587f.4882048.110513",13.88,998.833340587764,1391.61954453161,13.99,9.25,0,0,0,5,"pred"
+"velev-pipe-o-uns-11-6.cnf","minisathackLR_GL_SHR_2011.03.02",9.25,1176.18150079155,1417.42134113214,9.65,9.25,0,0,0,5,"pred"
+"velev-pipe-o-uns-11-6.cnf","glueminisat.2.2.5",21.67,1187.89801242552,1534.37675988605,22.4,9.25,0,0,0,5,"pred"

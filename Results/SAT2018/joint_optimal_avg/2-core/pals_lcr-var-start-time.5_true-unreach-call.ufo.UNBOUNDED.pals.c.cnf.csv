@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/pals_lcr-var-start-time.5_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","glu_mix",78.844,510.968304329004,657.778458121461,86.96,43.029,0,0,0,5,"pred"
+"sat/pals_lcr-var-start-time.5_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","cms55.main.all4fixed",99.007,645.174353030303,1119.12456499613,110.73,43.029,0,0,0,5,"pred"

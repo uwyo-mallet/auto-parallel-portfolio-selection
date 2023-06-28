@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"scpcyc08_maxsat.wcnf","MaxHS",3600,735.954389486886,936.899165463879,3600,3600,1,"Inf"

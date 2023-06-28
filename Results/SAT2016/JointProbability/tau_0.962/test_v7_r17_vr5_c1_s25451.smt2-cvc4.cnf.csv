@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/test_v7_r17_vr5_c1_s25451.smt2-cvc4.cnf","COMiniSatPSChandrasekharDRUP",4452.872,2410.60179313725,1755.33396510385,4448.05381872904,3845.727,0,0,0,5,"pred"
+"sat/test_v7_r17_vr5_c1_s25451.smt2-cvc4.cnf","MapleCOMSPS_LRB_DRUP",4929.622,2490.12813169935,1939.64782907492,5000,3845.727,0,0,0,5,"pred"

@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ae_rphp045_05.cnf","expMC_LRB_VSIDS_Switch_2500",915.101,1626.18842121212,1963.79662389224,5000,915.101,0,0,0,5,"pred"
+"sat/ae_rphp045_05.cnf","glu_mix",1169.022,1928.66093593074,1961.19234503095,1344.83,915.101,0,0,0,5,"pred"
+"sat/ae_rphp045_05.cnf","YalSAT",5000,5000,0,5000,915.101,0,0,0,5,"pred"

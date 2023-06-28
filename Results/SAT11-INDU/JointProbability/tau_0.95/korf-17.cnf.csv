@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"korf-17.cnf","lingeling.587f.4882048.110513",711.95,494.230745495495,1102.74155581045,711.95,349.1,0,0,0,5,"pred"

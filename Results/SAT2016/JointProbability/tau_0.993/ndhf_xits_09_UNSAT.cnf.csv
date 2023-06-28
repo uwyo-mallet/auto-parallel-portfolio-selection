@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ndhf_xits_09_UNSAT.cnf","CHBR_glucose_tuned",5000,3919.38160859107,1805.75907024229,5000,699.26,0,0,0,5,"pred"

@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","MaxHS",24.43,935.600625604076,953.862418591617,24.5,0.88,1,"24.5"
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","UWrMaxSat.1.0",2.73,949.853772872109,752.925560831276,2.92,0.88,2,"2.92"
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","maxino2018",0.88,1037.91067861567,984.425733424532,0.95,0.88,3,"0.95"
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","Open.WBO.g",7.23,1039.28835460792,1048.70194312049,7.82,0.88,4,"7.82"
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","Open.WBO.ms.pre",2.42,1131.88437181871,1051.55054081521,2.47,0.88,5,"2.47"
+"SAT11__application__jarvisalo__AAAI2010-SATPlanning__aaai10-planning-ipc5-pipesworld-12-step16cnfwcnf8.wcnf","Open.WBO.ms",184.04,1238.51233652776,950.170615424316,223.27,0.88,6,"223.27"

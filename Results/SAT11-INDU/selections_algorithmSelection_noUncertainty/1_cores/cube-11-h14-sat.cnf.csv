@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"cube-11-h14-sat.cnf","glueminisat.2.2.5",227.82,1124.30639876626,1202.00474133744,227.82,227.82,0,0,0,0,"pred"

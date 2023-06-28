@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"adult_train_8_CNF_3_1.wcnf","QMaxSAT2018",3600,1838.97153671487,1126.74623589667,3600,3600,1,"Inf"
+"adult_train_8_CNF_3_1.wcnf","Open.WBO.g",3600,2106.6140881392,1140.75372178786,3600,3600,2,"Inf"

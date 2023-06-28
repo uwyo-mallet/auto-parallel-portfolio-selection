@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Problem11_label51_false-unreach-call.c.cnf","MapleCOMSPS_LRB_VSIDS_drup",312.957,194.226071111111,156.713431849718,413.58,203.808,0,0,0,0,"pred"
+"sat/Problem11_label51_false-unreach-call.c.cnf","expMC_VSIDS_LRB_Switch_2500",203.808,291.251897777778,692.155086699519,266.81,203.808,0,0,0,0,"pred"
+"sat/Problem11_label51_false-unreach-call.c.cnf","Maple_LCM_M1",611.064,293.127434222222,299.552958304386,717.35,203.808,0,0,0,0,"pred"
+"sat/Problem11_label51_false-unreach-call.c.cnf","Riss7.1.fix",286.056,294.032195555556,893.707945271918,402.23,203.808,0,0,0,0,"pred"
+"sat/Problem11_label51_false-unreach-call.c.cnf","GHackCOMSPS_drup",786.297,315.347384444444,560.843360800127,5000,203.808,0,0,0,0,"pred"
+"sat/Problem11_label51_false-unreach-call.c.cnf","expMC_LRB_VSIDS_Switch_2500",408.912,318.398287777778,584.356036213706,493.42,203.808,0,0,0,0,"pred"
+"sat/Problem11_label51_false-unreach-call.c.cnf","MapleLCMDistChronoBT",267.877,319.457101555555,517.967549084705,360,203.808,0,0,0,0,"pred"

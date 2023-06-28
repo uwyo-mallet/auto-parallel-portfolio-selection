@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"SAT11__application__fuhs__AProVE11__AProVE11-12cnfwcnf2.wcnf","MaxHS",126.34,731.675084243008,806.758877354302,126.34,19.9,1,"126.34"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"spider_p18.pddl","Scorpion",508.61,742.71543627451,515.460342285185,507.37,508.61,0,0,0,0,"pred"
+"spider_p18.pddl","DecStar",1800,1349.60245588235,424.343287600775,1800,508.61,0,0,0,0,"pred"

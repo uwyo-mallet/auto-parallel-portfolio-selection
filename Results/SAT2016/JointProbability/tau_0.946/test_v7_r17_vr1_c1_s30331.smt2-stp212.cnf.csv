@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/test_v7_r17_vr1_c1_s30331.smt2-stp212.cnf","MapleCOMSPS_LRB_DRUP",219.566,3879.07396839081,1905.16382099206,242,161.866,0,0,0,5,"pred"
+"sat/test_v7_r17_vr1_c1_s30331.smt2-stp212.cnf","MapleCOMSPS_CHB_DRUP",3297.616,3961.35307605364,1807.04220508906,3973.87,161.866,0,0,0,5,"pred"
+"sat/test_v7_r17_vr1_c1_s30331.smt2-stp212.cnf","glue_alt",429.27,3995.88411944445,1781.80939599711,482.69,161.866,0,0,0,5,"pred"
+"sat/test_v7_r17_vr1_c1_s30331.smt2-stp212.cnf","glucose",241.304,4010.09335344828,1716.93200224323,282.01,161.866,0,0,0,5,"pred"
+"sat/test_v7_r17_vr1_c1_s30331.smt2-stp212.cnf","CHBR_glucose",2541.079,4035.79887279694,1784.00353399788,3055.29,161.866,0,0,0,5,"pred"
+"sat/test_v7_r17_vr1_c1_s30331.smt2-stp212.cnf","glueminisat.2210.81.main",698.345,4041.46880909962,1753.59355718994,796.74,161.866,0,0,0,5,"pred"
+"sat/test_v7_r17_vr1_c1_s30331.smt2-stp212.cnf","cmsat5_main2",3065.224,4094.8115059387,1774.04949875893,3340.08,161.866,0,0,0,5,"pred"

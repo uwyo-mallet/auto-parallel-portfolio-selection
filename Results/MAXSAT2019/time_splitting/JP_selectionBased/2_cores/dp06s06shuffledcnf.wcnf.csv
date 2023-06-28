@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"dp06s06shuffledcnf.wcnf","MaxHS",2.3,1057.03901862566,536.961812527936,2.31,0.88,1,"2.31"
+"dp06s06shuffledcnf.wcnf","UWrMaxSat.1.0",0.88,1207.9336696504,548.136764401734,0.88,0.88,2,"0.88"

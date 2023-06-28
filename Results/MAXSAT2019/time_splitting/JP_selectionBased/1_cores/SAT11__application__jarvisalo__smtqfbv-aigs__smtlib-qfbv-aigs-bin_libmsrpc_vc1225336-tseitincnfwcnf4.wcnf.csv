@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"SAT11__application__jarvisalo__smtqfbv-aigs__smtlib-qfbv-aigs-bin_libmsrpc_vc1225336-tseitincnfwcnf4.wcnf","UWrMaxSat.1.0",219.48,492.098844928782,863.719813867551,219.48,90.2,1,"219.48"

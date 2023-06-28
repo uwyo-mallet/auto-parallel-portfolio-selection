@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"gss-27-s100.cnf","MPhaseSAT64",5000,459.48247311828,1286.95377811629,5000,5000,0,0,0,5,"pred"
+"gss-27-s100.cnf","glueminisat.2.2.5",5000,1910.01486236559,1299.59002383194,5000,5000,0,0,0,5,"pred"
+"gss-27-s100.cnf","minisathackminisat_psm_2011.04.01",5000,2170.41127741936,2073.9782257873,5000,5000,0,0,0,5,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"agricola_p06.pddl","symbolic.bidirectional",256.88,280.035401129943,203.715389562801,268.98,97.32,0,0,0,0,"pred"
+"agricola_p06.pddl","Delfi2",162.96,528.654834274953,412.094798168955,165.22,97.32,0,0,0,0,"pred"

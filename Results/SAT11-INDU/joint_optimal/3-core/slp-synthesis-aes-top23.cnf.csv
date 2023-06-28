@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"slp-synthesis-aes-top23.cnf","glucose_2.0",5000,4357.94098076923,1032.72920524236,5000,3194.4,0,0,0,5,"pred"
+"slp-synthesis-aes-top23.cnf","minisathackminisat_psm_2011.04.01",3194.4,4601.90778846154,1119.68542602793,3401.16,3194.4,0,0,0,5,"pred"
+"slp-synthesis-aes-top23.cnf","MPhaseSAT64",5000,4610.48043910256,1171.41750447902,5000,3194.4,0,0,0,5,"pred"

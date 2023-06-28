@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/cms-scheel-md4-families-r24-c5-p0-7-10-15-19.cnf","cms55.main.all4fixed",0.05,93.0830012987014,288.303934266716,0.05,0.05,0,0,0,0,"pred"

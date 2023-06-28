@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"titanic_train_1_CNF_2_1.wcnf","UWrMaxSat.1.0",1.06,502.425989156905,607.136640676933,1.06,1.06,1,"1.06"
+"titanic_train_1_CNF_2_1.wcnf","maxino2018",16.95,532.778959165907,668.355437688636,17.33,1.06,2,"17.33"
+"titanic_train_1_CNF_2_1.wcnf","MaxHS",12.02,615.410362153877,826.230550989599,12.06,1.06,1,"Inf"
+"titanic_train_1_CNF_2_1.wcnf","Open.WBO.g",192.12,754.057784975056,849.116281640719,193.13,1.06,2,"Inf"
+"titanic_train_1_CNF_2_1.wcnf","Open.WBO.ms",200.9,863.262027589154,791.126697602275,202.32,1.06,1,"Inf"
+"titanic_train_1_CNF_2_1.wcnf","Open.WBO.ms.pre",168.64,1163.79773263686,1117.550972767,169.35,1.06,2,"Inf"
+"titanic_train_1_CNF_2_1.wcnf","QMaxSAT2018",32.85,1159.2579601777,1146.71584364647,33,1.06,1,"Inf"

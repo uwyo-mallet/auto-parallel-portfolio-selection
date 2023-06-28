@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"SAT11__application__manthey__traffic__traffic_3_uc_satcnfwcnf8.wcnf","UWrMaxSat.1.0",100.17,415.343697063097,862.611153871517,100.17,2.44,0,0,0,0,"pred"

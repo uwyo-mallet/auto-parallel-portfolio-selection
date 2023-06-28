@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/newton_3_6_false-unreach-call.i.cnf","Maple_LCM_M1",184.121,339.351234199134,802.755318542305,215.91,16.604,0,0,0,0,"pred"
+"sat/newton_3_6_false-unreach-call.i.cnf","Maple_CM_ordUIP.",64.175,350.843667316017,398.041967502967,73.93,16.604,0,0,0,0,"pred"
+"sat/newton_3_6_false-unreach-call.i.cnf","MapleCOMSPS_LRB_VSIDS_drup",87.581,379.587807575757,719.898452872335,98.45,16.604,0,0,0,0,"pred"

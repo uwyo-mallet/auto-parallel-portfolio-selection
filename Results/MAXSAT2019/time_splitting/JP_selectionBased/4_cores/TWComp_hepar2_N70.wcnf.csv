@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"TWComp_hepar2_N70.wcnf","Open.WBO.ms.pre",24.1,1519.18736088862,1066.36187250502,26.57,0.27,1,"26.57"
+"TWComp_hepar2_N70.wcnf","Open.WBO.g",12.84,1753.17534010885,1160.44898568535,17.13,0.27,2,"17.13"
+"TWComp_hepar2_N70.wcnf","UWrMaxSat.1.0",2.24,1850.06563695832,1217.06416896799,2.42,0.27,3,"2.42"
+"TWComp_hepar2_N70.wcnf","maxino2018",1.76,1928.77174451958,1370.49647796828,1.89,0.27,4,"1.89"

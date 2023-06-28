@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"UAutomizer_c03-alloca_true-termination_true-no-overflowci_Abstraction3.wcnf","UWrMaxSat.1.0",0.42,907.445480262843,438.577880157476,0.42,0.11,0,0,0,5,"pred"
+"UAutomizer_c03-alloca_true-termination_true-no-overflowci_Abstraction3.wcnf","maxino2018",0.11,930.277555180491,460.79530491152,0.12,0.11,0,0,0,5,"pred"

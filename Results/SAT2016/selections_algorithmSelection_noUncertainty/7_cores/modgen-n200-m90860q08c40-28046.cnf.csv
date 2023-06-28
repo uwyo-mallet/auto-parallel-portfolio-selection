@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/modgen-n200-m90860q08c40-28046.cnf","MapleCOMSPS_LRB_DRUP",2.383,172.001782352941,506.098231798403,2.38,1.624,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-28046.cnf","MapleGlucose",2.105,236.180544397759,675.859627258865,2.16,1.624,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-28046.cnf","MapleCOMSPS_DRUP",2.54,266.30916022409,752.568127434137,2.45,1.624,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-28046.cnf","MapleCOMSPS_CHB_DRUP",1.647,268.840901540616,677.427627062273,1.65,1.624,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-28046.cnf","CHBR_glucose",2.669,305.530895098039,739.751143113506,2.71,1.624,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-28046.cnf","CHBR_glucose_tuned",2.304,312.97842605042,828.694431620005,2.15,1.624,0,0,0,0,"pred"
+"sat/modgen-n200-m90860q08c40-28046.cnf","gulch",2.106,382.313750280112,1098.37102872757,1.95,1.624,0,0,0,0,"pred"

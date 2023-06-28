@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"E15N15.cnf","minisathackLR_GL_SHR_2011.03.02",0,87.9525185185185,502.562816246807,0,0,0,0,0,0,"pred"

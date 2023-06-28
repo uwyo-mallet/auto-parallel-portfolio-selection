@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"ibm-2002-21r-k95.cnf","minisathackminisat_psm_2011.04.01",12.08,543.750969892473,1237.81971143168,12.52,7.6,0,0,0,5,"pred"
+"ibm-2002-21r-k95.cnf","SAT09referencesolverprecosat_236",7.6,724.90683655914,1325.75740159302,8.16,7.6,0,0,0,5,"pred"

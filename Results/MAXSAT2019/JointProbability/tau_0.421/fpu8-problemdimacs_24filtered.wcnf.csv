@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"fpu8-problemdimacs_24filtered.wcnf","Open.WBO.ms.pre",64.92,375.33546032335,625.750756498154,76.57,1.46,0,0,0,5,"pred"
+"fpu8-problemdimacs_24filtered.wcnf","Open.WBO.ms",67.7,586.44063034805,813.885853180252,73.4,1.46,0,0,0,5,"pred"
+"fpu8-problemdimacs_24filtered.wcnf","UWrMaxSat.1.0",4.14,859.814818767279,1230.5536638151,4.48,1.46,0,0,0,5,"pred"
+"fpu8-problemdimacs_24filtered.wcnf","maxino2018",5.33,1222.726271758,1435.04329462371,5.98,1.46,0,0,0,5,"pred"
+"fpu8-problemdimacs_24filtered.wcnf","QMaxSAT2018",38.46,1357.46748475621,1345.77499619918,42.9,1.46,0,0,0,5,"pred"
+"fpu8-problemdimacs_24filtered.wcnf","Open.WBO.g",1.46,1460.1354009054,1446.21222042944,1.66,1.46,0,0,0,5,"pred"

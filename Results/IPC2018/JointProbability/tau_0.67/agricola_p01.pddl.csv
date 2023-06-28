@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"agricola_p01.pddl","Delfi1",19.68,203.363925,481.607639933514,19.19,18.4,0,0,0,5,"pred"
+"agricola_p01.pddl","FDMS1",86.99,376.759775,409.284714145508,101.32,18.4,0,0,0,5,"pred"
+"agricola_p01.pddl","FDMS2",102.35,508.646191666667,626.931362757224,117.98,18.4,0,0,0,5,"pred"
+"agricola_p01.pddl","symbolic.bidirectional",18.4,541.6177,758.222035360653,19.2,18.4,0,0,0,5,"pred"
+"agricola_p01.pddl","Complementary1",110.74,583.936083333333,581.863215395839,123.2,18.4,0,0,0,5,"pred"
+"agricola_p01.pddl","Delfi2",473.14,590.431708333333,743.646915003075,473.67,18.4,0,0,0,5,"pred"

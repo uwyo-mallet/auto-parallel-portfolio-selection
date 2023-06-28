@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"uaq-rpp-nr100-nc33-n3-k2-rpp28-ppr2-plb20.wcnf","Open.WBO.ms.pre",78.42,1016.41548344446,861.872741500052,78.85,24.02,0,0,0,0,"pred"
+"uaq-rpp-nr100-nc33-n3-k2-rpp28-ppr2-plb20.wcnf","MaxHS",153.47,1151.8879543581,856.457910497544,153.77,24.02,0,0,0,0,"pred"

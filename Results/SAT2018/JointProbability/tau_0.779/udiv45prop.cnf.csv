@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/udiv45prop.cnf","CaDiCaL",2316.749,2304.75205654009,1576.37909082512,5000,2316.749,0,0,0,5,"pred"
+"sat/udiv45prop.cnf","Riss7.1.fix",5000,3057.60971054852,2075.16007841946,5000,2316.749,0,0,0,5,"pred"
+"sat/udiv45prop.cnf","glucose4.2.1",3926.49,3150.92710316456,2080.69773827701,5000,2316.749,0,0,0,5,"pred"
+"sat/udiv45prop.cnf","Candy",4369.07,3216.43463375527,2016.4264269851,5000,2316.749,0,0,0,5,"pred"

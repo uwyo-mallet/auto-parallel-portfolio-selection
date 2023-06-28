@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"GenHyperTW_aim-50-1_6-yes1-3.wcnf","UWrMaxSat.1.0",3600,798.177468981946,407.515593635225,3600,3600,1,"Inf"
+"GenHyperTW_aim-50-1_6-yes1-3.wcnf","Open.WBO.ms.pre",3600,847.812731908195,818.952023086142,3600,3600,2,"Inf"

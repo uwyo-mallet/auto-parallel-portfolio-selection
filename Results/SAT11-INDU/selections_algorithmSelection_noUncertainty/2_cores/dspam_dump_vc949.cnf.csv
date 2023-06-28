@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"dspam_dump_vc949.cnf","minisathackLR_GL_SHR_2011.03.02",0.29,106.381387731481,571.970111902436,0.31,0.26,0,0,0,0,"pred"
+"dspam_dump_vc949.cnf","MPhaseSAT64",3.64,108.732271164021,553.842353362926,3.66,0.26,0,0,0,0,"pred"

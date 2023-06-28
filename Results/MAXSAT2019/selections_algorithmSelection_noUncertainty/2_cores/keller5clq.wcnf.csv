@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"keller5clq.wcnf","Open.WBO.ms.pre",695.35,737.848086512055,586.300361698392,699.54,548.67,0,0,0,0,"pred"
+"keller5clq.wcnf","UWrMaxSat.1.0",3600,942.823622317956,386.729006575361,3600,548.67,0,0,0,0,"pred"

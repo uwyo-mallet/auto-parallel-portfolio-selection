@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"ionosphere_train_1_DNF_1_1.wcnf","Open.WBO.ms.pre",0.22,1245.84885206393,833.175963451769,0.21,0.01,0,0,0,5,"pred"
+"ionosphere_train_1_DNF_1_1.wcnf","Open.WBO.ms",5.22,1260.19972890862,811.663481348523,5.19,0.01,0,0,0,5,"pred"
+"ionosphere_train_1_DNF_1_1.wcnf","MaxHS",0.44,1311.88998737786,759.996560916174,0.45,0.01,0,0,0,5,"pred"
+"ionosphere_train_1_DNF_1_1.wcnf","UWrMaxSat.1.0",0.02,1414.04860125302,889.530082512327,0.02,0.01,0,0,0,5,"pred"
+"ionosphere_train_1_DNF_1_1.wcnf","maxino2018",0.01,1460.97525042092,901.425599349542,0.01,0.01,0,0,0,5,"pred"

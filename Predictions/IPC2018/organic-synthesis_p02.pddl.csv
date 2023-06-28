@@ -1,0 +1,16 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"organic-synthesis_p02.pddl","blind",0.47,83.5067467043315,329.654938340239
+"organic-synthesis_p02.pddl","Complementary1",0.75,106.822780602637,333.666851377224
+"organic-synthesis_p02.pddl","Complementary2",1.3,77.6585932203389,243.068647107042
+"organic-synthesis_p02.pddl","DecStar",0.43,120.920790018832,377.972451054166
+"organic-synthesis_p02.pddl","Delfi1",1.62,86.2604887005649,289.542842586891
+"organic-synthesis_p02.pddl","Delfi2",2.03,122.186163841808,348.882061411391
+"organic-synthesis_p02.pddl","FDMS1",0.46,52.547225047081,250.831138296308
+"organic-synthesis_p02.pddl","FDMS2",0.45,66.261038606403,267.396855480074
+"organic-synthesis_p02.pddl","Metis1",0.46,234.087907721281,521.111551271922
+"organic-synthesis_p02.pddl","Metis2",0.46,172.902666128598,427.659099134015
+"organic-synthesis_p02.pddl","Planning.PDBs",1.29,92.7708757062147,310.801141964485
+"organic-synthesis_p02.pddl","Scorpion",198.68,332.890951977401,409.255822947338
+"organic-synthesis_p02.pddl","symbolic.bidirectional",0.59,105.163232580038,356.542403571594
+"organic-synthesis_p02.pddl","Symple.1",0.53,100.855988700565,317.975836564052
+"organic-synthesis_p02.pddl","Symple.2",0.76,91.8009274952919,292.494857459951

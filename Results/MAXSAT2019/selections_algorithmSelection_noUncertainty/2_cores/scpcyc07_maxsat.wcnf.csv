@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"scpcyc07_maxsat.wcnf","MaxHS",3600,472.702715344482,565.503782893325,3600,3600,0,0,0,0,"pred"
+"scpcyc07_maxsat.wcnf","Open.WBO.ms.pre",3600,1216.08669561596,595.957281293571,3600,3600,0,0,0,0,"pred"

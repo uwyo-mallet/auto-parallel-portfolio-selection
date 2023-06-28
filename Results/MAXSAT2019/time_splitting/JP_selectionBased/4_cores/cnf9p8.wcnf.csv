@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"cnf9p8.wcnf","MaxHS",98.03,1026.66131265493,636.705637912349,148.98,5.76,1,"148.98"
+"cnf9p8.wcnf","UWrMaxSat.1.0",5.76,1034.00800493035,525.382078589331,6.23,5.76,2,"6.23"
+"cnf9p8.wcnf","Open.WBO.ms.pre",35.74,1109.27495385213,581.330027159273,38.51,5.76,3,"38.51"
+"cnf9p8.wcnf","maxino2018",10.22,1128.98181448449,533.937414575739,10.91,5.76,4,"10.91"

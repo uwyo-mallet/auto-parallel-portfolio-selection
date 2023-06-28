@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/pals_lcr.8_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","CaDiCaL",322.052,535.591881333333,1190.49736535098,322.052,259.74,0,0,0,0,"pred"

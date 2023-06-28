@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sortnet-8-ipc5-h19-sat.cnf","glueminisat.2.2.5",5000,1146.82543797945,1492.55055962843,5000,783.54,0,0,0,5,"pred"
+"sortnet-8-ipc5-h19-sat.cnf","MPhaseSAT64",5000,1199.38173424699,1515.10651517707,5000,783.54,0,0,0,5,"pred"
+"sortnet-8-ipc5-h19-sat.cnf","lingeling.587f.4882048.110513",3098.92,1318.8074338089,1531.26557939631,3352.91,783.54,0,0,0,5,"pred"

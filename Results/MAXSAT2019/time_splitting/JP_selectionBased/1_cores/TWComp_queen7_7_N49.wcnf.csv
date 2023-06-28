@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"TWComp_queen7_7_N49.wcnf","UWrMaxSat.1.0",3600,721.360276084459,759.467640304044,3600,3600,1,"Inf"

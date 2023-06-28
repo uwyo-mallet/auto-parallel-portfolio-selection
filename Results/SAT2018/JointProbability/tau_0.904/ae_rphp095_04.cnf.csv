@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ae_rphp095_04.cnf","gluHack",505.914,1018.28895166667,1020.72341660971,505.914,505.914,0,0,0,5,"pred"

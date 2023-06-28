@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"brock400_4clq.wcnf","MaxHS",3600,1090.21506549947,1010.89536128595,3600,3600,0,0,0,0,"pred"
+"brock400_4clq.wcnf","maxino2018",3600,1287.9974051264,1025.1809999907,3600,3600,0,0,0,0,"pred"
+"brock400_4clq.wcnf","Open.WBO.ms",3600,1408.60127758663,1188.27057534693,3600,3600,0,0,0,0,"pred"

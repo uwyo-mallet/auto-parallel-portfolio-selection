@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"TWComp_queen6_6_N36.wcnf","UWrMaxSat.1.0",3600,1045.53160270067,371.497156904078,3600,3600,1,"Inf"
+"TWComp_queen6_6_N36.wcnf","Open.WBO.ms.pre",3600,1089.01465850364,481.651963964808,3600,3600,2,"Inf"
+"TWComp_queen6_6_N36.wcnf","MaxHS",3600,1168.0272583718,458.490640335913,3600,3600,3,"Inf"

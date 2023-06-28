@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"aes_32_1_keyfind_1.cnf","minisathackcir_minisat_2011.05.13_simp_",0.01,1158.17865034965,1629.01026693917,0.01,0,0,0,0,5,"pred"
+"aes_32_1_keyfind_1.cnf","minisathackMiniSAT_2.2.0.agile.26",0.01,1302.68264918415,1731.99524736429,0.01,0,0,0,0,5,"pred"
+"aes_32_1_keyfind_1.cnf","SAT09referencesolverprecosat_236",0.03,1511.92618298368,1841.99990993772,0.02,0,0,0,0,5,"pred"
+"aes_32_1_keyfind_1.cnf","minisathackreferenceminisat_2.2.0",0,1542.73441491842,1700.98588737287,0,0,0,0,0,5,"pred"

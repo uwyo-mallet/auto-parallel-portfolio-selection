@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/pals_lcr-var-start-time.6_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","glu_mix",348.54,677.88908705036,1270.11439604356,420.43,127.891,0,0,0,5,"pred"
+"sat/pals_lcr-var-start-time.6_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","glucose3.0",411.189,728.41084292566,1396.26808266292,533.3,127.891,0,0,0,5,"pred"
+"sat/pals_lcr-var-start-time.6_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","GHackCOMSPS_drup",748.899,889.334252038369,1372.31873373885,924.48,127.891,0,0,0,5,"pred"
+"sat/pals_lcr-var-start-time.6_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","gluHack",1107.388,955.418043405276,1490.64777423243,5000,127.891,0,0,0,5,"pred"
+"sat/pals_lcr-var-start-time.6_true-unreach-call.ufo.UNBOUNDED.pals.c.cnf","Glucose_Hack_Kiel_fastBVE",410.665,981.304415107914,1666.76465648483,506.41,127.891,0,0,0,5,"pred"

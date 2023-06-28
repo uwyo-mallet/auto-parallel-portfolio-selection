@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"traffic_3b_unknown.cnf","minisathackminisat_psm_2011.04.01",174.53,527.200277333334,1219.11979574045,175.75,97.21,0,0,0,0,"pred"
+"traffic_3b_unknown.cnf","minisathackcir_minisat_2011.05.13_simp_",337.5,527.830086666666,937.645550166454,348.8,97.21,0,0,0,0,"pred"

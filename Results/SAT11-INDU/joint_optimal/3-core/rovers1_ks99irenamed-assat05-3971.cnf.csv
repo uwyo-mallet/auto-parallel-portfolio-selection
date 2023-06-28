@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"rovers1_ks99irenamed-assat05-3971.cnf","MPhaseSAT64",0.01,691.85175462963,1214.9849533432,0.01,0,0,0,0,5,"pred"
+"rovers1_ks99irenamed-assat05-3971.cnf","rcl_2011.04.01",0.02,1009.73767962963,1746.21143583431,0.02,0,0,0,0,5,"pred"
+"rovers1_ks99irenamed-assat05-3971.cnf","minisathackcir_minisat_2011.05.13_simp_",0,1016.29225555556,1716.2309890811,0,0,0,0,0,5,"pred"

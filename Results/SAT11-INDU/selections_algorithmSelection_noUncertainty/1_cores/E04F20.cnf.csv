@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"E04F20.cnf","minisathackminisat_psm_2011.04.01",28.65,388.654064935065,976.00323026094,28.65,7.62,0,0,0,0,"pred"

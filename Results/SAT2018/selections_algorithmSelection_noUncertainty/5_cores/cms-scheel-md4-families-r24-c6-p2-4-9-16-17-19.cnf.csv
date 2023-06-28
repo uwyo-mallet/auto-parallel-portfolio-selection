@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/cms-scheel-md4-families-r24-c6-p2-4-9-16-17-19.cnf","cms55.main.all4fixed",26.576,37.5601716582065,187.198386630222,32.67,0.47,0,0,0,0,"pred"
+"sat/cms-scheel-md4-families-r24-c6-p2-4-9-16-17-19.cnf","Maple_LCM_M1",17.642,56.3059937394245,136.345095899377,20.02,0.47,0,0,0,0,"pred"
+"sat/cms-scheel-md4-families-r24-c6-p2-4-9-16-17-19.cnf","abcdsat_r18",0.65,59.6093075296108,149.359034481864,0.55,0.47,0,0,0,0,"pred"
+"sat/cms-scheel-md4-families-r24-c6-p2-4-9-16-17-19.cnf","Maple_LCM.BCrestart_M1",17.155,91.4599060067682,380.632814735682,21.24,0.47,0,0,0,0,"pred"
+"sat/cms-scheel-md4-families-r24-c6-p2-4-9-16-17-19.cnf","Maple_CM_Dist",0.47,94.2395288494078,156.501794840818,0.54,0.47,0,0,0,0,"pred"

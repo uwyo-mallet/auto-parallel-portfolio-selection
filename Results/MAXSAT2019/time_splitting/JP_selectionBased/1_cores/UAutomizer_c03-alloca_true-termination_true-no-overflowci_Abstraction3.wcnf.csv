@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"UAutomizer_c03-alloca_true-termination_true-no-overflowci_Abstraction3.wcnf","UWrMaxSat.1.0",0.42,907.445480262843,438.577880157476,0.42,0.11,1,"0.42"

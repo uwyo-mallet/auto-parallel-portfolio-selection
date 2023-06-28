@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"E05F20.cnf","lingeling.587f.4882048.110513",99.26,723.887965337641,1007.8751788412,102.04,0.84,0,0,0,5,"pred"
+"E05F20.cnf","glucose_2.0",0.84,815.568485229858,1084.94503774801,0.87,0.84,0,0,0,5,"pred"

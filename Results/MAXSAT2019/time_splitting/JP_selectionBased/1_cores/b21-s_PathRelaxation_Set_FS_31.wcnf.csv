@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"b21-s_PathRelaxation_Set_FS_31.wcnf","MaxHS",15.67,1061.90703064502,363.050621121903,15.67,2.16,1,"15.67"

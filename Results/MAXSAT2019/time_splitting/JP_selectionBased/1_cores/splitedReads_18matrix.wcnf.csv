@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"splitedReads_18matrix.wcnf","UWrMaxSat.1.0",1.17,558.712730373082,617.518676480477,1.17,0.25,1,"1.17"

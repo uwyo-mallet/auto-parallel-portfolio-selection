@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"q_query_3_L150_colisat.cnf","lingeling.587f.4882048.110513",186.98,1360.61305555556,1681.1370917803,186.98,31.15,0,0,0,5,"pred"

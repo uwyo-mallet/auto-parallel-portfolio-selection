@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/pals_lcr.8_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","CaDiCaL",322.052,535.591881333333,1190.49736535098,398.76,259.74,0,0,0,0,"pred"
+"sat/pals_lcr.8_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","glucose4.2.1",259.74,648.158879555555,1086.98420848322,325.48,259.74,0,0,0,0,"pred"
+"sat/pals_lcr.8_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","GHackCOMSPS_drup",795.086,760.002967333333,1257.81114886877,5000,259.74,0,0,0,0,"pred"
+"sat/pals_lcr.8_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","glu_mix",734.35,767.007429777778,1299.21120691657,5000,259.74,0,0,0,0,"pred"
+"sat/pals_lcr.8_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","glucose3.0",287.024,776.723183333333,1230.141038008,367.15,259.74,0,0,0,0,"pred"
+"sat/pals_lcr.8_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","Maple_LCM.BCrestart",815.424,809.895104666667,1283.32725993498,5000,259.74,0,0,0,0,"pred"

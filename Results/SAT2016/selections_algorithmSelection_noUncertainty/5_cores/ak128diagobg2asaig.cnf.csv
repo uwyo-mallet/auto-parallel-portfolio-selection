@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ak128diagobg2asaig.cnf","Riss6",138.953,1865.14711170886,2130.81989801646,142.15,6.429,0,0,0,0,"pred"
+"sat/ak128diagobg2asaig.cnf","glucose",5000,3589.56300770042,1742.62919674181,5000,6.429,0,0,0,0,"pred"
+"sat/ak128diagobg2asaig.cnf","BeansAndEggs",5000,3607.57610875527,1772.72235013397,5000,6.429,0,0,0,0,"pred"
+"sat/ak128diagobg2asaig.cnf","tc_glucose",5000,3707.40980791139,1882.55966231812,5000,6.429,0,0,0,0,"pred"
+"sat/ak128diagobg2asaig.cnf","MapleCOMSPS_DRUP",5000,3713.14448902954,1755.98726724438,5000,6.429,0,0,0,0,"pred"

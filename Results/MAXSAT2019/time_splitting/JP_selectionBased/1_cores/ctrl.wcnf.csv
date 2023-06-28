@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"ctrl.wcnf","UWrMaxSat.1.0",0.1,1031.53514849563,436.340156739329,0.1,0.08,1,"0.1"

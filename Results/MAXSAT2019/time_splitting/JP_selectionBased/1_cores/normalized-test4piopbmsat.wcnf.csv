@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"normalized-test4piopbmsat.wcnf","MaxHS",3600,1253.12076818718,575.942271745091,3600,3600,1,"Inf"

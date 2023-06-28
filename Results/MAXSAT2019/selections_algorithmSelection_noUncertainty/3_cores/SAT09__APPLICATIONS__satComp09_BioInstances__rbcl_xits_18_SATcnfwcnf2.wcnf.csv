@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"SAT09__APPLICATIONS__satComp09_BioInstances__rbcl_xits_18_SATcnfwcnf2.wcnf","Open.WBO.ms",13.76,701.230707569662,534.377651615554,14.7,0.57,0,0,0,0,"pred"
+"SAT09__APPLICATIONS__satComp09_BioInstances__rbcl_xits_18_SATcnfwcnf2.wcnf","Open.WBO.ms.pre",8.92,708.205508827865,640.137868506118,9.69,0.57,0,0,0,0,"pred"
+"SAT09__APPLICATIONS__satComp09_BioInstances__rbcl_xits_18_SATcnfwcnf2.wcnf","UWrMaxSat.1.0",0.92,767.41917428662,436.955574947632,0.94,0.57,0,0,0,0,"pred"

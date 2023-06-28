@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"teams16_l6acnf.wcnf","maxino2018",1.8,471.856746450245,1142.96460046088,1.81,1.44,1,"1.81"
+"teams16_l6acnf.wcnf","UWrMaxSat.1.0",1.44,625.923548007408,1320.96700232626,1.46,1.44,2,"1.46"
+"teams16_l6acnf.wcnf","MaxHS",8.73,810.828850934945,1401.05184403437,8.36,1.44,3,"8.36"

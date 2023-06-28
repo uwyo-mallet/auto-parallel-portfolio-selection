@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"toms_test_1_DNF_5_1.wcnf","maxino2018",3600,1029.62993647872,1175.70957959549,3600,3600,1,"Inf"
+"toms_test_1_DNF_5_1.wcnf","Open.WBO.g",3600,1041.71379389571,1082.20670422808,3600,3600,2,"Inf"

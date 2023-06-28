@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sted5_0x24204-50.cnf","gluHack",318.223,2311.46087075758,2332.89508450212,361.51,25.668,0,0,0,0,"pred"
+"sat/sted5_0x24204-50.cnf","glu_mix",336.235,2330.68223560606,2227.25454618646,383,25.668,0,0,0,0,"pred"

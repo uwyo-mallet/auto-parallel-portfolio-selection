@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/arcfour_initialPermutation_6_14.cnf","CHBR_glucose_tuned",215.97,2906.60306617647,2146.20198515125,215.97,147.135,0,0,0,5,"pred"

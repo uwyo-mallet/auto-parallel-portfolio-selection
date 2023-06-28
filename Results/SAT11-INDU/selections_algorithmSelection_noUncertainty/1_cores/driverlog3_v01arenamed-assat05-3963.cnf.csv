@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"driverlog3_v01arenamed-assat05-3963.cnf","minisathackcontrasat_2011.03.02",0,888.026694805195,1734.09963703764,0,0,0,0,0,0,"pred"

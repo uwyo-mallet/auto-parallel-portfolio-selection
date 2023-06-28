@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/uniqinv30prop.cnf","cms55.main.all4fixed",99.885,584.312475779376,1077.31165870368,112.49,99.885,0,0,0,0,"pred"
+"sat/uniqinv30prop.cnf","Sparrow2Riss.2018.fixfix",336.737,1034.27336882494,1234.37089232048,382.67,99.885,0,0,0,0,"pred"

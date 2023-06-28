@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"slp-synthesis-aes-top28.cnf","minisathackminisat_psm_2011.04.01",607.39,1275.96376273148,1766.13446676187,619.59,348.01,0,0,0,5,"pred"
+"slp-synthesis-aes-top28.cnf","rcl_2011.04.01",348.01,1493.02823263889,1879.94663727654,350.74,348.01,0,0,0,5,"pred"

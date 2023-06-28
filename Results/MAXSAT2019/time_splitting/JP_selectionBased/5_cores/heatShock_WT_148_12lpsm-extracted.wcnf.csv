@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"heatShock_WT_148_12lpsm-extracted.wcnf","Open.WBO.ms.pre",3.46,37.122749417475,130.988417621652,3.8,1.01,1,"3.8"
+"heatShock_WT_148_12lpsm-extracted.wcnf","UWrMaxSat.1.0",5.42,72.5563297127274,227.842799328573,5.58,1.01,2,"5.58"
+"heatShock_WT_148_12lpsm-extracted.wcnf","Open.WBO.g",12.88,110.216847379048,290.927282455545,14.51,1.01,3,"14.51"
+"heatShock_WT_148_12lpsm-extracted.wcnf","Open.WBO.ms",12.97,116.718402987777,279.536326336892,14.33,1.01,4,"14.33"
+"heatShock_WT_148_12lpsm-extracted.wcnf","maxino2018",1.01,123.278348172901,307.777063310677,1.16,1.01,5,"1.16"

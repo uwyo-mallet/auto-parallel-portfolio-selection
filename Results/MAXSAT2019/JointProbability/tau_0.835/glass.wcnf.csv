@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"glass.wcnf","UWrMaxSat.1.0",60.17,988.041246813994,635.372454617965,60.73,0.45,0,0,0,5,"pred"
+"glass.wcnf","Open.WBO.ms.pre",10.01,1100.67520598139,880.806022299558,10.08,0.45,0,0,0,5,"pred"
+"glass.wcnf","Open.WBO.ms",243.34,1197.95338216445,886.393478494271,248.37,0.45,0,0,0,5,"pred"

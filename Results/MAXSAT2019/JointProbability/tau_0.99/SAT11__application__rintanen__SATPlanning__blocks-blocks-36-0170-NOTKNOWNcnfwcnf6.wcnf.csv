@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"SAT11__application__rintanen__SATPlanning__blocks-blocks-36-0170-NOTKNOWNcnfwcnf6.wcnf","Open.WBO.ms",905.58,771.260366649635,766.035462722666,905.58,160.65,0,0,0,5,"pred"

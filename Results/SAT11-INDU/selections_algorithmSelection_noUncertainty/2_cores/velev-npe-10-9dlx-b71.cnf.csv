@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"velev-npe-10-9dlx-b71.cnf","glueminisat.2.2.5",32.56,771.42079954955,1260.06068670624,32.99,13.73,0,0,0,0,"pred"
+"velev-npe-10-9dlx-b71.cnf","minisathackcir_minisat_2011.05.13_simp_",96.54,1041.17024099099,1605.56958445981,103.69,13.73,0,0,0,0,"pred"

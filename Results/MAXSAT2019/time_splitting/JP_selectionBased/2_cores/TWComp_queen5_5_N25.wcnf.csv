@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"TWComp_queen5_5_N25.wcnf","Open.WBO.ms.pre",3600,319.1616592082,532.167884464166,3600,3600,1,"Inf"
+"TWComp_queen5_5_N25.wcnf","Open.WBO.ms",3600,369.670018719531,615.576974467372,3600,3600,2,"Inf"

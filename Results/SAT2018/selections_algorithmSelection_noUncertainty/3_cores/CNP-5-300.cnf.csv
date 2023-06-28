@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/CNP-5-300.cnf","YalSAT",4.993,5.22640939086297,4.93567513285294,5.3,1.868,0,0,0,0,"pred"
+"sat/CNP-5-300.cnf","Sparrow2Riss.2018.fixfix",1.868,21.0723104060914,161.523570140421,2.24,1.868,0,0,0,0,"pred"
+"sat/CNP-5-300.cnf","COMiniSatPS_Pulsar_drup",1793.233,406.288989255499,598.972941135585,5000,1.868,0,0,0,0,"pred"

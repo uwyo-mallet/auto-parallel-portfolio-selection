@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"TWComp_myciel4_N23.wcnf","Open.WBO.ms.pre",22.79,661.543907820429,672.837492649374,22.98,6.93,0,0,0,5,"pred"
+"TWComp_myciel4_N23.wcnf","Open.WBO.ms",38.94,817.118611661622,886.603691488691,39.29,6.93,0,0,0,5,"pred"

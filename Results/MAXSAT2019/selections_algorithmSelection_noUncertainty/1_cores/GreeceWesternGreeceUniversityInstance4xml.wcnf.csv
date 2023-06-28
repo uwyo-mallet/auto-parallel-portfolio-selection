@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","MaxHS",3600,2243.43711765113,1418.22542186047,3600,3600,0,0,0,0,"pred"

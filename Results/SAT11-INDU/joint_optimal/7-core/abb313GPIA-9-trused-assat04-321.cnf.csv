@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"abb313GPIA-9-trused-assat04-321.cnf","lingeling.587f.4882048.110513",3.12,1152.19623100343,1383.77056503222,3.01,0.06,0,0,0,5,"pred"
+"abb313GPIA-9-trused-assat04-321.cnf","MPhaseSAT64",9.51,1467.08433863038,1689.05206743647,9.66,0.06,0,0,0,5,"pred"
+"abb313GPIA-9-trused-assat04-321.cnf","SAT09referencesolverprecosat_236",0.87,1572.1172843481,1779.23503779403,1.14,0.06,0,0,0,5,"pred"
+"abb313GPIA-9-trused-assat04-321.cnf","minisathackLR_GL_SHR_2011.03.02",1.27,1723.31005860057,1695.72638667851,1.3,0.06,0,0,0,5,"pred"
+"abb313GPIA-9-trused-assat04-321.cnf","glucose_2.0",0.25,1723.50921228636,1647.23762896746,0.25,0.06,0,0,0,5,"pred"
+"abb313GPIA-9-trused-assat04-321.cnf","minisathackMiniSAT_2.2.0.agile.26",1.09,1740.45956572442,1664.63325145184,1.1,0.06,0,0,0,5,"pred"
+"abb313GPIA-9-trused-assat04-321.cnf","minisathackcontrasat_2011.03.02",1.21,1856.92564955812,1806.92289880341,1.21,0.06,0,0,0,5,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"c6_DD_s3_f1_e2_v1-bug-fourvec-gate-0dimacsseqfiltered.wcnf","Open.WBO.ms.pre",8.42,229.830698725494,458.815565256998,8.42,0.92,0,0,0,5,"pred"

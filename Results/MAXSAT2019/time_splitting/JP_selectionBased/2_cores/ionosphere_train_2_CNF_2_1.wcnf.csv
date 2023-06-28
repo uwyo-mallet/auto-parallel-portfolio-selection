@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"ionosphere_train_2_CNF_2_1.wcnf","MaxHS",3600,1174.94488050973,442.92964185201,3600,226.48,1,"Inf"
+"ionosphere_train_2_CNF_2_1.wcnf","UWrMaxSat.1.0",1012.78,1342.64952598105,562.381136274267,1005.39,226.48,2,"1005.39"

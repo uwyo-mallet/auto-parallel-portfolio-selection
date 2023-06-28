@@ -1,0 +1,16 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"organic-synthesis_p11.pddl","blind",639.06,905.529487745098,659.391883477364
+"organic-synthesis_p11.pddl","Complementary1",715.65,1207.57492892157,514.720617608555
+"organic-synthesis_p11.pddl","Complementary2",712.84,1152.29232843137,480.921505824639
+"organic-synthesis_p11.pddl","DecStar",635.35,1247.43910171569,568.443956452821
+"organic-synthesis_p11.pddl","Delfi1",643.04,1052.36194607843,529.237049804866
+"organic-synthesis_p11.pddl","Delfi2",715.16,1568.51516265597,537.844648853916
+"organic-synthesis_p11.pddl","FDMS1",692.17,1229.721,535.279723413892
+"organic-synthesis_p11.pddl","FDMS2",693.22,1176.28504901961,462.887056001199
+"organic-synthesis_p11.pddl","Metis1",712.34,1131.18206372549,506.205504131998
+"organic-synthesis_p11.pddl","Metis2",711.2,1239.35575,503.211750905683
+"organic-synthesis_p11.pddl","Planning.PDBs",713.91,1252.35918464052,500.855858315015
+"organic-synthesis_p11.pddl","Scorpion",894.29,1154.58459558824,455.971595126927
+"organic-synthesis_p11.pddl","symbolic.bidirectional",715.54,1284.17981985294,512.874506790129
+"organic-synthesis_p11.pddl","Symple.1",613.97,1256.88873319328,561.248673458318
+"organic-synthesis_p11.pddl","Symple.2",339.68,1134.27126470588,716.083496030089

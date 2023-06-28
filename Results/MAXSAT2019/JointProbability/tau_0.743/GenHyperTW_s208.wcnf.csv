@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"GenHyperTW_s208.wcnf","Open.WBO.ms.pre",3600,1387.62961407508,285.413693321727,3600,3600,0,0,0,5,"pred"
+"GenHyperTW_s208.wcnf","UWrMaxSat.1.0",3600,1559.98284610179,282.506798907616,3600,3600,0,0,0,5,"pred"
+"GenHyperTW_s208.wcnf","Open.WBO.ms",3600,1582.53084722162,319.149841578536,3600,3600,0,0,0,5,"pred"

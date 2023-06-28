@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/by-X-2-7-100.cnf","Riss7.1.fix",974.189,2824.79775786802,2214.931869279,1142.18,530.991,0,0,0,5,"pred"
+"sat/by-X-2-7-100.cnf","CaDiCaL",658.475,2826.87775972927,1964.45428548463,758.71,530.991,0,0,0,5,"pred"

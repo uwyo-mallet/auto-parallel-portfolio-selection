@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/CNP-5-1600.cnf","YalSAT",14.737,5.55658755274272,4.71375062589912,14.737,1.91,0,0,0,5,"pred"

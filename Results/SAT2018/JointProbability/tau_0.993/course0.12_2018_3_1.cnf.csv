@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/course0.12_2018_3_1.cnf","Riss7.1.fix",615.628,1775.34783233333,1766.275491262,615.628,220.929,0,0,0,5,"pred"

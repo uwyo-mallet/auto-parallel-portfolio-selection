@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Karatsuba4477457x5308417.cnf","CaDiCaL",27.647,322.604227586207,767.647588384517,31.29,27.647,0,0,0,5,"pred"
+"sat/Karatsuba4477457x5308417.cnf","Riss7.1.fix",359.175,360.716195977011,501.260634707309,412.08,27.647,0,0,0,5,"pred"
+"sat/Karatsuba4477457x5308417.cnf","gluHack",447.65,445.129818390805,886.961769876303,517.41,27.647,0,0,0,5,"pred"
+"sat/Karatsuba4477457x5308417.cnf","Maple_CM_ordUIP",115.2,488.570704597701,974.855171985426,135.01,27.647,0,0,0,5,"pred"
+"sat/Karatsuba4477457x5308417.cnf","Maple_CM_ordUIP.",112.882,511.648284482759,875.991909322437,128.82,27.647,0,0,0,5,"pred"
+"sat/Karatsuba4477457x5308417.cnf","MapleCOMSPS_CHB_VSIDS_drup",769.849,530.293398275862,842.747122955729,5000,27.647,0,0,0,5,"pred"

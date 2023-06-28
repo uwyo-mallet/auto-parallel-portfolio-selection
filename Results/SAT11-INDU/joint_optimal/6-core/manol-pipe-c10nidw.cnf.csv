@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"manol-pipe-c10nidw.cnf","minisathackcontrasat_2011.03.02",436.57,694.535567567568,1495.93898001569,561.62,113.06,0,0,0,5,"pred"
+"manol-pipe-c10nidw.cnf","lingeling.587f.4882048.110513",295.45,797.736551801802,1334.36188844499,323.57,113.06,0,0,0,5,"pred"
+"manol-pipe-c10nidw.cnf","minisathackLR_GL_SHR_2011.03.02",266.88,824.992921171171,1439.02619798438,416.12,113.06,0,0,0,5,"pred"
+"manol-pipe-c10nidw.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,931.665786036036,1640.31404793227,5000,113.06,0,0,0,5,"pred"
+"manol-pipe-c10nidw.cnf","minisathackreferenceminisat_2.2.0",5000,978.321673423423,1641.8570089696,5000,113.06,0,0,0,5,"pred"
+"manol-pipe-c10nidw.cnf","glucose_2.0",1293.93,986.880436936937,1606.95754709258,1681.89,113.06,0,0,0,5,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"dekkerused-assat04-989.cnf","SAT09referencesolverprecosat_236",10.26,706.620393518518,1473.36568365065,10.26,3.08,0,0,0,5,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"IBM_FV_2004_rule_batch_30_SAT_datk55.cnf","minisathackminisat_psm_2011.04.01",105.24,103.094805194805,95.1823785915739,105.24,60.37,0,0,0,5,"pred"

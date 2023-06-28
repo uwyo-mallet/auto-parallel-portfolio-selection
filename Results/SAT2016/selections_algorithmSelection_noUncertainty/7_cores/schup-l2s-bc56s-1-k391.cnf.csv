@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/schup-l2s-bc56s-1-k391.cnf","Glucose_nbSat",308.277,1681.70284240196,1922.31817915046,367.89,152.86,0,0,0,0,"pred"
+"sat/schup-l2s-bc56s-1-k391.cnf","glucose",264.892,1802.67461642157,1863.81006302643,307.11,152.86,0,0,0,0,"pred"
+"sat/schup-l2s-bc56s-1-k391.cnf","tc_glucose",294.304,1839.4470307598,1881.72351386077,338.43,152.86,0,0,0,0,"pred"
+"sat/schup-l2s-bc56s-1-k391.cnf","GHackCOMSPS_DRUP",287.792,1929.31392855392,1808.04584433955,310.89,152.86,0,0,0,0,"pred"
+"sat/schup-l2s-bc56s-1-k391.cnf","CHBR_glucose",253.606,1943.06149693627,1854.22743349287,301.22,152.86,0,0,0,0,"pred"
+"sat/schup-l2s-bc56s-1-k391.cnf","tb_glucose",281.145,2044.27934129902,1957.49117747362,304.93,152.86,0,0,0,0,"pred"
+"sat/schup-l2s-bc56s-1-k391.cnf","abcdSAT_drup",152.86,2135.27328039216,1893.4175973737,180.25,152.86,0,0,0,0,"pred"

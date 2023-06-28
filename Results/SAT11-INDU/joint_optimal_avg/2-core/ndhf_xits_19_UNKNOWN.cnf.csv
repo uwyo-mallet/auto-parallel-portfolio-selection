@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"ndhf_xits_19_UNKNOWN.cnf","minisathackreferenceminisat_2.2.0",200.04,847.871816129032,1580.75900777461,205.68,16.65,0,0,0,5,"pred"
+"ndhf_xits_19_UNKNOWN.cnf","glueminisat.2.2.5",395.03,934.109648387097,1629.08955241326,404.12,16.65,0,0,0,5,"pred"

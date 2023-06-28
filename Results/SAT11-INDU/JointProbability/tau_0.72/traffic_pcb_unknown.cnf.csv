@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"traffic_pcb_unknown.cnf","glucose_2.0",82.28,114.426272522523,209.591210240127,82.66,82.28,0,0,0,5,"pred"
+"traffic_pcb_unknown.cnf","minisathackEBMiniSAT_2011.03.02",164.38,259.034295045045,317.781806814622,192.08,82.28,0,0,0,5,"pred"

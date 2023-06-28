@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"MinFill_R4_miles500.wcnf","UWrMaxSat.1.0",3600,1769.80825921022,1353.1749752445,3600,3600,1,"Inf"
+"MinFill_R4_miles500.wcnf","Open.WBO.ms.pre",3600,1956.16967348175,1359.6129680941,3600,3600,2,"Inf"

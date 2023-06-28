@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"grid-strips-grid-y-4025-NOTKNOWN.cnf","glucose_2.0",17.78,1149.98589160839,1621.67740423829,17.78,4.91,0,0,0,0,"pred"

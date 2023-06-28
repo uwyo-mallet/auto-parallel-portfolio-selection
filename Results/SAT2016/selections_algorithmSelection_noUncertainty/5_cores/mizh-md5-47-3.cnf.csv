@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/mizh-md5-47-3.cnf","tb_glucose",736.743,1448.74761351085,1765.14962737431,811.92,19.452,0,0,0,0,"pred"
+"sat/mizh-md5-47-3.cnf","GHackCOMSPS_DRUP",306.863,1478.11864418146,1702.87021325732,327.96,19.452,0,0,0,0,"pred"
+"sat/mizh-md5-47-3.cnf","tc_glucose",796.24,1540.99009881657,1763.64707658316,870.3,19.452,0,0,0,0,"pred"
+"sat/mizh-md5-47-3.cnf","glucose_hack_kiel_newScript",54.181,1690.10591193294,1901.92286263147,55.85,19.452,0,0,0,0,"pred"
+"sat/mizh-md5-47-3.cnf","cmsat5_autotune2",68.988,1733.32952998028,1962.54203798644,69.01,19.452,0,0,0,0,"pred"

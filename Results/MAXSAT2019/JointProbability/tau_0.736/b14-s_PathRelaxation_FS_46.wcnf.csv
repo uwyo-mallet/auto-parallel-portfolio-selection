@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"b14-s_PathRelaxation_FS_46.wcnf","Open.WBO.ms.pre",3.04,852.426059888468,350.362434855418,3.06,0.07,0,0,0,5,"pred"
+"b14-s_PathRelaxation_FS_46.wcnf","UWrMaxSat.1.0",0.09,903.99050646557,348.048151763017,0.09,0.07,0,0,0,5,"pred"
+"b14-s_PathRelaxation_FS_46.wcnf","Open.WBO.ms",9.33,921.674062687617,356.349703621557,9.2,0.07,0,0,0,5,"pred"
+"b14-s_PathRelaxation_FS_46.wcnf","MaxHS",0.24,1081.85609959685,512.513121434676,0.23,0.07,0,0,0,5,"pred"

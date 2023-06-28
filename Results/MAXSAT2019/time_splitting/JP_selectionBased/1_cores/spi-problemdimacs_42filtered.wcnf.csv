@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"spi-problemdimacs_42filtered.wcnf","Open.WBO.ms.pre",300.27,1356.70137019509,284.406566627325,300.27,12.54,1,"300.27"

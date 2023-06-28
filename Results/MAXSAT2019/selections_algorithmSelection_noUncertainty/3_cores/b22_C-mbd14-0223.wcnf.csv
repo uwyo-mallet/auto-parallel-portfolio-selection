@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"b22_C-mbd14-0223.wcnf","QMaxSAT2018",14.76,538.192783735649,802.190885618694,15.2,0.36,0,0,0,0,"pred"
+"b22_C-mbd14-0223.wcnf","Open.WBO.ms",0.59,556.09112585063,756.025684764877,0.63,0.36,0,0,0,0,"pred"
+"b22_C-mbd14-0223.wcnf","Open.WBO.g",0.55,618.723093018052,800.39811684322,0.61,0.36,0,0,0,0,"pred"

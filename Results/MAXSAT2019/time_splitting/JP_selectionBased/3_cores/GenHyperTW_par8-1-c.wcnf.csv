@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"GenHyperTW_par8-1-c.wcnf","MaxHS",3600,967.591108588789,1167.3238182812,3600,3600,1,"Inf"
+"GenHyperTW_par8-1-c.wcnf","maxino2018",3600,1126.43463592427,1294.76285573722,3600,3600,2,"Inf"
+"GenHyperTW_par8-1-c.wcnf","Open.WBO.g",3600,1225.77468341553,1357.01314293254,3600,3600,3,"Inf"

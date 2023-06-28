@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"aaai10-planning-ipc5-TPP-21-step11.cnf","glucose_2.0",595.52,1131.60039236111,1892.90093127865
+"aaai10-planning-ipc5-TPP-21-step11.cnf","glueminisat.2.2.5",816.58,1347.32035416667,1940.53016941354
+"aaai10-planning-ipc5-TPP-21-step11.cnf","lingeling.587f.4882048.110513",686.96,895.343091435185,1518.08905018615
+"aaai10-planning-ipc5-TPP-21-step11.cnf","minisathackcir_minisat_2011.05.13_simp_",3773.3,1040.6167962963,1731.85018682863
+"aaai10-planning-ipc5-TPP-21-step11.cnf","minisathackcontrasat_2011.03.02",3202.98,1057.13575347222,1771.96310755625
+"aaai10-planning-ipc5-TPP-21-step11.cnf","minisathackEBMiniSAT_2011.03.02",3570.5,1299.45154513889,1956.88974647984
+"aaai10-planning-ipc5-TPP-21-step11.cnf","minisathackLR_GL_SHR_2011.03.02",4926.62,1501.98097106481,1947.6885970667
+"aaai10-planning-ipc5-TPP-21-step11.cnf","minisathackMiniSAT_2.2.0.agile.26",3823.59,1160.4813900463,1911.87225896018
+"aaai10-planning-ipc5-TPP-21-step11.cnf","minisathackminisat_psm_2011.04.01",1374.71,987.744386574074,1698.66434273423
+"aaai10-planning-ipc5-TPP-21-step11.cnf","minisathackreferenceminisat_2.2.0",4665.02,1003.22993518519,1589.5876200837
+"aaai10-planning-ipc5-TPP-21-step11.cnf","MPhaseSAT64",261.78,666.814273148148,1394.61144977771
+"aaai10-planning-ipc5-TPP-21-step11.cnf","rcl_2011.04.01",1390.69,1035.17286574074,1739.3298471988
+"aaai10-planning-ipc5-TPP-21-step11.cnf","RestartSAT_B95",3010.39,1256.49071527778,1866.00382316959
+"aaai10-planning-ipc5-TPP-21-step11.cnf","SAT09referencesolverprecosat_236",184.99,518.758915509259,1241.13391252149

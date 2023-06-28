@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/snw_13_9_preOpt_pre.cnf","MapleCOMSPS_DRUP",2.292,379.087976804124,1220.7622797069,2.292,1.698,0,0,0,0,"pred"

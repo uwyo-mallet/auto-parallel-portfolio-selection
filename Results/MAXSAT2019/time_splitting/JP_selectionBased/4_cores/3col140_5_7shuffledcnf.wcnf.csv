@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"3col140_5_7shuffledcnf.wcnf","maxino2018",5.56,6.21877906976743,5.01480160549629,5.57,2.85,1,"5.57"

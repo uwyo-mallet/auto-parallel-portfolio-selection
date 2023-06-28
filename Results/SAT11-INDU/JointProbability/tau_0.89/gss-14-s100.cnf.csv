@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"gss-14-s100.cnf","minisathackminisat_psm_2011.04.01",11.56,714.904971861472,1034.80333285342,11.61,3.36,0,0,0,5,"pred"
+"gss-14-s100.cnf","SAT09referencesolverprecosat_236",26.78,738.490735930736,1353.48919145417,27.69,3.36,0,0,0,5,"pred"
+"gss-14-s100.cnf","MPhaseSAT64",13.21,741.00724025974,1449.5873677125,13.23,3.36,0,0,0,5,"pred"
+"gss-14-s100.cnf","minisathackcontrasat_2011.03.02",3.36,766.81174025974,1504.06905362351,3.4,3.36,0,0,0,5,"pred"

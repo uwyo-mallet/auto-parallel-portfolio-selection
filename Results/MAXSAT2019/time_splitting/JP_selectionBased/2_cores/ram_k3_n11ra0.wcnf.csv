@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"ram_k3_n11ra0.wcnf","maxino2018",3600,3245.8445,1075.59486128212,3600,3600,1,"Inf"
+"ram_k3_n11ra0.wcnf","UWrMaxSat.1.0",3600,3272.81272727273,1038.59856799872,3600,3600,2,"Inf"

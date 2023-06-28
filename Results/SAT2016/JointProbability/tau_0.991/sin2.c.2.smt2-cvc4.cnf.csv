@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sin2.c.2.smt2-cvc4.cnf","Lingelingbbcmain",20.133,2723.42137647059,2199.0264441355,20.133,0.688,0,0,0,5,"pred"

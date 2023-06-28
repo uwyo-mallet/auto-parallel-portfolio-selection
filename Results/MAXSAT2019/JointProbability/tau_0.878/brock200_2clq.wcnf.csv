@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"brock200_2clq.wcnf","MaxHS",91.55,529.274342937044,706.871296217717,91.55,10.08,0,0,0,5,"pred"

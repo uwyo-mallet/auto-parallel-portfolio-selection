@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/filter1_true-unreach-call.c.cnf","inIDGlucose",169.84,716.278853111111,1273.42383277226,192.59,131.403,0,0,0,5,"pred"
+"sat/filter1_true-unreach-call.c.cnf","COMiniSatPS_Pulsar_drup",153.486,763.612782888889,1372.46065879967,176.5,131.403,0,0,0,5,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"SAT07__industrial__vliw_sat_40__9vliw_m_9stages_iq3_C1_bug6cnfwcnf3.wcnf","Open.WBO.ms.pre",155.46,1343.50876004438,261.008081757766,155.46,0.48,1,"155.46"

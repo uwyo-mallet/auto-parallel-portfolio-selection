@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"atcoss_sugar_18.wcnf","Open.WBO.ms.pre",3600,1697.69591519249,958.069731061324,3600,3600,1,"Inf"
+"atcoss_sugar_18.wcnf","maxino2018",3600,1745.28967474016,844.373506872067,3600,3600,2,"Inf"
+"atcoss_sugar_18.wcnf","UWrMaxSat.1.0",3600,1755.42440859846,1089.06468555504,3600,3600,3,"Inf"

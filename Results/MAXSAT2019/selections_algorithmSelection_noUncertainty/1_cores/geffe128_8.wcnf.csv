@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"geffe128_8.wcnf","MaxHS",24.92,26.539554263566,11.3130771842419,24.92,24.92,0,0,0,0,"pred"

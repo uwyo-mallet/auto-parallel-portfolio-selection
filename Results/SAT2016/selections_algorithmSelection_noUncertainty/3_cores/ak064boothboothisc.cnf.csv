@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ak064boothboothisc.cnf","Riss6",5000,3004.93522777778,2265.05080919895,5000,5000,0,0,0,0,"pred"
+"sat/ak064boothboothisc.cnf","tc_glucose",5000,3547.75268153595,2001.86747955713,5000,5000,0,0,0,0,"pred"
+"sat/ak064boothboothisc.cnf","Splatz06vmain",5000,3593.0449874183,1809.8471797655,5000,5000,0,0,0,0,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/TimetableCNFEncoding_1_UNKNOWN.cnf","MapleLCMDistChronoBT",88.004,860.862233549783,1530.49757626931,106.05,88.004,0,0,0,5,"pred"
+"sat/TimetableCNFEncoding_1_UNKNOWN.cnf","gluHack",649.952,1281.75521753247,1587.31901967481,771.45,88.004,0,0,0,5,"pred"

@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","Open.WBO.ms.pre",65.84,535.653236909996,680.394598549138,69.18,23.23,1,"69.18"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","Open.WBO.ms",77.38,617.038386964646,627.428328649366,81,23.23,2,"81"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","UWrMaxSat.1.0",23.23,681.806041080117,755.541755993734,24.42,23.23,3,"24.42"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","MaxHS",1013.51,867.019763966003,679.612905895943,1046.11,23.23,3,"Inf"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","maxino2018",96.33,772.294418377695,801.488564625582,100.95,23.23,1,"Inf"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","Open.WBO.g",56.07,831.209209227051,920.77209278215,58.98,23.23,2,"Inf"
+"SAT11__application__leberre__2dimensionalstrippacking__E05F18cnfwcnf8.wcnf","QMaxSAT2018",104.42,916.12731987289,1000.50663501658,110.3,23.23,1,"Inf"

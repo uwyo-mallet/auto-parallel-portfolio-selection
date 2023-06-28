@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"heart_train_0_DNF_3_1.wcnf","MaxHS",3600,1140.66811394527,510.110706448455,3600,1128.66,1,"Inf"
+"heart_train_0_DNF_3_1.wcnf","Open.WBO.ms.pre",1128.66,1459.01816267167,570.739499476156,1135.68,1128.66,2,"1135.68"

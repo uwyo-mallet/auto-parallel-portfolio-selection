@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/barman-pfile09-036.sas.cr.33.cnf","tc_glucose",30.184,1205.53660849057,1806.71823912792,30.22,17.993,0,0,0,0,"pred"
+"sat/barman-pfile09-036.sas.cr.33.cnf","MapleCOMSPS_LRB_DRUP",81.295,1279.74132625786,1755.49057443921,81.67,17.993,0,0,0,0,"pred"

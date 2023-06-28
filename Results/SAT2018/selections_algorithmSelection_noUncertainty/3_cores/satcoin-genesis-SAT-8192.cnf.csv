@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/satcoin-genesis-SAT-8192.cnf","Riss7.1.fix",3.301,4.7478149350648,5.17919248605759,4.21,3.301,0,0,0,0,"pred"
+"sat/satcoin-genesis-SAT-8192.cnf","Lingeling",258.78,80.0113506493506,20.989495159265,315.35,3.301,0,0,0,0,"pred"
+"sat/satcoin-genesis-SAT-8192.cnf","CaDiCaL",349.79,105.89163030303,52.4961748303442,426.32,3.301,0,0,0,0,"pred"

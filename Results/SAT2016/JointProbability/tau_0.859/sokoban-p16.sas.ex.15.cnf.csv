@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sokoban-p16.sas.ex.15.cnf","MapleCOMSPS_CHB_DRUP",900.645,2374.1124503268,1718.22119892642,1001.22,900.645,0,0,0,5,"pred"
+"sat/sokoban-p16.sas.ex.15.cnf","cmsat5_autotune2",1320.195,2729.47803398693,1650.92088271931,1320.8,900.645,0,0,0,5,"pred"
+"sat/sokoban-p16.sas.ex.15.cnf","tc_glucose",1170.057,2790.82888349673,1830.91912847033,1230.32,900.645,0,0,0,5,"pred"
+"sat/sokoban-p16.sas.ex.15.cnf","Glucose_nbSat",1036.269,2853.07671813726,1954.15520689315,1098.77,900.645,0,0,0,5,"pred"
+"sat/sokoban-p16.sas.ex.15.cnf","MapleCOMSPS_LRB_DRUP",1084.863,2872.86799460784,1797.541247208,1212.16,900.645,0,0,0,5,"pred"
+"sat/sokoban-p16.sas.ex.15.cnf","glucose_hack_kiel_newScript",1072.67,2966.85846388889,1862.75798760104,1129.88,900.645,0,0,0,5,"pred"
+"sat/sokoban-p16.sas.ex.15.cnf","CHBR_glucose_tuned",1113.437,2975.46914133987,1880.00705329704,1150.07,900.645,0,0,0,5,"pred"

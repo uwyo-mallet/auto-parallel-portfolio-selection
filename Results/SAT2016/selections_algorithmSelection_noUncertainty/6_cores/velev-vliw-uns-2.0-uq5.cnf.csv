@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/velev-vliw-uns-2.0-uq5.cnf","glucose",182.412,855.7534839934,1227.40007079512,198.76,172.772,0,0,0,0,"pred"
+"sat/velev-vliw-uns-2.0-uq5.cnf","Splatz06vmain",172.772,970.979281683168,1474.5250637691,178.84,172.772,0,0,0,0,"pred"
+"sat/velev-vliw-uns-2.0-uq5.cnf","Glucose_nbSat",225.95,1221.37763052805,1412.69454117037,247.85,172.772,0,0,0,0,"pred"
+"sat/velev-vliw-uns-2.0-uq5.cnf","CHBR_glucose",239.347,1274.46585726073,1572.7050628861,256.39,172.772,0,0,0,0,"pred"
+"sat/velev-vliw-uns-2.0-uq5.cnf","Lingelingbbcmain",265.236,1287.31803267327,1589.67882850254,276.26,172.772,0,0,0,0,"pred"
+"sat/velev-vliw-uns-2.0-uq5.cnf","MapleCOMSPS_LRB_DRUP",300.283,1353.42889290429,1498.54602268716,318.25,172.772,0,0,0,0,"pred"

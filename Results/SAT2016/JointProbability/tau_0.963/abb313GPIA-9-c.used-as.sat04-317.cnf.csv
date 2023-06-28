@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/abb313GPIA-9-c.used-as.sat04-317.cnf","MapleCOMSPS_LRB_DRUP",274.651,2024.64513632075,2129.86137084892,273.19,232.172,0,0,0,5,"pred"
+"sat/abb313GPIA-9-c.used-as.sat04-317.cnf","MapleCOMSPS_CHB_DRUP",5000,2139.86402735849,2060.61243798375,5000,232.172,0,0,0,5,"pred"

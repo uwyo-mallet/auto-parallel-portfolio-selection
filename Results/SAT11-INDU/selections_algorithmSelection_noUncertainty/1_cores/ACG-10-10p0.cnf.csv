@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"ACG-10-10p0.cnf","minisathackreferenceminisat_2.2.0",38.27,1725.17727083333,2219.41132563912,38.27,21.07,0,0,0,0,"pred"

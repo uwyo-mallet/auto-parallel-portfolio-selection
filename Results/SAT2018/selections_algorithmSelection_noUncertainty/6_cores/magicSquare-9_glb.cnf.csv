@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/magicSquare-9_glb.cnf","cms55.main.all4fixed",160.313,1329.01433822222,1839.59863772201,197.72,9.332,0,0,0,0,"pred"
+"sat/magicSquare-9_glb.cnf","Riss7.1.fix",5000,1458.14709377778,1938.13796695087,5000,9.332,0,0,0,0,"pred"
+"sat/magicSquare-9_glb.cnf","MapleCOMSPS_LRB_VSIDS_drup",259.161,1600.88532422222,2030.49627340928,324.14,9.332,0,0,0,0,"pred"
+"sat/magicSquare-9_glb.cnf","MapleCOMSPS_CHB_VSIDS_drup",137.448,1613.32523244444,2121.45742135328,171.12,9.332,0,0,0,0,"pred"
+"sat/magicSquare-9_glb.cnf","Sparrow2Riss.2018.fixfix",5000,1708.28170711111,1834.29269314976,5000,9.332,0,0,0,0,"pred"
+"sat/magicSquare-9_glb.cnf","glucose3.0",5000,1730.21689933333,2044.03355907656,5000,9.332,0,0,0,0,"pred"

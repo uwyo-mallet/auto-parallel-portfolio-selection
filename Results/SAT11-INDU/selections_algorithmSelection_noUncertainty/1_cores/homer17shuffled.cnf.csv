@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"homer17shuffled.cnf","glucose_2.0",3172.92,761.709527027027,1091.88454712642,3172.92,3172.92,0,0,0,0,"pred"

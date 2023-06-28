@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"hwmcc10-timeframe-expansion-k45-pdtpmsgoodbakery-tseitin.cnf","glueminisat.2.2.5",117.21,782.169005333333,1387.03237189978,129.09,117.21,0,0,0,0,"pred"
+"hwmcc10-timeframe-expansion-k45-pdtpmsgoodbakery-tseitin.cnf","lingeling.587f.4882048.110513",130.13,1064.90029866667,1696.55833919735,131.93,117.21,0,0,0,0,"pred"
+"hwmcc10-timeframe-expansion-k45-pdtpmsgoodbakery-tseitin.cnf","minisathackLR_GL_SHR_2011.03.02",804.58,1433.978416,1807.48388118996,910.16,117.21,0,0,0,0,"pred"

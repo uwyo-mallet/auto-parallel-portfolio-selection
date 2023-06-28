@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"SAT11__application__manthey__traffic__traffic_3_uc_satcnfwcnf8.wcnf","UWrMaxSat.1.0",100.17,415.343697063097,862.611153871517,131.88,2.44,0,0,0,5,"pred"
+"SAT11__application__manthey__traffic__traffic_3_uc_satcnfwcnf8.wcnf","Open.WBO.g",2.44,669.09281283096,1133.55291054971,2.76,2.44,0,0,0,5,"pred"
+"SAT11__application__manthey__traffic__traffic_3_uc_satcnfwcnf8.wcnf","Open.WBO.ms.pre",5.63,684.296473813831,1076.76546863039,6,2.44,0,0,0,5,"pred"

@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"SAT04__industrial__velev__pipe-sat-1-1__12pipe_bug6_q0used-assat04-725cnfwcnf3.wcnf","UWrMaxSat.1.0",78.55,1795.77411585419,1171.11567354386,91.83,4.11,0,0,0,5,"pred"
+"SAT04__industrial__velev__pipe-sat-1-1__12pipe_bug6_q0used-assat04-725cnfwcnf3.wcnf","Open.WBO.g",4.11,1938.58176589256,1180.01546421029,4.67,4.11,0,0,0,5,"pred"
+"SAT04__industrial__velev__pipe-sat-1-1__12pipe_bug6_q0used-assat04-725cnfwcnf3.wcnf","maxino2018",184.36,2005.45089912361,1144.61232158254,212.39,4.11,0,0,0,5,"pred"

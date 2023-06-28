@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/CNP-5-800.cnf","Sparrow2Riss.2018.fixfix",2.122,2.05205574712644,0.129518615846207,2.14,2.122,0,0,0,0,"pred"
+"sat/CNP-5-800.cnf","YalSAT",8.553,8.73956954023002,9.01430642248158,9.65,2.122,0,0,0,0,"pred"
+"sat/CNP-5-800.cnf","Minisat.v2.2.0.106.ge2dd095",77.343,246.154831609195,142.834180126221,92.93,2.122,0,0,0,0,"pred"

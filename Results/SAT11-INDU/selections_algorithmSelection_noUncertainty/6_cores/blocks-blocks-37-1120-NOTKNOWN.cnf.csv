@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"blocks-blocks-37-1120-NOTKNOWN.cnf","SAT09referencesolverprecosat_236",143.04,430.594248842593,564.566294835592,161.2,40.67,0,0,0,0,"pred"
+"blocks-blocks-37-1120-NOTKNOWN.cnf","lingeling.587f.4882048.110513",50.83,566.27492824074,549.060246460178,55.72,40.67,0,0,0,0,"pred"
+"blocks-blocks-37-1120-NOTKNOWN.cnf","glueminisat.2.2.5",43.75,584.511414351852,606.507518776646,50.48,40.67,0,0,0,0,"pred"
+"blocks-blocks-37-1120-NOTKNOWN.cnf","MPhaseSAT64",146.66,630.893914351852,860.173052231444,149.04,40.67,0,0,0,0,"pred"
+"blocks-blocks-37-1120-NOTKNOWN.cnf","glucose_2.0",40.67,712.617621527777,934.570512300316,45.39,40.67,0,0,0,0,"pred"
+"blocks-blocks-37-1120-NOTKNOWN.cnf","RestartSAT_B95",46.27,761.64087962963,779.563587024701,54.39,40.67,0,0,0,0,"pred"

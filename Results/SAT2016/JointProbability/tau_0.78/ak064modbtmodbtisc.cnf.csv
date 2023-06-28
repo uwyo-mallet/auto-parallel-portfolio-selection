@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ak064modbtmodbtisc.cnf","Riss6",5000,2917.92352550505,2281.05176206739,5000,5000,0,0,0,5,"pred"
+"sat/ak064modbtmodbtisc.cnf","Splatz06vmain",5000,3210.14328143939,2069.45714030951,5000,5000,0,0,0,5,"pred"
+"sat/ak064modbtmodbtisc.cnf","CHBR_glucose_tuned",5000,3739.26904242424,1808.74271219839,5000,5000,0,0,0,5,"pred"
+"sat/ak064modbtmodbtisc.cnf","glueminisat.2210.81.main",5000,3765.3318030303,1698.43039663644,5000,5000,0,0,0,5,"pred"
+"sat/ak064modbtmodbtisc.cnf","CHBR_glucose",5000,3796.8585969697,1698.8613309959,5000,5000,0,0,0,5,"pred"
+"sat/ak064modbtmodbtisc.cnf","tb_glucose",5000,3894.03191931818,1715.02857629131,5000,5000,0,0,0,5,"pred"
+"sat/ak064modbtmodbtisc.cnf","tc_glucose",5000,3950.26415934343,1819.14218235833,5000,5000,0,0,0,5,"pred"

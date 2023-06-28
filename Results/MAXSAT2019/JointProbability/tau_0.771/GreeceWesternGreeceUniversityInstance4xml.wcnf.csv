@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","MaxHS",3600,2243.43711765113,1418.22542186047,3600,3600,0,0,0,5,"pred"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","maxino2018",3600,2868.56669843223,1133.55008263195,3600,3600,0,0,0,5,"pred"
+"GreeceWesternGreeceUniversityInstance4xml.wcnf","QMaxSAT2018",3600,2923.58754793888,1121.79568821803,3600,3600,0,0,0,5,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"gen_cvc-plus_4_33.wcnf","MaxHS",21.23,1098.95592798439,743.474547791671,21.23,0.1,0,0,0,0,"pred"

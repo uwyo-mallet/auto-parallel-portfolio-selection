@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"driverlog1_ks99irenamed-assat05-3951.cnf","minisathackEBMiniSAT_2011.03.02",0,171.933385135135,652.757674882298,0,0,0,0,0,5,"pred"
+"driverlog1_ks99irenamed-assat05-3951.cnf","glueminisat.2.2.5",0,335.394778206778,1064.48187880481,0,0,0,0,0,5,"pred"
+"driverlog1_ks99irenamed-assat05-3951.cnf","SAT09referencesolverprecosat_236",0,421.001645752896,885.098485546246,0,0,0,0,0,5,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"petri-net-alignment_p14.pddl","Delfi1",55.85,113.237072289157,51.6461011426239,58.14,55.85,0,0,0,5,"pred"
+"petri-net-alignment_p14.pddl","symbolic.bidirectional",207.4,152.485166666667,107.833429278522,226.17,55.85,0,0,0,5,"pred"

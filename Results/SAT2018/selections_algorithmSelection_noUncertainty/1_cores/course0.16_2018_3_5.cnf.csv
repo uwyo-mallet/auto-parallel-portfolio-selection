@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/course0.16_2018_3_5.cnf","GHackCOMSPS_drup",776.641,1443.78112552743,1917.1950387398,776.641,532.705,0,0,0,0,"pred"

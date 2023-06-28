@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"MinFill_R0_myciel7.wcnf","Open.WBO.ms.pre",3600,1306.28652969431,248.721447089724,3600,3600,1,"Inf"
+"MinFill_R0_myciel7.wcnf","Open.WBO.ms",3600,1438.33061048563,297.717820756332,3600,3600,2,"Inf"

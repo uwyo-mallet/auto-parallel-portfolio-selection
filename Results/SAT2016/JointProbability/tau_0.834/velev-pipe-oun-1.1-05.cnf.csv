@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/velev-pipe-oun-1.1-05.cnf","Splatz06vmain",2495.268,691.886925670498,1022.53318375217,2540.1,2495.268,0,0,0,5,"pred"
+"sat/velev-pipe-oun-1.1-05.cnf","glucose",5000,927.246036398468,900.54852710396,5000,2495.268,0,0,0,5,"pred"
+"sat/velev-pipe-oun-1.1-05.cnf","Lingelingbbcmain",5000,1014.09109415709,1165.36536046872,5000,2495.268,0,0,0,5,"pred"
+"sat/velev-pipe-oun-1.1-05.cnf","CHBR_glucose",5000,1119.14171455939,1063.08653205765,5000,2495.268,0,0,0,5,"pred"

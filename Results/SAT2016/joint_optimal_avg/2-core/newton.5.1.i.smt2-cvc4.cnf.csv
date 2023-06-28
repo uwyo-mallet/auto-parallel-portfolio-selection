@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/newton.5.1.i.smt2-cvc4.cnf","abcdSAT_drup",2.982,1729.64192623762,2128.54288626561,2.91,1.11,0,0,0,5,"pred"
+"sat/newton.5.1.i.smt2-cvc4.cnf","Lingelingbbcmain",14.58,1802.49341963696,2156.30642967156,14.41,1.11,0,0,0,5,"pred"

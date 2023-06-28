@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"eqatreebraun12unsat.cnf","MPhaseSAT64",2213.76,1763.84645949074,1981.50845887247,2206.84,2213.76,0,0,0,0,"pred"
+"eqatreebraun12unsat.cnf","minisathackMiniSAT_2.2.0.agile.26",5000,1796.59676967592,1651.32459719181,5000,2213.76,0,0,0,0,"pred"
+"eqatreebraun12unsat.cnf","glueminisat.2.2.5",5000,2237.24312268518,1735.17888276284,5000,2213.76,0,0,0,0,"pred"

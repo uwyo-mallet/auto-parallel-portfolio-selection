@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","minisathackEBMiniSAT_2011.03.02",1263.72,1255.11105126263,1594.33541443838,1616.01,1180.53,0,0,0,5,"pred"
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","lingeling.587f.4882048.110513",2860.98,1309.03716666667,1558.29848348224,3033.27,1180.53,0,0,0,5,"pred"
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","minisathackMiniSAT_2.2.0.agile.26",1538.06,1390.09785925926,1790.04807214737,1976.4,1180.53,0,0,0,5,"pred"

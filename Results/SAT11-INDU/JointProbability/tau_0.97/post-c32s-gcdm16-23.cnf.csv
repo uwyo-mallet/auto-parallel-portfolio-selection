@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"post-c32s-gcdm16-23.cnf","minisathackreferenceminisat_2.2.0",353.49,1678.88746412037,2092.96013964223,353.49,22.7,0,0,0,5,"pred"

@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/safe028_tso.oepc_true-unreach-call.i-cbmc-u2.cnf","MapleCMS",3.375,97.6156701149424,389.941580888472,3.28,0.523,0,0,0,0,"pred"
+"sat/safe028_tso.oepc_true-unreach-call.i-cbmc-u2.cnf","gulch",3.088,169.19712164751,694.97302773768,2.91,0.523,0,0,0,0,"pred"
+"sat/safe028_tso.oepc_true-unreach-call.i-cbmc-u2.cnf","cmsat5_autotune2",2.519,189.780219157088,738.586357961261,2.4,0.523,0,0,0,0,"pred"
+"sat/safe028_tso.oepc_true-unreach-call.i-cbmc-u2.cnf","Lingelingbbcmain",2.475,191.490097413793,790.33740127859,2.47,0.523,0,0,0,0,"pred"
+"sat/safe028_tso.oepc_true-unreach-call.i-cbmc-u2.cnf","CHBR_glucose_tuned",1.122,208.182254310345,792.746416866816,1.07,0.523,0,0,0,0,"pred"
+"sat/safe028_tso.oepc_true-unreach-call.i-cbmc-u2.cnf","tc_glucose",1.508,215.87705,819.234623618525,1.35,0.523,0,0,0,0,"pred"

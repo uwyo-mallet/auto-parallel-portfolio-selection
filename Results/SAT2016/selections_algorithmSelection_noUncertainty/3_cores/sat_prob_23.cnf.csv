@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sat_prob_23.cnf","abcdSAT_drup",2838.459,1215.91736502525,1899.79812120993,2901.04,1212.83,0,0,0,0,"pred"
+"sat/sat_prob_23.cnf","Riss6",5000,1309.6586020202,1976.96966470762,5000,1212.83,0,0,0,0,"pred"
+"sat/sat_prob_23.cnf","glue_alt",3597.142,1309.86966262626,1983.72838490828,3775.5,1212.83,0,0,0,0,"pred"

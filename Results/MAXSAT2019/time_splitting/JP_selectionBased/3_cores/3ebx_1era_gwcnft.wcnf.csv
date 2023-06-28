@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"3ebx_1era_gwcnft.wcnf","Open.WBO.ms.pre",340.84,1306.28652969431,248.721447089724,405.49,100.68,1,"405.49"
+"3ebx_1era_gwcnft.wcnf","Open.WBO.ms",354.14,1438.33061048563,297.717820756332,358.16,100.68,2,"358.16"
+"3ebx_1era_gwcnft.wcnf","UWrMaxSat.1.0",369.67,1458.43950640856,281.533912087144,379.01,100.68,3,"379.01"

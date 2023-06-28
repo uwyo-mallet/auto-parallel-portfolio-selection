@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"smtlib-qfbv-aigs-bin_libsmbsharemodes_vc5759-tseitin.cnf","glueminisat.2.2.5",1.03,706.18527311828,1407.49993480591,1.06,0.2,0,0,0,5,"pred"
+"smtlib-qfbv-aigs-bin_libsmbsharemodes_vc5759-tseitin.cnf","minisathackLR_GL_SHR_2011.03.02",0.91,795.997972043011,1672.94697028905,0.96,0.2,0,0,0,5,"pred"

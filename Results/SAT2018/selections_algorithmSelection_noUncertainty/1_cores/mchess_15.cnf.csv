@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/mchess_15.cnf","Lingeling",0.005,276.100894244604,1018.13240239175,0.005,0.005,0,0,0,0,"pred"

@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/snw_16_8_pre.cnf","GHackCOMSPS_DRUP",1517.991,1830.09038907563,2015.78228371554,2239.58,1404.911,0,0,0,5,"pred"
+"sat/snw_16_8_pre.cnf","Glucose_nbSat",1774.069,1849.273317507,2009.45094869708,2525.3,1404.911,0,0,0,5,"pred"
+"sat/snw_16_8_pre.cnf","MapleCOMSPS_LRB_DRUP",1657.185,1849.42055518207,1959.08125306897,2370.82,1404.911,0,0,0,5,"pred"
+"sat/snw_16_8_pre.cnf","MapleCOMSPS_CHB_DRUP",1750.146,1865.64887759104,2070.5837531124,2484.67,1404.911,0,0,0,5,"pred"
+"sat/snw_16_8_pre.cnf","MapleCOMSPS_DRUP",1551.815,1889.60781358543,2050.2733156066,1919.96,1404.911,0,0,0,5,"pred"
+"sat/snw_16_8_pre.cnf","CHBR_glucose_tuned",1684.808,1938.20698403361,1984.97214579197,2063.96,1404.911,0,0,0,5,"pred"
+"sat/snw_16_8_pre.cnf","COMiniSatPSChandrasekharDRUP",1516.023,2022.64358291317,2097.74894991837,2191.31,1404.911,0,0,0,5,"pred"

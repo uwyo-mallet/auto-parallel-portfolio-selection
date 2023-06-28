@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"myciel6-trused-assat04-320.cnf","SAT09referencesolverprecosat_236",5000,907.689314814815,1631.40206611521,5000,856.76,0,0,0,0,"pred"
+"myciel6-trused-assat04-320.cnf","glucose_2.0",5000,994.45953125,1669.27379264304,5000,856.76,0,0,0,0,"pred"
+"myciel6-trused-assat04-320.cnf","lingeling.587f.4882048.110513",5000,1114.509,1713.47166002999,5000,856.76,0,0,0,0,"pred"

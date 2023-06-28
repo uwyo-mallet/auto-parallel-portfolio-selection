@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"aaai10-planning-ipc5-rovers-18-step11.cnf","glucose_2.0",4.02,366.073318518519,906.282492603889
+"aaai10-planning-ipc5-rovers-18-step11.cnf","glueminisat.2.2.5",4.65,435.355395370371,1148.02058140469
+"aaai10-planning-ipc5-rovers-18-step11.cnf","lingeling.587f.4882048.110513",5000,369.128360185185,995.655953021829
+"aaai10-planning-ipc5-rovers-18-step11.cnf","minisathackcir_minisat_2011.05.13_simp_",5.91,713.42392962963,1421.63115855616
+"aaai10-planning-ipc5-rovers-18-step11.cnf","minisathackcontrasat_2011.03.02",2.83,635.808136522634,1432.51115710632
+"aaai10-planning-ipc5-rovers-18-step11.cnf","minisathackEBMiniSAT_2011.03.02",9.01,826.060182407407,1589.59360093062
+"aaai10-planning-ipc5-rovers-18-step11.cnf","minisathackLR_GL_SHR_2011.03.02",3.93,666.23099074074,1397.72427812486
+"aaai10-planning-ipc5-rovers-18-step11.cnf","minisathackMiniSAT_2.2.0.agile.26",6.34,963.003817592592,1625.95187789246
+"aaai10-planning-ipc5-rovers-18-step11.cnf","minisathackminisat_psm_2011.04.01",7.19,697.642575925926,1536.73086885104
+"aaai10-planning-ipc5-rovers-18-step11.cnf","minisathackreferenceminisat_2.2.0",7.17,773.46007037037,1488.09905924056
+"aaai10-planning-ipc5-rovers-18-step11.cnf","MPhaseSAT64",5000,460.940461111111,1296.54823542826
+"aaai10-planning-ipc5-rovers-18-step11.cnf","rcl_2011.04.01",5.94,820.130925925926,1561.40809375598
+"aaai10-planning-ipc5-rovers-18-step11.cnf","RestartSAT_B95",11.51,498.818025,1213.94489882823
+"aaai10-planning-ipc5-rovers-18-step11.cnf","SAT09referencesolverprecosat_236",211.41,602.29233425926,1496.72879123212

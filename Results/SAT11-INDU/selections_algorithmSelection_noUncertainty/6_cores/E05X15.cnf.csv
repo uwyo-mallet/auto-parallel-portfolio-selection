@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"E05X15.cnf","RestartSAT_B95",3.8,383.122261261261,1116.145761017,3.8,3.8,0,0,0,0,"pred"
+"E05X15.cnf","minisathackcontrasat_2011.03.02",5.66,451.978693693694,1307.34709852768,5.72,3.8,0,0,0,0,"pred"
+"E05X15.cnf","glucose_2.0",5.46,471.012581081081,1203.93228849741,5.46,3.8,0,0,0,0,"pred"
+"E05X15.cnf","rcl_2011.04.01",7.59,487.87711036036,1318.55932746187,7.68,3.8,0,0,0,0,"pred"
+"E05X15.cnf","minisathackLR_GL_SHR_2011.03.02",8.06,547.284777027027,1268.31765611287,8.3,3.8,0,0,0,0,"pred"
+"E05X15.cnf","lingeling.587f.4882048.110513",8.42,558.335801801802,1339.14721326308,8.47,3.8,0,0,0,0,"pred"

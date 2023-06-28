@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"glass2.wcnf","MaxHS",0.19,244.882357458583,524.957707639973,0.19,0.11,1,"0.19"
+"glass2.wcnf","UWrMaxSat.1.0",0.47,275.493066868288,773.6297145122,0.47,0.11,2,"0.47"

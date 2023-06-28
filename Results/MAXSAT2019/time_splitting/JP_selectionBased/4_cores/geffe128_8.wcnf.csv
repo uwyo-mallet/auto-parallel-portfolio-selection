@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"geffe128_8.wcnf","MaxHS",24.92,26.539554263566,11.3130771842419,24.98,24.92,1,"24.98"
+"geffe128_8.wcnf","Open.WBO.ms",73.92,37.5108527131783,21.9360098067616,74.41,24.92,2,"Inf"

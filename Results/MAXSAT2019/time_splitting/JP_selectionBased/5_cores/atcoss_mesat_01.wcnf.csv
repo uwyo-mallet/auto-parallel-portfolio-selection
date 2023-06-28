@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"atcoss_mesat_01.wcnf","UWrMaxSat.1.0",43.14,1588.11525084431,1313.42463192633,47.07,41.45,1,"47.07"
+"atcoss_mesat_01.wcnf","maxino2018",41.45,1853.31033823033,1260.35535054826,44.32,41.45,2,"44.32"
+"atcoss_mesat_01.wcnf","Open.WBO.ms.pre",120.56,1941.0284625536,1348.89378770776,136.04,41.45,3,"136.04"
+"atcoss_mesat_01.wcnf","QMaxSAT2018",43.19,1976.61554294464,1339.2370196785,61.8,41.45,4,"61.8"
+"atcoss_mesat_01.wcnf","MaxHS",53.44,2070.9729166155,1161.02542893924,59.94,41.45,5,"59.94"

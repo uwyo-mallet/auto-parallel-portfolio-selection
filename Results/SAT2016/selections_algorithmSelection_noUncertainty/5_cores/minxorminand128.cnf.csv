@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/minxorminand128.cnf","cmsat5_autotune2",5000,1604.84289431818,1956.53974759092,5000,1062.725,0,0,0,0,"pred"
+"sat/minxorminand128.cnf","Splatz06vmain",1715.021,1692.53553737374,2122.28062893119,1768.29,1062.725,0,0,0,0,"pred"
+"sat/minxorminand128.cnf","glue_alt",5000,1871.87865959596,2173.92539913839,5000,1062.725,0,0,0,0,"pred"
+"sat/minxorminand128.cnf","Riss6",5000,1883.52971590909,2077.94241067391,5000,1062.725,0,0,0,0,"pred"
+"sat/minxorminand128.cnf","tc_glucose",4656.116,1918.57785290404,2203.81156161131,4655.16285021575,1062.725,0,0,0,0,"pred"

@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"extension-enforcement_strict_com_200_02_1_10_0.wcnf","MaxHS",6.34,693.25290217449,817.870407873981,6.92,0.29,1,"6.92"
+"extension-enforcement_strict_com_200_02_1_10_0.wcnf","maxino2018",0.29,1284.24291476566,1469.65227250546,0.34,0.29,2,"0.34"
+"extension-enforcement_strict_com_200_02_1_10_0.wcnf","Open.WBO.g",3600,1354.29858642057,1465.9786753948,3600,0.29,3,"Inf"

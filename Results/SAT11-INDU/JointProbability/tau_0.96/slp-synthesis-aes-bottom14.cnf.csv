@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"slp-synthesis-aes-bottom14.cnf","lingeling.587f.4882048.110513",5000,2660.7806516129,2193.78377803638,5000,2636.24,0,0,0,5,"pred"

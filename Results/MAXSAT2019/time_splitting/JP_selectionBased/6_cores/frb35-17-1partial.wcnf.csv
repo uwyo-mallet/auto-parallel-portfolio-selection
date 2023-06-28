@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"frb35-17-1partial.wcnf","UWrMaxSat.1.0",1.02,34.2568453989919,151.560933718428,1.04,1.02,1,"1.04"
+"frb35-17-1partial.wcnf","Open.WBO.ms",15.52,37.4309308510639,33.5729583493676,15.87,1.02,2,"15.87"
+"frb35-17-1partial.wcnf","Open.WBO.g",24.27,124.624656006066,265.11161075633,25.22,1.02,3,"25.22"
+"frb35-17-1partial.wcnf","QMaxSAT2018",16.01,250.350731320295,458.088227526465,16.33,1.02,4,"16.33"

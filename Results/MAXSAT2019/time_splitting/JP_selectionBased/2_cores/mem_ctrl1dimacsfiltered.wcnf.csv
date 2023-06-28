@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"mem_ctrl1dimacsfiltered.wcnf","Open.WBO.ms.pre",140.17,1387.62961407508,285.413693321727,139.8,6.36,1,"139.8"
+"mem_ctrl1dimacsfiltered.wcnf","UWrMaxSat.1.0",16.95,1559.98284610179,282.506798907616,16.95,6.36,2,"16.95"

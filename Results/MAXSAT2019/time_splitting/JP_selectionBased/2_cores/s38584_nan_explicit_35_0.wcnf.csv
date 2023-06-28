@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"s38584_nan_explicit_35_0.wcnf","maxino2018",25.43,89.216227646021,205.409460665459,25.75,23.98,1,"25.75"
+"s38584_nan_explicit_35_0.wcnf","Open.WBO.ms.pre",24.37,116.456277490403,354.416464601049,24.64,23.98,2,"24.64"

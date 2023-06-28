@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackLR_GL_SHR_2011.03.02",858.1,742.279855769231,1198.64462068802,1331.48,663.18,0,0,0,0,"pred"
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackcontrasat_2011.03.02",989.72,858.20623076923,1343.62534144256,1485.45,663.18,0,0,0,0,"pred"
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","glueminisat.2.2.5",745.36,881.207695512821,1521.77530749019,1038.95,663.18,0,0,0,0,"pred"
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackminisat_psm_2011.04.01",957.34,1288.56456089744,1573.84132001805,1349.16,663.18,0,0,0,0,"pred"
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","minisathackEBMiniSAT_2011.03.02",726.73,1295.7741698718,1645.28334281237,880.76,663.18,0,0,0,0,"pred"
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","MPhaseSAT64",1062.36,1459.8157275641,1616.31835557749,1181.53,663.18,0,0,0,0,"pred"
+"bc57-sensors-1-k303-unsatshuffled-assat03-406.cnf","SAT09referencesolverprecosat_236",938.49,1471.53441025641,1626.68981972131,1169.87,663.18,0,0,0,0,"pred"

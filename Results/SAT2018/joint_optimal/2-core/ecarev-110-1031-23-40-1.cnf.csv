@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ecarev-110-1031-23-40-1.cnf","MapleLCMDistChronoBT",255.747,172.199193993232,365.741226473929,290.7,139.81,0,0,0,5,"pred"
+"sat/ecarev-110-1031-23-40-1.cnf","COMiniSatPS_Pulsar_drup",139.81,202.862793739425,437.747778683553,165.76,139.81,0,0,0,5,"pred"

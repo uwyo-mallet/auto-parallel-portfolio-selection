@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"data-network_p20.pddl","Metis1",1800,1081.42760619469,802.021044274219,1800,1800,0,0,0,0,"pred"
+"data-network_p20.pddl","Delfi2",1800,1120.07593657817,783.608173214425,1800,1800,0,0,0,0,"pred"

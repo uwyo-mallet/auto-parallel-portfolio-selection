@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"lupus.wcnf","Open.WBO.ms",11.31,1050.16505907646,996.362988873398,11.66,0.77,0,0,0,5,"pred"
+"lupus.wcnf","Open.WBO.ms.pre",6.57,1140.50173092217,1074.04398317104,6.73,0.77,0,0,0,5,"pred"
+"lupus.wcnf","UWrMaxSat.1.0",0.77,1187.99739396131,1080.94971062186,0.76,0.77,0,0,0,5,"pred"
+"lupus.wcnf","QMaxSAT2018",607.06,1304.95599674398,1040.16704252791,665.68,0.77,0,0,0,5,"pred"
+"lupus.wcnf","MaxHS",1.98,1336.16929267423,829.130053091039,1.96,0.77,0,0,0,5,"pred"

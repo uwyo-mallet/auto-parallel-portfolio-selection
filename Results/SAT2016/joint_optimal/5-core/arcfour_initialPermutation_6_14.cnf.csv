@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/arcfour_initialPermutation_6_14.cnf","CHBR_glucose_tuned",215.97,2906.60306617647,2146.20198515125,362.9,147.135,0,0,0,5,"pred"
+"sat/arcfour_initialPermutation_6_14.cnf","Lingelingbbcmain",242.759,2927.74945563725,2211.38131526811,313.31,147.135,0,0,0,5,"pred"
+"sat/arcfour_initialPermutation_6_14.cnf","Riss6",869.356,3092.96464166667,2202.00781374176,978.28,147.135,0,0,0,5,"pred"
+"sat/arcfour_initialPermutation_6_14.cnf","MapleCOMSPS_DRUP",273.816,3108.19977132353,2128.97491925608,351.87,147.135,0,0,0,5,"pred"
+"sat/arcfour_initialPermutation_6_14.cnf","tb_glucose",245.945,3212.53388713235,2167.53957915218,322.48,147.135,0,0,0,5,"pred"

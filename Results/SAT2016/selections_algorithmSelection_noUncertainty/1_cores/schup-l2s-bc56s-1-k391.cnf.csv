@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/schup-l2s-bc56s-1-k391.cnf","Glucose_nbSat",308.277,1681.70284240196,1922.31817915046,308.277,152.86,0,0,0,0,"pred"

@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"MinFill_R0_myciel5.wcnf","MaxHS",297.81,1861.77997307143,1303.39538170217,246.3,297.81,0,0,0,0,"pred"
+"MinFill_R0_myciel5.wcnf","UWrMaxSat.1.0",3600,1904.94404164273,1455.86041827577,3600,297.81,0,0,0,0,"pred"
+"MinFill_R0_myciel5.wcnf","maxino2018",3600,2052.93473020828,1486.29252974023,3600,297.81,0,0,0,0,"pred"

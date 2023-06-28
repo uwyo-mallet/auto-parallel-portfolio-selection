@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"UCG-15-10p0.cnf","MPhaseSAT64",292.07,595.520280092593,1124.32361609114,292.07,134.82,0,0,0,5,"pred"

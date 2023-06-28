@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"GenHyperTW_grid4d_3.wcnf","MaxHS",3600,718.984885846117,515.311481343489,3600,3600,1,"Inf"
+"GenHyperTW_grid4d_3.wcnf","UWrMaxSat.1.0",3600,856.46168489533,464.879495007811,3600,3600,2,"Inf"

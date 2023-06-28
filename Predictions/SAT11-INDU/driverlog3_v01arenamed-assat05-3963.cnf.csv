@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"driverlog3_v01arenamed-assat05-3963.cnf","glucose_2.0",0,1089.09367099567,1729.72402393313
+"driverlog3_v01arenamed-assat05-3963.cnf","glueminisat.2.2.5",0,1018.50317748918,1736.97021511947
+"driverlog3_v01arenamed-assat05-3963.cnf","lingeling.587f.4882048.110513",0,1132.38305411255,1934.12034433371
+"driverlog3_v01arenamed-assat05-3963.cnf","minisathackcir_minisat_2011.05.13_simp_",0,1302.02104978355,1806.2389328147
+"driverlog3_v01arenamed-assat05-3963.cnf","minisathackcontrasat_2011.03.02",0,888.026694805195,1734.09963703764
+"driverlog3_v01arenamed-assat05-3963.cnf","minisathackEBMiniSAT_2011.03.02",0,1204.43301731602,1923.29453013643
+"driverlog3_v01arenamed-assat05-3963.cnf","minisathackLR_GL_SHR_2011.03.02",0,1371.10772294372,1850.57581004562
+"driverlog3_v01arenamed-assat05-3963.cnf","minisathackMiniSAT_2.2.0.agile.26",0,1251.50297402597,1865.94580325994
+"driverlog3_v01arenamed-assat05-3963.cnf","minisathackminisat_psm_2011.04.01",0,1047.37446969697,1728.84982323577
+"driverlog3_v01arenamed-assat05-3963.cnf","minisathackreferenceminisat_2.2.0",0,1155.70440909091,1782.13788383468
+"driverlog3_v01arenamed-assat05-3963.cnf","MPhaseSAT64",0,1239.86148268398,1785.96441331661
+"driverlog3_v01arenamed-assat05-3963.cnf","rcl_2011.04.01",0.01,906.473506493506,1625.04450609524
+"driverlog3_v01arenamed-assat05-3963.cnf","RestartSAT_B95",0,1150.21067748918,1712.40059269421
+"driverlog3_v01arenamed-assat05-3963.cnf","SAT09referencesolverprecosat_236",0,1104.34313419913,1742.11502692436

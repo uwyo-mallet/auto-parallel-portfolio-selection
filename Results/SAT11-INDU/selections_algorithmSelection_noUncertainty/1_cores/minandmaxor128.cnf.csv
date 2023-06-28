@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"minandmaxor128.cnf","SAT09referencesolverprecosat_236",1812.03,1511.34323333333,1798.44014942439,1812.03,1596.5,0,0,0,0,"pred"

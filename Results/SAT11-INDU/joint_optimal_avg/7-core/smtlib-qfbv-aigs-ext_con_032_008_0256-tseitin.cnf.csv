@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"smtlib-qfbv-aigs-ext_con_032_008_0256-tseitin.cnf","minisathackEBMiniSAT_2011.03.02",5000,171.954148648649,652.752165075231,5000,0.21,0,0,0,5,"pred"
+"smtlib-qfbv-aigs-ext_con_032_008_0256-tseitin.cnf","glueminisat.2.2.5",5000,201.474715143715,863.580344543153,5000,0.21,0,0,0,5,"pred"
+"smtlib-qfbv-aigs-ext_con_032_008_0256-tseitin.cnf","minisathackminisat_psm_2011.04.01",0.23,217.881466216216,855.286010318851,0.23,0.21,0,0,0,5,"pred"
+"smtlib-qfbv-aigs-ext_con_032_008_0256-tseitin.cnf","minisathackcontrasat_2011.03.02",4.64,230.1211994852,794.473520659743,4.61,0.21,0,0,0,5,"pred"
+"smtlib-qfbv-aigs-ext_con_032_008_0256-tseitin.cnf","RestartSAT_B95",5000,311.357522522523,1015.81546334763,5000,0.21,0,0,0,5,"pred"
+"smtlib-qfbv-aigs-ext_con_032_008_0256-tseitin.cnf","MPhaseSAT64",0.94,320.552515604891,1066.36372202632,0.97,0.21,0,0,0,5,"pred"
+"smtlib-qfbv-aigs-ext_con_032_008_0256-tseitin.cnf","minisathackLR_GL_SHR_2011.03.02",2.62,347.478382882883,1109.98356811735,2.58,0.21,0,0,0,5,"pred"

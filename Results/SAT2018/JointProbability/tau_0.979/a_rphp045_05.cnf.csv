@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/a_rphp045_05.cnf","glu_mix",5000,1898.41439727463,1955.88898097166,5000,1415.062,0,0,0,5,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"ram_k3_n19ra0.wcnf","maxino2018",3600,3455.83234358974,675.515957346437,3600,3600,0,0,0,5,"pred"
+"ram_k3_n19ra0.wcnf","QMaxSAT2018",3600,3600,0,3600,3600,0,0,0,5,"pred"

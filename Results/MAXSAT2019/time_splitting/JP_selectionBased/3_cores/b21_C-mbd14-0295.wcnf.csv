@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"b21_C-mbd14-0295.wcnf","Open.WBO.ms.pre",64.57,614.501241343149,493.745660868197,64.96,10.38,1,"64.96"
+"b21_C-mbd14-0295.wcnf","Open.WBO.ms",36.7,675.088382603024,535.915049077884,37.03,10.38,2,"37.03"
+"b21_C-mbd14-0295.wcnf","QMaxSAT2018",500.79,746.766121171946,680.445253905074,509.08,10.38,3,"509.08"

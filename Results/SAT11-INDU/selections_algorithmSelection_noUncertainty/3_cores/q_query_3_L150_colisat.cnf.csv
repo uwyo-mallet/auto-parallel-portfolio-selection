@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"q_query_3_L150_colisat.cnf","lingeling.587f.4882048.110513",186.98,1360.61305555556,1681.1370917803,199.67,31.15,0,0,0,0,"pred"
+"q_query_3_L150_colisat.cnf","minisathackEBMiniSAT_2011.03.02",93.34,1378.75562314815,1876.02481885632,119.98,31.15,0,0,0,0,"pred"
+"q_query_3_L150_colisat.cnf","glueminisat.2.2.5",33.95,1485.98129722222,1725.05358880494,39.3,31.15,0,0,0,0,"pred"

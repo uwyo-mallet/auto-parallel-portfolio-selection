@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"gus-md5-12.cnf","minisathackMiniSAT_2.2.0.agile.26",3636.69,1096.45615734266,1346.80130555337,3700.69,3461.21,0,0,0,5,"pred"
+"gus-md5-12.cnf","minisathackminisat_psm_2011.04.01",5000,1229.77892773893,1334.54911203546,5000,3461.21,0,0,0,5,"pred"

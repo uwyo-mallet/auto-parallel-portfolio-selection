@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/miza-sr06-md5-48-01.cnf","GHackCOMSPS_DRUP",353.395,1249.03840353535,1556.15290862981,353.395,46.306,0,0,0,5,"pred"

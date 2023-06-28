@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"TWComp_oesoca+_N67.wcnf","QMaxSAT2018",94.26,1160.42008173202,739.901210102164,96.19,79.29,1,"96.19"
+"TWComp_oesoca+_N67.wcnf","maxino2018",79.29,1206.59764561115,837.254125529888,82.63,79.29,2,"82.63"
+"TWComp_oesoca+_N67.wcnf","Open.WBO.ms.pre",87.95,1219.24067659014,900.72532613107,89.91,79.29,3,"89.91"

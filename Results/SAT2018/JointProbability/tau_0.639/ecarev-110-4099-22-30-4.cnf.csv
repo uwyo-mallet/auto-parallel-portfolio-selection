@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ecarev-110-4099-22-30-4.cnf","gluHack",264.832,182.52488,57.2477954587486,309.91,111.147,0,0,0,5,"pred"
+"sat/ecarev-110-4099-22-30-4.cnf","Maple_LCM_M1",196.927,189.008183,117.490648391327,229.91,111.147,0,0,0,5,"pred"
+"sat/ecarev-110-4099-22-30-4.cnf","GHackCOMSPS_drup",165.379,205.194871,265.90275868963,196.35,111.147,0,0,0,5,"pred"
+"sat/ecarev-110-4099-22-30-4.cnf","Glucose_Hack_Kiel_fastBVE",243.642,206.884095666667,83.7820426836686,290.98,111.147,0,0,0,5,"pred"

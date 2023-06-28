@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"abb313GPIA-9-cused-assat04-317.cnf","SAT09referencesolverprecosat_236",11.65,1195.54613963964,1854.35876789097,11.65,11.65,0,0,0,0,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"caldera-split_p06.pddl","Metis2",16.03,691.288206773619,806.446571768656,16.03,8.51,0,0,0,5,"pred"

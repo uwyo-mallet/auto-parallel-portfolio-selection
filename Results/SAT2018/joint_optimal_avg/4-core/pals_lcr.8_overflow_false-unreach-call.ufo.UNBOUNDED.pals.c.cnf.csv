@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/pals_lcr.8_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","CaDiCaL",322.052,535.591881333333,1190.49736535098,382.94,259.74,0,0,0,5,"pred"
+"sat/pals_lcr.8_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","glucose4.2.1",259.74,648.158879555555,1086.98420848322,305.91,259.74,0,0,0,5,"pred"
+"sat/pals_lcr.8_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","GHackCOMSPS_drup",795.086,760.002967333333,1257.81114886877,5000,259.74,0,0,0,5,"pred"
+"sat/pals_lcr.8_overflow_false-unreach-call.ufo.UNBOUNDED.pals.c.cnf","glu_mix",734.35,767.007429777778,1299.21120691657,860.9,259.74,0,0,0,5,"pred"

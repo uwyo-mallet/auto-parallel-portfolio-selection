@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"smtlib-qfbv-aigs-bin_libsmbclient_vc1228502-tseitin.cnf","SAT09referencesolverprecosat_236",3.04,793.928041666667,1454.52222623099,3.51,0.76,0,0,0,5,"pred"
+"smtlib-qfbv-aigs-bin_libsmbclient_vc1228502-tseitin.cnf","glucose_2.0",0.76,821.619402777778,1624.6539969598,1.03,0.76,0,0,0,5,"pred"
+"smtlib-qfbv-aigs-bin_libsmbclient_vc1228502-tseitin.cnf","glueminisat.2.2.5",1.41,866.578620370371,1475.01135284707,1.59,0.76,0,0,0,5,"pred"
+"smtlib-qfbv-aigs-bin_libsmbclient_vc1228502-tseitin.cnf","lingeling.587f.4882048.110513",11.03,917.964128703704,1570.16972226104,11.8,0.76,0,0,0,5,"pred"

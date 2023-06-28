@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"credit_train_1_CNF_5_1.wcnf","Open.WBO.ms.pre",3600,1343.50876004438,261.008081757766,3600,3600,1,"Inf"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"rand_net60-30-1shuffled.cnf","glueminisat.2.2.5",0.08,965.851990042532,1402.33044521316,0.09,0.08,0,0,0,5,"pred"
+"rand_net60-30-1shuffled.cnf","minisathackcontrasat_2011.03.02",0.11,1176.09587764588,1529.20189594009,0.11,0.08,0,0,0,5,"pred"

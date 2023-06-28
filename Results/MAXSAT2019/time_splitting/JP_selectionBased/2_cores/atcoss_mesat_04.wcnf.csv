@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"atcoss_mesat_04.wcnf","MaxHS",3600,1503.0440492674,978.766237703294,3600,3600,1,"Inf"
+"atcoss_mesat_04.wcnf","UWrMaxSat.1.0",3600,2124.3106974359,1204.55940522172,3600,3600,2,"Inf"

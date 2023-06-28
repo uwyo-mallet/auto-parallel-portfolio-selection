@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"atcoss_mesat_18.wcnf","UWrMaxSat.1.0",3600,1672.44202642688,1281.42292563081,3600,3600,0,0,0,0,"pred"
+"atcoss_mesat_18.wcnf","Open.WBO.ms.pre",3600,1680.18534868441,1330.84506637189,3600,3600,0,0,0,0,"pred"
+"atcoss_mesat_18.wcnf","MaxHS",3600,1754.97632835703,1044.61280738361,3600,3600,0,0,0,0,"pred"

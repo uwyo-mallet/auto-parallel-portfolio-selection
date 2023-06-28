@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/cube-11-h13-unsat.cnf","MapleCOMSPS_LRB_DRUP",238.528,1759.87844099617,2062.68986417594,233.978152839452,78.385,0,0,0,5,"pred"
+"sat/cube-11-h13-unsat.cnf","glucose",105.507,1803.62654367816,2002.75649169136,106.3,78.385,0,0,0,5,"pred"

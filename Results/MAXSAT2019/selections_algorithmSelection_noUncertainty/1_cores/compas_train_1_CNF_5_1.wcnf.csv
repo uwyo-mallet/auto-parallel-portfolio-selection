@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"compas_train_1_CNF_5_1.wcnf","UWrMaxSat.1.0",3600,1112.25694179658,538.069495765654,3600,3600,0,0,0,0,"pred"

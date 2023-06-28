@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Problem14_label14_false-unreach-call.c.cnf","Maple_LCM_M1",66.194,51.0217252873563,15.294270496467,66.194,39.438,0,0,0,0,"pred"

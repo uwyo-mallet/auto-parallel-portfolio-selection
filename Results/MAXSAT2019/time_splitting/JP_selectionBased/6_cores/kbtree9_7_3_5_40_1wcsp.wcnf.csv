@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"kbtree9_7_3_5_40_1wcsp.wcnf","MaxHS",378.07,344.456423118266,450.173699615037,200.78,378.07,1,"200.78"

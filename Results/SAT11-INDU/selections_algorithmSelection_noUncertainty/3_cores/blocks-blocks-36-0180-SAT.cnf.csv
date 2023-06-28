@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"blocks-blocks-36-0180-SAT.cnf","SAT09referencesolverprecosat_236",190.97,343.203741258741,721.588762765137,201.88,8.47,0,0,0,0,"pred"
+"blocks-blocks-36-0180-SAT.cnf","glucose_2.0",18.65,354.555543123544,1054.41704130241,20.34,8.47,0,0,0,0,"pred"
+"blocks-blocks-36-0180-SAT.cnf","minisathackMiniSAT_2.2.0.agile.26",34.28,368.86955011655,810.11125377829,37.13,8.47,0,0,0,0,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/apn-sbox6-cut4-helpbox30.cnf","Maple_LCM_Scavel_fix2",143.577,683.291152877698,928.940367400947,164.92,10.189,0,0,0,5,"pred"
+"sat/apn-sbox6-cut4-helpbox30.cnf","MapleCOMSPS_LRB_VSIDS_2_fix",163.647,777.968892086331,813.952892247959,182.85,10.189,0,0,0,5,"pred"

@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/prime_119218851371.cnf","Maple_LCM.BCrestart",69.031,514.528330735931,1158.57313741256,69.031,51.735,0,0,0,5,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Problem11_label29_false-unreach-call.c.cnf","Maple_LCM_Scavel_fix2",363.956,287.994892194093,186.898711880111,391.37,77.008,0,0,0,0,"pred"
+"sat/Problem11_label29_false-unreach-call.c.cnf","expMC_VSIDS_LRB_Switch_2500",165.042,307.071226793249,719.411030428579,182.28,77.008,0,0,0,0,"pred"

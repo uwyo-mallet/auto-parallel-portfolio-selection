@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"bnn-last-layer-f10.wcnf","UWrMaxSat.1.0",3600,1174.48950348824,1229.93534477913,3600,1515.01,1,"Inf"

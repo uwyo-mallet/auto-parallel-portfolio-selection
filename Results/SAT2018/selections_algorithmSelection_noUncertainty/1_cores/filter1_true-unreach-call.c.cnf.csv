@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/filter1_true-unreach-call.c.cnf","inIDGlucose",169.84,716.278853111111,1273.42383277226,169.84,131.403,0,0,0,0,"pred"

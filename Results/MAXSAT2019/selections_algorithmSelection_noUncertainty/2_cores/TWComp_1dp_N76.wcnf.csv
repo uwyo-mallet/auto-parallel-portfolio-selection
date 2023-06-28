@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"TWComp_1dp_N76.wcnf","maxino2018",3600,926.381422611869,661.135059889517,3600,3519.09,0,0,0,0,"pred"
+"TWComp_1dp_N76.wcnf","Open.WBO.ms.pre",3519.09,976.400918340751,851.189696503387,3600,3519.09,0,0,0,0,"pred"

@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"vda_gr_rcs_w9shuffled.cnf","lingeling.587f.4882048.110513",1.28,1671.54997086247,2121.12760829788,1.27,0.02,0,0,0,5,"pred"
+"vda_gr_rcs_w9shuffled.cnf","glucose_2.0",0.03,1689.90949300699,1737.79050176851,0.03,0.02,0,0,0,5,"pred"

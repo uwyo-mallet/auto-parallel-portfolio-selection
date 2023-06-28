@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/20180321_110707239_p_cnf_320_1120.cnf","Sparrow2Riss.2018.fixfix",5.549,5.70525648148148,6.99970169362778,6.42,5.549,0,0,0,0,"pred"
+"sat/20180321_110707239_p_cnf_320_1120.cnf","YalSAT",42.939,9.99268611111115,27.1187450215322,49.44,5.549,0,0,0,0,"pred"
+"sat/20180321_110707239_p_cnf_320_1120.cnf","abcdsat_r18",5000,1701.29708240741,1455.24661482255,5000,5.549,0,0,0,0,"pred"
+"sat/20180321_110707239_p_cnf_320_1120.cnf","Maple_LCM_Scavel_fix2",5000,1743.88198148148,1035.02202605036,5000,5.549,0,0,0,0,"pred"
+"sat/20180321_110707239_p_cnf_320_1120.cnf","Minisat.v2.2.0.106.ge2dd095",895.008,2317.68213888889,1745.66751222574,5000,5.549,0,0,0,0,"pred"
+"sat/20180321_110707239_p_cnf_320_1120.cnf","MapleLCMDistChronoBT",5000,3336.79960185185,2048.90802633272,5000,5.549,0,0,0,0,"pred"

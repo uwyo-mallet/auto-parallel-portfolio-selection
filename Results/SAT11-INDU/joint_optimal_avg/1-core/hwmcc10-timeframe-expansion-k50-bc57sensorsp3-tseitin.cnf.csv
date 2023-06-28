@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"hwmcc10-timeframe-expansion-k50-bc57sensorsp3-tseitin.cnf","glueminisat.2.2.5",0.56,142.331658333333,571.146664284018,0.56,0.35,0,0,0,5,"pred"

@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/UCG-20-5p1.cnf","glueminisat.2210.81.main",119.41,1080.40686190476,1738.38758899813,119.3,54.627,0,0,0,5,"pred"
+"sat/UCG-20-5p1.cnf","Glucose_nbSat",220.07,1170.35262871148,1747.95057033467,225.11,54.627,0,0,0,5,"pred"
+"sat/UCG-20-5p1.cnf","MapleCOMSPS_DRUP",75.497,1202.10425,1775.67703255916,77.95,54.627,0,0,0,5,"pred"
+"sat/UCG-20-5p1.cnf","MapleCOMSPS_LRB_DRUP",54.627,1230.6075232493,1787.88282772547,53.51,54.627,0,0,0,5,"pred"

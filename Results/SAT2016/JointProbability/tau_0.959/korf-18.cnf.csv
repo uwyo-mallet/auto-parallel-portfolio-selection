@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/korf-18.cnf","abcdSAT_drup",385.832,1431.18228113207,1602.38951363443,396.61,247.741,0,0,0,5,"pred"
+"sat/korf-18.cnf","glucose_hack_kiel_newScript",5000,1445.07885754717,1841.20018996644,5000,247.741,0,0,0,5,"pred"
+"sat/korf-18.cnf","tb_glucose",5000,1570.19138679245,1696.64389448748,5000,247.741,0,0,0,5,"pred"

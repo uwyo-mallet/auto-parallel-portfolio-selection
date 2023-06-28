@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"heatShock_WT_36_12lpsm-extracted.wcnf","Open.WBO.ms.pre",3.62,470.634181030466,517.399780024011,3.97,1.08,0,0,0,5,"pred"
+"heatShock_WT_36_12lpsm-extracted.wcnf","Open.WBO.ms",13.87,482.984417618453,530.585226481546,14.98,1.08,0,0,0,5,"pred"
+"heatShock_WT_36_12lpsm-extracted.wcnf","UWrMaxSat.1.0",6.07,554.442244138726,497.459900728749,5.99,1.08,0,0,0,5,"pred"
+"heatShock_WT_36_12lpsm-extracted.wcnf","Open.WBO.g",13.74,562.081453990689,577.144996819196,15.47,1.08,0,0,0,5,"pred"
+"heatShock_WT_36_12lpsm-extracted.wcnf","maxino2018",1.08,677.000788557833,566.32610779977,1.26,1.08,0,0,0,5,"pred"

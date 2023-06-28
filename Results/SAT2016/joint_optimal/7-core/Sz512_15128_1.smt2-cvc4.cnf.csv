@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Sz512_15128_1.smt2-cvc4.cnf","abcdSAT_drup",5000,4033.20340464135,1792.63574311239,5000,328.535,0,0,0,5,"pred"
+"sat/Sz512_15128_1.smt2-cvc4.cnf","MapleCMS",2705.308,4052.39141888186,1721.76475997672,2877.03,328.535,0,0,0,5,"pred"
+"sat/Sz512_15128_1.smt2-cvc4.cnf","MapleCOMSPS_DRUP",328.535,4058.9061621308,1863.6186622776,333.2,328.535,0,0,0,5,"pred"
+"sat/Sz512_15128_1.smt2-cvc4.cnf","glueminisat.2210.81.main",2718.084,4074.30063934599,1794.94446096712,2870.66,328.535,0,0,0,5,"pred"
+"sat/Sz512_15128_1.smt2-cvc4.cnf","MapleCOMSPS_LRB_DRUP",3782.775,4108.78647658228,1658.00878530078,4014.53,328.535,0,0,0,5,"pred"
+"sat/Sz512_15128_1.smt2-cvc4.cnf","MapleCOMSPS_CHB_DRUP",5000,4114.78423660338,1748.22630716113,5000,328.535,0,0,0,5,"pred"
+"sat/Sz512_15128_1.smt2-cvc4.cnf","GHackCOMSPS_DRUP",3618.482,4146.44916075949,1666.84543287189,3903.29,328.535,0,0,0,5,"pred"

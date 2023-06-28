@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"smtlib-qfbv-aigs-src_wget_vc18517-tseitin.cnf","glueminisat.2.2.5",0.88,1750.38095454545,2067.78022889526,0.88,0.59,0,0,0,5,"pred"

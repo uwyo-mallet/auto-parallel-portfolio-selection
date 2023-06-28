@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"vga-debugdimacs.wcnf","maxino2018",2.45,259.736756093482,404.68215603613,2.67,1.45,1,"2.67"
+"vga-debugdimacs.wcnf","Open.WBO.g",1.45,350.725670781771,466.378988753566,1.69,1.45,2,"1.69"
+"vga-debugdimacs.wcnf","Open.WBO.ms",1.68,365.12719498736,460.903546232264,1.87,1.45,4,"1.87"
+"vga-debugdimacs.wcnf","UWrMaxSat.1.0",2.62,362.486547920295,602.708595259816,2.84,1.45,3,"2.84"
+"vga-debugdimacs.wcnf","Open.WBO.ms.pre",10.48,435.809034164318,656.952554228235,10.93,1.45,5,"10.93"
+"vga-debugdimacs.wcnf","QMaxSAT2018",33.4,916.2498150009,918.685400105784,37.89,1.45,6,"37.89"
+"vga-debugdimacs.wcnf","MaxHS",28.66,1140.70910047306,967.855579095521,28.66,1.45,7,"28.66"

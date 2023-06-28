@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Nb13T165.cnf","YalSAT",573.575,849.030711270983,1661.30295574596,573.575,2.634,0,0,0,0,"pred"

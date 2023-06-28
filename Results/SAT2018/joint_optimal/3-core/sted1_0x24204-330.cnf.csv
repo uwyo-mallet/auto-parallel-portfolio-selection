@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sted1_0x24204-330.cnf","glu_mix",249.345,2803.1262384696,2226.13348968231,280.76,131.059,0,0,0,5,"pred"
+"sat/sted1_0x24204-330.cnf","Glucose_Hack_Kiel_fastBVE",242.517,2843.19483574424,2252.50164397145,287.34,131.059,0,0,0,5,"pred"
+"sat/sted1_0x24204-330.cnf","smallsat",140.681,2845.53598878407,2297.62844206409,170.27,131.059,0,0,0,5,"pred"

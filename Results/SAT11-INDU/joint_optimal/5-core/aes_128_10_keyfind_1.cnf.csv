@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"aes_128_10_keyfind_1.cnf","glucose_2.0",5000,2975.01132692308,2076.00914946753,5000,5000,0,0,0,5,"pred"
+"aes_128_10_keyfind_1.cnf","minisathackminisat_psm_2011.04.01",5000,3162.46365705128,2225.61598987352,5000,5000,0,0,0,5,"pred"
+"aes_128_10_keyfind_1.cnf","rcl_2011.04.01",5000,3434.45027884615,2051.38914925352,5000,5000,0,0,0,5,"pred"
+"aes_128_10_keyfind_1.cnf","minisathackMiniSAT_2.2.0.agile.26",5000,3488.64434615385,1955.77976680791,5000,5000,0,0,0,5,"pred"
+"aes_128_10_keyfind_1.cnf","RestartSAT_B95",5000,3636.24522435897,2040.41284325746,5000,5000,0,0,0,5,"pred"

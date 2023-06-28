@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/newton.2.3.i.smt2-stp212.cnf","Glucose_nbSat",214.702,349.738378052805,670.324164055752,224.72,139.496,0,0,0,5,"pred"
+"sat/newton.2.3.i.smt2-stp212.cnf","glueminisat.2210.81.main",139.496,467.385376567657,1066.61976937604,138.72,139.496,0,0,0,5,"pred"
+"sat/newton.2.3.i.smt2-stp212.cnf","tc_glucose",219.295,513.367339108911,1045.49278716994,231.55,139.496,0,0,0,5,"pred"
+"sat/newton.2.3.i.smt2-stp212.cnf","abcdSAT_drup",162.257,516.44481320132,1020.35631299745,171.15,139.496,0,0,0,5,"pred"

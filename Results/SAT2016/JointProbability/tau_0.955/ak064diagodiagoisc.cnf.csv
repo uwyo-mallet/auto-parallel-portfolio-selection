@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ak064diagodiagoisc.cnf","Lingelingbbcmain",2126.826,1747.93990495781,1911.80837997662,2126.826,2126.826,0,0,0,5,"pred"

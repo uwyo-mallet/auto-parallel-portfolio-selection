@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/apn-sbox6-cut4-helpbox28.cnf","Maple_LCM_Scavel_200_fix2",4892.85,950.213137140439,1395.67149779838,5000,380.5,0,0,0,5,"pred"
+"sat/apn-sbox6-cut4-helpbox28.cnf","gluHack",5000,1166.15708384095,1667.93878699865,5000,380.5,0,0,0,5,"pred"
+"sat/apn-sbox6-cut4-helpbox28.cnf","Maple_CM_ordUIP.",5000,1334.4018893401,1101.79843402466,5000,380.5,0,0,0,5,"pred"
+"sat/apn-sbox6-cut4-helpbox28.cnf","Maple_CM_ordUIP",5000,1450.00205989848,1254.77693579752,5000,380.5,0,0,0,5,"pred"
+"sat/apn-sbox6-cut4-helpbox28.cnf","Maple_CM",5000,1502.57899170897,1437.68372981696,5000,380.5,0,0,0,5,"pred"
+"sat/apn-sbox6-cut4-helpbox28.cnf","YalSAT",5000,5000,0,5000,380.5,0,0,0,5,"pred"

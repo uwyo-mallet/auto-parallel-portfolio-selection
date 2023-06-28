@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"traffic_r_uc_sat.cnf","MPhaseSAT64",437.83,720.530021645022,1216.54937256675,492.73,37.2,0,0,0,5,"pred"
+"traffic_r_uc_sat.cnf","minisathackcontrasat_2011.03.02",46.89,1028.83928787879,1413.03022832494,55.35,37.2,0,0,0,5,"pred"
+"traffic_r_uc_sat.cnf","minisathackminisat_psm_2011.04.01",43.81,1132.57747619048,1330.65776991041,50.45,37.2,0,0,0,5,"pred"

@@ -1,0 +1,7 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"hwmcc10-timeframe-expansion-k50-pdtviseisenberg2-tseitin.cnf","lingeling.587f.4882048.110513",47.28,422.810006993007,1106.01184767777,48.12,23.09,0,0,0,0,"pred"
+"hwmcc10-timeframe-expansion-k50-pdtviseisenberg2-tseitin.cnf","glueminisat.2.2.5",23.6,474.571666666666,1170.41287217648,26.39,23.09,0,0,0,0,"pred"
+"hwmcc10-timeframe-expansion-k50-pdtviseisenberg2-tseitin.cnf","SAT09referencesolverprecosat_236",70.01,669.893724941725,1378.75336018252,85.39,23.09,0,0,0,0,"pred"
+"hwmcc10-timeframe-expansion-k50-pdtviseisenberg2-tseitin.cnf","glucose_2.0",39.6,721.664383449883,1457.36172682924,43.49,23.09,0,0,0,0,"pred"
+"hwmcc10-timeframe-expansion-k50-pdtviseisenberg2-tseitin.cnf","minisathackEBMiniSAT_2011.03.02",27.04,730.741328671329,1550.12184067122,30.56,23.09,0,0,0,0,"pred"
+"hwmcc10-timeframe-expansion-k50-pdtviseisenberg2-tseitin.cnf","rcl_2011.04.01",117.74,756.758311188811,1427.51104844381,129.77,23.09,0,0,0,0,"pred"

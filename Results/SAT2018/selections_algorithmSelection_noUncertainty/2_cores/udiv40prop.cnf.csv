@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/udiv40prop.cnf","CaDiCaL",739.192,2235.81633081535,1334.14024663389,858.42,739.192,0,0,0,0,"pred"
+"sat/udiv40prop.cnf","Riss7.1.fix",1214.964,2979.78955935252,2179.50926556032,1383.01,739.192,0,0,0,0,"pred"

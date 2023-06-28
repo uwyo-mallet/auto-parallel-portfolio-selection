@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"homer16shuffled.cnf","minisathackcir_minisat_2011.05.13_simp_",1920.38,2010.0001655914,1552.5252701969,1922.02,450.84,0,0,0,5,"pred"
+"homer16shuffled.cnf","lingeling.587f.4882048.110513",5000,2120.55171935484,2165.58580309072,5000,450.84,0,0,0,5,"pred"
+"homer16shuffled.cnf","glucose_2.0",450.84,2166.64142043011,1528.58934614505,452.9,450.84,0,0,0,5,"pred"

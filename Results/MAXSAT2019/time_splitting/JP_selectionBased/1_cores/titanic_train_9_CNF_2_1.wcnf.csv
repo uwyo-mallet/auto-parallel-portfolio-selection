@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"titanic_train_9_CNF_2_1.wcnf","MaxHS",24.02,1089.30116422616,472.633764794228,24.02,1.46,1,"24.02"

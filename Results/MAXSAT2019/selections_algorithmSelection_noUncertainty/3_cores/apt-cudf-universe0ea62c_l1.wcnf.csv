@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"apt-cudf-universe0ea62c_l1.wcnf","Open.WBO.ms.pre",0.14,1164.65816526639,1422.93660599107,0.16,0.07,0,0,0,0,"pred"
+"apt-cudf-universe0ea62c_l1.wcnf","UWrMaxSat.1.0",0.35,1575.18652366828,1463.35579426568,0.35,0.07,0,0,0,0,"pred"
+"apt-cudf-universe0ea62c_l1.wcnf","QMaxSAT2018",3600,1579.49053193826,1505.91245434621,3600,0.07,0,0,0,0,"pred"

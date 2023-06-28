@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","glucose_2.0",5000,2451.39700277778,1986.9151049383
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","glueminisat.2.2.5",1268.09,1446.4014037037,1549.84318037242
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","lingeling.587f.4882048.110513",2860.98,1309.03716666667,1558.29848348224
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","minisathackcir_minisat_2011.05.13_simp_",5000,2379.01284074074,1884.3333567094
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","minisathackcontrasat_2011.03.02",1539.23,1461.86201296296,1629.76613800229
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","minisathackEBMiniSAT_2011.03.02",1263.72,1255.11105126263,1594.33541443838
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","minisathackLR_GL_SHR_2011.03.02",1180.53,1689.79982407407,1829.25173939181
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","minisathackMiniSAT_2.2.0.agile.26",1538.06,1390.09785925926,1790.04807214737
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","minisathackminisat_psm_2011.04.01",1284.64,1482.69607777778,1678.259776101
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","minisathackreferenceminisat_2.2.0",5000,2205.07682592593,1811.6324862902
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","MPhaseSAT64",1894.18,1725.82230092592,1702.85284207509
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","rcl_2011.04.01",1981.51,1460.76026666667,1699.04389037659
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","RestartSAT_B95",5000,2014.4645234127,1620.8412917992
+"valves-gates-1-k617-unsatshuffled-assat03-412.cnf","SAT09referencesolverprecosat_236",1779.14,1467.70975555555,1553.85489971084

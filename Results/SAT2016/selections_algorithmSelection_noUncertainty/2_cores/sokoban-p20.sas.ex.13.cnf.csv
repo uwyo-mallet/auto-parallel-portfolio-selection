@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sokoban-p20.sas.ex.13.cnf","Splatz06vmain",2812.467,1726.88913487972,1566.55597350611,2846.25,1984.009,0,0,0,0,"pred"
+"sat/sokoban-p20.sas.ex.13.cnf","MapleCOMSPS_CHB_DRUP",2032.084,1937.62078024055,1823.79002627092,2060.79,1984.009,0,0,0,0,"pred"

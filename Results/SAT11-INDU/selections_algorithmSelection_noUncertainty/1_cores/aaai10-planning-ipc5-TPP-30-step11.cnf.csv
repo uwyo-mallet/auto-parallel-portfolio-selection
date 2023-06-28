@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"aaai10-planning-ipc5-TPP-30-step11.cnf","glucose_2.0",6.96,918.603692533033,1186.03809492179,6.96,6.96,0,0,0,0,"pred"

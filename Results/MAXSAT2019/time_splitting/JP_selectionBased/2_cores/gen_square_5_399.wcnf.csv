@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"gen_square_5_399.wcnf","Open.WBO.ms.pre",54.31,1076.28059893464,1196.05011623176,54.83,0.49,1,"54.83"
+"gen_square_5_399.wcnf","UWrMaxSat.1.0",2.53,1276.89111907432,1226.06968728503,2.54,0.49,2,"2.54"

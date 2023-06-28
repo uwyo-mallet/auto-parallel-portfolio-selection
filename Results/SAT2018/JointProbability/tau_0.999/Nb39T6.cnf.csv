@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/Nb39T6.cnf","smallsat",217.242,431.699210587002,815.298306822053,217.242,193.954,0,0,0,5,"pred"

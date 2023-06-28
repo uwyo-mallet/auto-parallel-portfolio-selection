@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"AES1-70-24.wcnf","Open.WBO.ms.pre",30.54,855.968255093827,453.050121537545,31.66,2.72,0,0,0,5,"pred"
+"AES1-70-24.wcnf","UWrMaxSat.1.0",2.72,940.312146327552,299.927051186361,2.71,2.72,0,0,0,5,"pred"

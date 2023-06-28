@@ -1,0 +1,5 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"b18-s_PathRelaxation_Set_FS_32.wcnf","maxino2018",20.47,1286.5319844726,953.085942128205,24.43,17.21,1,"24.43"
+"b18-s_PathRelaxation_Set_FS_32.wcnf","Open.WBO.g",108.3,1342.19933748602,1001.16683960322,114.74,17.21,2,"114.74"
+"b18-s_PathRelaxation_Set_FS_32.wcnf","UWrMaxSat.1.0",17.21,1371.60212325548,1101.48514031929,19.16,17.21,3,"19.16"
+"b18-s_PathRelaxation_Set_FS_32.wcnf","Open.WBO.ms.pre",98.19,1416.97594952196,1020.32931327299,102.56,17.21,4,"102.56"

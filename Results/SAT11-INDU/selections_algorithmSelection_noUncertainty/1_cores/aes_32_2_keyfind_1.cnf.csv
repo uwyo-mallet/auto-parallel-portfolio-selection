@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"aes_32_2_keyfind_1.cnf","minisathackMiniSAT_2.2.0.agile.26",0.99,891.903057692307,1604.87845447755,0.99,0.12,0,0,0,0,"pred"

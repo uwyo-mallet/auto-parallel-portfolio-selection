@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/uniqinv20prop.cnf","Lingeling",88.405,931.774302222222,1471.17567737062,100.04,19.076,0,0,0,0,"pred"
+"sat/uniqinv20prop.cnf","cms55.main.all4fixed",19.076,1086.50151066667,1554.77927182063,21.74,19.076,0,0,0,0,"pred"

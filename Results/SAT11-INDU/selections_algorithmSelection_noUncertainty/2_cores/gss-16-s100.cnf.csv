@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"gss-16-s100.cnf","MPhaseSAT64",331.89,1046.31183004139,1519.55646304711,331.89,6.05,0,0,0,0,"pred"
+"gss-16-s100.cnf","glueminisat.2.2.5",33.29,1712.38280375206,1506.09721151261,33.32,6.05,0,0,0,0,"pred"

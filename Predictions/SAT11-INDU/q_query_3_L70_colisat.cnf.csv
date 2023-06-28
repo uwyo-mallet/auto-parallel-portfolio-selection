@@ -1,0 +1,15 @@
+"InstanceName","Solver","ActualRuntime","PredictedRuntime","Prediction_StandardError"
+"q_query_3_L70_colisat.cnf","glucose_2.0",47.2,1479.12424358974,1933.16429861747
+"q_query_3_L70_colisat.cnf","glueminisat.2.2.5",28.41,878.90821474359,1486.88013832305
+"q_query_3_L70_colisat.cnf","lingeling.587f.4882048.110513",52.64,926.75233974359,1449.9143522394
+"q_query_3_L70_colisat.cnf","minisathackcir_minisat_2011.05.13_simp_",47.61,1196.50614423077,1853.31373808213
+"q_query_3_L70_colisat.cnf","minisathackcontrasat_2011.03.02",31.96,1104.38735576923,1910.64521723185
+"q_query_3_L70_colisat.cnf","minisathackEBMiniSAT_2011.03.02",18.29,1267.26603525641,1958.55677547581
+"q_query_3_L70_colisat.cnf","minisathackLR_GL_SHR_2011.03.02",42.78,843.048275641025,1442.59756222313
+"q_query_3_L70_colisat.cnf","minisathackMiniSAT_2.2.0.agile.26",26.05,1531.26295192308,2106.75087863353
+"q_query_3_L70_colisat.cnf","minisathackminisat_psm_2011.04.01",33.29,747.396516025641,1525.12229319867
+"q_query_3_L70_colisat.cnf","minisathackreferenceminisat_2.2.0",72.93,1230.29049679487,1935.55612213387
+"q_query_3_L70_colisat.cnf","MPhaseSAT64",131.33,1022.62102564103,1795.25150403358
+"q_query_3_L70_colisat.cnf","rcl_2011.04.01",26.22,1367.9945,2112.69146916577
+"q_query_3_L70_colisat.cnf","RestartSAT_B95",75.15,1475.24900320513,1978.20491330642
+"q_query_3_L70_colisat.cnf","SAT09referencesolverprecosat_236",82.95,828.225259615385,1464.18736062664

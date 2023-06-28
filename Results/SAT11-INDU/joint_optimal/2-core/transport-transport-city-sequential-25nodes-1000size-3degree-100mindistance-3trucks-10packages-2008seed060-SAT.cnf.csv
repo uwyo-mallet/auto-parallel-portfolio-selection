@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"transport-transport-city-sequential-25nodes-1000size-3degree-100mindistance-3trucks-10packages-2008seed060-SAT.cnf","rcl_2011.04.01",86.82,1159.7168525641,1792.21646091455,88.34,86.82,0,0,0,5,"pred"
+"transport-transport-city-sequential-25nodes-1000size-3degree-100mindistance-3trucks-10packages-2008seed060-SAT.cnf","SAT09referencesolverprecosat_236",92.65,1308.12378205128,1340.59729462733,95.94,86.82,0,0,0,5,"pred"

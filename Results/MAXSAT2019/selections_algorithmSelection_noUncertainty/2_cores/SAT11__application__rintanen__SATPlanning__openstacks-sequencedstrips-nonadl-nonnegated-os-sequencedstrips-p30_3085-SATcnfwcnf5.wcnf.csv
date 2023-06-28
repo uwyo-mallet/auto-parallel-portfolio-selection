@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"SAT11__application__rintanen__SATPlanning__openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SATcnfwcnf5.wcnf","UWrMaxSat.1.0",6.02,469.849098121119,798.285721584194,6.08,1.24,0,0,0,0,"pred"
+"SAT11__application__rintanen__SATPlanning__openstacks-sequencedstrips-nonadl-nonnegated-os-sequencedstrips-p30_3085-SATcnfwcnf5.wcnf","Open.WBO.g",1.5,532.635973839821,878.793043868967,1.51,1.24,0,0,0,0,"pred"

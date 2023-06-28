@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/ecarev-110-4099-22-30-2.cnf","smallsat",227.215,240.912309393939,160.945459497646,227.215,102.898,0,0,0,5,"pred"

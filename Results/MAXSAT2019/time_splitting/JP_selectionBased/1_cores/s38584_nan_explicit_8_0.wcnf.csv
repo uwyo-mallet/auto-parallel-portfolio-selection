@@ -1,0 +1,2 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"s38584_nan_explicit_8_0.wcnf","UWrMaxSat.1.0",3600,832.816036557716,1172.02437990329,3600,3600,1,"Inf"

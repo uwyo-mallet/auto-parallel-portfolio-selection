@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/quadratic_tight_error.c.cnf","MapleCOMSPS_CHB_VSIDS_drup",28.258,261.162713111111,882.296712805546,37.08,24.222,0,0,0,0,"pred"
+"sat/quadratic_tight_error.c.cnf","Maple_CM_ordUIP",152.878,279.589555777778,925.212790418452,181.61,24.222,0,0,0,0,"pred"
+"sat/quadratic_tight_error.c.cnf","Maple_CM",132.395,345.245002888889,999.720675735258,160.64,24.222,0,0,0,0,"pred"

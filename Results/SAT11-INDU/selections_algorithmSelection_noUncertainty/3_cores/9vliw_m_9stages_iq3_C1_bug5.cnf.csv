@@ -1,0 +1,4 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"9vliw_m_9stages_iq3_C1_bug5.cnf","minisathackLR_GL_SHR_2011.03.02",160.17,571.3073,1121.96872252817,192.62,3.79,0,0,0,0,"pred"
+"9vliw_m_9stages_iq3_C1_bug5.cnf","minisathackcir_minisat_2011.05.13_simp_",32.21,648.003317333333,1152.63453741284,39.39,3.79,0,0,0,0,"pred"
+"9vliw_m_9stages_iq3_C1_bug5.cnf","glueminisat.2.2.5",37.36,688.990005333333,1214.19914416228,39.32,3.79,0,0,0,0,"pred"

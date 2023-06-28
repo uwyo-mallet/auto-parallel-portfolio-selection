@@ -1,0 +1,3 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","cores","ResultingTime"
+"scpcyc11_maxsat.wcnf","UWrMaxSat.1.0",3600,700.856016816388,773.219213115758,3600,3600,1,"Inf"
+"scpcyc11_maxsat.wcnf","Open.WBO.g",3600,719.605284281297,866.713622367264,3600,3600,2,"Inf"

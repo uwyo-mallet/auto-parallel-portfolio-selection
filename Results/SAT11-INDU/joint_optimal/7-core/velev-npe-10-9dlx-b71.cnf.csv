@@ -1,0 +1,8 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"velev-npe-10-9dlx-b71.cnf","glueminisat.2.2.5",32.56,771.42079954955,1260.06068670624,35.43,13.73,0,0,0,5,"pred"
+"velev-npe-10-9dlx-b71.cnf","minisathackcir_minisat_2011.05.13_simp_",96.54,1041.17024099099,1605.56958445981,129.36,13.73,0,0,0,5,"pred"
+"velev-npe-10-9dlx-b71.cnf","minisathackLR_GL_SHR_2011.03.02",53.43,1164.55726576577,1641.62637836624,63.84,13.73,0,0,0,5,"pred"
+"velev-npe-10-9dlx-b71.cnf","minisathackcontrasat_2011.03.02",54.93,1346.96928603604,1688.84565299947,65.67,13.73,0,0,0,5,"pred"
+"velev-npe-10-9dlx-b71.cnf","minisathackMiniSAT_2.2.0.agile.26",40.94,1358.72435135135,1822.33210981244,47.62,13.73,0,0,0,5,"pred"
+"velev-npe-10-9dlx-b71.cnf","glucose_2.0",326.34,1410.5888536036,1912.34573488912,429.44,13.73,0,0,0,5,"pred"
+"velev-npe-10-9dlx-b71.cnf","lingeling.587f.4882048.110513",43.11,1448.08422522523,1891.4900025701,48.98,13.73,0,0,0,5,"pred"

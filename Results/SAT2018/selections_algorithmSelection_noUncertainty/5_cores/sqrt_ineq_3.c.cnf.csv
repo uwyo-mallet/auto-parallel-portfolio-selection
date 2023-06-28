@@ -1,0 +1,6 @@
+"InstanceName","Solver","SequentialRuntime","PredictedRuntime","Prediction_StandardError","ParallelRuntime","VBSRuntime","delta","delta_prime","alpha","method_number","orderBy"
+"sat/sqrt_ineq_3.c.cnf","Maple_CM",33.548,721.566133333333,1292.93109578225,40.64,1.266,0,0,0,0,"pred"
+"sat/sqrt_ineq_3.c.cnf","expMC_LRB_VSIDS_Switch",78.33,811.434764814815,1484.26615635234,96.56,1.266,0,0,0,0,"pred"
+"sat/sqrt_ineq_3.c.cnf","Riss7.1.fix",3324.069,862.187457407407,1513.60068370707,5000,1.266,0,0,0,0,"pred"
+"sat/sqrt_ineq_3.c.cnf","expGlucose",363.385,1050.54371296296,1411.62955980012,505.59,1.266,0,0,0,0,"pred"
+"sat/sqrt_ineq_3.c.cnf","MapleCOMSPS_LRB_VSIDS_drup",2.41,1058.04371388889,1776.07950286285,2.99,1.266,0,0,0,0,"pred"
