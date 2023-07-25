@@ -3,6 +3,9 @@ https://baldur.iti.kit.edu/sat-competition-2016/
 
 author: Haniye Kashgarani
 translator in coseal format: Haniye Kashgarani
+ORCID: 0000-0001-6059-1920
+Github: haniyeka
+
 
 Number of instances: 274
 Number of solvers: 25
