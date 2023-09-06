@@ -1,2 +1,4 @@
 # Automatic Parallel Portfolio Selection
-Includes Haniye's parallel experiments results and "clean and organized" codes.
+Includes parallel experiment results and "clean and organized" codes.
+
+Paper: Kashgarani, Haniye, and Kotthoff, Lars. "Automatic Parallel Portfolio Selection" in ECAI2023, 26th European Conference on Artificial Intelligence
