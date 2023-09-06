@@ -1,6 +1,6 @@
 if(Sys.info()['sysname']=="Linux"){
-  if(file.exists("~/Documents/OrganizedScripts/OverheadResults.R")){
-    source("~/Documents/OrganizedScripts/OverheadResults.R")
+  if(file.exists("~/Documents/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")){
+    source("~/Documents/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
     Estimate_overhead_on_predictionPath ="~/Documents/OrganizedScripts/MAXSAT2019/Estimate_overhead_on_prediction/"
     actual_overhead_per_solverPlotPath = "~/Documents/OrganizedScripts/MAXSAT2019/actual_overhead_per_solver_perc/plot/"
     actual_overhead_per_solverPath = "~/Documents/OrganizedScripts/MAXSAT2019/actual_overhead_per_solver_perc/"
@@ -20,7 +20,7 @@ if(Sys.info()['sysname']=="Linux"){
     expected_pred_path =  "~/Documents/OrganizedScripts/MAXSAT2019/preds_valid/validation/expectedValues/"
     actual_overhead_per_solverPath = "~/Documents/OrganizedScripts/MAXSAT2019/actual_overhead_per_solver_perc"
   } else{
-    source("/gscratch/hkashgar/OrganizedScripts/OverheadResults.R")
+    source("/gscratch/hkashgar/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
     Estimate_overhead_on_predictionPath ="/gscratch/hkashgar/OrganizedScripts/MAXSAT2019/Estimate_overhead_on_prediction/"
     actual_overhead_per_solverPlotPath = "/gscratch/hkashgar/OrganizedScripts/MAXSAT2019/actual_overhead_per_solver_perc/plot/"
     actual_overhead_per_solverPath = "/gscratch/hkashgar/OrganizedScripts/MAXSAT2019/actual_overhead_per_solver_perc/"
@@ -42,7 +42,7 @@ if(Sys.info()['sysname']=="Linux"){
   }
   
 } else{
-  source("C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/OverheadResults.R")
+  source("C:/Users/hnyk9/OneDrive - University of Wyoming/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
   Estimate_overhead_on_predictionPath ="C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/MAXSAT2019/Estimate_overhead_on_prediction/"
   actual_overhead_per_solverPlotPath = "C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/MAXSAT2019/actual_overhead_per_solver_perc/plot/"
   actual_overhead_per_solverPath = "C:/Users/hnyk9/OneDrive - University of Wyoming/OrganizedScripts/MAXSAT2019/actual_overhead_per_solver_perc/"

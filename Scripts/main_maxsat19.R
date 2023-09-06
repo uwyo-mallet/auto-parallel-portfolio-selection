@@ -2,14 +2,14 @@ set_paths = function(){
   library(reshape2)
   library(emojifont)
   if(Sys.info()['sysname']=="Linux"){
-    if(file.exists("~/Documents/OrganizedScripts/OverheadResults.R")){
-      source("~/Documents/OrganizedScripts/OverheadResults.R")
+    if(file.exists("~/Documents/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")){
+      source("~/Documents/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
       predictionPath = "~/Documents/OrganizedScripts/MAXSAT2019/preds/"
       selectionPath = "~/Documents/OrganizedScripts/MAXSAT2019/selection/"
       finalSelectionPath = "~/Documents/OrganizedScripts/MAXSAT2019/final/"
       modelPath = "~/Documents/mlr-scripts/MAXSAT2019/Prediction/StandardError/"
     } else{
-      source("/gscratch/hkashgar/OrganizedScripts/OverheadResults.R")
+      source("/gscratch/hkashgar/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
       predictionPath = "/gscratch/hkashgar/OrganizedScripts/MAXSAT2019/preds/"
       selectionPath = "/gscratch/hkashgar/OrganizedScripts/MAXSAT2019/selection/"
       finalSelectionPath = "/gscratch/hkashgar/OrganizedScripts/MAXSAT2019/final/"
@@ -17,7 +17,7 @@ set_paths = function(){
     }
     
   } else{
-    source("C:/Users/hnyk9/Thesis/OrganizedScripts/OverheadResults.R")
+    source("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
     predictionPath = "C:/Users/hnyk9/Thesis/OrganizedScripts/MAXSAT2019/preds/"
     selectionPath = "C:/Users/hnyk9/Thesis/OrganizedScripts/MAXSAT2019/selection/"
     finalSelectionPath = "C:/Users/hnyk9/Thesis/OrganizedScripts/MAXSAT2019/final/"
@@ -447,7 +447,7 @@ get_flexfolio_3s_results = function(){
   resR_m = data.frame(matrix(ncol= 6,nrow=0))
 
   for(c in range){
-    path_to_results = paste("/home/haniye/Documents/PortfolioScheduling/Baselines/flexfolio/MAXSAT2019/maxsat_results/MAXSAT-",
+    path_to_results = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/Baselines/flexfolio/MAXSAT2019/maxsat_results/MAXSAT-",
                             c,"core-3s.csv",sep="")
     csv = read.csv(path_to_results)
     csv$par10 = csv$claspfolio

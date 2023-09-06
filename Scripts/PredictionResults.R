@@ -1,12 +1,12 @@
 if(Sys.info()['sysname']=="Linux"){
-  if(file.exists("/home/haniye/Documents/OrganizedScripts/SequentialPerformance.R")){
-    source("/home/haniye/Documents/OrganizedScripts/SequentialPerformance.R") 
+  if(file.exists("/home/haniye/Documents/auto-parallel-portfolio-selection/Scripts/SequentialPerformance.R")){
+    source("/home/haniye/Documents/auto-parallel-portfolio-selection/Scripts/SequentialPerformance.R") 
   }
   else{ 
-    source("/gscratch/hkashgar/OrganizedScripts/SequentialPerformance.R") 
+    source("/gscratch/hkashgar/auto-parallel-portfolio-selection/Scripts/SequentialPerformance.R") 
   }
 } else{
-  source("C:/Users/hnyk9/Thesis/OrganizedScripts/SequentialPerformance.R")
+  source("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/Scripts/SequentialPerformance.R")
 }
 
 
@@ -1820,6 +1820,45 @@ PredictionResults = R6Class(
     },
     
     #get mcp, par10, runtime and success rate of selection
+    get_selection_result_all_instances = function(selectionPath,ignoreTimeouts=TRUE, method_number = 0, median = FALSE){
+      tablePar10 <- data.frame(matrix(nrow = 0, ncol = 13))
+      tableMCP <- data.frame(matrix(nrow = 0, ncol = 13))
+      tableSuccess <- data.frame(matrix(nrow = 0, ncol = 13))
+      tableRuntime <- data.frame(matrix(nrow = 0, ncol = 13))
+      instance_files = list.files(selectionPath,pattern =".csv")
+      if(ignoreTimeouts){
+        unsolved = lapply(self$sequentialData$unsolvedInstances, function(x) str_split(x,"sat/")[[1]][2])
+        unsolved = unlist(unsolved)
+        unsolved = paste(unsolved,".csv",sep = "")
+        instance_files = instance_files[!instance_files %in% unsolved]
+      }
+      #min parallel runtime of selected schedule
+      parallel_runtimes = vector()
+      
+      sequential_runtimes = vector()
+      vbs_runtime = vector()
+      nrows = vector()
+      data = data.frame(matrix(nrow=0,ncol=11))
+      for(instance in instance_files){
+        #if(".csv" %in% instance){
+        csv = read.csv(paste(selectionPath,"/",instance,sep = ""))
+        #}
+        #else{
+        #  csv = read.csv(paste(selectionPath,"/",instance,".csv",sep = ""))
+        #}
+        min_parallel_min = min(csv$ParallelRuntime)
+        min_sequential_runtimes = min(csv$SequentialRuntime)
+        vbs_runtime = csv$VBSRuntime[1]
+        n_selected_solvers = nrow(csv)
+        row = c(instance,vbs_runtime,min_sequential_runtimes,min_parallel_min,n_selected_solvers, csv$delta[1], csv$delta_prime[1], csv$alpha[1], csv$orderBy[1])
+        data = rbind(row,data)
+      }
+      colnames(data)= c("InstanceName","VBSRuntime","min_sequential_runtimes",
+                        "min_parallel_runtime","n_selected_solvers", "delta", "delta_prime", "alpha", "orderBy")
+      return(data)
+    },
+    
+    #get mcp, par10, runtime and success rate of selection
     get_summary_selection_result_differentThetasEachAlg = function(selectionPath,ignoreTimeouts=TRUE, method_number = 0, median = FALSE){
       tablePar10 <- data.frame(matrix(nrow = 0, ncol = 8+self$sequentialData$n_solvers))
       tableMCP <- data.frame(matrix(nrow = 0, ncol = 8+self$sequentialData$n_solvers))
@@ -1832,7 +1871,7 @@ PredictionResults = R6Class(
         unsolved = paste(unsolved,".csv",sep = "")
         instance_files = instance_files[!instance_files %in% unsolved]
       }
-      min parallel runtime of selected schedule
+      #min parallel runtime of selected schedule
       parallel_runtimes = vector()
       
       sequential_runtimes = vector()
@@ -1869,8 +1908,7 @@ PredictionResults = R6Class(
       if(median == TRUE){
         rowRuntime <- c("Runtime",method_number,median(vbs),median(selec_seq),median(selec_par),
                         median(as.numeric(data$n_selected_solvers)),mean(selec_seq == vbs), theta, ignoreTimeouts, median, orderBy)
-        success
-        should be mean since will be true false otherwise
+        #succes should be mean since will be true false otherwise
         rowSuccess <- c("Success",method_number,mean(vbs<self$sequentialData$Cutoff),mean(selec_seq<self$sequentialData$Cutoff),mean(selec_par<self$sequentialData$Cutoff),
                         median(as.numeric(data$n_selected_solvers)),mean(selec_seq == vbs), theta, ignoreTimeouts, median, orderBy)
         

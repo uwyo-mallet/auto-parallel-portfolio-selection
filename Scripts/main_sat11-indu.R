@@ -2,14 +2,14 @@ set_paths = function(){
   library(emojifont)
   library(reshape2)
   if(Sys.info()['sysname'][[1]]=="Linux"){
-    if(file.exists("~/Documents/OrganizedScripts/OverheadResults.R")){
-      source("~/Documents/OrganizedScripts/OverheadResults.R")
+    if(file.exists("~/Documents/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")){
+      source("~/Documents/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
       predictionPath = "~/Documents/OrganizedScripts/SAT11-INDU/preds/"
       selectionPath = "~/Documents/OrganizedScripts/SAT11-INDU/selection/"
       finalSelectionPath = "~/Documents/OrganizedScripts/SAT11-INDU/final/"
       modelPath = "~/Documents/mlr-scripts/SAT11-INDU/Prediction/StandardError/"
     } else{
-      source("/gscratch/hkashgar/OrganizedScripts/OverheadResults.R")
+      source("/gscratch/hkashgar/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
       predictionPath = "/gscratch/hkashgar/OrganizedScripts/SAT11-INDU/preds/"
       selectionPath = "/gscratch/hkashgar/OrganizedScripts/SAT11-INDU/selection/"
       finalSelectionPath = "/gscratch/hkashgar/OrganizedScripts/SAT11-INDU/final/"
@@ -17,7 +17,7 @@ set_paths = function(){
     }
     
   } else{
-    source("C:/Users/hnyk9/Thesis/OrganizedScripts/OverheadResults.R")
+    source("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
     predictionPath = "C:/Users/hnyk9/Thesis/OrganizedScripts/SAT11-INDU/preds/"
     selectionPath = "C:/Users/hnyk9/Thesis/OrganizedScripts/SAT11-INDU/selection/"
     finalSelectionPath = "C:/Users/hnyk9/Thesis/OrganizedScripts/SAT11-INDU/final/"
@@ -339,7 +339,7 @@ get_flexfolio_3s_results = function(){
   resR_m = data.frame(matrix(ncol= 6,nrow=0))
   
   for(c in range){
-    path_to_results = paste("/home/haniye/Documents/PortfolioScheduling/Baselines/flexfolio/SAT11-INDU/SAT11-INDU_results/SAT11-INDU-",
+    path_to_results = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/Baselines/flexfolio/SAT11-INDU/SAT11-INDU_results/SAT11-INDU-",
                             c,"core-3s.csv",sep="")
     csv = read.csv(path_to_results)
     csv$par10 = csv$claspfolio

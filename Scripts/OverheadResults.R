@@ -1,12 +1,12 @@
 if(Sys.info()['sysname']=="Linux"){
-  if(file.exists("/home/haniye/Documents/OrganizedScripts/PredictionResults.R")){
-    source("/home/haniye/Documents/OrganizedScripts/PredictionResults.R") 
+  if(file.exists("/home/haniye/Documents/auto-parallel-portfolio-selection/Scripts/PredictionResults.R")){
+    source("/home/haniye/Documents/auto-parallel-portfolio-selection/Scripts/PredictionResults.R") 
   }
   else{ 
-    source("/gscratch/hkashgar/OrganizedScripts/PredictionResults.R") 
+    source("/gscratch/hkashgar/auto-parallel-portfolio-selection/Scripts/PredictionResults.R") 
   }
 } else{
-  source("C:/Users/hnyk9/Thesis/OrganizedScripts/PredictionResults.R")
+  source("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/Scripts/PredictionResults.R")
 }
 
 library(reshape)

@@ -1,12 +1,12 @@
 if(Sys.info()['sysname']=="Linux"){
-  if(file.exists("/home/haniye/Documents/OrganizedScripts/Tools.R")){
-    source("/home/haniye/Documents/OrganizedScripts/Tools.R") 
+  if(file.exists("/home/haniye/Documents/auto-parallel-portfolio-selection/Scripts/Tools.R")){
+    source("/home/haniye/Documents/auto-parallel-portfolio-selection/Scripts/Tools.R") 
   }
   else{ 
-    source("/gscratch/hkashgar/OrganizedScripts/Tools.R") 
+    source("/gscratch/hkashgar/auto-parallel-portfolio-selection/Scripts/Tools.R") 
   }
 } else{
-  source("C:/Users/hnyk9/Thesis/OrganizedScripts/Tools.R")
+  source("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/Scripts/Tools.R")
 }
 
 library(stringr)
@@ -51,11 +51,11 @@ ParallelLevel <- R6Class(
         }
         #set scenario path 
         if(Sys.info()['sysname']!="Linux"){
-          self$actual_CSV_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/SAT18/teton-SAT2018-37-solvers",self$cores_str,".csv",sep = "")
+          self$actual_CSV_path = paste("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT18/teton-SAT2018-37-solvers",self$cores_str,".csv",sep = "")
         } else{
-          self$actual_CSV_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/SAT18/teton-SAT2018-37-solvers",self$cores_str,".csv",sep = "")
+          self$actual_CSV_path = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT18/teton-SAT2018-37-solvers",self$cores_str,".csv",sep = "")
           if(cluster){
-            self$actual_CSV_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/SAT18/teton-SAT2018-37-solvers",self$cores_str,".csv",sep = "")
+            self$actual_CSV_path = paste("/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT18/teton-SAT2018-37-solvers",self$cores_str,".csv",sep = "")
           }
         }
         self$Cutoff = 5000
@@ -102,12 +102,12 @@ ParallelLevel <- R6Class(
         }
         #set scenario path 
         if(Sys.info()['sysname']!="Linux"){
-          self$actual_CSV_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/MAXSAT19/teton-MAXSAT2019-7-solvers",self$cores_str,".csv",sep = "")
+          self$actual_CSV_path = paste("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/csvs/MAXSAT19/teton-MAXSAT2019-7-solvers",self$cores_str,".csv",sep = "")
         } else{
-          self$actual_CSV_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/MAXSAT19/teton-MAXSAT2019-7-solvers",self$cores_str,".csv",sep = "")
+          self$actual_CSV_path = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/csvs/MAXSAT19/teton-MAXSAT2019-7-solvers",self$cores_str,".csv",sep = "")
           # self$actual_CSV_path = paste("/home/haniye/Documents/Parallel_Experiments/MAXSAT2019/resultCSVs_MaxSAT2019_Teton/teton-MAXSAT2019-7-solvers",self$cores_str,".csv",sep = "")
           if(cluster){
-            self$actual_CSV_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/MAXSAT19/teton-MAXSAT2019-7-solvers",self$cores_str,".csv",sep = "")
+            self$actual_CSV_path = paste("/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/csvs/MAXSAT19/teton-MAXSAT2019-7-solvers",self$cores_str,".csv",sep = "")
           }
         }
         self$Cutoff = 3600
@@ -121,12 +121,12 @@ ParallelLevel <- R6Class(
         }
         #set scenario path 
         if(Sys.info()['sysname']!="Linux"){
-          self$actual_CSV_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/IPC2018/teton-IPC2018-15-solvers",self$cores_str,".csv",sep = "")
+          self$actual_CSV_path = paste("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/csvs/IPC2018/teton-IPC2018-15-solvers",self$cores_str,".csv",sep = "")
         } else{
-          self$actual_CSV_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/IPC2018/teton-IPC2018-15-solvers",self$cores_str,".csv",sep = "")
+          self$actual_CSV_path = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/csvs/IPC2018/teton-IPC2018-15-solvers",self$cores_str,".csv",sep = "")
           # self$actual_CSV_path = paste("/home/haniye/Documents/Parallel_Experiments/MAXSAT2019/resultCSVs_MaxSAT2019_Teton/teton-MAXSAT2019-7-solvers",self$cores_str,".csv",sep = "")
           if(cluster){
-            self$actual_CSV_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/IPC2018/teton-IPC2018-15-solvers",self$cores_str,".csv",sep = "")
+            self$actual_CSV_path = paste("/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/csvs/IPC2018/teton-IPC2018-15-solvers",self$cores_str,".csv",sep = "")
           }
         }
         self$Cutoff = 1800
@@ -140,12 +140,12 @@ ParallelLevel <- R6Class(
         }
         #set scenario path 
         if(Sys.info()['sysname']!="Linux"){
-          self$actual_CSV_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/SAT11-INDU/teton-SAT11-INDU-14-solvers",self$cores_str,".csv",sep = "")
+          self$actual_CSV_path = paste("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT11-INDU/teton-SAT11-INDU-14-solvers",self$cores_str,".csv",sep = "")
         } else{
-          self$actual_CSV_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/SAT11-INDU/teton-SAT11-INDU-14-solvers",self$cores_str,".csv",sep = "")
+          self$actual_CSV_path = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT11-INDU/teton-SAT11-INDU-14-solvers",self$cores_str,".csv",sep = "")
           # self$actual_CSV_path = paste("/home/haniye/Documents/Parallel_Experiments/MAXSAT2019/resultCSVs_MaxSAT2019_Teton/teton-MAXSAT2019-7-solvers",self$cores_str,".csv",sep = "")
           if(cluster){
-            self$actual_CSV_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/SAT11-INDU/teton-SAT11-INDU-14-solvers",self$cores_str,".csv",sep = "")
+            self$actual_CSV_path = paste("/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT11-INDU/teton-SAT11-INDU-14-solvers",self$cores_str,".csv",sep = "")
           }
         }
         self$Cutoff = 5000

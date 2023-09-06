@@ -2,14 +2,14 @@ set_paths = function(){
   library(emojifont)
   library(reshape2)
   if(Sys.info()['sysname'][[1]]=="Linux"){
-    if(file.exists("~/Documents/OrganizedScripts/OverheadResults.R")){
-      source("~/Documents/OrganizedScripts/OverheadResults.R")
+    if(file.exists("~/Documents/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")){
+      source("~/Documents/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
       predictionPath = "~/Documents/OrganizedScripts/IPC2018/preds/"
       selectionPath = "~/Documents/OrganizedScripts/IPC2018/selection/"
       finalSelectionPath = "~/Documents/OrganizedScripts/IPC2018/final/"
       modelPath = "~/Documents/mlr-scripts/IPC2018/Prediction/StandardError/"
     } else{
-      source("/gscratch/hkashgar/OrganizedScripts/OverheadResults.R")
+      source("/gscratch/hkashgar/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
       predictionPath = "/gscratch/hkashgar/OrganizedScripts/IPC2018/preds/"
       selectionPath = "/gscratch/hkashgar/OrganizedScripts/IPC2018/selection/"
       finalSelectionPath = "/gscratch/hkashgar/OrganizedScripts/IPC2018/final/"
@@ -17,7 +17,7 @@ set_paths = function(){
     }
     
   } else{
-    source("C:/Users/hnyk9/Thesis/OrganizedScripts/OverheadResults.R")
+    source("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/Scripts/OverheadResults.R")
     predictionPath = "C:/Users/hnyk9/Thesis/OrganizedScripts/IPC2018/preds/"
     selectionPath = "C:/Users/hnyk9/Thesis/OrganizedScripts/IPC2018/selection/"
     finalSelectionPath = "C:/Users/hnyk9/Thesis/OrganizedScripts/IPC2018/final/"
@@ -332,7 +332,7 @@ get_flexfolio_3s_results = function(){
   resR_m = data.frame(matrix(ncol= 6,nrow=0))
   
   for(c in range){
-    path_to_results = paste("/home/haniye/Documents/PortfolioScheduling/Baselines/flexfolio/IPC2018/ipc2018_results/IPC2018-",
+    path_to_results = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/Baselines/flexfolio/IPC2018/ipc2018_results/IPC2018-",
                             c,"core-3s.csv",sep="")
     csv = read.csv(path_to_results)
     csv$par10 = csv$claspfolio

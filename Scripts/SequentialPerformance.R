@@ -1,12 +1,12 @@
 if(Sys.info()['sysname']=="Linux"){
-  if(file.exists("/home/haniye/Documents/OrganizedScripts/ParallelLevel.R")){
-    source("/home/haniye/Documents/OrganizedScripts/ParallelLevel.R") 
+  if(file.exists("/home/haniye/Documents/auto-parallel-portfolio-selection/Scripts/ParallelLevel.R")){
+    source("/home/haniye/Documents/auto-parallel-portfolio-selection/Scripts/ParallelLevel.R") 
   }
   else{ 
-    source("/gscratch/hkashgar/OrganizedScripts/ParallelLevel.R") 
+    source("/gscratch/hkashgar/auto-parallel-portfolio-selection/Scripts/ParallelLevel.R") 
   }
 } else{
-  source("C:/Users/hnyk9/Thesis/OrganizedScripts/ParallelLevel.R")
+  source("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/Scripts/ParallelLevel.R")
 }
 
 library(ggplot2)
@@ -33,26 +33,26 @@ SequentialPerformance <- R6Class(
       #set scenario path 
       if(benchmarks_name == "SAT2018"){
         if(Sys.info()['sysname']!="Linux"){
-          self$scenario_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT18/SAT18_EXP/")
-          self$features_path = "C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/SAT18/SAT2018_features.csv"
+          self$scenario_path = paste("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/SAT18/SAT18_EXP/")
+          self$features_path = "C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT18/SAT2018_features.csv"
         } else{
-          self$scenario_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT18/SAT18_EXP/")
-          self$features_path = "/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/SAT18/SAT2018_features.csv"
+          self$scenario_path = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/SAT18/SAT18_EXP/")
+          self$features_path = "/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT18/SAT2018_features.csv"
           if(cluster){
-            self$scenario_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT18/SAT18_EXP/")
-            self$features_path = "/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/SAT18/SAT2018_features.csv"
+            self$scenario_path = paste("/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/SAT18/SAT18_EXP/")
+            self$features_path = "/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT18/SAT2018_features.csv"
           }
         }
       } else if(benchmarks_name == "SAT2016"){
         if(Sys.info()['sysname']!="Linux"){
-          self$scenario_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT16/SAT16-MAIN/")
-          self$features_path = "C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/SAT16/SAT2016_features.csv"
+          self$scenario_path = paste("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/SAT16/SAT16-MAIN/")
+          self$features_path = "C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT16/SAT2016_features.csv"
         } else{
-          self$scenario_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT16/SAT16-MAIN/")
-          self$features_path = "/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/SAT16/SAT2016_features.csv"
+          self$scenario_path = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/SAT16/SAT16-MAIN/")
+          self$features_path = "/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT16/SAT2016_features.csv"
           if(cluster){
-            self$scenario_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT16/SAT16-MAIN/")
-            self$features_path = "/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/SAT16/SAT2016_features.csv"        
+            self$scenario_path = paste("/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/SAT16/SAT16-MAIN/")
+            self$features_path = "/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT16/SAT2016_features.csv"        
           }
         }
       } else if(benchmarks_name == "GRAPHS2015"){
@@ -69,38 +69,38 @@ SequentialPerformance <- R6Class(
         }
       } else if(benchmarks_name == "MAXSAT2019"){
         if(Sys.info()['sysname']!="Linux"){
-          self$scenario_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/aslib_scenarios/MAXSAT19/MAXSAT-2019/")
-          self$features_path = "C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/MAXSAT19/MAXSAT2019_features.csv"
+          self$scenario_path = paste("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/MAXSAT19/MAXSAT-2019/")
+          self$features_path = "C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/csvs/MAXSAT19/MAXSAT2019_features.csv"
         } else{
-          self$scenario_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/aslib_scenarios/MAXSAT19/MAXSAT-2019/")
-          self$features_path = "/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/MAXSAT19/MAXSAT2019_features.csv"
+          self$scenario_path = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/MAXSAT19/MAXSAT-2019/")
+          self$features_path = "/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/csvs/MAXSAT19/MAXSAT2019_features.csv"
           if(cluster){
-            self$scenario_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/aslib_scenarios/MAXSAT19/MAXSAT-2019/")
-            self$features_path = "/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/MAXSAT19/MAXSAT2019_features.csv"            
+            self$scenario_path = paste("/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/MAXSAT19/MAXSAT-2019/")
+            self$features_path = "/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/csvs/MAXSAT19/MAXSAT2019_features.csv"            
           }
         }
       } else if(benchmarks_name == "IPC2018"){
         if(Sys.info()['sysname']!="Linux"){
-          self$scenario_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/aslib_scenarios/IPC2018/IPC2018/")
-          self$features_path = "C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/IPC2018/IPC2018_features.csv"
+          self$scenario_path = paste("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/IPC2018/IPC2018/")
+          self$features_path = "C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/csvs/IPC2018/IPC2018_features.csv"
         } else{
-          self$scenario_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/aslib_scenarios/IPC2018/IPC2018/")
-          self$features_path = "/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/IPC2018/IPC2018_features.csv"
+          self$scenario_path = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/IPC2018/IPC2018/")
+          self$features_path = "/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/csvs/IPC2018/IPC2018_features.csv"
           if(cluster){
-            self$scenario_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/aslib_scenarios/IPC2018/IPC2018/")
-            self$features_path = "/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/IPC2018/IPC2018_features.csv"            
+            self$scenario_path = paste("/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/IPC2018/IPC2018/")
+            self$features_path = "/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/csvs/IPC2018/IPC2018_features.csv"            
           }
         }
       } else if(benchmarks_name == "SAT11-INDU"){
         if(Sys.info()['sysname']!="Linux"){
-          self$scenario_path = paste("C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT11-INDU/SAT11-INDU/")
-          self$features_path = "C:/Users/hnyk9/Thesis/PortfolioScheduling/ExperimentResults/csvs/SAT11-INDU/SAT11-INDU_features.csv"
+          self$scenario_path = paste("C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/SAT11-INDU/SAT11-INDU/")
+          self$features_path = "C:/Users/hnyk9/Thesis/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT11-INDU/SAT11-INDU_features.csv"
         } else{
-          self$scenario_path = paste("/home/haniye/Documents/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT11-INDU/SAT11-INDU/")
-          self$features_path = "/home/haniye/Documents/PortfolioScheduling/ExperimentResults/csvs/SAT11-INDU/SAT11-INDU_features.csv"
+          self$scenario_path = paste("/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/SAT11-INDU/SAT11-INDU/")
+          self$features_path = "/home/haniye/Documents/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT11-INDU/SAT11-INDU_features.csv"
           if(cluster){
-            self$scenario_path = paste("/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/aslib_scenarios/SAT11-INDU/SAT11-INDU/")
-            self$features_path = "/gscratch/hkashgar/PortfolioScheduling/ExperimentResults/csvs/SAT11-INDU/SAT11-INDU_features.csv"            
+            self$scenario_path = paste("/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/aslib_scenarios/SAT11-INDU/SAT11-INDU/")
+            self$features_path = "/gscratch/hkashgar/auto-parallel-portfolio-selection/ExperimentResults/csvs/SAT11-INDU/SAT11-INDU_features.csv"            
           }
         }
       }
